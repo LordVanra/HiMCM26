@@ -1,0 +1,21 @@
+Freezer-to-shelter analogy (qualitative explanation; no project calculation)
+
+A freezer provides useful service by maintaining stored contents within a desired
+temperature range while heat enters through its envelope, openings, and contents.
+Its electrical input drives a refrigeration process. A shelter's useful service
+is occupied thermal comfort under outdoor weather, radiant exposure, air exchange,
+and internal heat and moisture sources. Open boundaries and movement matter.
+
+The analogy organizes service, environmental load, and energy input; it does not
+make the two services thermodynamically identical. Fan A changes bodily heat transfer
+through local airspeed; it does not refrigerate the shelter air by 3 degrees.
+Direct evaporative B/C lower supply dry-bulb temperature while increasing humidity.
+Their useful effect depends on inlet conditions, ventilation, exposure, and people.
+
+Occupied person-degree-hours of avoided SET hot discomfort per electrical kWh is
+a service-efficiency metric, not thermodynamic COP. A mixing or coverage factor
+does not directly measure wasted electrical energy. Coverage represented through
+occupied zones must not be multiplied into benefit a second time.
+
+No numerical comparison, adequacy finding, safety classification, or recommendation
+is possible until the readiness report is resolved.

@@ -1,0 +1,5 @@
+concept,freezer,shelter,status
+useful service,Controlled storage conditions,Occupied comfort benefit,qualitative
+environmental load,Envelope and opening heat ingress,"Air exchange, radiation, sensible and moisture sources",qualitative
+energy input,Refrigeration electricity,Fan and evaporative-device electricity,qualitative
+efficiency meaning,Thermal COP where properly defined,Avoided SET hot-discomfort person-degC-hours per kWh; not COP,qualitative

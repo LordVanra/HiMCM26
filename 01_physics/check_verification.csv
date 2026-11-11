@@ -1,0 +1,6 @@
+"check","status","reason"
+"input completeness","BLOCKED","See readiness report"
+"mass/energy/moisture residuals","BLOCKED","Needs approved real inputs"
+"published psychrometric cases","BLOCKED","Needs selected published reference cases and tolerances"
+"timestep convergence","BLOCKED","Needs dynamic inputs and approved refinement"
+"independent validation","BLOCKED","Needs separate matched observations"

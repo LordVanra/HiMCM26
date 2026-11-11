@@ -1,0 +1,4 @@
+"device","maximum_reduction_C","power_kW","reduction_kind","reference_conditions","source"
+"A",3,0.25,"perceived",,"Supplied problem statement"
+"B",5,1.2,"air temperature",,"Supplied problem statement"
+"C",8,2.5,"air temperature",,"Supplied problem statement"

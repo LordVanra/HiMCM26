@@ -1,0 +1,18 @@
+{
+  "revision": "generic city summer",
+  "city_count": 3,
+  "climate_values": 15,
+  "raw_monthly_values": 45,
+  "full_register_records": 899,
+  "unresolved_records": 862,
+  "verified_project_numeric_records": 22,
+  "checks_passed": [
+    "unique IDs and scoped keys",
+    "one climate scalar per city per parameter",
+    "three traceable monthly source records per mean",
+    "no missing returned summer months",
+    "source keys resolve",
+    "missing numeric values stay blank",
+    "no model run"
+  ]
+}

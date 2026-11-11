@@ -1,0 +1,146 @@
+ANALYSIS BLOCKED. No project calculations have run.
+config.run_id | choice/ID | project | all requested models | MISSING | build_config()
+config.rating_interpretation | choice/ID | project | all requested models | MISSING | build_config()
+config.solver | choice/ID | project | all requested models | MISSING | build_config()
+config.timezone | choice/ID | project | all requested models | MISSING | build_config()
+config.rtol | declared numerical units | project | all requested models | MISSING | build_config()
+config.atol | declared numerical units | project | all requested models | MISSING | build_config()
+config.mass_tolerance | declared numerical units | project | all requested models | MISSING | build_config()
+config.residual_tolerance | declared numerical units | project | all requested models | MISSING | build_config()
+config.root_tolerance | declared numerical units | project | all requested models | MISSING | build_config()
+config.tie_tolerance | declared numerical units | project | all requested models | MISSING | build_config()
+config.comfort_upper_C | degC SET | project | all requested models | MISSING | build_config()
+config.comfort_lower_C | degC SET | project | all requested models | MISSING | build_config()
+config.psychrometric_approval | choice/ID | project | all requested models | MISSING | build_config()
+config.balance_approval | choice/ID | project | all requested models | MISSING | build_config()
+config.time_approval | choice/ID | project | all requested models | MISSING | build_config()
+config.set_audit | choice/ID | project | all requested models | MISSING | build_config()
+config.comf_version | choice/ID | project | all requested models | MISSING | build_config()
+config.comparator | choice/ID | project | all requested models | MISSING | build_config()
+config.information_rule | choice/ID | project | all requested models | MISSING | build_config()
+config.horizon_approval | choice/ID | project | all requested models | MISSING | build_config()
+config.approved_alternatives | choice/ID | project | all requested models | MISSING | build_config()
+config.sensitivity_recompute | choice/ID | project | all requested models | MISSING | build_config()
+zones.1.venue_id | ID | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.zone_id | ID | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.volume_m3 | m3 | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.C_J_K | J/K | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.M_da_kg | kg dry air | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.cp_J_kgK | J/(kg K) | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.initial_T_C | degC | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+zones.1.initial_w | kg/kg dry air | each applicable zones record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_zones.csv
+flows.1.flow_id | ID | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.case_id | ID | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.timestamp | ISO8601 | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.from | zone ID or OUTSIDE | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.to | zone ID or OUTSIDE | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.equipment_id | ID or NONE | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.mass_kg_s | kg/s | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+flows.1.dry_mass_kg_s | kg dry air/s | each applicable flows record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_flows.csv
+weather.1.case_id | ID | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+weather.1.timestamp | ISO8601 | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+weather.1.dt_hours | h | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+weather.1.temperature_C | degC | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+weather.1.RH_percent | percent | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+weather.1.pressure_Pa | Pa | each applicable weather record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_weather.csv
+equipment.1.equipment_id | ID | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.case_id | ID | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.timestamp | ISO8601 | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.device | A/B/C | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.count | devices | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.power_kW | kW per device | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.effectiveness | 1 | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.reference_T_C | degC | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.reference_RH_percent | percent | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.reference_pressure_Pa | Pa | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.reference_reduction_C | degC | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.bleed_drift_kg_s | kg/s per device | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+equipment.1.installation_status | actual or hypothetical | each applicable equipment record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_equipment.csv
+surfaces.1.surface_id | ID | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.case_id | ID | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.timestamp | ISO8601 | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.zone_id | ID | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.h_W_m2K | W/(m2 K) | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.area_m2 | m2 | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+surfaces.1.surface_T_C | degC | each applicable surfaces record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_surfaces.csv
+occupancy.1.case_id | ID | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.timestamp | ISO8601 | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.zone_id | ID | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.group_id | ID | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.people | persons | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.sensible_W | W | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.moisture_kg_s | kg/s | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.local_airspeed_m_s | m/s | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+occupancy.1.radiant_temperature_C | degC | each applicable occupancy record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_occupancy.csv
+comfort_groups.1.group_id | ID | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.clo | clo | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.met | met | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.wme | met | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.sa | m2 | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.ltime | min | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.ht | cm | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.wt | kg | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.tu | percent | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.csw | model coefficient | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.cdil | model coefficient | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.cstr | model coefficient | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+comfort_groups.1.bodyPosition | sitting or standing | each applicable comfort_groups record; keyed venue/device/zone/scenario/time | 02_comfort and downstream outputs | MISSING | 02_comfort/input_comfort_groups.csv
+scenarios.1.case_id | ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.venue_id | ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.venue_name | name | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.venue_role | bus/rail/real | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.climate | description | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.scenario_id | ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.option_id | NONE/A/B/C or policy ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.model_variant | agreed partition ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.baseline_case_id | ID | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.policy_description | precommitted rule and observable inputs | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.annual_weight | repetitions/year | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+scenarios.1.horizon | description | each applicable scenarios record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_scenarios.csv
+costs.1.venue_id | ID | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.option_id | ID | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.capital | currency | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.installation | currency | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.maintenance_year | currency/year | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.life_years | year | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.discount_rate | 1/year | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.electricity_per_kWh | currency/kWh | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.water_per_kg | currency/kg | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.other_annual | currency/year | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.demand_annual | currency/year | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+costs.1.currency | currency code | each applicable costs record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_costs.csv
+constraints.1.venue_id | ID | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.budget_annual | currency/year | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.energy_kWh | kWh/horizon | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.water_kg | kg/horizon | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.min_comfort_fraction | 1 | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.safety_required | 0 or 1 | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+constraints.1.safety_method | documented method and applicability | each applicable constraints record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_constraints.csv
+safety.1.case_id | ID | each applicable safety record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_safety.csv
+safety.1.assessment_id | ID | each applicable safety record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_safety.csv
+safety.1.passes | 0 or 1 | each applicable safety record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_safety.csv
+safety.1.method | method | each applicable safety record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_safety.csv
+safety.1.applicability | population and conditions | each applicable safety record; keyed venue/device/zone/scenario/time | 03_decision and downstream outputs | MISSING | 03_decision/input_safety.csv
+uncertainty.1.sweep_id | ID | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.category | required sensitivity category | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.table | input table or config | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.row_id | row number | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.field | column | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.lower | field unit | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.upper | field unit | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.levels | count | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.pair_id | NONE or paired sweep ID | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+uncertainty.1.basis | evidence and applicability | each applicable uncertainty record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_uncertainty.csv
+alternatives.1.alternative_id | ID | each applicable alternatives record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_alternatives.csv
+alternatives.1.category | rating_interpretation or zone_partition | each applicable alternatives record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_alternatives.csv
+alternatives.1.description | approved change | each applicable alternatives record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_alternatives.csv
+alternatives.1.source | evidence | each applicable alternatives record; keyed venue/device/zone/scenario/time | 04_sensitivity and downstream outputs | MISSING | 04_sensitivity/input_alternatives.csv
+registry.1.parameter_id | table.row.field or config.field | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.quantity | quantity | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.value | recorded value | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.unit | unit | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.source | provenance | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.status | provided/verified/derived | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.scope | venue/device/zone/time | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+registry.1.notes | formula and source IDs for derived values | each applicable registry record; keyed venue/device/zone/scenario/time | 01_physics and downstream outputs | MISSING | 01_physics/input_registry.csv
+package.comf | version | runtime | SET or ODE | NOT INSTALLED | Install manually; then audit version

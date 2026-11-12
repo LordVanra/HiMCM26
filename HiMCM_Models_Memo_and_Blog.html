@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HiMCM Cooling Models, Operations Memorandum, and Public Blog Post</title>
+<style>
+body { font-family: Arial, Helvetica, sans-serif; font-size: 11pt; line-height: 1.38; margin: 0.75in; color: #111; }
+h1 { font-size: 20pt; margin-bottom: 6pt; }
+h2 { font-size: 16pt; margin-top: 24pt; border-bottom: 1px solid #777; padding-bottom: 3pt; }
+h3 { font-size: 13pt; margin-top: 16pt; }
+h4 { font-size: 11pt; margin: 12pt 0 4pt; }
+p { margin: 6pt 0; }
+li { margin-bottom: 5pt; }
+.subtitle { color: #444; margin-bottom: 20pt; }
+.equation { margin: 9pt 18pt; font-family: Georgia, serif; font-style: italic; }
+.note { background: #f2f2f2; padding: 8pt 10pt; border-left: 4px solid #777; }
+table { border-collapse: collapse; width: 100%; margin: 10pt 0 14pt; font-size: 9.5pt; }
+th, td { border: 1px solid #999; padding: 5pt; vertical-align: top; }
+th { background: #e8e8e8; text-align: left; }
+.pagebreak { page-break-before: always; }
+.memo { margin-top: 12pt; }
+.small { font-size: 9pt; color: #444; }
+</style>
+</head>
+<body>
+
+<h1>HiMCM Cooling Models, Operations Memorandum, and Public Blog Post</h1>
+<p class="subtitle">A plain-English explanation of Models 01–04 and a Boston bus-shelter case study</p>
+
+<p>This report explains the four models in the HiMCM cooling project. The models form one chain. Model 01 estimates the physical air conditions produced by each cooling option. Model 02 translates those air conditions into a measure of how a person may feel. Model 03 compares the options across several weather scenarios and makes a robust recommendation. Model 04 asks whether the results change when the inputs change.</p>
+
+<p>The current results are reference comparisons, not measured performance guarantees. Weather comes from gridded data, the waiting area is represented as one mixed zone, passenger exposure is based on a reference person, and actual site measurements are not yet available. These limits do not make the models useless. They mean that the results are best used to narrow the choices and design a field pilot.</p>
+
+<h2>Model 01: Physical Environment and Cooling</h2>
+
+<h3>What the model does</h3>
+<p>Model 01 follows heat, moisture, airflow, electricity, and water. It starts with outdoor temperature, humidity, pressure, and ventilation. It then calculates the outlet air from each cooling device and mixes that air into the waiting area. The <b>Fan System</b> changes the airspeed felt by a passenger but does not lower the zone air temperature. The <b>Evaporative Cooler</b> and <b>Large Evaporative Cooler</b> lower the supply-air temperature by evaporating water, and the zone model determines how much of that outlet cooling remains after mixing with outdoor air.</p>
+
+<h3>Primary equations</h3>
+<p>The first step converts relative humidity into a humidity ratio, which is the mass of water vapor per unit mass of dry air:</p>
+<div class="equation">w = 0.621945 p<sub>v</sub> / (p − p<sub>v</sub>), &nbsp; where p<sub>v</sub> = (RH/100) p<sub>sat</sub>(T).</div>
+<p>The saturation pressure <i>p</i><sub>sat</sub> is calculated from the ASHRAE correlation. The wet-bulb temperature is found by solving the psychrometric energy balance. This matters because direct evaporative cooling cannot cool air below its wet-bulb temperature.</p>
+
+<p>For the selected saturation-limited model, the outlet temperature drop is</p>
+<div class="equation">ΔT = min[ΔT<sub>rated</sub>, T<sub>out</sub> − T<sub>wb</sub>], &nbsp; and &nbsp; T<sub>supply</sub> = T<sub>out</sub> − ΔT.</div>
+<p>The cooler is treated as approximately constant enthalpy:</p>
+<div class="equation">h = 1.006T + w(2501 + 1.86T).</div>
+<p>The supply humidity ratio is chosen so that the inlet and outlet enthalpies match. If that result would exceed 100% relative humidity, the model moves the outlet back to the saturation boundary. Evaporated water is</p>
+<div class="equation">m<sub>water</sub> = ṁ<sub>dry air</sub>(w<sub>supply</sub> − w<sub>out</sub>)(3600 Δt).</div>
+
+<p>The waiting area is solved with steady mass, heat, and moisture balances. In simple terms, the air and moisture flowing into the zone must equal what flows out. For temperature, each airflow carries approximately ṁc<sub>p</sub>T. Electrical energy is</p>
+<div class="equation">E = P Δt.</div>
+
+<h3>Key assumptions and why they were used</h3>
+<ol>
+<li><b>The waiting area is one well-mixed zone.</b> Temperature and humidity are treated as uniform. This is reasonable for a first comparison because exact spatial airflow maps are unavailable. It is not a claim that every seat receives the same cooling.</li>
+<li><b>The default model includes mixing but omits surfaces and internal heat gains.</b> Unknown roof temperatures, wall heat transfer, solar gain, lighting, and passenger heat are not set to invented values. The simplification keeps the calculation reproducible while making it less site-specific.</li>
+<li><b>Evaporative cooling follows a constant-enthalpy process.</b> This is a standard ideal model for direct evaporation. It provides a physical upper limit, but real units may perform below it.</li>
+<li><b>Cooling is limited by the wet-bulb temperature and saturation.</b> This prevents impossible outlet states. It is justified by thermodynamics and is more credible than applying the rated temperature drop in all weather.</li>
+<li><b>Rated power and airflow represent the candidate devices.</b> These values allow equal comparisons, but actual power, throw distance, maintenance condition, and placement may differ.</li>
+<li><b>Each modeled period lasts one hour.</b> This creates comparable energy and water totals. It does not represent a full operating season.</li>
+</ol>
+
+<h3>Strengths</h3>
+<ul>
+<li>It conserves mass and tracks both sensible cooling and added moisture.</li>
+<li>It prevents evaporative coolers from cooling below the wet-bulb limit.</li>
+<li>It keeps outlet cooling separate from mixed-zone cooling.</li>
+<li>It reports electricity and water directly, so comfort gains can be compared with resource use.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+<ul>
+<li>A single mixed zone cannot show where the device actually reaches passengers.</li>
+<li>Solar heating and hot shelter surfaces may be important but are omitted in the selected mode.</li>
+<li>Manufacturer reference values are not field measurements of the proposed installation.</li>
+<li>The model does not include cycling, control schedules, equipment degradation, noise, or maintenance.</li>
+</ul>
+
+<h3>Suggested improvements</h3>
+<p>Measure air temperature, humidity, airspeed, and globe temperature at passenger height before and after a pilot installation. Map airspeed at several distances from each device. Add measured roof and pavement temperatures or a simple solar-radiation term. Replace the one-zone assumption with several passenger zones if the field data show strong spatial differences. Calibrate evaporative effectiveness with an actual device test instead of relying only on an ideal saturation limit.</p>
+
+<h3>Model 01 conclusion</h3>
+<p>Model 01 is a useful first-principles screening model. It is strongest when comparing broad resource and weather effects, such as why evaporative cooling works better in dry air and why a fan uses less energy. It is weaker at predicting the exact temperature at a particular bench. Its results should guide a pilot, not replace one.</p>
+
+<h2>Model 02: Human Thermal Comfort Using the Gagge Model</h2>
+
+<h3>What the model does</h3>
+<p>Air temperature alone does not tell us how hot a person feels. Air movement can cool the skin even when it does not change the thermometer. Humidity can reduce sweat evaporation. Radiant heat from a roof or pavement can make a person warmer than the air suggests. Model 02 combines these effects into Standard Effective Temperature, or SET.</p>
+
+<p>The code calls <b>comf::calcSET</b>. That function uses the Gagge two-node model of the human body. “Two-node” means that the body is simplified into a warm internal core and a skin layer. The model allows heat to move between the core, skin, clothing, and environment. It also represents sweating, skin blood flow, vasodilation, vasoconstriction, convection, radiation, respiration, and evaporation. The project selects <b>obj = "set"</b>, which uses the original Gagge SET calculation path.</p>
+
+<h3>Primary equations and calculation idea</h3>
+<p>The complete Gagge model is an iterative physiological heat-balance model rather than one short formula. Its central idea can be written as two energy balances:</p>
+<div class="equation">Core storage = metabolic heat − external work − respiration − heat sent from core to skin.</div>
+<div class="equation">Skin storage = heat received from core − convection − radiation − evaporation.</div>
+
+<p>Core and skin temperatures affect the body’s control responses. If the body becomes warm, the model increases skin blood flow and sweating. If it becomes cold, it reduces skin blood flow and can add shivering heat. The project supplies the documented control coefficients:</p>
+<div class="equation">c<sub>sw</sub> = 170, &nbsp; c<sub>dil</sub> = 120, &nbsp; c<sub>str</sub> = 0.5.</div>
+
+<p>After simulating the body, SET is defined as the temperature of a standard reference environment that would cause the same skin heat loss and skin wettedness as the actual environment. The actual inputs are air temperature, mean radiant temperature, airspeed, humidity, pressure, clothing, activity, posture, body size, and exposure time.</p>
+
+<p>The project then defines hot-discomfort loss:</p>
+<div class="equation">L = Δt max(0, SET − SET<sub>upper</sub>).</div>
+<p>For the current comparison, SET<sub>upper</sub> is 26°C. Benefit is the reduction in loss relative to no device:</p>
+<div class="equation">B = L<sub>none</sub> − L<sub>option</sub>, &nbsp; and &nbsp; η = B/E.</div>
+
+<h3>Key assumptions and why they were used</h3>
+<ol>
+<li><b>One reference person represents the comparison.</b> The person is seated, 171 cm, 70 kg, at 1 met, with no external work. This gives a consistent basis when actual passenger demographics are unavailable.</li>
+<li><b>Clothing is 0.36 clo.</b> This represents shorts and a short-sleeved shirt and is suitable for a hot-weather comparison. Actual riders will wear different clothing.</li>
+<li><b>Exposure lasts 60 minutes.</b> Gagge is time-dependent, so an exposure period is required. Sixty minutes is a clear reference case, not an estimate of every passenger’s wait.</li>
+<li><b>Radiant temperature uses an air-reference approximation.</b> It is held at the uncooled outdoor reference temperature across options. This avoids pretending that a cooler also cools the roof and pavement, but measured radiant temperature would be better.</li>
+<li><b>The 23–26°C SET band is a policy band.</b> It provides a common comparison rule. It is not an ASHRAE compliance claim or a guarantee that a fixed percentage of people will be satisfied.</li>
+<li><b>The model represents an average healthy adult response.</b> This is appropriate for comparative comfort, but it does not assess medical heat risk for children, older adults, or people with health conditions.</li>
+</ol>
+
+<h3>Strengths</h3>
+<ul>
+<li>It captures why a fan can improve comfort without lowering air temperature.</li>
+<li>It uses a recognized physiological model rather than a temperature-only index.</li>
+<li>It includes humidity, airspeed, radiation, clothing, activity, and exposure time.</li>
+<li>SET puts different cooling methods on one understandable temperature scale.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+<ul>
+<li>The reference person does not represent population diversity.</li>
+<li>The model’s internal skin temperature, core temperature, sweating, and blood-flow outputs are not saved; only SET is retained.</li>
+<li>SET is a comfort index, not a heat-safety certification.</li>
+<li>Results can be sensitive to local airspeed and radiant temperature, which are presently estimated rather than measured.</li>
+<li>The comfort threshold and loss function are project choices, not part of Gagge’s physiology.</li>
+</ul>
+
+<h3>Suggested improvements</h3>
+<p>Report selected internal Gagge outputs such as skin temperature, skin wettedness, and sweating rate when possible. Run several population profiles, including older adults and different clothing levels. Measure mean radiant temperature with a globe thermometer and airspeed at passenger locations. Add a separate heat-safety screen, because comfort and safety are not the same. Pin the exact version of the <i>comf</i> package for reproducibility.</p>
+
+<h3>Model 02 conclusion</h3>
+<p>Model 02 does use the Gagge model. This is a major strength because it treats a person as more than a thermometer. The resulting SET values are meaningful for comparing fans and evaporative coolers, but they remain estimates for a reference person. The model should be described as a Gagge-based comfort comparison, not a medical safety prediction.</p>
+
+<h2>Model 03: Cost, Feasibility, and Minimax Regret</h2>
+
+<h3>What the model does</h3>
+<p>Model 03 turns the physical and comfort results into a decision. It checks whether each option has a valid model solution and whether it meets any active cost, electricity, or water limits. It then compares the options in three hot-weather scenarios. Instead of assuming that one forecast is correct, it asks which choice would leave HiMCM with the smallest worst-case missed opportunity.</p>
+
+<h3>Primary equations</h3>
+<p>For option <i>i</i> in scenario <i>s</i>, regret is</p>
+<div class="equation">R<sub>i,s</sub> = L<sub>i,s</sub> − min<sub>j feasible</sub>(L<sub>j,s</sub>).</div>
+<p>An option has zero regret if it is best in that scenario. Its worst regret is</p>
+<div class="equation">R<sub>i,max</sub> = max<sub>s</sub> R<sub>i,s</sub>.</div>
+<p>The minimax recommendation is</p>
+<div class="equation">i* = arg min<sub>i</sub> R<sub>i,max</sub>.</div>
+
+<p>If annual costing is enabled, capital is converted to an annual amount with the capital recovery factor:</p>
+<div class="equation">Annualized capital = C r / [1 − (1+r)<sup>−n</sup>].</div>
+<p>The selected run uses purchase cost rather than annual cost. Budget, electricity, and water caps are disabled, so all physically valid options remain feasible.</p>
+
+<h3>Why minimax regret is used instead of TOPSIS</h3>
+<p>TOPSIS ranks choices by their distance from an ideal point and a worst point. It usually requires weights and normalization rules for cost, energy, water, and comfort. Those choices can strongly affect the result, especially when the units are different. A TOPSIS score can look precise even when the weights are subjective.</p>
+
+<p>Minimax regret answers a simpler question that fits this project: if the weather scenario is uncertain, how much worse could this choice be than the best choice we could have made after seeing the weather? It does not require invented weights between dollars, kilowatt-hours, liters of water, and degrees of discomfort. Resource limits can be handled first as feasibility constraints. This makes minimax easier to explain and audit.</p>
+
+<p>There is an important trade-off. In the current run, regret is calculated from discomfort loss only. Because no cost, energy, or water caps are active, the largest cooler is often the minimax winner simply because it cools the most. Minimax is therefore the right robustness method for the stated objective, but the stated objective is not yet a complete balance of comfort and resources. TOPSIS would not automatically solve this problem; it would hide it inside weights.</p>
+
+<h3>Key assumptions and why they were used</h3>
+<ol>
+<li><b>The three selected weather scenarios represent the uncertainty of interest.</b> Peak, humid-hot, and dry-hot hours provide contrasting stresses. They are representative cases, not probabilities.</li>
+<li><b>Regret is based on hot-discomfort loss.</b> This keeps the objective tied directly to comfort. It also means cost and resources affect the choice only through active caps.</li>
+<li><b>An option must be feasible in every scenario to be robust.</b> This avoids recommending a device that fails under one supplied condition.</li>
+<li><b>Purchase cost is the selected cost basis.</b> It is available and easy to compare. It omits maintenance and long-term utility costs.</li>
+<li><b>Disabled caps mean no restriction.</b> This avoids inventing a budget or water limit. It also permits resource-heavy options to win.</li>
+<li><b>Scenarios are not assigned probabilities.</b> Minimax protects against poor outcomes without claiming how often each weather state will occur.</li>
+</ol>
+
+<h3>Strengths</h3>
+<ul>
+<li>The logic is transparent and easy to reproduce.</li>
+<li>It is robust across scenarios without requiring unreliable probabilities.</li>
+<li>It avoids subjective TOPSIS weights and normalization choices.</li>
+<li>It separates physical validity, resource feasibility, and preference.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+<ul>
+<li>The present winner is driven almost entirely by comfort because resource caps are disabled.</li>
+<li>Minimax can be conservative and can focus too much on one extreme scenario.</li>
+<li>Purchase price is not total ownership cost.</li>
+<li>The method does not value a small increase in comfort against a large increase in energy or water unless that trade-off is added explicitly.</li>
+</ul>
+
+<h3>Suggested improvements</h3>
+<p>Set defensible water, electricity, and budget limits before rerunning minimax. Alternatively, compare a small set of policy cases, such as “comfort first,” “low resource,” and “balanced.” Add annual operating costs when tariffs, maintenance, operating hours, and water prices are available. Keep the Pareto frontier beside the minimax result so decision makers can see options where no alternative is both cheaper and more comfortable.</p>
+
+<h3>Model 03 conclusion</h3>
+<p>Minimax regret is a better fit than TOPSIS for this project because it is transparent and does not require subjective cross-unit weights. However, it only balances what the model places inside feasibility and regret. With resource caps disabled, “minimax winner” mostly means “best modeled cooling.” The final operational recommendation should combine minimax with explicit resource policy and field evidence.</p>
+
+<h2>Model 04: Sensitivity Analysis</h2>
+
+<h3>What the model does</h3>
+<p>Model 04 changes one input at a time over its supplied lower and upper bounds and reruns Models 01–03. It records changes in SET, electricity, water, cost, efficiency, discomfort, and the recommended option. It also identifies intervals where the recommendation switches. A separate Monte Carlo function exists, but it is not part of the current production run.</p>
+
+<h3>Primary equations</h3>
+<p>For a model output <i>Y</i> and input <i>x</i>, the sweep records</p>
+<div class="equation">ΔY(x) = Y(x) − Y(x<sub>baseline</sub>).</div>
+<p>A simple local sensitivity can be summarized as</p>
+<div class="equation">S ≈ [Y(x<sub>high</sub>) − Y(x<sub>low</sub>)] / (x<sub>high</sub> − x<sub>low</sub>).</div>
+<p>The code uses evenly spaced values across each bound and reruns the entire chain. It does not rely on a linear approximation. Linked mass-flow rows are changed together to preserve mass balance.</p>
+
+<h3>Key assumptions and why they were used</h3>
+<ol>
+<li><b>Inputs are varied one at a time.</b> This makes cause and effect easy to interpret, but it misses interactions.</li>
+<li><b>The supplied bounds are meaningful perturbation ranges.</b> The present ±5% ranges are exploratory, not measured uncertainty intervals.</li>
+<li><b>All other inputs stay fixed during each sweep.</b> This isolates one parameter but may create combinations that weather would not naturally produce.</li>
+<li><b>Linked flows move together.</b> This preserves the physical mass balance and prevents the sensitivity test from creating an invalid zone.</li>
+<li><b>A recommendation change is a useful warning sign.</b> If a small input change switches the choice, the recommendation needs more data before procurement.</li>
+<li><b>Monte Carlo draws, if used, are independent and uniform.</b> This is simple but should not be called a probability forecast or confidence interval.</li>
+</ol>
+
+<h3>Strengths</h3>
+<ul>
+<li>It reruns the complete model rather than adjusting only the final score.</li>
+<li>It identifies which uncertain inputs matter most.</li>
+<li>It can reveal choice switching and fragile recommendations.</li>
+<li>It preserves linked airflow constraints.</li>
+</ul>
+
+<h3>Weaknesses</h3>
+<ul>
+<li>One-at-a-time sweeps miss interactions between temperature, humidity, airflow, and occupancy.</li>
+<li>Using percentage changes on Celsius temperature is not physically ideal because Celsius has an arbitrary zero.</li>
+<li>The bounds are not evidence-based confidence ranges.</li>
+<li>The current Monte Carlo option assumes independent uniform inputs and is not active in the reported results.</li>
+</ul>
+
+<h3>Suggested improvements</h3>
+<p>Replace generic ±5% ranges with measurement errors, manufacturer tolerances, and observed weather ranges. Sweep temperature in fixed degree increments rather than percentages. Add paired temperature-humidity scenarios from actual hourly data. Use a global method, such as Latin hypercube sampling or Sobol indices, after defensible distributions are available. Report recommendation-switching thresholds prominently.</p>
+
+<h3>Model 04 conclusion</h3>
+<p>Model 04 is most useful as a warning system. It tells HiMCM where the recommendation is stable and where additional measurements could change the choice. It does not turn uncertain assumptions into probabilities. Its current results should be described as exploratory robustness checks.</p>
+
+<div class="pagebreak"></div>
+<h2>Memorandum to the Chief Operations Officer</h2>
+
+<div class="memo">
+<p><b>To:</b> Chief Operations Officer, HiMCM</p>
+<p><b>From:</b> Cooling Systems Analysis Team</p>
+<p><b>Date:</b> November 12, 2026</p>
+<p><b>Subject:</b> Cooling strategy for the Boston Grove Hall reference bus shelter</p>
+</div>
+
+<h3>Purpose</h3>
+<p>This memorandum evaluates four choices for the Boston bus-shelter reference case: no cooling system, the Fan System, the Evaporative Cooler, and the Large Evaporative Cooler. The goal is to balance comfort improvement against electricity, water use, purchase price, and uncertainty. The results are model-based reference values, not a guarantee of field performance.</p>
+
+<h3>Major findings</h3>
+<p>Without a cooling system, SET reaches 30.77°C in the hot-peak case. This is 4.77°C above the project’s selected upper comfort threshold. All three systems improve the result, but none brings the hot-peak case below 26°C SET. The Large Evaporative Cooler gives the largest reduction, lowering SET by 2.20°C to 28.57°C. The Fan System lowers SET by 1.71°C to 29.07°C. The Evaporative Cooler lowers it by 1.22°C to 29.55°C.</p>
+
+<table>
+<tr><th>Hot-peak option</th><th>SET</th><th>SET reduction</th><th>Energy for one hour</th><th>Water for one hour</th><th>Reference purchase price</th></tr>
+<tr><td>No cooling system</td><td>30.77°C</td><td>0</td><td>0</td><td>0</td><td>$0</td></tr>
+<tr><td>Fan System</td><td>29.07°C</td><td>1.71°C</td><td>0.25 kWh</td><td>0 kg</td><td>$1,499</td></tr>
+<tr><td>Evaporative Cooler</td><td>29.55°C</td><td>1.22°C</td><td>1.20 kWh</td><td>33.99 kg</td><td>$4,159</td></tr>
+<tr><td>Large Evaporative Cooler</td><td>28.57°C</td><td>2.20°C</td><td>2.50 kWh</td><td>80.85 kg</td><td>$4,939</td></tr>
+</table>
+
+<p>The Fan System provides the best comfort improvement per unit of electricity in the hot-peak case. Its modeled benefit per kWh is about 6.82 degree-hours per person per kWh, compared with 1.02 for the Evaporative Cooler and 0.88 for the Large Evaporative Cooler. Put differently, the Large Evaporative Cooler uses ten times the electricity of the Fan System for about 1.29 times the Fan System’s SET reduction during the hot-peak hour. The Large Evaporative Cooler also consumes about 81 kg, or roughly 81 liters, of water in that modeled hour.</p>
+
+<p>The humid-hot case strengthens the case for a fan-first policy. All three systems reduce modeled hot discomfort to zero under the selected 26°C threshold. The Fan System reaches 25.09°C SET using 0.25 kWh and no water. Both evaporative cooling systems also reach the comfort band but use more electricity and substantial water. In the dry-hot case, the no-system SET is already 24.44°C, within the selected band. Running the Large Evaporative Cooler would lower SET to 20.77°C, below the selected lower bound of 23°C. Because the loss function only penalizes heat above 26°C, the decision model does not penalize this possible overcooling.</p>
+
+<p>The formal minimax-regret result selects the Large Evaporative Cooler. This happens because regret is based on hot-discomfort loss and the current budget, electricity, and water caps are disabled. The Large Evaporative Cooler is best in the severe hot-peak case and ties the other cooling systems when their loss is already zero. This is a correct result for a comfort-only objective, but it is not the best overall balance of comfort and resources.</p>
+
+<h3>Recommendation</h3>
+<p><b>Adopt the Fan System as the default operational choice for the Boston bus shelter, and conduct a monitored pilot before purchasing the Large Evaporative Cooler.</b> The Fan System is the strongest first investment because it is least expensive, uses little electricity, requires no water, and performs especially well in humid weather. It does not fully solve the hot-peak case, so it should be paired with passive heat-reduction measures and a contingency plan.</p>
+
+<p>The recommended operating approach is:</p>
+<ol>
+<li><b>Use the fan as the normal active system.</b> Operate it during occupied warm and humid periods. Use occupancy or temperature controls so it does not run when no one is present.</li>
+<li><b>Add passive measures first.</b> Improve roof shading, use a high-reflectance roof surface, and block direct afternoon sun where sight lines and safety allow. Passive measures reduce radiant heat, which the current device model does not directly cool.</li>
+<li><b>Do not use evaporative cooling automatically on every warm day.</b> The Boston humid-hot case already shows that the fan can reach the selected comfort band. Evaporative systems add water use, maintenance, and potential moisture concerns.</li>
+<li><b>Pilot the Large Evaporative Cooler only for severe hot-peak conditions.</b> If HiMCM believes its remaining 0.49°C discomfort-loss advantage over the Fan System is operationally important, test one unit during several hot days before wider purchase.</li>
+<li><b>Establish resource limits before final procurement.</b> Set a maximum acceptable kWh and water use per operating hour. Rerun minimax with these caps active. This will make the robust recommendation reflect operations policy rather than comfort alone.</li>
+</ol>
+
+<h3>Pilot measurements and decision gate</h3>
+<p>A two- to four-week warm-weather pilot should record outdoor and passenger-level temperature, relative humidity, globe temperature, and airspeed at several seats. Record device electricity, evaporated water, noise, maintenance time, and actual occupied hours. Short passenger comfort surveys would help determine whether the modeled SET difference is noticeable.</p>
+
+<p>HiMCM should approve the Large Evaporative Cooler for permanent use only if the pilot shows all of the following: it provides a meaningful comfort improvement beyond the Fan System; that improvement reaches a useful portion of the waiting area; water supply and maintenance are acceptable; moisture does not create slip, corrosion, or indoor-air concerns; and the benefit justifies the extra energy and purchase cost.</p>
+
+<h3>Risk and limitation statement</h3>
+<p>The current model does not assess heat illness, actual passenger populations, device coverage, or annual operating cost. The shelter is represented as one mixed zone and radiant temperature is approximated. The recommendation is therefore a procurement and pilot strategy, not a final engineering design or safety certification.</p>
+
+<h3>Memorandum conclusion</h3>
+<p>The Large Evaporative Cooler produces the most modeled cooling, which is why minimax selects it under the current comfort-only objective. The Fan System provides the better practical balance for Boston: strong comfort improvement, low electricity, no water, and the lowest purchase price. A fan-first strategy, passive shade improvements, and a targeted Large Evaporative Cooler pilot offer a lower-risk path than immediately installing the largest cooler.</p>
+
+<div class="pagebreak"></div>
+<h2>Blog Post: How Much Cooling Are We Getting for the Energy We Use?</h2>
+
+<h3>A cooler number is not always a better cooling decision</h3>
+<p>Cooling an open-air bus stop is not like cooling a sealed room. Outdoor air keeps entering. Sun-warmed roofs and pavement radiate heat. Wind changes from minute to minute. A cooling device may make one seat feel better while having little effect several feet away.</p>
+
+<p>That is why HiMCM compared cooling systems in two ways. First, we estimated what each system does to the air. Second, we estimated what those conditions feel like to a person.</p>
+
+<p>For the second step, we used Standard Effective Temperature, or SET. SET combines air temperature, humidity, air movement, radiant heat, clothing, and activity into one temperature-like number. The calculation uses the Gagge two-node model, which represents the body as a warm core and a skin layer. This lets the model recognize something we all know from experience: moving air from a fan can make us feel cooler even when the air thermometer does not change.</p>
+
+<h3>What we found at the Boston bus-shelter reference site</h3>
+<p>During the modeled hot-peak hour, doing nothing produced an SET of about 30.8°C. The fan reduced it by about 1.7°C while using 0.25 kWh. The largest evaporative cooler reduced it by about 2.2°C while using 2.5 kWh and about 81 liters of water.</p>
+
+<p>So the larger cooler produced more total cooling, but the fan produced much more comfort improvement for each unit of electricity. The cooler used ten times as much electricity as the fan, but its modeled SET reduction was only about 29% larger.</p>
+
+<p>Weather also mattered. In the humid-hot Boston case, the fan brought the reference person into the project’s selected comfort band using no water. In the dry-hot case, the waiting area was already inside that band before any device was turned on. The largest cooler could have made that case cooler than needed.</p>
+
+<h3>Why not simply buy the device that cools the most?</h3>
+<p>If comfort is the only goal, the largest cooler wins. Our robust decision calculation selected it because it had the lowest discomfort in the hardest weather case. But public operations also involve electricity, water, purchase cost, maintenance, noise, and how many people the device actually reaches.</p>
+
+<p>A decision model cannot balance those concerns unless they are stated. In our current reference run, there was no formal budget, electricity limit, or water limit. The result therefore means “best modeled cooling under the supplied scenarios,” not “best all-around investment.”</p>
+
+<h3>Our practical takeaway</h3>
+<p>For the Boston reference shelter, the fan is the strongest first step. It offers a large share of the modeled comfort benefit with much lower energy use, no water use, and a lower purchase price. Passive shade and reflective surfaces should be considered at the same time because reducing radiant heat can help everyone in the shelter without requiring water.</p>
+
+<p>The larger evaporative cooler may still have a role during rare severe heat. Before making that investment, we recommend a field pilot that measures temperature, humidity, radiant heat, airspeed, electricity, water, noise, and the area actually reached by the device.</p>
+
+<p>The broad lesson is simple: cooling should be measured by useful comfort, not only by the coldest outlet air. The best system is the one that delivers enough comfort to real people, over the area where they wait, with an acceptable use of energy, water, money, and maintenance.</p>
+
+<h2>Source and interpretation notes</h2>
+<p class="small">This document is based on the HiMCM26 repository’s Models 01–04, generated CSV results, README, DATA_README, and source catalog. Boston values come from 03_decision/result_options.csv and result_recommendations.csv. The SET calculation uses comf::calcSET and its Gagge two-node implementation. The 23–26°C SET band is a project comparison rule, not an ASHRAE compliance determination. Current results use mixing-only physics, air-reference radiation, per-person comfort, purchase cost, saturation-limited evaporative cooling, and three selected hot-weather scenarios. All findings are model estimates and should be validated through site measurements.</p>
+
+</body>
+</html>

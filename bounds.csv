@@ -1,22 +1,4 @@
 parameter,lower,upper,source
-weather_occ.1.T,27.74,30.66,User-authorized +/-5% around assigned reference/input value
-weather_occ.1.RH,58.9,65.10000000000001,User-authorized +/-5% around assigned reference/input value
-weather_occ.1.pressure,94268.5,104191.5,User-authorized +/-5% around assigned reference/input value
-weather_occ.2.T,27.74,30.66,User-authorized +/-5% around assigned reference/input value
-weather_occ.2.RH,58.9,65.10000000000001,User-authorized +/-5% around assigned reference/input value
-weather_occ.2.pressure,94268.5,104191.5,User-authorized +/-5% around assigned reference/input value
-weather_occ.3.T,20.045,22.155,User-authorized +/-5% around assigned reference/input value
-weather_occ.3.RH,72.105,79.69500000000001,User-authorized +/-5% around assigned reference/input value
-weather_occ.3.pressure,95532.0,105588.0,User-authorized +/-5% around assigned reference/input value
-weather_occ.4.T,20.045,22.155,User-authorized +/-5% around assigned reference/input value
-weather_occ.4.RH,72.105,79.69500000000001,User-authorized +/-5% around assigned reference/input value
-weather_occ.4.pressure,95532.0,105588.0,User-authorized +/-5% around assigned reference/input value
-weather_occ.5.T,31.349999999999998,34.65,User-authorized +/-5% around assigned reference/input value
-weather_occ.5.RH,25.46,28.14,User-authorized +/-5% around assigned reference/input value
-weather_occ.5.pressure,90582.5,100117.5,User-authorized +/-5% around assigned reference/input value
-weather_occ.6.T,31.349999999999998,34.65,User-authorized +/-5% around assigned reference/input value
-weather_occ.6.RH,25.46,28.14,User-authorized +/-5% around assigned reference/input value
-weather_occ.6.pressure,90582.5,100117.5,User-authorized +/-5% around assigned reference/input value
 devices.1.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
 devices.1.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
 devices.1.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
@@ -100,12 +82,6 @@ groups.1.tu,38.0,42.0,User-authorized +/-5% around assigned reference/input valu
 groups.1.csw,161.5,178.5,User-authorized +/-5% around assigned reference/input value
 groups.1.cdil,114.0,126.0,User-authorized +/-5% around assigned reference/input value
 groups.1.cstr,0.475,0.525,User-authorized +/-5% around assigned reference/input value
-weather_occ.1.v_local,0.8848946707587207,0.9780414782070072,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
-weather_occ.2.v_local,1.327342006138081,1.4670622173105108,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
-weather_occ.3.v_local,0.4308590729623612,0.4762126595899782,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
-weather_occ.4.v_local,0.6462886094435418,0.7143189893849673,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
-weather_occ.5.v_local,0.6556713638521444,0.7246894021523703,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
-weather_occ.6.v_local,0.9835070457782168,1.0870341032285555,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
 exchanges.1.mass_kg_s,2.0708739230820945,2.2888606518275787,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.2.mass_kg_s,2.0708739230820945,2.2888606518275787,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.3.mass_kg_s,5.5223304615522535,6.103628404873544,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
@@ -118,9 +94,95 @@ exchanges.9.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-author
 exchanges.10.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.11.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.12.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
-weather_occ.1.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
-weather_occ.2.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
-weather_occ.3.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
-weather_occ.4.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
-weather_occ.5.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
-weather_occ.6.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.1.T,40.507999999999996,44.772000000000006,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.1.RH,15.323499999999997,16.9365,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.1.pressure,94249.5,104170.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.1.v_local,0.8848946707587207,0.9780414782070072,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.1.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.2.T,34.6845,38.335499999999996,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.2.RH,38.969,43.071000000000005,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.2.pressure,94724.5,104695.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.2.v_local,0.8848946707587207,0.9780414782070072,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.2.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.3.T,34.713,38.367,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.3.RH,17.1095,18.910500000000003,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.3.pressure,94211.5,104128.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.3.v_local,0.8848946707587207,0.9780414782070072,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.3.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.4.T,40.507999999999996,44.772000000000006,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.4.RH,15.323499999999997,16.9365,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.4.pressure,94249.5,104170.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.4.v_local,1.327342006138081,1.4670622173105108,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.4.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.5.T,34.6845,38.335499999999996,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.5.RH,38.969,43.071000000000005,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.5.pressure,94724.5,104695.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.5.v_local,1.327342006138081,1.4670622173105108,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.5.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.6.T,34.713,38.367,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.6.RH,17.1095,18.910500000000003,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.6.pressure,94211.5,104128.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.6.v_local,1.327342006138081,1.4670622173105108,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.6.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.7.T,34.9505,38.6295,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.7.RH,27.540499999999998,30.4395,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.7.pressure,95370.5,105409.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.7.v_local,0.4308590729623612,0.4762126595899782,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.7.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.8.T,28.8705,31.9095,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.8.RH,68.324,75.516,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.8.pressure,95627.0,105693.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.8.v_local,0.4308590729623612,0.4762126595899782,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.8.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.9.T,27.721,30.639,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.9.RH,26.7615,29.578500000000002,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.9.pressure,96330.0,106470.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.9.v_local,0.4308590729623612,0.4762126595899782,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.9.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.10.T,34.9505,38.6295,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.10.RH,27.540499999999998,30.4395,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.10.pressure,95370.5,105409.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.10.v_local,0.6462886094435418,0.7143189893849673,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.10.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.11.T,28.8705,31.9095,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.11.RH,68.324,75.516,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.11.pressure,95627.0,105693.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.11.v_local,0.6462886094435418,0.7143189893849673,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.11.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.12.T,27.721,30.639,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.12.RH,26.7615,29.578500000000002,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.12.pressure,96330.0,106470.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.12.v_local,0.6462886094435418,0.7143189893849673,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.12.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.13.T,45.524,50.316,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.13.RH,5.7285,6.3315,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.13.pressure,90516.0,100044.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.13.v_local,0.6556713638521444,0.7246894021523703,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.13.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.14.T,40.507999999999996,44.772000000000006,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.14.RH,19.437,21.483,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.14.pressure,90478.0,100002.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.14.v_local,0.6556713638521444,0.7246894021523703,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.14.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.15.T,42.99699999999999,47.523,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.15.RH,2.8405,3.1395000000000004,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.15.pressure,90373.5,99886.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.15.v_local,0.6556713638521444,0.7246894021523703,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.15.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.16.T,45.524,50.316,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.16.RH,5.7285,6.3315,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.16.pressure,90516.0,100044.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.16.v_local,0.9835070457782168,1.0870341032285555,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.16.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.17.T,40.507999999999996,44.772000000000006,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.17.RH,19.437,21.483,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.17.pressure,90478.0,100002.0,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.17.v_local,0.9835070457782168,1.0870341032285555,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.17.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.18.T,42.99699999999999,47.523,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.18.RH,2.8405,3.1395000000000004,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.18.pressure,90373.5,99886.5,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.18.v_local,0.9835070457782168,1.0870341032285555,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+weather_occ.18.dt_hours,0.95,1.05,User-selected +/-5% exploratory perturbation in stored units; not a weather probability model
+cfg.set_lower,21.849999999999998,24.150000000000002,"User-selected comfort threshold; +/-5% policy sensitivity, not an ASHRAE compliance interval"
+cfg.set_upper,24.7,27.3,"User-selected comfort threshold; +/-5% policy sensitivity, not an ASHRAE compliance interval"

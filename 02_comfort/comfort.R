@@ -328,9 +328,9 @@ plot_comfort_gallery <- function(result, cfg, book) {
 
   # Comfort efficiency (benefit per kWh) and residual discomfort
   chart_metric(book, "C06", 2, a, "decision_eta",
-               "Comfort benefit per unit of electricity", "Comfort benefit / kWh")
+               "Comfort benefit per unit of electricity", if (cfg$comfort_basis == "per_person") "Benefit (degC-hours per person / kWh)" else "Benefit (person-degC-hours / kWh)")
   chart_metric(book, "C07", 2, a, "loss",
-               "Residual discomfort after cooling", "Discomfort (see configured comfort basis)")
+               "Residual discomfort after cooling", if (cfg$comfort_basis == "per_person") "Discomfort (degC-hours per person)" else "Discomfort (person-degC-hours)")
 
   # Comfort coverage heatmap: fraction of person-hours within the comfort band
   field <- if (cfg$comfort_basis == "per_person") "coverage_per_person" else "coverage"

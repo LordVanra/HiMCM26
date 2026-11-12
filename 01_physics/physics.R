@@ -238,8 +238,8 @@ build_config <- function() {
     seed          = 1L,          # RNG seed for reproducible Monte Carlo draws
     mc_n          = 1000L,       # Number of Monte Carlo draws
     sweep_levels  = 5L,          # Points per parameter in the sensitivity sweep
-    set_upper     = NA_real_,    # Upper SET comfort threshold (°C); NA disables loss/regret
-    set_lower     = NA_real_,    # Lower SET comfort threshold (°C); NA disables coverage
+    set_upper     = 26,          # User-selected SET comparison threshold, not an ASHRAE compliance test
+    set_lower     = 23,
     budget        = NA_real_,    # Maximum allowed decision cost; NA means no cap
     kwh_cap       = NA_real_,    # Maximum kWh per scenario; NA means no cap
     water_cap     = NA_real_,    # Maximum water (kg) per scenario; NA means no cap
@@ -247,7 +247,7 @@ build_config <- function() {
     radiant_model = "air_reference", # "air_reference" or "measured" (uses Tr column)
     comfort_basis = "per_person",    # "per_person" or "occupied" (scales by occupancy)
     cost_basis    = "purchase",      # "purchase" or "annual" (annualised life-cycle cost)
-    cooler_limit  = "fixed"          # "fixed", "saturation_limit", or "effectiveness"
+    cooler_limit  = "saturation_limit" # Ideal physically limited outlet cooling
   )
 }
 
@@ -609,6 +609,8 @@ evap_state <- function(device, weather, cfg) {
 
   wo   <- humidity_ratio(weather$T, weather$RH, weather$pressure)
   drop <- device$dT_max   # Default cooling drop (°C); may be revised below
+  if (cfg$cooler_limit == "saturation_limit")
+    drop <- min(drop, max(0, weather$T - wet_bulb(weather$T, wo, weather$pressure, cfg$rtol)))
 
   # --- Effectiveness mode ---
   # Scale the rated dT_max by the ratio of local to rated wet-bulb depression
@@ -627,7 +629,7 @@ evap_state <- function(device, weather, cfg) {
   # dT_max describes the outlet in this device model, not the mixed waiting-area air.
   Ts   <- weather$T - drop
   hout <- 1.006*weather$T + wo*(2501 + 1.86*weather$T)   # Specific enthalpy (kJ/kg) at inlet
-  ws   <- (hout - 1.006*Ts) / (2501 + 1.86*Ts)           # Outlet humidity ratio (const-enthalpy)
+  ws   <- if (Ts == weather$T) wo else (hout - 1.006*Ts) / (2501 + 1.86*Ts)
   stopifnot(ws >= wo - cfg$rtol)
 
   # --- Saturation-limit mode ---

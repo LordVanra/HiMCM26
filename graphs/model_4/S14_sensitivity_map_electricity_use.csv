@@ -35,27 +35,27 @@
 "devices.9.power_kW","Device power C [BOS_BUS]","Boston / rail",0
 "devices.9.power_kW","Device power C [BOS_BUS]","Phoenix / bus",0
 "devices.9.power_kW","Device power C [BOS_BUS]","Phoenix / rail",0
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Dallas / bus",0.25
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Dallas / rail",0
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Boston / bus",0
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Boston / rail",0
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Phoenix / bus",0
-"weather_occ.1.dt_hours","dt_hours [DAL_BUS]","Phoenix / rail",0
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Dallas / bus",0
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Dallas / rail",0.25
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Boston / bus",0
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Boston / rail",0
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Phoenix / bus",0
-"weather_occ.2.dt_hours","dt_hours [DAL_RAIL]","Phoenix / rail",0
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Dallas / bus",0
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Dallas / rail",0
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Boston / bus",0.25
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Boston / rail",0
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Phoenix / bus",0
-"weather_occ.3.dt_hours","dt_hours [BOS_BUS]","Phoenix / rail",0
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Dallas / bus",0
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Dallas / rail",0
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Boston / bus",0
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Boston / rail",0.25
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Phoenix / bus",0
-"weather_occ.4.dt_hours","dt_hours [BOS_RAIL]","Phoenix / rail",0
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Dallas / bus",0.25
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Dallas / rail",0
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Boston / bus",0
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Boston / rail",0
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Phoenix / bus",0
+"weather_occ.1.dt_hours","dt_hours [DAL_BUS] hot_peak","Phoenix / rail",0
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Dallas / bus",0
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Dallas / rail",0
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Boston / bus",0
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Boston / rail",0.25
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Phoenix / bus",0
+"weather_occ.10.dt_hours","dt_hours [BOS_RAIL] hot_peak","Phoenix / rail",0
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Dallas / bus",0
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Dallas / rail",0
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Boston / bus",0
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Boston / rail",0.25
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Phoenix / bus",0
+"weather_occ.11.dt_hours","dt_hours [BOS_RAIL] hot_humid","Phoenix / rail",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Dallas / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Dallas / rail",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Boston / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Boston / rail",0.25
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Phoenix / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Phoenix / rail",0

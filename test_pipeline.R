@@ -119,6 +119,8 @@ expect_missing(
 
 # Test 2 – Full pipeline run on the standard fixture
 cfg <- build_config()
+stopifnot(cfg$set_lower == 23, cfg$set_upper == 26, cfg$cooler_limit == "saturation_limit")
+cfg$cooler_limit <- "fixed"
 cfg$heat_model    <- "full"
 cfg$radiant_model <- "measured"
 cfg$comfort_basis <- "occupied"
@@ -674,6 +676,31 @@ if (requireNamespace("ggplot2", quietly = TRUE) &&
   )
 }
 
+
+two_venues <- fixture()
+for (name in c("zones", "exchanges", "weather_occ", "devices")) {
+  extra <- two_venues[[name]]; extra$venue <- "second"
+  two_venues[[name]] <- rbind(two_venues[[name]], extra)
+}
+base_two <- run_all(cfg, two_venues, quiet = TRUE)
+changed_two <- set_parameter("weather_occ.1.T", 36, cfg, two_venues)
+cached_two <- rerun_sensitivity_case("weather_occ.1.T", changed_two, base_two)
+full_two <- run_all(changed_two$cfg, changed_two$tables, quiet = TRUE)
+ordered <- function(x) {
+  x <- x[order(x$venue, x$scenario, x$option), ]; rownames(x) <- NULL; x
+}
+stopifnot(isTRUE(all.equal(ordered(cached_two$options), ordered(full_two$options))),
+  isTRUE(all.equal(ordered(cached_two$recommendations), ordered(full_two$recommendations))))
+
+cap_cfg <- build_config()
+for (rh in c(0, 30, 70, 99, 100)) {
+  w <- fixture()$weather_occ; w$RH <- rh
+  dev <- fixture()$devices[3, ]
+  supply <- evap_state(dev, w, cap_cfg)
+  twb <- wet_bulb(w$T, humidity_ratio(w$T, w$RH, w$pressure), w$pressure)
+  stopifnot(supply["T"] >= twb - cap_cfg$rtol, supply["T"] >= w$T-dev$dT_max-cap_cfg$rtol,
+    relative_humidity(supply["T"], supply["w"], w$pressure) <= 100 + cap_cfg$rtol, supply["water_kg"] >= 0)
+}
 
 # All tests passed
 cat("PASS: physics, RH, SET reference, duration scaling, fixed radiation, four zones,",

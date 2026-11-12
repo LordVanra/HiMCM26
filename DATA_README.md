@@ -1,12 +1,12 @@
 # Data README: active inputs, assumptions and source audit
 
-Updated 12 November 2026. All six original location references are retained. Ventilation and baseline airspeed are user-authorized estimates. These are a reproducible generic summer comparison, not surveyed site performance.
+Updated 12 November 2026. All six original location references are retained. Ventilation and baseline airspeed are user-authorized estimates. Active weather now consists of three simultaneous NASA POWER hot-weather hours per city; the ventilation and exposure estimates remain a reference comparison, not surveyed site performance. See sources/nasa_hourly_2025/README.md for selection rules and original responses.
 
-The technical correction holds reference radiant temperature at uncooled outdoor temperature across device options. It does not establish actual MRT. `weather_occ.dt_hours=1` now explicitly records the already selected operating interval. New optional `devices.v_occupied`, `T_ref`, `RH_ref` and `pressure_ref` fields remain NA; no passenger exposure or calibration conditions have been invented. The default fixed cooling comparison, per-person basis and purchase-cost basis remain as previously selected. Required missing data now stop the requested analysis; inputs used only by inactive modes do not. Current code behavior and the remaining limits are described in README.md.
+The technical correction holds reference radiant temperature at uncooled outdoor temperature across device options. It does not establish actual MRT. `weather_occ.dt_hours=1` now explicitly records the already selected operating interval. New optional `devices.v_occupied`, `T_ref`, `RH_ref` and `pressure_ref` fields remain NA; no passenger exposure or calibration conditions have been invented. The current defaults are saturation-limited cooling and a user-selected 23-26 degC SET comparison band, with the existing per-person and purchase-cost bases. Required missing data now stop the requested analysis; inputs used only by inactive modes do not. Current code behavior and the remaining limits are described in README.md.
 
 ## Active airflow estimates
 
-| Waiting area | Baseline passenger airspeed (m/s) | Ventilation (m³/s) | Ventilation (kg dry air/s) |
+| Waiting area | Baseline passenger airspeed (m/s) | Ventilation (mÃ‚Â³/s) | Ventilation (kg dry air/s) |
 |---|---:|---:|---:|
 | DAL_BUS | 0.931468 | 1.956083 | 2.179867 |
 | DAL_RAIL | 1.397202 | 5.216221 | 5.812979 |
@@ -15,7 +15,7 @@ The technical correction holds reference radiant temperature at uncooled outdoor
 | PHX_BUS | 0.690180 | 1.449379 | 1.550364 |
 | PHX_RAIL | 1.035271 | 3.865010 | 4.134305 |
 
-CSV inputs retain full calculation precision. Each mass flow is written to BOTH the outdoor inlet and outlet rows; this describes one balanced throughflow, not twice the ventilation rate. The density conversion uses each city’s temperature, RH and pressure and the model’s dry-air basis.
+CSV inputs retain full calculation precision. Each mass flow is written to BOTH the outdoor inlet and outlet rows; this describes one balanced throughflow, not twice the ventilation rate. The density conversion uses each cityÃ¢â‚¬â„¢s temperature, RH and pressure and the modelÃ¢â‚¬â„¢s dry-air basis.
 
 ## Location references
 
@@ -34,7 +34,7 @@ Boston bus means the clear-roof Grove Hall control shelter shown in the B-COOL r
 
 | Input | Bus waiting zone | Rail waiting zone | Basis |
 |---|---:|---:|---|
-| Equivalent opening area | 3 m² | 8 m² | Analyst-selected 1.5×2 m and 4×2 m equivalent apertures; NOT as-built measurements |
+| Equivalent opening area | 3 mÃ‚Â² | 8 mÃ‚Â² | Analyst-selected 1.5Ãƒâ€”2 m and 4Ãƒâ€”2 m equivalent apertures; NOT as-built measurements |
 | Opening effectiveness Cw | 0.35 | 0.35 | Selected from published oblique-wind range; actual wind direction unknown |
 | Opening fraction | 1 | 1 | Entire assumed aperture active |
 | Wind reference height | 1.1 m | 1.1 m | Chosen passenger-zone reference height, matching Phoenix study measurement height |
@@ -46,13 +46,13 @@ The common type assumptions keep comparisons consistent across cities. They do n
 
 ## Calculation chain
 
-1. NASA POWER WS10M: U10=(30×June+31×July+31×August)/92. Use the same 2001–2025 grid queries already used for each city’s climate.
-2. Approach wind U=U10×(1.1/10)^0.33. The power-law form/exponent are supported by `energyplus_242_surface`, Local Wind Speed Calculation. Treating the gridded 10 m wind as an equivalent same-profile reference is our additional assumption; this is not the full weather-station-to-site terrain correction. Extrapolation into an urban canopy is approximate.
-3. Baseline passenger speed v_local=S×U, independent of fan A. S is a scenario factor, not inferred from cooler CFM.
-4. Ventilation Q=Cw×A_open×U, opening fraction 1, using the wind-driven term in `energyplus_wind_ventilation`. This is an approximation adapted to the generic waiting-zone control volume.
-5. pv=(RH/100)×p_sat(T); w=0.621945×pv/(P−pv); specific volume=287.042×(T+273.15)×(1+1.607858w)/P; m_dry=Q/specific_volume. See `psychrolib_volume` and the existing physics.R saturation-pressure equation.
+1. NASA POWER WS10M: U10=(30Ãƒâ€”June+31Ãƒâ€”July+31Ãƒâ€”August)/92. Use the same 2001Ã¢â‚¬â€œ2025 grid queries already used for each cityÃ¢â‚¬â„¢s climate.
+2. Approach wind U=U10Ãƒâ€”(1.1/10)^0.33. The power-law form/exponent are supported by `energyplus_242_surface`, Local Wind Speed Calculation. Treating the gridded 10 m wind as an equivalent same-profile reference is our additional assumption; this is not the full weather-station-to-site terrain correction. Extrapolation into an urban canopy is approximate.
+3. Baseline passenger speed v_local=SÃƒâ€”U, independent of fan A. S is a scenario factor, not inferred from cooler CFM.
+4. Ventilation Q=CwÃƒâ€”A_openÃƒâ€”U, opening fraction 1, using the wind-driven term in `energyplus_wind_ventilation`. This is an approximation adapted to the generic waiting-zone control volume.
+5. pv=(RH/100)Ãƒâ€”p_sat(T); w=0.621945Ãƒâ€”pv/(PÃ¢Ë†â€™pv); specific volume=287.042Ãƒâ€”(T+273.15)Ãƒâ€”(1+1.607858w)/P; m_dry=Q/specific_volume. See `psychrolib_volume` and the existing physics.R saturation-pressure equation.
 
-| City | June/July/August U10 (m/s) | Weighted U10 | Approach U (m/s) | Specific volume (m³/kg dry air) |
+| City | June/July/August U10 (m/s) | Weighted U10 | Approach U (m/s) | Specific volume (mÃ‚Â³/kg dry air) |
 |---|---|---:|---:|---:|
 | Dallas | 4.21 / 3.79 / 3.59 | 3.859565217 | 1.862936149 | 0.897340387 |
 | Boston | 1.95 / 1.84 / 1.85 | 1.879239130 | 0.907071733 | 0.856090777 |
@@ -62,19 +62,19 @@ The common type assumptions keep comparisons consistent across cities. They do n
 
 | Input group | Values/basis | Source keys |
 |---|---|---|
-| City summer climate | Dallas 29.2°C, 62.0%, 99230 Pa; Boston 21.1°C, 75.9%, 100560 Pa; Phoenix 33.0°C, 26.8%, 95350 Pa | `nasa_2026_dallas_summer`, `nasa_2026_boston_summer`, `nasa_2026_phoenix_summer` |
-| Climate aggregation | June–August full-day means, weights 30/31/31; pressure kPa×1000; grid anchors are airport coordinates, not on-site observations | NASA query records in research CSV |
-| Contest A/B/C | 0.25/1.2/2.5 kW; up-to 3°C perceived / 5°C air / 8°C air reductions; fixed outlet drops in current reference model are a separate user-selected simplification | `comap_2026_options`, `comap_2026_problem_b` |
+| City summer climate | Dallas 29.2Ã‚Â°C, 62.0%, 99230 Pa; Boston 21.1Ã‚Â°C, 75.9%, 100560 Pa; Phoenix 33.0Ã‚Â°C, 26.8%, 95350 Pa | `nasa_2026_dallas_summer`, `nasa_2026_boston_summer`, `nasa_2026_phoenix_summer` |
+| Climate aggregation | JuneÃ¢â‚¬â€œAugust full-day means, weights 30/31/31; pressure kPaÃƒâ€”1000; grid anchors are airport coordinates, not on-site observations | NASA query records in research CSV |
+| Contest A/B/C | 0.25/1.2/2.5 kW; up-to 3Ã‚Â°C perceived / 5Ã‚Â°C air / 8Ã‚Â°C air reductions; fixed outlet drops in current reference model are a separate user-selected simplification | `comap_2026_options`, `comap_2026_problem_b` |
 | A reference | AirEye 20-inch 120 V Midnight Black pedestal/low rider F-AE1-2001A750C716L10S34; $1499 opened listing price | `aireye_20_price` |
-| A fan exposure | 357 ft/min×0.3048/60=1.81356 m/s; user-selected contour reference; no certified distance/setting or whole-shelter coverage | `aireye_2021_specs` |
+| A fan exposure | 357 ft/minÃƒâ€”0.3048/60=1.81356 m/s; user-selected contour reference; no certified distance/setting or whole-shelter coverage | `aireye_2021_specs` |
 | B reference | Portacool APEX 2000 PACA20001A1; 9000 CFM; $4159 MSRP | `portacool_2000` |
 | C reference | Portacool APEX 4000 PACA40001A1; 13350 CFM; $4939 MSRP | `portacool_4000` |
-| Cooler airflow conversion | CFM×0.028316846592/60: B 4.2475269888 and C 6.30049836672 m³/s; mass uses inlet specific volume | Exact foot-to-metre conversion and `psychrolib_volume` |
+| Cooler airflow conversion | CFMÃƒâ€”0.028316846592/60: B 4.2475269888 and C 6.30049836672 mÃ‚Â³/s; mass uses inlet specific volume | Exact foot-to-metre conversion and `psychrolib_volume` |
 | Occupant clothing | User-selected T-shirt/shorts represented by ASHRAE shorts/short-sleeve ensemble, 0.36 clo; an ensemble proxy rather than measured passenger dress | `ashrae_2021_comfort` |
-| Reference person | 1 met, 0 met external work, 171 cm, 70 kg, sitting, 60 minutes, 40% turbulence; area sqrt(171×70/3600)=1.823458252881047 m² | `comf_0112_set`; documented reference defaults, not demographics |
+| Reference person | 1 met, 0 met external work, 171 cm, 70 kg, sitting, 60 minutes, 40% turbulence; area sqrt(171Ãƒâ€”70/3600)=1.823458252881047 mÃ‚Â² | `comf_0112_set`; documented reference defaults, not demographics |
 | Physiology | csw=170, cdil=120, cstr=0.5 | `comf_0112_set`, calcSET Usage |
 | Scenario/model | One zone per venue, one reference hour, one device per candidate; mixing-only, MRT=modeled air temperature, per-person comfort, purchase-cost comparison | Existing user-selected configuration; project README.md |
-| Sensitivity | Existing ±5% around active numeric inputs; now includes the two added inputs | User-selected convention, NOT confidence intervals |
+| Sensitivity | Existing Ã‚Â±5% around active numeric inputs; now includes the two added inputs | User-selected convention, NOT confidence intervals |
 
 The current A datasheet (2021 revision) lists 386 W whereas the retailer lists 363 W. Neither is the contest power. Older B literature lists 6700 CFM; the selected current manufacturer page lists 9000 CFM. These differences are recorded, not silently reconciled. Prices are observed references, exclude installation/tax, and can change. No actual utility account rate is assigned.
 
@@ -260,9 +260,9 @@ The research CSV retains unselected reference measurements, methods, old device 
 
 ## Limits and audit notes
 
-Physical inputs for the default simplified case are assigned. Full-model surface/occupancy/annual-cost fields remain unfilled because that mode is not selected. Policy thresholds/caps are separate choices. Boston B/C and Dallas C retain the previously documented supersaturation conflict under fixed drops; these airflow estimates do not resolve it.
+Physical inputs for the default simplified case are assigned. Full-model surface/occupancy/annual-cost fields remain unfilled because that mode is not selected. Policy thresholds/caps are separate choices. The historical fixed-drop conflict remains reproducible only in explicit fixed mode. The selected saturation-limit mode now reduces the outlet drop and does not require calibration inputs.
 
-The ±5% bounds are narrow scenario perturbations, not evidence that airflow estimates are accurate to 5%. Inflow and outflow are a coupled pair and must be changed together in a mass-balanced sensitivity run. The sensitivity setter now couples the two reverse-direction rows for each one-zone outdoor exchange. Varying either row updates both, preserving mass balance. The two corresponding bounds entries produce equivalent paired sweeps. No sensitivity run or simulation results were generated during this data update.
+The Ã‚Â±5% bounds are narrow scenario perturbations, not evidence that airflow estimates are accurate to 5%. Inflow and outflow are a coupled pair and must be changed together in a mass-balanced sensitivity run. The sensitivity setter now couples the two reverse-direction rows for each one-zone outdoor exchange. Varying either row updates both, preserving mass balance. The two corresponding bounds entries produce equivalent paired sweeps. No sensitivity run or simulation results were generated during this data update.
 
 ## Complete source catalog and BibTeX audit
 
@@ -314,4 +314,4 @@ Every CSV source key and every citation below has one standalone BibTeX entry. U
 
 All six passenger-speed inputs and all twelve balanced inlet/outlet mass-flow rows are populated. Independent calculations agree with the R model conversion; paired ventilation sensitivity changes preserve mass balance. The project test pipeline passes.
 
-All 38 bibliography entries parse successfully with unique citation keys, and every key appears in this README. Biber also parses and writes the bibliography successfully. Its strict data-model check reports 23 missing-publication-date warnings for undated references; these are intentionally retained with access dates rather than fabricated publication years. These warnings are not BibTeX syntax errors.
+The original 38 bibliography entries were parsed with unique citation keys. Two new references were added for the hourly-weather update: `nasa_hourly_summer_2025` ([NASA hourly API](https://power.larc.nasa.gov/docs/services/api/temporal/hourly/)) and `ashrae_thermal_comfort_2025` ([ASHRAE Thermal Comfort](https://handbook.ashrae.org/handbooks/F25/SI/F25_Ch09/F25_Ch09_si.aspx)). The catalog now has 40 entries. Biber also parses and writes the bibliography successfully. Its strict data-model check reports 23 missing-publication-date warnings for undated references; these are intentionally retained with access dates rather than fabricated publication years. These warnings are not BibTeX syntax errors.

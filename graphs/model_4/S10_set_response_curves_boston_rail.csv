@@ -1,0 +1,161 @@
+"venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0,0,"Activity"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1.05,15.16748356782,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.218126910663996,5,"Activity"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1.025,15.0488863529904,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.0995296958344003,2.49999999999999,"Activity"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",21.6275,15.6842880579059,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.73493140074989,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.697311394399611,14.8811624534128,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.0681942037432588,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",22.155,16.4105357168134,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,1.46117905965743,5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.680303799414255,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0,0,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.714318989384967,14.8145039566544,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.134852700501648,5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.646288609443542,15.0907502066144,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.141393549458394,-5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.663296204428898,15.0191757200987,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.0698190629427202,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",20.5725,14.2054489523009,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.743907704855085,-2.5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",20.045,13.4538752526819,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-1.49548140447411,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",21.1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0,0,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.342,14.7104747177079,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.238881939448088,-5,"Clothing"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.378,15.1831667512661,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.233810094110137,5,"Clothing"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",0.95,14.7227088692303,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.226647787925678,-5,"Activity"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.369,15.0668502718246,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0.117493614668543,2.50000000000001,"Clothing"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.351,14.8306013612871,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.118755295868871,-2.5,"Clothing"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",0.975,14.8406507487086,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,-0.108705908447376,-2.5,"Activity"
+"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.36,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",14.949356657156,0,0,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","groups.1.met",1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,0,"Activity"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.697311394399611,12.2214046194265,2.65975783398624,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.680303799414255,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,0,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","groups.1.met",1.025,12.3548789195516,2.69400743343883,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0.133474300125068,2.49999999999999,"Activity"
+"BOS_RAIL","summer_mean_1h","A","groups.1.met",1.05,12.5108128214675,2.65667074635251,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0.28940820204099,5,"Activity"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.714318989384967,12.2214046194265,2.59309933722785,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",21.6275,13.0817050110378,2.60258304686813,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0.860300391611256,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",22.155,13.9334687571428,2.47706695967059,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,1.71206413771634,5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",20.045,10.4815558518248,2.97231940085713,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-1.73984876760174,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",21.1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,0,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",20.5725,11.3543348569938,2.85111409530708,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-0.86706976243266,-2.5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.378,12.524516592965,2.65865015830119,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0.303111973538449,5,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.342,11.9108817665401,2.79959295116783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-0.310522852886415,-5,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","groups.1.met",0.95,11.938390465183,2.78431840404733,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-0.283014154243507,-5,"Activity"
+"BOS_RAIL","summer_mean_1h","A","groups.1.met",0.975,12.0823579038686,2.75829284484,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-0.139046715557875,-2.5,"Activity"
+"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.351,12.0670852427171,2.76351611857008,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,-0.154319376709454,-2.5,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.369,12.3738702676418,2.69298000418271,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0.152465648215328,2.50000000000001,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.646288609443542,12.2214046194265,2.86934558718789,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,-5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.36,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,0,"Clothing"
+"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.663296204428898,12.2214046194265,2.79777110067222,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",12.2214046194265,0,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.714318989384967,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","groups.1.met",1.05,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Activity"
+"BOS_RAIL","summer_mean_1h","B","groups.1.met",1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Activity"
+"BOS_RAIL","summer_mean_1h","B","groups.1.met",1.025,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Activity"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",21.6275,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",22.155,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","groups.1.met",0.95,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Activity"
+"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.378,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Clothing"
+"BOS_RAIL","summer_mean_1h","B","groups.1.met",0.975,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Activity"
+"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.342,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Clothing"
+"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.36,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Clothing"
+"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.351,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Clothing"
+"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.369,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.680303799414255,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.697311394399611,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.646288609443542,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.663296204428898,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",20.045,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",21.1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",20.5725,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.714318989384967,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Activity"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",21.6275,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",22.155,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.680303799414255,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Activity"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.697311394399611,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Activity"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",20.045,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",20.5725,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Clothing"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",21.1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.646288609443542,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,0,"Clothing"
+"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Clothing"
+"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.663296204428898,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
+"BOS_RAIL","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-5,"Activity"
+"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,5,"Clothing"
+"BOS_RAIL","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
+summer_mean_1h",NA,NA,-2.5,"Activity"

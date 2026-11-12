@@ -1,0 +1,161 @@
+"venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0,0,"Activity"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1.05,23.5872580356056,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.0437057772059148,5,"Activity"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1.025,23.5988659284743,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.0320978843372757,2.49999999999999,"Activity"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",27.74,21.997998999281,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-1.63296481353053,-5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",28.47,22.8415253105702,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.789438502241318,-2.5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",29.2,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0,0,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",29.93,24.4628245991436,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.831860786332062,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",30.66,25.3152196505063,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,1.68425583769474,5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.342,23.4740728503453,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.156890962466285,-5,"Clothing"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.351,23.5525004853585,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.0784633274530506,-2.5,"Clothing"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.36,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0,0,"Clothing"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.369,23.7093846925479,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.0784208797363526,2.50000000000001,"Clothing"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",101710.75,23.5943376280875,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.0366261847239997,2.49999999999999,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",94268.5,23.707932349408,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.076968536596457,-5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.378,23.7877962687517,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.156832455940172,5,"Clothing"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",99230,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0,0,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",104191.5,23.5588571224765,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,-0.0721066903350405,5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",96749.25,23.6688039525327,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.0378401397211796,-2.5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",0.95,23.7029833448038,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.0720195319922432,-5,"Activity"
+"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",0.975,23.6648910558694,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.6309638128115,0.0339272430578497,-2.5,"Activity"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",27.74,21.6074045920546,0.390594407226409,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-1.66422310006691,-5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",28.47,22.4743396430368,0.367185667533448,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.797288049084727,-2.5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",29.2,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0,0,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",29.93,24.102652392687,0.360172206456614,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.831024700565486,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",30.66,24.9545874775526,0.360632172953732,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,1.68295978543105,5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","groups.1.met",1,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0,0,"Activity"
+"DAL_RAIL","summer_mean_1h","A","groups.1.met",1.05,23.2114119073293,0.375846128276351,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.0602157847922271,5,"Activity"
+"DAL_RAIL","summer_mean_1h","A","groups.1.met",1.025,23.231091820016,0.367774108458274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.0405358721055116,2.49999999999999,"Activity"
+"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.342,23.1147767702971,0.359296080048164,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.156850921824411,-5,"Clothing"
+"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.351,23.1926539980506,0.359846487307866,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.0789736940708785,-2.5,"Clothing"
+"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.36,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0,0,"Clothing"
+"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.369,23.3507948633854,0.358589829162465,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.0791671712639257,2.50000000000001,"Clothing"
+"DAL_RAIL","summer_mean_1h","A","groups.1.met",0.95,23.3866785696961,0.316304775107685,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.115050877574596,-5,"Activity"
+"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.378,23.4300406127739,0.357755655977822,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.158412920652388,5,"Clothing"
+"DAL_RAIL","summer_mean_1h","A","groups.1.met",0.975,23.3470808009681,0.317810254901325,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.0754531088465633,-2.5,"Activity"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",94268.5,23.343398982438,0.364533366970011,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.0717712903164838,-5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",101710.75,23.2374291780331,0.356908450054455,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.0341985140884162,2.49999999999999,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",99230,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0,0,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",96749.25,23.3068621498335,0.361941802699274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,0.0352344577119439,-2.5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",104191.5,23.2043099299363,0.354547192540256,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",23.2716276921215,-0.0673177621852581,5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","groups.1.met",1,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0,0,"Activity"
+"DAL_RAIL","summer_mean_1h","B","groups.1.met",1.025,22.0464872669,1.55237866157426,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.0211661184942216,2.49999999999999,"Activity"
+"DAL_RAIL","summer_mean_1h","B","groups.1.met",1.05,22.0413665287937,1.54589150681197,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.0262868566005636,5,"Activity"
+"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.36,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0,0,"Clothing"
+"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.378,22.2304612177434,1.55733505100834,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.162807832349149,5,"Clothing"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",29.93,22.9139345909362,1.54889000820743,1.2,34.5757726894599,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.846281205541946,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.369,22.1493000634289,1.560084629119,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.0816466780346659,2.50000000000001,"Clothing"
+"DAL_RAIL","summer_mean_1h","B","groups.1.met",0.95,22.0990256812097,1.60395766359411,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.0313722958154514,-5,"Activity"
+"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.342,21.9028601013004,1.57121274904488,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.16479328409385,-5,"Clothing"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",30.66,23.7926132936301,1.52260635687616,1.2,34.480126159811,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,1.7249599082359,5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","groups.1.met",0.975,22.0853489956365,1.57954206023294,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.0176956102422245,-2.5,"Activity"
+"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.351,21.9855936600679,1.56690682529064,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.0820597253263742,-2.5,"Clothing"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",27.74,20.240232656211,1.75776634307,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-1.82742072918321,-5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",28.47,21.1744365328951,1.6670887776751,1.2,34.7691181783897,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.893216852499105,-2.5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",29.2,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0,0,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",101710.75,21.9982233804166,1.59611424767091,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.069430004977594,2.49999999999999,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",94268.5,22.2117225156036,1.49620983380443,1.2,32.9450582623647,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.144069130209342,-5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",99230,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0,0,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",104191.5,21.9303315474897,1.62852557498683,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,-0.137321837904558,5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",96749.25,22.1387927005128,1.53001125201996,1.2,33.808580977581,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",22.0676533853942,0.0711393151185362,-2.5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,0,"Activity"
+"DAL_RAIL","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,5,"Activity"
+"DAL_RAIL","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Activity"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",29.93,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",30.66,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,5,"Outdoor temperature [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",94268.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",96749.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-2.5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",99230,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,0,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,5,"Air pressure [DAL_RAIL]"
+"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,0,"Clothing"
+"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
+"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-5,"Clothing"
+"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-2.5,"Clothing"
+"DAL_RAIL","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-5,"Activity"
+"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,5,"Clothing"
+"DAL_RAIL","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
+summer_mean_1h",NA,NA,-2.5,"Activity"

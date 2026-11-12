@@ -1,6 +1,8 @@
 # Data README: active inputs, assumptions and source audit
 
-Updated 11 November 2026. All six original location references are retained. The two remaining physical inputs are now populated with user-authorized estimates. These are a reproducible generic summer comparison, not surveyed site performance.
+Updated 12 November 2026. All six original location references are retained. Ventilation and baseline airspeed are user-authorized estimates. These are a reproducible generic summer comparison, not surveyed site performance.
+
+The technical correction holds reference radiant temperature at uncooled outdoor temperature across device options. It does not establish actual MRT. `weather_occ.dt_hours=1` now explicitly records the already selected operating interval. New optional `devices.v_occupied`, `T_ref`, `RH_ref` and `pressure_ref` fields remain NA; no passenger exposure or calibration conditions have been invented. The default fixed cooling comparison, per-person basis and purchase-cost basis remain as previously selected. Required missing data now stop the requested analysis; inputs used only by inactive modes do not. Current code behavior and the remaining limits are described in README.md.
 
 ## Active airflow estimates
 

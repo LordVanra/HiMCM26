@@ -118,3 +118,9 @@ exchanges.9.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-author
 exchanges.10.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.11.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
 exchanges.12.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+weather_occ.1.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.2.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.3.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.4.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.5.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval
+weather_occ.6.dt_hours,0.95,1.05,User-authorized +/-5% exploratory sweep around the previously selected one-hour operation; not an uncertainty interval

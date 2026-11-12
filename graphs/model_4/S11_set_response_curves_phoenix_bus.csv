@@ -1,0 +1,161 @@
+"venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",31.35,25.6585587836675,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-1.32981157650508,-5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",33.825,27.6519951709897,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0.663624810817083,2.49999999999999,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",34.65,28.3143578546938,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,1.32598749452122,5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",32.175,26.3237433726817,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-0.664626987490927,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",33,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,0,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",7.6,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,-5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",7.8,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,-2.5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,0,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",90582.5,27.0527448039448,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0.0643744437721772,-5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1.05,26.8973572645192,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-0.0910130956533344,5,"Activity"
+"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8.2,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",92966.25,27.0199846506458,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0.0316142904731791,-2.5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",97733.75,26.9578347994929,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-0.0305355606796667,2.49999999999999,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8.4,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",95350,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,0,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",100117.5,26.9283154867887,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-0.0600548733839013,5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0,0,"Activity"
+"PHX_BUS","summer_mean_1h","NONE","groups.1.met",0.975,27.0453351188206,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0.0569647586480144,-2.5,"Activity"
+"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1.025,26.9334100880343,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,-0.0549602721382527,2.49999999999999,"Activity"
+"PHX_BUS","summer_mean_1h","NONE","groups.1.met",0.95,27.1047004526481,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",26.9883703601726,0.116330092475479,-5,"Activity"
+"PHX_BUS","summer_mean_1h","A","groups.1.met",1.05,25.7363028244266,1.16105444009268,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-0.143910585908625,5,"Activity"
+"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8.2,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8.4,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",7.8,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,-2.5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",7.6,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,-5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,0,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",33.825,26.5488660444419,1.10312912654781,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0.668652634106671,2.49999999999999,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",34.65,27.2174742022516,1.09688365244217,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,1.33726079191644,5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",32.175,25.2116482730327,1.11209509964893,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-0.668565137302462,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",31.35,24.5433307030984,1.11522808056906,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-1.33688270723674,-5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",33,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,0,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","groups.1.met",0.95,26.0507242575975,1.05397619505058,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0.170510847262289,-5,"Activity"
+"PHX_BUS","summer_mean_1h","A","groups.1.met",1,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,0,"Activity"
+"PHX_BUS","summer_mean_1h","A","groups.1.met",0.975,25.9642571552275,1.08107796359312,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0.0840437448922842,-2.5,"Activity"
+"PHX_BUS","summer_mean_1h","A","groups.1.met",1.025,25.7985190235885,1.13489106444583,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-0.0816943867466904,2.49999999999999,"Activity"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",95350,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0,0,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",90582.5,25.9205470566685,1.13219774727622,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0.0403336463333481,-5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",92966.25,25.9000325848858,1.11995206575993,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,0.0198191745506406,-2.5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",97733.75,25.8610355560882,1.09679924340473,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-0.0191778542470047,2.49999999999999,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",100117.5,25.8424879224838,1.08582756430484,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.8802134103352,-0.0377254878513504,5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",31.35,24.0037061988181,1.65485258484937,1.2,32.9678812293062,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-1.43862881490895,-5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",32.175,24.7230706613598,1.60067271132186,1.2,32.8620600961577,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-0.719264352367286,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",33,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,0,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",33.825,26.1610392822055,1.49095588878417,1.2,32.6525615532232,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0.718704268478415,2.49999999999999,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",34.65,26.8791296885027,1.43522816619106,1.2,32.5488807134951,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,1.43679467477566,5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",90582.5,25.5453802048639,1.50736459908088,1.2,31.1225735241988,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0.1030451911368,-5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",92966.25,25.4930428382256,1.52694181242015,1.2,31.9397638267055,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0.0507078244985308,-2.5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",95350,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,0,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",7.6,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,-5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",97733.75,25.3931674241728,1.56466737532013,1.2,33.574144431722,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-0.0491675895542976,2.49999999999999,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",7.8,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,-2.5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",100117.5,25.3454576177352,1.58285786905352,1.2,34.3913347342316,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-0.0968773959919176,5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,0,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8.4,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8.2,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","B","groups.1.met",0.95,25.5424446916202,1.56225576102791,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0.100109677893073,-5,"Activity"
+"PHX_BUS","summer_mean_1h","B","groups.1.met",1,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0,0,"Activity"
+"PHX_BUS","summer_mean_1h","B","groups.1.met",0.975,25.4912270329177,1.55410808590289,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,0.0488920191906246,-2.5,"Activity"
+"PHX_BUS","summer_mean_1h","B","groups.1.met",1.025,25.3956463447008,1.53776374333351,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-0.0466886690262633,2.49999999999999,"Activity"
+"PHX_BUS","summer_mean_1h","B","groups.1.met",1.05,25.3685410530866,1.52881621143261,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",25.4423350137271,-0.0737939606404403,5,"Activity"
+"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8.2,24.0592832011457,2.92908715902685,2.5,79.8729583833308,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.080991601422248,2.49999999999999,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8.4,23.9776831178403,3.01068724233229,2.5,81.8330307752073,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.162591684727687,5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",7.8,24.2208233086487,2.76754705152385,2.5,75.9545306723267,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.0805485060807527,-2.5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",7.6,24.3007441812833,2.68762617888929,2.5,73.9961748518725,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.160469378715312,-5,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0,0,"Outlet cooling C [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",31.35,22.4653290727353,3.19322971093223,2.5,78.4153619733633,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-1.6749457298327,-5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",32.175,23.3892908121463,2.93445256053534,2.5,78.1635592863368,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.75098399042167,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",33,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0,0,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",33.825,24.9067027462269,2.74529242476271,2.5,77.6650551815816,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.766427943658972,2.49999999999999,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",34.65,25.6728679871999,2.64148986749386,2.5,77.4183455894049,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,1.53259318463196,5,"Outdoor temperature [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","groups.1.met",1.05,24.0841066981217,2.81325056639751,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.0561681044462468,5,"Activity"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",90582.5,24.2714762119813,2.78126859196341,2.5,74.0260321221732,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.131201409413368,-5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",92966.25,24.2048993243004,2.8150853263454,2.5,75.9697452773935,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.0646245217323802,-2.5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",95350,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0,0,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",97733.75,24.0774326720081,2.8804021274848,2.5,79.8571715878409,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.0628421305598614,2.49999999999999,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",100117.5,24.0162754025749,2.91204008421376,2.5,81.8008847430679,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.12399939999306,5,"Air pressure [PHX_BUS]"
+"PHX_BUS","summer_mean_1h","C","groups.1.met",1,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0,0,"Activity"
+"PHX_BUS","summer_mean_1h","C","groups.1.met",0.95,24.2240574066534,2.88064304599464,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.0837826040854424,-5,"Activity"
+"PHX_BUS","summer_mean_1h","C","groups.1.met",0.975,24.1807782071816,2.86455691163895,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,0.0405034046136628,-2.5,"Activity"
+"PHX_BUS","summer_mean_1h","C","groups.1.met",1.025,24.1021573321049,2.83125275592944,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
+summer_mean_1h",24.140274802568,-0.0381174704630887,2.49999999999999,"Activity"

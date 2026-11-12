@@ -1,0 +1,7 @@
+"venue","option","max_regret","worst_L","chosen","status","model_basis"
+"DAL_BUS",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"
+"DAL_RAIL",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"
+"BOS_BUS",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"
+"BOS_RAIL",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"
+"PHX_BUS",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"
+"PHX_RAIL",NA,NA,NA,NA,"incomplete loss","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: fixed ; assigned reference person/equipment, not measured installation performance"

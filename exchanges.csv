@@ -1,0 +1,13 @@
+venue,from,to,mass_kg_s,source
+DAL_BUS,OUTSIDE,waiting_area,2.1798672874548366,air009; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+DAL_BUS,waiting_area,OUTSIDE,2.1798672874548366,air009; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+DAL_RAIL,OUTSIDE,waiting_area,5.812979433212899,air018; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+DAL_RAIL,waiting_area,OUTSIDE,5.812979433212899,air018; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+BOS_BUS,OUTSIDE,waiting_area,1.1125284192793479,air027; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+BOS_BUS,waiting_area,OUTSIDE,1.1125284192793479,air027; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+BOS_RAIL,OUTSIDE,waiting_area,2.9667424514115948,air036; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+BOS_RAIL,waiting_area,OUTSIDE,2.9667424514115948,air036; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+PHX_BUS,OUTSIDE,waiting_area,1.5503642028170657,air045; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+PHX_BUS,waiting_area,OUTSIDE,1.5503642028170657,air045; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+PHX_RAIL,OUTSIDE,waiting_area,4.134304540845509,air054; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+PHX_RAIL,waiting_area,OUTSIDE,4.134304540845509,air054; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md

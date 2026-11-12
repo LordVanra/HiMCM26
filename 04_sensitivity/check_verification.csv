@@ -1,5 +1,0 @@
-"check","status","reason"
-"one-way and two-way grids","BLOCKED","Evidence-backed bounds and selected pairs missing"
-"interpretation and partition alternatives","BLOCKED","Approved alternatives missing"
-"coherent dependent updates","BLOCKED","Approved adapter and sources missing"
-"Monte Carlo convergence","BLOCKED","Disabled; authorization and joint uncertainty model missing"

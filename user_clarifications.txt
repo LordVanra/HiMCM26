@@ -1,5 +1,0 @@
-2026-11-11: User deferred venue selection: "put a pin in it do other things".
-2026-11-11: A/B/C are labels from the problem statement, not an industry classification. Requested wording: "Which cooling system: fan A, evaporative cooler B, or large evaporative cooler C?"
-2026-11-11: Asked whether to retain generic proposals and unresolved comfort/safety/budget/resource criteria, user selected "Keep all unresolved for now".
-
-2026-11-11 revision: User selected Dallas, Boston, Phoenix and a summer day, then explicitly requested generic summer numbers, documenting that basis, and one value per city-based field. City fields expanded; generic summer = full-day June-August average. Exact venues and policy criteria remain undefined.

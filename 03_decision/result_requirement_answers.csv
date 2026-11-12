@@ -1,7 +1,0 @@
-requirement,status,output_file,key_result,assumptions,unresolved_gaps
-1,qualitative only,freezer_to_shelter.txt,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits
-2a,blocked,../02_comfort/result_bus_comparison.csv,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits
-2b,blocked,../02_comfort/result_rail_revision.csv,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits
-3,blocked,../02_comfort/result_venue_comparison.csv,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits
-4,blocked,result_decision_comparison.csv,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits
-5,blocked,result_operating_guidelines.csv,,No numerical assumptions accepted,See ../01_physics/result_data_readiness.csv and README implementation limits

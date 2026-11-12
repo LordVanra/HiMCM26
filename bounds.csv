@@ -1,0 +1,120 @@
+parameter,lower,upper,source
+weather_occ.1.T,27.74,30.66,User-authorized +/-5% around assigned reference/input value
+weather_occ.1.RH,58.9,65.10000000000001,User-authorized +/-5% around assigned reference/input value
+weather_occ.1.pressure,94268.5,104191.5,User-authorized +/-5% around assigned reference/input value
+weather_occ.2.T,27.74,30.66,User-authorized +/-5% around assigned reference/input value
+weather_occ.2.RH,58.9,65.10000000000001,User-authorized +/-5% around assigned reference/input value
+weather_occ.2.pressure,94268.5,104191.5,User-authorized +/-5% around assigned reference/input value
+weather_occ.3.T,20.045,22.155,User-authorized +/-5% around assigned reference/input value
+weather_occ.3.RH,72.105,79.69500000000001,User-authorized +/-5% around assigned reference/input value
+weather_occ.3.pressure,95532.0,105588.0,User-authorized +/-5% around assigned reference/input value
+weather_occ.4.T,20.045,22.155,User-authorized +/-5% around assigned reference/input value
+weather_occ.4.RH,72.105,79.69500000000001,User-authorized +/-5% around assigned reference/input value
+weather_occ.4.pressure,95532.0,105588.0,User-authorized +/-5% around assigned reference/input value
+weather_occ.5.T,31.349999999999998,34.65,User-authorized +/-5% around assigned reference/input value
+weather_occ.5.RH,25.46,28.14,User-authorized +/-5% around assigned reference/input value
+weather_occ.5.pressure,90582.5,100117.5,User-authorized +/-5% around assigned reference/input value
+weather_occ.6.T,31.349999999999998,34.65,User-authorized +/-5% around assigned reference/input value
+weather_occ.6.RH,25.46,28.14,User-authorized +/-5% around assigned reference/input value
+weather_occ.6.pressure,90582.5,100117.5,User-authorized +/-5% around assigned reference/input value
+devices.1.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.1.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.1.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.1.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.2.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.2.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.2.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.2.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.3.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.3.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.3.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.3.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+devices.4.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.4.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.4.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.4.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.5.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.5.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.5.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.5.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.6.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.6.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.6.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.6.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+devices.7.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.7.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.7.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.7.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.8.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.8.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.8.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.8.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.9.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.9.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.9.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.9.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+devices.10.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.10.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.10.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.10.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.11.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.11.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.11.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.11.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.12.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.12.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.12.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.12.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+devices.13.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.13.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.13.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.13.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.14.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.14.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.14.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.14.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.15.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.15.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.15.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.15.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+devices.16.power_kW,0.2375,0.2625,User-authorized +/-5% around assigned reference/input value
+devices.16.v_fan,1.722882,1.904238,User-authorized +/-5% around assigned reference/input value
+devices.16.dT_max,2.8499999999999996,3.1500000000000004,User-authorized +/-5% around assigned reference/input value
+devices.16.capital,1424.05,1573.95,User-authorized +/-5% around assigned reference/input value
+devices.17.power_kW,1.14,1.26,User-authorized +/-5% around assigned reference/input value
+devices.17.airflow_m3_s,4.035150639359999,4.45990333824,User-authorized +/-5% around assigned reference/input value
+devices.17.dT_max,4.75,5.25,User-authorized +/-5% around assigned reference/input value
+devices.17.capital,3951.0499999999997,4366.95,User-authorized +/-5% around assigned reference/input value
+devices.18.power_kW,2.375,2.625,User-authorized +/-5% around assigned reference/input value
+devices.18.airflow_m3_s,5.985473448384,6.615523285056001,User-authorized +/-5% around assigned reference/input value
+devices.18.dT_max,7.6,8.4,User-authorized +/-5% around assigned reference/input value
+devices.18.capital,4692.05,5185.95,User-authorized +/-5% around assigned reference/input value
+groups.1.clo,0.34199999999999997,0.378,User-authorized +/-5% around assigned reference/input value
+groups.1.met,0.95,1.05,User-authorized +/-5% around assigned reference/input value
+groups.1.wme,0.0,0.0,User-authorized +/-5% around assigned reference/input value
+groups.1.height,162.45,179.55,User-authorized +/-5% around assigned reference/input value
+groups.1.weight,66.5,73.5,User-authorized +/-5% around assigned reference/input value
+groups.1.area_m2,1.7322853402369947,1.9146311655250994,User-authorized +/-5% around assigned reference/input value
+groups.1.ltime,57.0,63.0,User-authorized +/-5% around assigned reference/input value
+groups.1.tu,38.0,42.0,User-authorized +/-5% around assigned reference/input value
+groups.1.csw,161.5,178.5,User-authorized +/-5% around assigned reference/input value
+groups.1.cdil,114.0,126.0,User-authorized +/-5% around assigned reference/input value
+groups.1.cstr,0.475,0.525,User-authorized +/-5% around assigned reference/input value
+weather_occ.1.v_local,0.8848946707587207,0.9780414782070072,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+weather_occ.2.v_local,1.327342006138081,1.4670622173105108,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+weather_occ.3.v_local,0.4308590729623612,0.4762126595899782,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+weather_occ.4.v_local,0.6462886094435418,0.7143189893849673,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+weather_occ.5.v_local,0.6556713638521444,0.7246894021523703,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+weather_occ.6.v_local,0.9835070457782168,1.0870341032285555,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; baseline passenger speed"
+exchanges.1.mass_kg_s,2.0708739230820945,2.2888606518275787,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.2.mass_kg_s,2.0708739230820945,2.2888606518275787,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.3.mass_kg_s,5.5223304615522535,6.103628404873544,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.4.mass_kg_s,5.5223304615522535,6.103628404873544,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.5.mass_kg_s,1.0569019983153805,1.1681548402433153,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.6.mass_kg_s,1.0569019983153805,1.1681548402433153,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.7.mass_kg_s,2.8184053288410147,3.115079573982175,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.8.mass_kg_s,2.8184053288410147,3.115079573982175,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.9.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.10.mass_kg_s,1.4728459926762123,1.627882412957919,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.11.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"
+exchanges.12.mass_kg_s,3.9275893138032334,4.341019767887785,"Existing user-authorized +/-5% convention; scenario sensitivity, not uncertainty interval; paired inflow/outflow must vary together"

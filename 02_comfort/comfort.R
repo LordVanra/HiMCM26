@@ -1,87 +1,101 @@
-# comf::calcSET documentation reviewed 2026-11-11:
-# https://search.r-project.org/CRAN/refmans/comf/html/calcSET.html
-# Every formal argument is supplied. Installation and source audit remain required.
-set_value <- function(condition,group,config) {
-  if(!requireNamespace('comf',quietly=TRUE)) stop('comf is not installed')
-  if(as.character(utils::packageVersion('comf'))!=config$comf_version) stop('Installed comf version not audited')
-  args<-list(ta=condition$temperature_C,tr=condition$radiant_temperature_C,
-    vel=condition$local_airspeed_m_s,rh=condition$RH_percent,
-    clo=group$clo,met=group$met,wme=group$wme,sa=group$sa,
-    pb=condition$pressure_Pa*760/101325, # exact standard atmosphere/torr definition
-    ltime=group$ltime,ht=group$ht,wt=group$wt,tu=group$tu,obj='set',
-    csw=group$csw,cdil=group$cdil,cstr=group$cstr,bodyPosition=group$bodyPosition)
-  if(!setequal(names(formals(comf::calcSET)),names(args))) stop('Unreviewed calcSET signature')
-  if(any(vapply(args,anyNA,logical(1)))) stop('Missing explicit SET argument')
-  value<-do.call(comf::calcSET,args)
-  if(length(value)!=1 || !is.numeric(value) || !is.finite(value)) stop('Invalid SET result')
+set_value <- function(T, Tr, v, RH, pressure, group) {
+  if (!requireNamespace("comf", quietly = TRUE)) stop("comf package is not installed")
+  stopifnot(nrow(group) == 1L, all(is.finite(c(T, Tr, v, RH, pressure))),
+    v >= 0, RH >= 0, RH <= 100, pressure > 0)
+  args <- list(ta = T, tr = Tr, vel = v, rh = RH, clo = group$clo,
+    met = group$met, wme = group$wme, sa = group$area_m2,
+    pb = pressure * 760/101325, ltime = group$ltime, ht = group$height,
+    wt = group$weight, tu = group$tu, obj = "set", csw = group$csw,
+    cdil = group$cdil, cstr = group$cstr, bodyPosition = group$posture)
+  stopifnot(!any(vapply(args, anyNA, logical(1))))
+  value <- do.call(comf::calcSET, args)
+  stopifnot(length(value) == 1L, is.finite(value))
   as.numeric(value)
 }
 
-run_comfort <- function(config,inputs=load_inputs(config),physics=NULL) {
-  validate_inputs(config,inputs)
-  if(is.null(physics)) physics<-run_physics(config,inputs)
-  z<-physics$zone_conditions
-  keys<-c('case_id','timestamp','zone_id')
-  d<-merge(z,physics$groups[c(keys,'group_id','people')],by=keys,all=TRUE)
-  if(anyNA(d[c('temperature_C','group_id','people')])) stop('Unmatched exposure or group')
-  d$SET_C<-vapply(seq_len(nrow(d)),function(i) {
-    g<-inputs$comfort_groups[inputs$comfort_groups$group_id==d$group_id[i],,drop=FALSE]
-    if(nrow(g)!=1) stop('Group must resolve exactly once')
-    set_value(d[i,],g,config)
-  },numeric(1))
-  d$hot_discomfort<-pmax(0,d$SET_C-config$comfort_upper_C)
-  d$comfortable<-d$SET_C>=config$comfort_lower_C & d$SET_C<=config$comfort_upper_C
-  d$person_hours<-d$people*d$dt_hours
-  d$baseline_SET_C<-NA_real_
-  for(i in seq_len(nrow(d))) {
-    sc<-inputs$scenarios[inputs$scenarios$case_id==d$case_id[i],]
-    b<-d[d$case_id==sc$baseline_case_id & d$zone_id==d$zone_id[i] & d$timestamp==d$timestamp[i] & d$group_id==d$group_id[i],,drop=FALSE]
-    if(nrow(b)!=1) stop('Baseline pairing must be one-to-one within same partition')
-    if(b$people!=d$people[i] || b$dt_hours!=d$dt_hours[i] || b$pressure_Pa!=d$pressure_Pa[i]) stop('Baseline changes population/time/pressure')
-    wc<-inputs$weather[inputs$weather$case_id==d$case_id[i] & inputs$weather$timestamp==d$timestamp[i],]
-    wb<-inputs$weather[inputs$weather$case_id==sc$baseline_case_id & inputs$weather$timestamp==d$timestamp[i],]
-    if(!identical(wc[c('temperature_C','RH_percent','pressure_Pa')],wb[c('temperature_C','RH_percent','pressure_Pa')])) {
-      if(!isTRUE(all.equal(unname(as.matrix(wc[c('temperature_C','RH_percent','pressure_Pa')])),unname(as.matrix(wb[c('temperature_C','RH_percent','pressure_Pa')]))))) stop('Weather differs from baseline')
-    }
-    d$baseline_SET_C[i]<-b$SET_C
+comfort_totals <- function(d, energy) {
+  B <- sum(d$B)
+  data.frame(B = B, E = energy, eta = if (!is.na(energy) && energy > 0) B/energy else NA_real_,
+    L = sum(d$L), comfortable_person_hours = sum(d$comfortable_person_hours),
+    comfortable_person_hours_gained = sum(d$comfortable_person_hours_gained),
+    person_hours = sum(d$person_hours),
+    coverage = if (!anyNA(d$person_hours) && sum(d$person_hours) > 0)
+      sum(d$comfortable_person_hours)/sum(d$person_hours) else NA_real_)
+}
+
+run_comfort <- function(cfg, tables, physics, log = skip_log()) {
+  d <- physics$zones
+  group_fields <- setdiff(input_columns()$groups, "source")
+  groups_ok <- complete_for(tables$groups, group_fields, "groups", log, 2, "SET", "all exposures")
+  if (nrow(tables$groups) != 1L) {
+    skip_output(log, 2, "SET", "groups (one population definition required)", "all exposures")
+    groups_ok <- FALSE
   }
-  d$benefit_person_degC_h<-d$person_hours*(pmax(0,d$baseline_SET_C-config$comfort_upper_C)-d$hot_discomfort)
-  d$residual_person_degC_h<-d$person_hours*d$hot_discomfort
-  d$comfortable_person_h<-d$person_hours*d$comfortable
-  d$incremental_comfortable_person_h<-d$person_hours*(d$comfortable-(d$baseline_SET_C>=config$comfort_lower_C & d$baseline_SET_C<=config$comfort_upper_C))
-  totals<-lapply(split(d,d$case_id),function(a) {
-    sc<-inputs$scenarios[inputs$scenarios$case_id==a$case_id[1],]
-    rr<-physics$resources[physics$resources$case_id==a$case_id[1],]
-    E<-sum(rr$power_kW*rr$dt_hours); B<-sum(a$benefit_person_degC_h); ph<-sum(a$person_hours)
-    data.frame(case_id=a$case_id[1],venue_id=sc$venue_id,scenario_id=sc$scenario_id,
-      option_id=sc$option_id,model_variant=sc$model_variant,horizon=sc$horizon,
-      baseline=sc$baseline_case_id,rating_interpretation=config$rating_interpretation,
-      validity_coverage=1,invalid_input_person_h=0,person_hours=ph,
-      benefit_person_degC_h=B,energy_kWh=E,water_kg=sum(rr$water_kg_s*rr$dt_hours*3600),
-      efficiency_person_degC_h_kWh=if(E>0) B/E else NA_real_,
-      comfortable_person_h=sum(a$comfortable_person_h),
-      incremental_comfortable_person_h=sum(a$incremental_comfortable_person_h),
-      comfort_fraction=if(ph>0) sum(a$comfortable_person_h)/ph else NA_real_,
-      residual_person_degC_h=sum(a$residual_person_degC_h),
-      below_lower_person_h=sum(a$person_hours*(a$SET_C<config$comfort_lower_C)),
-      safety_status='requires separately documented screen')
-  })
-  disparity<-aggregate(d[c('person_hours','residual_person_degC_h','comfortable_person_h')],d[c('case_id','zone_id','group_id')],sum)
-  list(detail=d,comparison=do.call(rbind,totals),disparities=disparity)
-}
-
-scaling_check <- function(comfort) {
-  a<-comfort$comparison
-  # Algebraic duplication of an independent identical real zone/system, not observations.
-  data.frame(case_id=a$case_id,energy_original=a$energy_kWh,energy_duplicated=2*a$energy_kWh,
-    benefit_original=a$benefit_person_degC_h,benefit_duplicated=2*a$benefit_person_degC_h,
-    efficiency_original=a$efficiency_person_degC_h_kWh,
-    efficiency_duplicated=ifelse(a$energy_kWh>0,(2*a$benefit_person_degC_h)/(2*a$energy_kWh),NA_real_),
-    interpretation='Algebraic independent-identical duplication only; shared flows invalidate this scaling')
-}
-
-run_checks_comfort <- function(config) {
-  data.frame(check=c('installed SET signature and version','SET reference cases','paired aggregation','independent identical scaling','safety applicability'),
-    status='BLOCKED',reason=c('comf installation/source audit required','Published reference values and tolerances required',
-      'Complete matched cases required','Real inputs required for numerical check','Documented screen required; SET alone is insufficient'))
+  if (is.na(cfg$set_upper)) skip_output(log, 2, "B/eta/L/comfort coverage", "cfg.set_upper")
+  if (is.na(cfg$set_lower)) skip_output(log, 2, "comfortable person-hours/coverage", "cfg.set_lower")
+  exposure_fields <- c("zone", "v_local", if (cfg$comfort_basis == "occupied") "people", if (cfg$radiant_model == "measured") "Tr")
+  complete_for(tables$weather_occ, exposure_fields, "weather_occ", log, 2, "SET/comfort", "input table")
+  for (name in c("SET", "B", "L", "comfortable_person_hours", "comfortable_person_hours_gained", "person_hours", "coverage", "B_per_person", "L_per_person", "SET_drop", "comfortable_hours_per_person", "comfortable_hours_gained_per_person")) d[[name]] <- rep(NA_real_, nrow(d))
+  for (i in seq_len(nrow(d))) {
+    a <- d[i, ]; context <- paste(a$venue, a$scenario, a$hour, a$zone, a$option, sep = "/")
+    if (groups_ok && complete_for(a, c("T", "Tr", "v_local", "RH", "pressure"), "zone_conditions", log, 2, "SET", context))
+      d$SET[i] <- attempt(set_value(a$T, a$Tr, a$v_local, a$RH, a$pressure, tables$groups), log, 2, "SET", context)
+    if (!is.na(a$people) && a$people >= 0) d$person_hours[i] <- a$people * a$dt_hours
+    else if (cfg$comfort_basis == "occupied") skip_output(log, 2, "occupied comfort", "weather_occ.people", context)
+    if (!is.na(d$SET[i]) && !is.na(cfg$set_upper)) {
+      d$L_per_person[i] <- a$dt_hours * max(0, d$SET[i] - cfg$set_upper)
+      d$L[i] <- d$people[i] * d$L_per_person[i]
+    }
+    if (!is.na(d$SET[i]) && !anyNA(c(cfg$set_upper, cfg$set_lower))) {
+      if (cfg$set_lower > cfg$set_upper) skip_output(log, 2, "comfortable person-hours/coverage", "invalid: cfg.set_lower > cfg.set_upper", context)
+      else {
+        d$comfortable_hours_per_person[i] <- a$dt_hours * (d$SET[i] >= cfg$set_lower && d$SET[i] <= cfg$set_upper)
+        d$comfortable_person_hours[i] <- a$people * d$comfortable_hours_per_person[i]
+        if (!is.na(d$person_hours[i]) && d$person_hours[i] > 0) d$coverage[i] <- d$comfortable_person_hours[i]/d$person_hours[i]
+      }
+    }
+  }
+  for (i in seq_len(nrow(d))) {
+    a <- d[i, ]; baseline <- which(d$venue == a$venue & d$scenario == a$scenario & d$hour == a$hour & d$zone == a$zone & d$option == "NONE")
+    if (length(baseline) != 1L) { skip_output(log, 2, "B/eta/comfortable person-hours gained", "matching NONE zone/hour result", paste(a$venue, a$scenario, a$option)); next }
+    b <- d[baseline, ]
+    if (!anyNA(c(b$people, a$people)) && b$people != a$people) stop("Occupancy must be identical across options")
+    d$B[i] <- b$L - a$L
+    d$B_per_person[i] <- b$L_per_person - a$L_per_person
+    d$SET_drop[i] <- b$SET - a$SET
+    d$comfortable_hours_gained_per_person[i] <- a$comfortable_hours_per_person - b$comfortable_hours_per_person
+    d$comfortable_person_hours_gained[i] <- a$comfortable_person_hours - b$comfortable_person_hours
+  }
+  summaries <- list()
+  keys <- unique(physics$resources[c("venue", "scenario", "option")])
+  for (i in seq_len(nrow(keys))) {
+    key <- keys[i, ]; context <- paste(key, collapse = "/")
+    a <- d[which(d$venue == key$venue & d$scenario == key$scenario & d$option == key$option), , drop = FALSE]
+    r <- physics$resources[which(physics$resources$venue == key$venue & physics$resources$scenario == key$scenario & physics$resources$option == key$option), , drop = FALSE]
+    nz <- length(which(tables$zones$venue == key$venue))
+    obs <- tables$weather_occ[which(tables$weather_occ$venue == key$venue & tables$weather_occ$scenario == key$scenario), , drop = FALSE]
+    expected <- nz * length(unique(obs$hour[!is.na(obs$hour)]))
+    energy <- sum(r$kWh); water <- sum(r$water_kg)
+    total <- comfort_totals(a, energy)
+    if (expected == 0 || nrow(a) != expected || anyDuplicated(paste(a$hour, a$zone))) {
+      for (field in setdiff(names(total), "E")) total[[field]] <- NA_real_
+      skip_output(log, 2, "B/eta/L/comfort coverage", "zone_conditions missing expected zones/hours", context)
+    }
+    single_complete <- nz == 1L && expected > 0 && nrow(a) == expected
+    b_person <- if (single_complete) sum(a$B_per_person) else NA_real_
+    l_person <- if (single_complete) sum(a$L_per_person) else NA_real_
+    eta_person <- if (!is.na(energy) && energy > 0) b_person/energy else NA_real_
+    summaries[[length(summaries) + 1L]] <- data.frame(key, total, B_per_person = b_person,
+      L_per_person = l_person, eta_per_person = eta_person,
+      mean_SET = if (single_complete) sum(a$SET*a$dt_hours)/sum(a$dt_hours) else NA_real_,
+      mean_SET_drop = if (single_complete) sum(a$SET_drop*a$dt_hours)/sum(a$dt_hours) else NA_real_,
+      comfortable_hours_per_person = if (single_complete) sum(a$comfortable_hours_per_person) else NA_real_,
+      comfortable_hours_gained_per_person = if (single_complete) sum(a$comfortable_hours_gained_per_person) else NA_real_,
+      coverage_per_person = if (single_complete) sum(a$comfortable_hours_per_person)/sum(a$dt_hours) else NA_real_,
+      water_kg = water,
+      valid_SET_rows = sum(!is.na(a$SET)), expected_rows = expected)
+  }
+  list(detail = d, summary = bind_rows(summaries, data.frame(venue = character(), scenario = character(), option = character(),
+    B = numeric(), E = numeric(), eta = numeric(), L = numeric(), comfortable_person_hours = numeric(),
+    comfortable_person_hours_gained = numeric(), person_hours = numeric(), coverage = numeric(), B_per_person = numeric(), L_per_person = numeric(), eta_per_person = numeric(), mean_SET = numeric(), mean_SET_drop = numeric(), comfortable_hours_per_person = numeric(), comfortable_hours_gained_per_person = numeric(), coverage_per_person = numeric(), water_kg = numeric(), valid_SET_rows = integer(), expected_rows = integer())))
 }

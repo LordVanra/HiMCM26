@@ -1,6 +1,0 @@
-"check","status","reason"
-"zero discount capital recovery","PASS","Function branch implements capital / life exactly; structural inspection"
-"regret and robust feasibility","BLOCKED","Real complete scenario matrix required"
-"cost horizon weights","BLOCKED","Explicit annual weights required"
-"no feasible option","BLOCKED","Real constraints required"
-"baseline validation guards","BLOCKED","Run documented structural checks"

@@ -1,1 +1,0 @@
-https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CPS%2CWS10M%2CALLSKY_SFC_SW_DWN&community=RE&longitude=-97.02196&latitude=32.89743&format=JSON

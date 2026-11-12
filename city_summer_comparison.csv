@@ -1,4 +1,0 @@
-﻿city,outdoor_air_temperature_c,outdoor_relative_humidity_pct,atmospheric_pressure_pa,outdoor_wind_speed_10m_m_s,daily_global_horizontal_solar_energy_kwh_m2_day,basis
-Dallas,29.2,62.0,99230.0,3.86,6.66,June-August day-weighted full-day mean; 2001-2025 NASA POWER gridded climatology
-Boston,21.1,75.9,100560.0,1.88,5.66,June-August day-weighted full-day mean; 2001-2025 NASA POWER gridded climatology
-Phoenix,33.0,26.8,95350.0,2.86,7.62,June-August day-weighted full-day mean; 2001-2025 NASA POWER gridded climatology

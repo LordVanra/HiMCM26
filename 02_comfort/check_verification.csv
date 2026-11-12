@@ -1,6 +1,0 @@
-"check","status","reason"
-"installed SET signature and version","BLOCKED","comf installation/source audit required"
-"SET reference cases","BLOCKED","Published reference values and tolerances required"
-"paired aggregation","BLOCKED","Complete matched cases required"
-"independent identical scaling","BLOCKED","Real inputs required for numerical check"
-"safety applicability","BLOCKED","Documented screen required; SET alone is insufficient"

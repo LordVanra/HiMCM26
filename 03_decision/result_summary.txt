@@ -1,5 +1,0 @@
-ANALYSIS BLOCKED. No physics, SET, cost, regret, sensitivity, or Monte Carlo analysis
-has run. Blank input templates and a missing-input checklist have been supplied.
-Structural verification is separate from scientific validation; see check files.
-The README records proposed mathematical approximations, required approval/source
-audits, and implementation extensions that depend on unresolved project choices.

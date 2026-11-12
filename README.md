@@ -1,138 +1,66 @@
-# HiMCM26 cooling project
+# HiMCM cooling comparison
 
-**ANALYSIS BLOCKED — no venue observations or project choices were supplied.**
-The four source files parse in R 4.5.2. The blank-data run stops before physics,
-SET, cost, regret, or sensitivity calculations. No numerical recommendations have
-been generated. Blank CSV cells load as typed missing values. Only the supplied
-A/B/C maxima and powers are recorded in `input_problem_ratings.csv`; this file is
-a source reference, not a substitute for applicable operating specifications.
-
-## Run from this directory
+Run from this folder:
 
 ```r
 source("01_physics/physics.R")
 source("02_comfort/comfort.R")
 source("03_decision/decision.R")
 source("04_sensitivity/sensitivity.R")
-config <- build_config()
-run_project(config, run_sensitivity = TRUE, run_monte_carlo = FALSE)
+cfg <- build_config()
+tables <- load_tables()
+result <- run_all(cfg, tables)
+save_results(result)
+s <- run_sensitivity(cfg, tables)
+save_sensitivity(s)
 ```
 
-Fill the `input_*.csv` files and edit `build_config()` before attempting analysis.
-`write_input_templates(config)` creates absent templates without overwriting files.
-Do not replace blanks with zero unless zero has a documented source. Replace the
-single blank template row with actual records. Record every populated cell in
-`01_physics/input_registry.csv` using `table.row.field` as its parameter ID.
-The registry is separate from the collection templates. Derived values require
-formulas and source IDs in notes. Registry uncertainty bounds may remain missing
-unless that quantity participates in an enabled uncertainty analysis.
+`Rscript test_pipeline.R` runs the checks. Synthetic data exist only in the test file. Monte Carlo stays off unless `run_monte_carlo(cfg, tables)` is called explicitly.
 
-`01_physics/result_data_readiness.csv` and `missing_inputs.txt` enumerate the missing
-fields, units, scopes, affected models, and entry locations. They are diagnostics,
-not successful analysis results. A failed rerun does not delete prior result files;
-check run IDs before interpreting any files from an earlier run.
+## Inputs now assigned
 
-## Contracts and decisions still required
+- Six named reference venues, one occupied waiting-area zone each. Names and links are in the zones.csv source column.
+- Each venue receives its city's sourced summer temperature, humidity and pressure for the user-selected one-hour scenario.
+- Each A/B/C candidate has one reference device. These are candidate designs, not claims about installed equipment.
+- Reference purchase prices: A $1,499; B $4,159; C $4,939. These are product references, not quoted prices of the hypothetical contest devices. Tax/installation are excluded.
+- B/C airflow: 9,000 / 13,350 CFM, converted to 4.2475269888 / 6.30049836672 m3/s. Dry-air mass flow is calculated at each outdoor inlet condition from the ASHRAE specific-volume equation; no fixed density is guessed.
+- Fan reference exposure: 1.81356 m/s, from the AirEye contour annotation. This is an explicitly selected near-field reference case, not a certified passenger distance/setting or a shelter-wide coverage claim.
+- Clothing: user-selected T-shirt/shorts, 0.36 clo. The remaining person settings are the sourced seated reference configuration: 1 met, 0 met external work, 171 cm, 70 kg, Mosteller body area, 60-minute exposure, 40% turbulence. This is not measured passenger demographics.
+- Physiological coefficients are explicitly assigned from comf::calcSET's documented implementation: csw=170, cdil=120, cstr=0.5.
+- Contest powers and user-requested fixed outlet reductions are retained. Full source explanations remain beside the CSV values and in cooling_data_sources.csv.
 
-The input contract is defined in `input_contract()` in physics.R. All temperatures
-are degC, flow masses kg/s, moisture ratios kg water/kg dry air, pressures Pa,
-power kW, surface heat rates W, water totals kg, and durations hours. IDs and
-timestamps join cases, groups, equipment, and zones; use unique stable IDs.
-`case_id` identifies a venue/scenario/option/model-variant combination. Each case
-needs complete time coverage, including its matched NONE baseline. Supply explicit
-zero counts for inactive equipment and zero-valued source terms only when known.
-No equipment rows are needed for a NONE case once the equipment table is populated
-with the active cases. `NONE` is a defined structural key, never an unknown value.
+## Simplifications applied at the user's request
 
-Occupancy sources are group totals, not per-person rates. A zone/time must have the
-same local airspeed and mean radiant temperature for all groups; otherwise split
-the exposure zones explicitly. Group clothing/activity is fixed over its group ID;
-use distinct IDs if these change. Baseline comparison requires matching partitions,
-weather, group population, duration, and baseline shade. Do not encode extra shade
-as a cooling-device effect. Material capacitance must be separately justified within
-the supplied total capacitance and not counted twice.
+The default is a reference comparison, not an exact site microclimate prediction:
 
-Before approval, read the following model limitations:
+1. `heat_model="mixing_only"`: outdoor/interzone exchange and device source terms are retained; surface heat exchange and internal heat/moisture generation are omitted. Their unknown input cells remain NA, not zero. Geometry, surface temperatures, convection coefficients and internal gains are not needed in this mode.
+2. `radiant_model="air_reference"`: SET is evaluated with radiant temperature equal to modeled air temperature. Actual MRT inputs remain NA. This removes the MRT measurement requirement but cannot quantify solar/shade radiation effects.
+3. `comfort_basis="per_person"`: decisions use the one-zone reference person's discomfort/benefit. Passenger counts remain NA. Actual passenger-total B, L and person-hours remain NA; they are never calculated using invented occupancy. Outputs distinguish `B_per_person`, `L_per_person`, `eta_per_person`, and the selected `loss`/`decision_eta` from the occupied-total columns.
+4. `cost_basis="purchase"`: compare purchase cost and one-hour kWh/water. Annual maintenance, life, discount rate, annual weighting and tariffs are not required. Electricity cost is shown only if a tariff is supplied. A budget in this mode refers to purchase cost, not annual cost.
 
-- The implemented balance uses supplied total/dry-air flow rates, constant supplied
-  cp, well-mixed zones, prescribed surface temperatures, and no moisture buffering
-  or condensation. Both flow mass bases must balance within supplied tolerances.
-  The distinction between mass bases under evaporation requires an agreed
-  approximation; an inconsistent dataset stops. Electrical heat must be included
-  in the documented sensible sources where applicable, not inferred from power.
-- Psychrometric equations use the ASHRAE liquid-water formulation as documented by
-  PsychroLib, restricted to nonnegative wet bulbs and dry bulbs 0–200 degC. Direct
-  evaporation uses constant moist-air enthalpy. These are proposed mathematical
-  approximations awaiting `psychrometric_approval` and `balance_approval`, not
-  accepted project assumptions. Unsupported or supersaturated states stop.
-- Incoming evaporative supply is implemented for outdoor inlet air. Ordinary
-  interzone recirculation is supported. Evaporative recirculation is explicitly
-  unsupported and stops; it requires a nonlinear extension after the actual system
-  is known. A uses measured local airspeed and never subtracts 3 degC from air.
-- B/C need actual effectiveness and reference conditions. `outlet` checks measured
-  reference reduction against effectiveness. `shelter` additionally requires a
-  supplied audited `shelter_calibration(device, inputs, case, config)` function.
-  The maxima cannot establish effectiveness without reference conditions.
-- Dynamic forcing is piecewise constant in each supplied interval; occupancy
-  benefit uses interval-start exposure. This quadrature and interval resolution
-  require `time_approval` and a convergence study. Steady mode requires a response-
-  time comparison with occupancy/weather changes in `steady_justification`.
-- Only fixed NONE/A/B/C investments and operation are implemented. Additional
-  adaptive policies require an explicit evaluator extension after information and
-  policy rules are agreed. The `policy_description` and `information_rule` must
-  state what is chosen before conditions are observed.
-- SET needs every comf argument, the exact installed version, and a source audit
-  of internal physiological constants/applicability. `set_audit` documents that
-  review. Package signature checking does not by itself validate physiology.
-- Safety uses externally documented case-level assessments, not SET-derived medical
-  conclusions. Missing assessments block the pipeline. No safety pass is assumed.
-- Annual costs require explicit representative annual weights and common currency.
-  Demand and other charges must be documented, including known zero. Resource
-  caps refer to the evaluated horizon; budgets refer to annual cost. Optional grid
-  emissions are not implemented; do not imply an emissions result exists.
-- Robust feasibility requires the selected option to pass every scenario.
-  `comparator = "robust"` compares against robust-feasible actions; `"scenario"`
-  compares against each scenario's feasible actions. All use the same resource
-  limits. Near-tie tolerance is supplied by the user. Zero-energy efficiency is NA.
-- Sensitivity requires supplied bounds, selected pairs, approved rating/partition
-  alternatives, and an audited `sensitivity_recompute(config, inputs, spec, value)`
-  adapter returning `list(config=..., inputs=...)`. It must recompute dependent
-  quantities and provenance coherently. `approved_alternatives(config, inputs)`
-  returns a list of `list(id=..., config=..., inputs=...)` for confirmed alternatives.
-  These functions cannot be filled responsibly without the actual model choices.
-- Optional Monte Carlo requires explicit authorization, joint sampler `mc_draw`,
-  convergence function `mc_converged`, count, seed, quantile probabilities, and
-  source documentation. The sampler returns a complete config/input pair; it must
-  never fill missing observations. Monte Carlo is disabled initially.
+The full formulation remains available with heat_model="full", radiant_model="measured", comfort_basis="occupied", cost_basis="annual" and its required inputs. Per-person aggregation supports one occupied zone per venue; multi-zone population totals need actual occupancy.
 
-## Verification status and remaining implementation limits
+## Physical inputs assigned
 
-See `check_structural.txt` and each model's `check_verification.csv`. Structural
-checks exercise the actual blank-input rejection through each public entry point.
-Scientific checks are BLOCKED, not PASS: published psychrometric/SET reference
-values, residual checks on real data, timestep convergence, independent validation,
-regret behavior on real scenarios, calibration, and scaling need applicable inputs.
-The check functions report those prerequisites; they are not a completed numerical
-test suite. No fabricated fixtures have been used.
+Both default-mode physical inputs are populated for all six waiting areas: balanced outdoor kg dry air/s in exchanges.csv and baseline passenger m/s in weather_occ.csv. These are authorized scenario estimates, not site measurements. DATA_README.md contains the six results, every assumption, calculation chain and complete source/BibTeX catalog.
 
-This is a guarded implementation with extension points, **not a verified completed
-scientific workflow**. In particular, rail outputs currently list matched variant
-results; automatic change/reason/impact and simpler-case recovery checks still need
-an approved mapping between partitions. Influential venue characteristics require
-the approved sensitivity transformations. Numerical briefs are evidence extracts,
-not finished COO/blog prose. Sensitivity and decision analysis preserve
-no_feasible_option; regret normalization is undefined for those cases.
-Do not remove these limitations from reporting until they are implemented and tested.
+The remaining choices are:
+- cfg.set_upper and cfg.set_lower: your acceptable SET comfort range in degC. Upper is needed for hot-discomfort benefit/efficiency/regret; lower is needed only for two-sided comfort coverage.
+- cfg.cooler_limit: keep "fixed" (your present instruction, invalid wet cases stay unavailable) or explicitly select "saturation_limit" to reduce the outlet drop when humidity prevents the full 5/8 degC reduction.
+Passenger heat safety is unassessed. Optional budget/kWh/water caps remain inactive while NA. No extra physical inputs are required for the default simplified reference comparison. Actual-population totals and annual ownership costs are intentionally not part of that mode.
 
-No package was installed automatically. Required packages: comf for SET and deSolve
-for dynamic ODEs. Record and audit their exact versions after manual installation.
-There is no dependency lockfile because no scientific package environment has been
-installed or verified. The existing R environment is recorded in check_session.txt.
+## One remaining model conflict
 
-## Reviewed documentation
+Fixed B/C drops plus a constant-enthalpy direct-evaporation moisture balance require supersaturation for B/C under the Boston mean, and C under the Dallas mean. Those water/moisture-dependent results are flagged, not clamped or fabricated. This is a conflict between requested model conditions, not another missing research value. Electrical energy and purchase cost still calculate. The implemented alternative cfg.cooler_limit="saturation_limit" solves the saturated outlet state at the same moist-air enthalpy, taking the smaller of the requested reduction and this physical maximum. It needs no invented effectiveness. This is an ideal upper-limit direct-evaporation model, not a measured cooler rating. The alternative is tested but not enabled automatically.
 
-- SET signature/units and references: https://search.r-project.org/CRAN/refmans/comf/html/calcSET.html
-- deSolve ODE contract: https://search.r-project.org/CRAN/refmans/deSolve/html/ode.html
-- Psychrometric equations: https://github.com/psychrometrics/psychrolib/blob/master/src/c/psychrolib.c
+## Sensitivity and outputs
 
-No graphs, images, demo datasets, or assumed venue values are included.
+bounds.csv contains the user-authorized +/-5% around populated numerical inputs; hour IDs are not swept. Bounds are in each stored field's units (including degC for temperatures). Missing data remain NA. Rebuild/add the corresponding bounds row when a new physical input is supplied; the naming is table.row.column. Monte Carlo uses independent uniform draws within these bounds and labels its results conditional on them. Paired inlet/outlet rows are one flow parameter: they are changed together and sampled once. Disagreeing bounds for a pair are reported and skipped. Monte Carlo remains off for the project run.
+
+Results are saved as CSVs in the four model folders. `result_options.csv` includes purchase cost, one-hour energy/water, per-person and occupied-total columns, selected loss/cost bases and the explicit model basis. No reference result should be presented as observed installation performance. The switching/benchmark/regret workflow retains all scenarios and does not drop missing competitors. The Pareto and break-even plots are saved when their required outputs are available; stale generated plots are removed if a later run cannot produce them. SET and SET reduction are calculated without a comfort threshold and are included in sensitivity results. Per-reference-person comfortable hours, hours gained and coverage are provided when the comfort range is set. These never substitute for passenger-total person-hours.
+
+Each venue currently has one summer-mean scenario. Minimax regret is implemented and tested over multiple scenarios, but with one scenario it reduces to a constrained single-scenario choice. The +/-5% sweeps are sensitivity cases, not additional observed weather days.
+
+The regression suite also covers the opt-in saturation-limited branch, conservation of outlet enthalpy, threshold-free SET differences, per-person coverage with unknown occupancy, paired Monte Carlo flow sampling, and stale plot removal.
+
+Scientific references: the repository research CSV and bibliography; comf calcSET documentation at https://search.r-project.org/CRAN/refmans/comf/html/calcSET.html; ASHRAE psychrometric formulation documented by https://github.com/psychrometrics/psychrolib.

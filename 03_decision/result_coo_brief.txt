@@ -1,4 +1,0 @@
-BLOCKED: numerical brief unpopulated. No venue has been selected and no project
-calculations have run. Supply the data and decisions in
-../01_physics/result_data_readiness.csv. Every future numerical statement must cite
-a saved result case/row ID. No recommendation is currently available.

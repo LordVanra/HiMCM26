@@ -1,19 +1,9 @@
 # HiMCM cooling comparison
 
-Run from this folder:
+Run from the repository root to analyze all 12 venues and regenerate the result CSVs and chart gallery.
 
-```r
-source("01_physics/physics.R")
-source("02_comfort/comfort.R")
-source("03_decision/decision.R")
-source("04_sensitivity/sensitivity.R")
-cfg <- build_config()
-tables <- load_tables()
-result <- run_all(cfg, tables)
-save_results(result)
-s <- run_sensitivity(cfg, tables)
-save_sensitivity(s)
-save_chart_gallery(result, s, cfg, tables)
+```sh
+Rscript run_pipeline.R
 ```
 
 `Rscript test_pipeline.R` runs the checks. Synthetic data exist only in the test file. Monte Carlo stays off unless `run_monte_carlo(cfg, tables)` is called explicitly.
@@ -38,7 +28,7 @@ These comparison layouts target the current one-hour, one-zone reference cases. 
 
 ## Inputs now assigned
 
-- Six named reference venues, one occupied waiting-area zone each. Names and links are in the zones.csv source column.
+- Twelve named reference venues, one occupied zone each. Names and links are in the zones.csv source column.
 - Each venue receives its city's sourced summer temperature, humidity and pressure for the user-selected one-hour scenario.
 - Each A/B/C candidate has one reference device. These are candidate designs, not claims about installed equipment.
 - Reference purchase prices: A $1,499; B $4,159; C $4,939. These are product references, not quoted prices of the hypothetical contest devices. Tax/installation are excluded.
@@ -67,7 +57,7 @@ Annual-cost mode now requires a water price for B/C as well as capital, maintena
 
 ## Physical inputs assigned
 
-Both default-mode physical inputs are populated for all six waiting areas: balanced outdoor kg dry air/s in exchanges.csv and baseline passenger m/s in weather_occ.csv. These are authorized scenario estimates, not site measurements. DATA_README.md contains the six results, every assumption, calculation chain and complete source/BibTeX catalog.
+Both default-mode physical inputs are populated for all twelve zones: balanced outdoor kg dry air/s in exchanges.csv and baseline passenger m/s in weather_occ.csv. DATA_README.md documents the scenario estimates, assumptions, calculation chain, and sources.
 
 The remaining choices are:
 - cfg.set_upper and cfg.set_lower: your acceptable SET comfort range in degC. Upper is needed for hot-discomfort benefit/efficiency/regret; lower is needed only for two-sided comfort coverage.
@@ -76,9 +66,25 @@ Passenger heat safety is unassessed. Optional budget/kWh/water caps remain inact
 
 ## One remaining model conflict
 
-Fixed B/C drops plus a constant-enthalpy direct-evaporation moisture balance require supersaturation for B/C under the Boston mean, and C under the Dallas mean. Those water/moisture-dependent results are flagged, not clamped or fabricated. This is a conflict between requested model conditions, not another missing research value. Electrical energy and purchase cost still calculate. The implemented alternative cfg.cooler_limit="saturation_limit" solves the saturated outlet state at the same moist-air enthalpy, taking the smaller of the requested reduction and this physical maximum. It needs no invented effectiveness. This is an ideal upper-limit direct-evaporation model, not a measured cooler rating. The alternative is tested but not enabled automatically.
+Fixed B/C drops plus a constant-enthalpy direct-evaporation moisture balance require supersaturation for B/C under the Boston mean and C under the Dallas mean. Those water and moisture results are flagged. Electrical energy and purchase cost still calculate. The alternative `cfg.cooler_limit="saturation_limit"` solves the saturated outlet state at the same moist-air enthalpy, taking the smaller of the requested reduction and this physical maximum. It represents an ideal upper limit for direct evaporation. The default comparison uses fixed drops.
 
 A calibrated climate-dependent branch is also implemented: `cooler_limit="effectiveness"`. It requires `devices.T_ref` (degC), `RH_ref` (%) and `pressure_ref` (Pa), with the reference conditions applying to the stated outlet temperature drop. These fields remain NA because the current sources do not establish them. The branch computes wet-bulb effectiveness at the reference condition and applies it to the actual wet-bulb depression, capped at dT_max. It rejects effectiveness outside [0,1] and nonphysical outlet states. No reference conditions were invented. The existing fixed-outlet interpretation remains the selected user reference case; it is not a verified interpretation of the contest's shelter-wide claim.
+
+## Courtyard and airport scaling cases
+
+Dallas, Boston, and Phoenix each have a campus courtyard and a covered outdoor passenger area at an airport terminal. Each city uses the same summer weather as its bus and rail cases. The airport venues are curbside areas under canopies. Site identity, weather sources, and assumptions are in [DATA_README.md](DATA_README.md#additional-venue-case-studies).
+
+`Rscript 03_decision/venue_scaling.R` writes `03_decision/result_venue_scaling.csv`. It tests 1×, 2×, and 4× the estimated balanced outdoor exchange with one device, fixed passenger airspeed for each option, and one hour of operation. It runs both fixed-drop and saturation-limited evaporation. The output reports SET drop per kWh and the model's discomfort reduction per kWh at illustrative upper SET thresholds of 22, 24, and 26 °C.
+
+| Study area | Fan SET drop (°C), both sites | Larger cooler SET drop (°C), courtyard at 1× → 4× | Larger cooler SET drop (°C), canopy at 1× → 4× |
+|---|---:|---:|---:|
+| Dallas | 0.36 | 1.53 → 0.53 | 1.15 → 0.37 |
+| Boston | 2.73 | 1.30 → 0.55 | 1.06 → 0.40 |
+| Phoenix | 0.59 | 1.66 → 0.60 | 1.28 → 0.42 |
+
+The table uses saturation-limited evaporation. With fixed drops, the larger cooler is physically invalid at both Dallas sites and both coolers are invalid at both Boston sites. The fan uses 0.25 kWh per modeled hour and gives the most SET reduction per kWh at all six sites. At the illustrative 24 °C upper SET threshold, the fan saves 2.37 °C·h of hot discomfort per kWh at both Phoenix sites. The Dallas and Boston baselines are below that threshold, so valid options there save zero hot discomfort despite lowering SET.
+
+Quadrupling exchange reduces the larger cooler's local SET benefit by 58–68% across the six sites while its electricity and water use stay fixed. The fan is unchanged in this sweep because its airspeed at the reference person's position is held fixed. The model can compare ventilation and climate effects across the three cities. Whole-venue sizing requires data on where people gather, local airflow and radiation, and the reach of each device.
 
 ## Sensitivity and outputs
 

@@ -47,3 +47,51 @@ summer_mean_1h",0
 summer_mean_1h",32.7569541292133
 "PHX_RAIL","summer_mean_1h",1,"C",1,2.5,77.9134584326161,"Phoenix / rail","Phoenix / rail
 summer_mean_1h",77.9134584326161
+"DAL_QUAD","summer_mean_1h",1,"NONE",1,0,0,"Dallas / courtyard","Dallas / courtyard
+summer_mean_1h",0
+"DAL_QUAD","summer_mean_1h",1,"A",1,0.25,0,"Dallas / courtyard","Dallas / courtyard
+summer_mean_1h",0
+"DAL_QUAD","summer_mean_1h",1,"B",1,1.2,34.6721036928007,"Dallas / courtyard","Dallas / courtyard
+summer_mean_1h",34.6721036928007
+"DAL_QUAD","summer_mean_1h",1,"C",1,2.5,NA,"Dallas / courtyard","Dallas / courtyard
+summer_mean_1h",NA
+"DAL_PAV","summer_mean_1h",1,"NONE",1,0,0,"Dallas / airport canopy","Dallas / airport canopy
+summer_mean_1h",0
+"DAL_PAV","summer_mean_1h",1,"A",1,0.25,0,"Dallas / airport canopy","Dallas / airport canopy
+summer_mean_1h",0
+"DAL_PAV","summer_mean_1h",1,"B",1,1.2,34.6721036928007,"Dallas / airport canopy","Dallas / airport canopy
+summer_mean_1h",34.6721036928007
+"DAL_PAV","summer_mean_1h",1,"C",1,2.5,NA,"Dallas / airport canopy","Dallas / airport canopy
+summer_mean_1h",NA
+"BOS_QUAD","summer_mean_1h",1,"NONE",1,0,0,"Boston / courtyard","Boston / courtyard
+summer_mean_1h",0
+"BOS_QUAD","summer_mean_1h",1,"A",1,0.25,0,"Boston / courtyard","Boston / courtyard
+summer_mean_1h",0
+"BOS_QUAD","summer_mean_1h",1,"B",1,1.2,NA,"Boston / courtyard","Boston / courtyard
+summer_mean_1h",NA
+"BOS_QUAD","summer_mean_1h",1,"C",1,2.5,NA,"Boston / courtyard","Boston / courtyard
+summer_mean_1h",NA
+"BOS_PAV","summer_mean_1h",1,"NONE",1,0,0,"Boston / airport canopy","Boston / airport canopy
+summer_mean_1h",0
+"BOS_PAV","summer_mean_1h",1,"A",1,0.25,0,"Boston / airport canopy","Boston / airport canopy
+summer_mean_1h",0
+"BOS_PAV","summer_mean_1h",1,"B",1,1.2,NA,"Boston / airport canopy","Boston / airport canopy
+summer_mean_1h",NA
+"BOS_PAV","summer_mean_1h",1,"C",1,2.5,NA,"Boston / airport canopy","Boston / airport canopy
+summer_mean_1h",NA
+"PHX_QUAD","summer_mean_1h",1,"NONE",1,0,0,"Phoenix / courtyard","Phoenix / courtyard
+summer_mean_1h",0
+"PHX_QUAD","summer_mean_1h",1,"A",1,0.25,0,"Phoenix / courtyard","Phoenix / courtyard
+summer_mean_1h",0
+"PHX_QUAD","summer_mean_1h",1,"B",1,1.2,32.7569541292133,"Phoenix / courtyard","Phoenix / courtyard
+summer_mean_1h",32.7569541292133
+"PHX_QUAD","summer_mean_1h",1,"C",1,2.5,77.9134584326161,"Phoenix / courtyard","Phoenix / courtyard
+summer_mean_1h",77.9134584326161
+"PHX_PAV","summer_mean_1h",1,"NONE",1,0,0,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",0
+"PHX_PAV","summer_mean_1h",1,"A",1,0.25,0,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",0
+"PHX_PAV","summer_mean_1h",1,"B",1,1.2,32.7569541292133,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",32.7569541292133
+"PHX_PAV","summer_mean_1h",1,"C",1,2.5,77.9134584326161,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",77.9134584326161

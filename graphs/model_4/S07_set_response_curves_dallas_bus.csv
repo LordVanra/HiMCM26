@@ -1,20 +1,16 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",4.75,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,-5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",99230,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,0,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",4.875,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,-2.5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",101710.75,24.2048413185162,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,-0.0408870376136328,2.49999999999999,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",5,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,0,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",104191.5,24.1652409541334,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,-0.0804874019964359,5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",5.125,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,2.49999999999999,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",5.25,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",24.2457283561299,0,5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.342,24.0915396323474,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,-0.154188723782486,-5,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.351,24.1686694616138,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,-0.0770588945161137,-2.5,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.36,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,0,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.369,24.3227239621228,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0.0769956059929768,2.50000000000001,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.378,24.399642314684,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0.153913958554178,5,"Clothing"
 "DAL_BUS","summer_mean_1h","NONE","weather_occ.1.T",27.74,22.6416297780726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",24.2457283561299,-1.60409857805727,-5,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","NONE","weather_occ.1.T",28.47,23.428157165322,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
@@ -25,40 +21,30 @@ summer_mean_1h",24.2457283561299,0,0,"Outdoor temperature [DAL_BUS]"
 summer_mean_1h",24.2457283561299,0.836947953572448,2.49999999999999,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","NONE","weather_occ.1.T",30.66,25.9400546837456,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",24.2457283561299,1.69432632761576,5,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.36,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0,0,"Clothing"
-"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.369,24.3227239621228,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0.0769956059929768,2.50000000000001,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",4.75,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,-5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",4.875,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,-2.5,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",94268.5,24.3316766666249,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",24.2457283561299,0.0859483104949881,-5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.378,24.399642314684,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,0.153913958554178,5,"Clothing"
+"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",5,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,0,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",101710.75,24.2048413185162,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,-0.0408870376136328,2.49999999999999,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",96749.25,24.2879788862435,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",24.2457283561299,0.0422505301136233,-2.5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.351,24.1686694616138,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,-0.0770588945161137,-2.5,"Clothing"
-"DAL_BUS","summer_mean_1h","NONE","groups.1.clo",0.342,24.0915396323474,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",24.2457283561299,-0.154188723782486,-5,"Clothing"
-"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",4.75,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,-5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",4.875,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,-2.5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,0,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5.125,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,2.49999999999999,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5.25,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",28.47,22.4743396430368,0.95381752228521,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,-0.797288049084838,-2.5,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",29.2,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,0,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",29.93,24.102652392687,0.98002391701533,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0.831024700565376,2.49999999999999,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","devices.2.dT_max",5.125,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,2.49999999999999,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",104191.5,24.1652409541334,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,-0.0804874019964359,5,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","NONE","weather_occ.1.pressure",99230,24.2457283561299,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",24.2457283561299,0,0,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",101710.75,23.2374291780331,0.967412140483155,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,-0.0341985140885299,2.49999999999999,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",104191.5,23.2043099299362,0.96093102419723,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,-0.0673177621854073,5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","A","groups.1.clo",0.342,23.1147767702971,0.976762862050293,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",23.2716276921216,-0.156850921824521,-5,"Clothing"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",30.66,24.9545874775526,0.985467206193071,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,1.68295978543095,5,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","A","groups.1.clo",0.351,23.1926539980507,0.97601546356308,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",23.2716276921216,-0.0789736940709354,-2.5,"Clothing"
 "DAL_BUS","summer_mean_1h","A","groups.1.clo",0.36,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
@@ -67,18 +53,36 @@ summer_mean_1h",23.2716276921216,0,0,"Clothing"
 summer_mean_1h",23.2716276921216,0.079167171263915,2.50000000000001,"Clothing"
 "DAL_BUS","summer_mean_1h","A","groups.1.clo",0.378,23.4300406127739,0.969601701910179,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",23.2716276921216,0.158412920652257,5,"Clothing"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",94268.5,23.343398982438,0.988277684186894,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0.0717712903163523,-5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",96749.25,23.3068621498333,0.981116736410225,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0.0352344577116561,-2.5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",99230,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,0,0,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","A","weather_occ.1.T",27.74,21.6074045920545,1.03422518601811,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",23.2716276921216,-1.66422310006712,-5,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",101710.75,23.2374291780331,0.967412140483155,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,-0.0341985140885299,2.49999999999999,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",104191.5,23.2043099299362,0.96093102419723,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",23.2716276921216,-0.0673177621854073,5,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5.25,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",28.47,22.4743396430368,0.95381752228521,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,-0.797288049084838,-2.5,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",29.2,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,0,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",29.93,24.102652392687,0.98002391701533,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0.831024700565376,2.49999999999999,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",94268.5,23.343398982438,0.988277684186894,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0.0717712903163523,-5,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,0,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.T",30.66,24.9545874775526,0.985467206193071,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,1.68295978543095,5,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",4.75,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,-5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",96749.25,23.3068621498333,0.981116736410225,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0.0352344577116561,-2.5,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",5.125,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,2.49999999999999,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","devices.2.dT_max",4.875,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,-2.5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","A","weather_occ.1.pressure",99230,23.2716276921216,0.974100664008258,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",23.2716276921216,0,0,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",101710.75,21.9476698428729,2.25717147564336,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-0.074176005403455,2.49999999999999,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",104191.5,21.8754144665683,2.28982648756515,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-0.146431381708041,5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.T",28.47,21.1338100042365,2.29434716108551,1.2,34.7691181783897,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,-0.888035844039855,-2.5,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.T",29.2,22.0218458482763,2.22388250785354,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
@@ -87,75 +91,71 @@ summer_mean_1h",22.0218458482763,0,0,"Outdoor temperature [DAL_BUS]"
 summer_mean_1h",22.0218458482763,0.84835666637526,2.49999999999999,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.T",30.66,23.7768801970723,2.16317448667334,1.2,34.480126159811,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,1.75503434879596,5,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","weather_occ.1.T",27.74,20.2121629101101,2.42946686796249,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-1.80968293816622,-5,"Outdoor temperature [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",4.75,22.1391629502191,2.10656540591076,1.2,32.9324837663011,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,0.117317101942781,-5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",4.875,22.0806682562455,2.16506009988434,1.2,33.8022143063783,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,0.058822407969199,-2.5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5,22.0218458482763,2.22388250785354,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,0,0,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5.125,21.9628879118229,2.282840444307,1.2,35.5421519690895,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-0.0589579364534565,2.49999999999999,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5.25,21.9037786792142,2.34194967691569,1.2,36.4123591787818,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-0.118067169062147,5,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",94268.5,22.1764230391757,2.15525362744919,1.2,32.9450582623647,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0.154577190899335,-5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",96749.25,22.0979720474363,2.19000683880715,1.2,33.808580977581,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0.0761261991600151,-2.5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","B","groups.1.clo",0.342,21.8601742176496,2.23136541469774,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-0.161671630626689,-5,"Clothing"
-"DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",101710.75,21.9476698428729,2.25717147564336,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-0.074176005403455,2.49999999999999,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","weather_occ.1.T",27.74,20.2121629101101,2.42946686796249,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-1.80968293816622,-5,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",99230,22.0218458482763,2.22388250785354,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0,0,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","groups.1.clo",0.342,21.8601742176496,2.23136541469774,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-0.161671630626689,-5,"Clothing"
 "DAL_BUS","summer_mean_1h","B","groups.1.clo",0.351,21.9411787714224,2.22749069019134,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,-0.0806670768539099,-2.5,"Clothing"
-"DAL_BUS","summer_mean_1h","B","weather_occ.1.pressure",104191.5,21.8754144665683,2.28982648756515,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",22.0218458482763,-0.146431381708041,5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","groups.1.clo",0.36,22.0218458482763,2.22388250785354,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0,0,"Clothing"
 "DAL_BUS","summer_mean_1h","B","groups.1.clo",0.369,22.1020261902692,2.22069777185368,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0.0801803419928433,2.50000000000001,"Clothing"
+"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5.25,21.9037786792142,2.34194967691569,1.2,36.4123591787818,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-0.118067169062147,5,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","B","groups.1.clo",0.378,22.1817255268779,2.21791678780618,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",22.0218458482763,0.159879678601541,5,"Clothing"
+"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5.125,21.9628879118229,2.282840444307,1.2,35.5421519690895,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,-0.0589579364534565,2.49999999999999,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",5,22.0218458482763,2.22388250785354,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,0,0,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",4.875,22.0806682562455,2.16506009988434,1.2,33.8022143063783,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,0.058822407969199,-2.5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","B","devices.2.dT_max",4.75,22.1391629502191,2.10656540591076,1.2,32.9324837663011,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",22.0218458482763,0.117317101942781,-5,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","weather_occ.1.T",29.93,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","weather_occ.1.T",30.66,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,5,"Outdoor temperature [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","devices.2.dT_max",4.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,-5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,0,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","devices.2.dT_max",4.875,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,-2.5,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5.125,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Outlet cooling B [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,5,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",94268.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,-5,"Air pressure [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",96749.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,-2.5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,-5,"Clothing"
-"DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,0,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",99230,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,0,"Air pressure [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5.125,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Outlet cooling B [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","devices.2.dT_max",5.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,5,"Outlet cooling B [DAL_BUS]"
 "DAL_BUS","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,-2.5,"Clothing"
-"DAL_BUS","summer_mean_1h","C","weather_occ.1.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,5,"Air pressure [DAL_BUS]"
-"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_BUS]"
+"DAL_BUS","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
+summer_mean_1h",NA,NA,-5,"Clothing"
 "DAL_BUS","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,0,"Clothing"
 "DAL_BUS","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
 "DAL_BUS","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
 summer_mean_1h",NA,NA,5,"Clothing"
-"DAL_BUS","summer_mean_1h","C","weather_occ.1.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / bus","Dallas / bus
-summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_BUS]"

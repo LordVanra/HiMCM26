@@ -11,3 +11,15 @@ PHX_BUS,OUTSIDE,waiting_area,1.5503642028170657,air045; airflow_scenario_2026; e
 PHX_BUS,waiting_area,OUTSIDE,1.5503642028170657,air045; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
 PHX_RAIL,OUTSIDE,waiting_area,4.134304540845509,air054; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
 PHX_RAIL,waiting_area,OUTSIDE,4.134304540845509,air054; airflow_scenario_2026; energyplus_wind_ventilation; psychrolib_volume; balanced kg dry air/s; see DATA_README.md
+DAL_QUAD,OUTSIDE,occupied_area,11.625958866425798,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+DAL_QUAD,occupied_area,OUTSIDE,11.625958866425798,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+DAL_PAV,OUTSIDE,occupied_area,17.438938299638693,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+DAL_PAV,occupied_area,OUTSIDE,17.438938299638693,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+BOS_QUAD,OUTSIDE,occupied_area,5.9334849028231895,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+BOS_QUAD,occupied_area,OUTSIDE,5.9334849028231895,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+BOS_PAV,OUTSIDE,occupied_area,8.900227354234783,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+BOS_PAV,occupied_area,OUTSIDE,8.900227354234783,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+PHX_QUAD,OUTSIDE,occupied_area,8.268609081691018,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+PHX_QUAD,occupied_area,OUTSIDE,8.268609081691018,Equivalent opening 16 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+PHX_PAV,OUTSIDE,occupied_area,12.402913622536525,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md
+PHX_PAV,occupied_area,OUTSIDE,12.402913622536525,Equivalent opening 24 m2; scenario assumption; balanced kg dry air/s; see DATA_README.md

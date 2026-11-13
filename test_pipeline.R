@@ -675,7 +675,20 @@ if (requireNamespace("ggplot2", quietly = TRUE) &&
 }
 
 
+# Test 34 – The study inputs cover all four venue types in each city.
+study_venues <- as.vector(outer(c("DAL", "BOS", "PHX"),
+                               c("BUS", "RAIL", "QUAD", "PAV"), paste, sep = "_"))
+study <- run_all(build_config(), load_tables(), quiet = TRUE)
+study_options <- table(study$options$venue, study$options$option)
+stopifnot(
+  setequal(rownames(study_options), study_venues),
+  setequal(colnames(study_options), c("NONE", "A", "B", "C")),
+  all(study_options == 1L),
+  setequal(study$outdoor$venue, study_venues),
+  setequal(study$comfort_detail$venue, study_venues)
+)
+
 # All tests passed
 cat("PASS: physics, RH, SET reference, duration scaling, fixed radiation, four zones,",
     "required-data stopping, optional Monte Carlo, calibrated cooling, costs,",
-    "feasibility, regret, sensitivity and graphs.\n")
+    "feasibility, regret, sensitivity, graphs and all 12 study venues.\n")

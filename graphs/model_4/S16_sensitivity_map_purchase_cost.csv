@@ -1,61 +1,121 @@
 "parameter","parameter_label","site","swing"
-"devices.11.capital","Purchase price B [BOS_RAIL]","Dallas / bus",0
-"devices.11.capital","Purchase price B [BOS_RAIL]","Dallas / rail",0
-"devices.11.capital","Purchase price B [BOS_RAIL]","Boston / bus",0
-"devices.11.capital","Purchase price B [BOS_RAIL]","Boston / rail",415.9
-"devices.11.capital","Purchase price B [BOS_RAIL]","Phoenix / bus",0
-"devices.11.capital","Purchase price B [BOS_RAIL]","Phoenix / rail",0
 "devices.12.capital","Purchase price C [BOS_RAIL]","Dallas / bus",0
 "devices.12.capital","Purchase price C [BOS_RAIL]","Dallas / rail",0
 "devices.12.capital","Purchase price C [BOS_RAIL]","Boston / bus",0
 "devices.12.capital","Purchase price C [BOS_RAIL]","Boston / rail",493.9
 "devices.12.capital","Purchase price C [BOS_RAIL]","Phoenix / bus",0
 "devices.12.capital","Purchase price C [BOS_RAIL]","Phoenix / rail",0
-"devices.14.capital","Purchase price B [PHX_BUS]","Dallas / bus",0
-"devices.14.capital","Purchase price B [PHX_BUS]","Dallas / rail",0
-"devices.14.capital","Purchase price B [PHX_BUS]","Boston / bus",0
-"devices.14.capital","Purchase price B [PHX_BUS]","Boston / rail",0
-"devices.14.capital","Purchase price B [PHX_BUS]","Phoenix / bus",415.9
-"devices.14.capital","Purchase price B [PHX_BUS]","Phoenix / rail",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Dallas / courtyard",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Dallas / airport canopy",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Boston / courtyard",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Boston / airport canopy",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Phoenix / courtyard",0
+"devices.12.capital","Purchase price C [BOS_RAIL]","Phoenix / airport canopy",0
 "devices.15.capital","Purchase price C [PHX_BUS]","Dallas / bus",0
 "devices.15.capital","Purchase price C [PHX_BUS]","Dallas / rail",0
 "devices.15.capital","Purchase price C [PHX_BUS]","Boston / bus",0
 "devices.15.capital","Purchase price C [PHX_BUS]","Boston / rail",0
 "devices.15.capital","Purchase price C [PHX_BUS]","Phoenix / bus",493.9
 "devices.15.capital","Purchase price C [PHX_BUS]","Phoenix / rail",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Dallas / bus",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Dallas / rail",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Boston / bus",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Boston / rail",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Phoenix / bus",0
-"devices.17.capital","Purchase price B [PHX_RAIL]","Phoenix / rail",415.9
+"devices.15.capital","Purchase price C [PHX_BUS]","Dallas / courtyard",0
+"devices.15.capital","Purchase price C [PHX_BUS]","Dallas / airport canopy",0
+"devices.15.capital","Purchase price C [PHX_BUS]","Boston / courtyard",0
+"devices.15.capital","Purchase price C [PHX_BUS]","Boston / airport canopy",0
+"devices.15.capital","Purchase price C [PHX_BUS]","Phoenix / courtyard",0
+"devices.15.capital","Purchase price C [PHX_BUS]","Phoenix / airport canopy",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Dallas / bus",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Dallas / rail",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Boston / bus",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Boston / rail",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Phoenix / bus",0
 "devices.18.capital","Purchase price C [PHX_RAIL]","Phoenix / rail",493.9
-"devices.2.capital","Purchase price B [DAL_BUS]","Dallas / bus",415.9
-"devices.2.capital","Purchase price B [DAL_BUS]","Dallas / rail",0
-"devices.2.capital","Purchase price B [DAL_BUS]","Boston / bus",0
-"devices.2.capital","Purchase price B [DAL_BUS]","Boston / rail",0
-"devices.2.capital","Purchase price B [DAL_BUS]","Phoenix / bus",0
-"devices.2.capital","Purchase price B [DAL_BUS]","Phoenix / rail",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Dallas / courtyard",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Dallas / airport canopy",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Boston / courtyard",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Boston / airport canopy",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Phoenix / courtyard",0
+"devices.18.capital","Purchase price C [PHX_RAIL]","Phoenix / airport canopy",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Dallas / bus",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Dallas / rail",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Boston / bus",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Boston / rail",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Phoenix / bus",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Phoenix / rail",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Dallas / courtyard",493.9
+"devices.21.capital","Purchase price C [DAL_QUAD]","Dallas / airport canopy",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Boston / courtyard",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Boston / airport canopy",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Phoenix / courtyard",0
+"devices.21.capital","Purchase price C [DAL_QUAD]","Phoenix / airport canopy",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Dallas / bus",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Dallas / rail",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Boston / bus",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Boston / rail",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Phoenix / bus",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Phoenix / rail",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Dallas / courtyard",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Dallas / airport canopy",493.9
+"devices.24.capital","Purchase price C [DAL_PAV]","Boston / courtyard",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Boston / airport canopy",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Phoenix / courtyard",0
+"devices.24.capital","Purchase price C [DAL_PAV]","Phoenix / airport canopy",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Dallas / bus",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Dallas / rail",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Boston / bus",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Boston / rail",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Phoenix / bus",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Phoenix / rail",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Dallas / courtyard",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Dallas / airport canopy",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Boston / courtyard",493.9
+"devices.27.capital","Purchase price C [BOS_QUAD]","Boston / airport canopy",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Phoenix / courtyard",0
+"devices.27.capital","Purchase price C [BOS_QUAD]","Phoenix / airport canopy",0
 "devices.3.capital","Purchase price C [DAL_BUS]","Dallas / bus",493.9
 "devices.3.capital","Purchase price C [DAL_BUS]","Dallas / rail",0
 "devices.3.capital","Purchase price C [DAL_BUS]","Boston / bus",0
 "devices.3.capital","Purchase price C [DAL_BUS]","Boston / rail",0
 "devices.3.capital","Purchase price C [DAL_BUS]","Phoenix / bus",0
 "devices.3.capital","Purchase price C [DAL_BUS]","Phoenix / rail",0
-"devices.6.capital","Purchase price C [DAL_RAIL]","Dallas / bus",0
-"devices.6.capital","Purchase price C [DAL_RAIL]","Dallas / rail",493.9
-"devices.6.capital","Purchase price C [DAL_RAIL]","Boston / bus",0
-"devices.6.capital","Purchase price C [DAL_RAIL]","Boston / rail",0
-"devices.6.capital","Purchase price C [DAL_RAIL]","Phoenix / bus",0
-"devices.6.capital","Purchase price C [DAL_RAIL]","Phoenix / rail",0
-"devices.9.capital","Purchase price C [BOS_BUS]","Dallas / bus",0
-"devices.9.capital","Purchase price C [BOS_BUS]","Dallas / rail",0
-"devices.9.capital","Purchase price C [BOS_BUS]","Boston / bus",493.9
-"devices.9.capital","Purchase price C [BOS_BUS]","Boston / rail",0
-"devices.9.capital","Purchase price C [BOS_BUS]","Phoenix / bus",0
-"devices.9.capital","Purchase price C [BOS_BUS]","Phoenix / rail",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Dallas / courtyard",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Dallas / airport canopy",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Boston / courtyard",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Boston / airport canopy",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Phoenix / courtyard",0
+"devices.3.capital","Purchase price C [DAL_BUS]","Phoenix / airport canopy",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Dallas / bus",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Dallas / rail",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Boston / bus",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Boston / rail",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Phoenix / bus",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Phoenix / rail",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Dallas / courtyard",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Dallas / airport canopy",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Boston / courtyard",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Boston / airport canopy",493.9
+"devices.30.capital","Purchase price C [BOS_PAV]","Phoenix / courtyard",0
+"devices.30.capital","Purchase price C [BOS_PAV]","Phoenix / airport canopy",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Dallas / bus",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Dallas / rail",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Boston / bus",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Boston / rail",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Phoenix / bus",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Phoenix / rail",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Dallas / courtyard",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Dallas / airport canopy",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Boston / courtyard",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Boston / airport canopy",0
+"devices.33.capital","Purchase price C [PHX_QUAD]","Phoenix / courtyard",493.9
+"devices.33.capital","Purchase price C [PHX_QUAD]","Phoenix / airport canopy",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Dallas / bus",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Dallas / rail",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Boston / bus",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Boston / rail",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Phoenix / bus",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Phoenix / rail",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Dallas / courtyard",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Dallas / airport canopy",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Boston / courtyard",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Boston / airport canopy",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Phoenix / courtyard",0
+"devices.36.capital","Purchase price C [PHX_PAV]","Phoenix / airport canopy",493.9

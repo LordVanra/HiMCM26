@@ -1,161 +1,161 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",22.155,17.4280516235096,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,1.37318604760644,5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",20.045,14.6561177671538,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,-1.39874780874929,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",20.5725,15.3584906270205,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,-0.696374948882653,-2.5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",21.6275,16.7448487909544,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0.689983215051289,2.49999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",21.1,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,0,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.722882,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,-5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.768221,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,-2.5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.81356,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,0,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.858899,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,2.49999999999999,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.904238,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0,5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","groups.1.met",0.975,15.9585677477612,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,-0.0962978281419176,-2.5,"Activity"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.met",1,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,0,0,"Activity"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.met",1.025,16.1448470458257,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,0.0899814699225452,2.49999999999999,"Activity"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.met",1.05,16.2541185492317,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,0.199252973328569,5,"Activity"
-"BOS_BUS","summer_mean_1h","NONE","groups.1.met",0.95,15.8546660936206,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,-0.200199482282502,-5,"Activity"
-"BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.342,15.8415181203389,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,-0.213347455564266,-5,"Clothing"
-"BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.378,16.2643515018174,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0.209485925914311,5,"Clothing"
-"BOS_BUS","summer_mean_1h","NONE","groups.1.met",0.975,15.9585677477612,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,-0.0962978281419176,-2.5,"Activity"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.351,15.9486846033546,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,-0.106180972548557,-2.5,"Clothing"
-"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",20.045,14.6561177671538,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,-1.39874780874929,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.36,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,0,0,"Clothing"
-"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.768221,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,-2.5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",20.5725,15.3584906270205,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,-0.696374948882653,-2.5,"Outdoor temperature [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.369,16.1600813174238,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",16.0548655759031,0.105215741520709,2.50000000000001,"Clothing"
-"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",21.1,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,0,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",22.155,17.4280516235096,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,1.37318604760644,5,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","weather_occ.3.T",21.6275,16.7448487909544,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0.689983215051289,2.49999999999999,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.81356,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,0,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.904238,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.722882,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,-5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","NONE","devices.7.v_fan",1.858899,16.0548655759031,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",16.0548655759031,0,2.49999999999999,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","groups.1.met",1.025,12.3548789195516,3.78996812627409,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.133474300125068,2.49999999999999,"Activity"
-"BOS_BUS","summer_mean_1h","A","groups.1.met",1,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0,0,"Activity"
-"BOS_BUS","summer_mean_1h","A","groups.1.met",1.05,12.5108128214675,3.74330572776419,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.28940820204099,5,"Activity"
-"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.722882,12.3620434708378,3.69282210506531,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.140638851411307,-5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.342,11.9108817665401,3.93063635379876,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.310522852886415,-5,"Clothing"
-"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.378,12.524516592965,3.73983490885247,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.303111973538449,5,"Clothing"
-"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.768221,12.2907563234064,3.76410925249673,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.0693517039798817,-2.5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.351,12.0670852427171,3.88159936063751,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.154319376709454,-2.5,"Clothing"
-"BOS_BUS","summer_mean_1h","A","groups.1.met",0.95,11.938390465183,3.91627562843762,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.283014154243507,-5,"Activity"
-"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.81356,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0,0,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.36,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0,0,"Clothing"
-"BOS_BUS","summer_mean_1h","A","groups.1.met",0.975,12.0823579038686,3.87620984389257,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.139046715557875,-2.5,"Activity"
-"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.858899,12.1539044050108,3.90096117089228,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.0675002144156629,2.49999999999999,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.369,12.3738702676418,3.78621104978199,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0.152465648215328,2.50000000000001,"Clothing"
-"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.904238,12.0881762686528,3.96668930725027,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,-0.133228350773662,5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.342,15.8415181203389,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,-0.213347455564266,-5,"Clothing"
+"BOS_BUS","summer_mean_1h","NONE","groups.1.met",0.95,15.8546660936206,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,-0.200199482282502,-5,"Activity"
+"BOS_BUS","summer_mean_1h","NONE","groups.1.clo",0.378,16.2643515018174,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",16.0548655759031,0.209485925914311,5,"Clothing"
 "BOS_BUS","summer_mean_1h","A","weather_occ.3.T",20.045,10.4815558518248,4.17456191532906,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",12.2214046194265,-1.73984876760174,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","A","weather_occ.3.T",21.1,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",12.2214046194265,0,0,"Outdoor temperature [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","A","weather_occ.3.T",20.5725,11.3543348569938,4.00415577002662,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",12.2214046194265,-0.86706976243266,-2.5,"Outdoor temperature [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","A","weather_occ.3.T",22.155,13.9334687571428,3.49458286636675,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",12.2214046194265,1.7120641377163,5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","weather_occ.3.T",21.1,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0,0,"Outdoor temperature [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","A","weather_occ.3.T",21.6275,13.0817050110378,3.66314377991664,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",12.2214046194265,0.860300391611256,2.49999999999999,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","groups.1.met",1.025,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_BUS","summer_mean_1h","B","groups.1.met",1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_BUS","summer_mean_1h","B","groups.1.met",1.05,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Activity"
-"BOS_BUS","summer_mean_1h","B","groups.1.met",0.95,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.342,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.81356,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.378,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.768221,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-2.5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","groups.1.met",0.975,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.351,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.858899,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.722882,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.36,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.904238,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.369,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",22.155,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",21.6275,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",20.045,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",21.1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.722882,12.3620434708378,3.69282210506531,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.140638851411307,-5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.768221,12.2907563234064,3.76410925249673,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.0693517039798817,-2.5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.81356,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0,0,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.858899,12.1539044050108,3.90096117089228,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.0675002144156629,2.49999999999999,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","devices.7.v_fan",1.904238,12.0881762686528,3.96668930725027,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.133228350773662,5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","A","groups.1.met",0.975,12.0823579038686,3.87620984389257,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.139046715557875,-2.5,"Activity"
+"BOS_BUS","summer_mean_1h","A","groups.1.met",1.05,12.5108128214675,3.74330572776419,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.28940820204099,5,"Activity"
+"BOS_BUS","summer_mean_1h","A","groups.1.met",1,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0,0,"Activity"
+"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.342,11.9108817665401,3.93063635379876,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.310522852886415,-5,"Clothing"
+"BOS_BUS","summer_mean_1h","A","groups.1.met",1.025,12.3548789195516,3.78996812627409,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.133474300125068,2.49999999999999,"Activity"
+"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.351,12.0670852427171,3.88159936063751,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.154319376709454,-2.5,"Clothing"
+"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.36,12.2214046194265,3.83346095647661,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0,0,"Clothing"
+"BOS_BUS","summer_mean_1h","A","groups.1.met",0.95,11.938390465183,3.91627562843762,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,-0.283014154243507,-5,"Activity"
+"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.378,12.524516592965,3.73983490885247,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.303111973538449,5,"Clothing"
+"BOS_BUS","summer_mean_1h","A","groups.1.clo",0.369,12.3738702676418,3.78621104978199,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",12.2214046194265,0.152465648215328,2.50000000000001,"Clothing"
 "BOS_BUS","summer_mean_1h","B","weather_occ.3.T",20.5725,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_BUS","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",21.1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",22.155,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",20.045,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","weather_occ.3.T",21.6275,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.81356,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.722882,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.858899,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.768221,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-2.5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","devices.7.v_fan",1.904238,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","B","groups.1.met",1.05,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,5,"Activity"
-"BOS_BUS","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_BUS","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_BUS","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+"BOS_BUS","summer_mean_1h","B","groups.1.met",0.975,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-2.5,"Activity"
+"BOS_BUS","summer_mean_1h","B","groups.1.met",1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Activity"
+"BOS_BUS","summer_mean_1h","B","groups.1.met",1.025,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Activity"
+"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.342,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-5,"Clothing"
+"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.378,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Clothing"
+"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.351,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-2.5,"Clothing"
+"BOS_BUS","summer_mean_1h","B","groups.1.met",0.95,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-5,"Activity"
+"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.36,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Clothing"
+"BOS_BUS","summer_mean_1h","B","groups.1.clo",0.369,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
 "BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.81356,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,0,"Fan airspeed A [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.722882,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-5,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.768221,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-2.5,"Fan airspeed A [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.858899,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,2.49999999999999,"Fan airspeed A [BOS_BUS]"
-"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",22.155,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.768221,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-2.5,"Fan airspeed A [BOS_BUS]"
 "BOS_BUS","summer_mean_1h","C","devices.7.v_fan",1.904238,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,5,"Fan airspeed A [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-2.5,"Activity"
+"BOS_BUS","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Activity"
 "BOS_BUS","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",21.6275,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Activity"
 "BOS_BUS","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",20.045,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Activity"
+"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Clothing"
 "BOS_BUS","summer_mean_1h","C","weather_occ.3.T",21.1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,0,"Clothing"
+"BOS_BUS","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-5,"Activity"
+"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",21.6275,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
 "BOS_BUS","summer_mean_1h","C","weather_occ.3.T",20.5725,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
 summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",22.155,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_BUS]"
+"BOS_BUS","summer_mean_1h","C","weather_occ.3.T",20.045,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / bus","Boston / bus
+summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_BUS]"

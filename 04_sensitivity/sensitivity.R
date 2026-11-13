@@ -624,6 +624,7 @@ chart_parameter_label <- function(parameter, tables) {
 #   S07-S12  – SET response curves per venue (top 4 inputs)
 #   S13-S16  – sensitivity heat-maps for SET, kWh, water, cost
 #   S17-S18  – efficiency and discomfort response with possible crossings
+#   S19 onward – paired ranking and response charts for additional venues
 plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
   d <- chart_data(sensitivity$detail)
 
@@ -646,8 +647,11 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
   d$parameter_label  <- unname(labels[d$parameter])
 
   # --- Per-venue ranked bar and response-curve charts ------------------------
-  for (j in seq_along(unique(d$venue))) {
-    venue <- unique(d$venue)[j]
+  venues <- unique(d$venue[order(d$site)])
+  for (j in seq_along(venues)) {
+    venue <- venues[j]
+    ranking_id <- if (j <= 6L) j else 19L + 2L * (j - 7L)
+    response_id <- if (j <= 6L) j + 6L else ranking_id + 1L
     s     <- d[d$venue == venue & is.finite(d$delta_SET), ]
 
     # Rank parameters by maximum absolute SET impact across any option
@@ -673,7 +677,7 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
         title   = paste("What changes SET most?", as.character(s$site[1])),
         x = "Change from baseline SET (degC)", y = NULL,
         caption = "Unavailable states omitted; CSV retains all sweep values. Rank = largest absolute SET change across options.")
-    chart_add(book, sprintf("S%02d", j), 4,
+    chart_add(book, sprintf("S%02d", ranking_id), 4,
               paste("SET sensitivity ranking:", as.character(s$site[1])), p, data = span)
 
     # S07-S12: continuous response curves for top-4 parameters
@@ -693,7 +697,7 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
         title   = paste("SET response curves:", as.character(s$site[1])),
         x = "Input change from baseline (%)", y = "Change from baseline SET (degC)",
         caption = chart_caption())
-    chart_add(book, sprintf("S%02d", j + 6), 4,
+    chart_add(book, sprintf("S%02d", response_id), 4,
               paste("SET response curves:", as.character(s$site[1])), p, data = x)
   }
 

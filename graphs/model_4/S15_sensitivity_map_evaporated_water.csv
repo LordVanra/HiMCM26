@@ -5,57 +5,117 @@
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Boston / rail",0
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Phoenix / bus",7.79134584326161
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Phoenix / rail",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Dallas / courtyard",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Dallas / airport canopy",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Boston / courtyard",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Boston / airport canopy",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Phoenix / courtyard",0
+"devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Phoenix / airport canopy",0
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Dallas / bus",0
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Dallas / rail",0
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Boston / bus",0
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Boston / rail",0
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Phoenix / bus",7.83685592333484
 "devices.15.dT_max","Outlet cooling C [PHX_BUS]","Phoenix / rail",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Dallas / courtyard",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Dallas / airport canopy",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Boston / courtyard",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Boston / airport canopy",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Phoenix / courtyard",0
+"devices.15.dT_max","Outlet cooling C [PHX_BUS]","Phoenix / airport canopy",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Dallas / bus",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Dallas / rail",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Boston / bus",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Boston / rail",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Phoenix / bus",0
 "devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Phoenix / rail",7.79134584326161
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Dallas / courtyard",0
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Dallas / airport canopy",0
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Boston / courtyard",0
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Boston / airport canopy",0
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Phoenix / courtyard",0
+"devices.18.airflow_m3_s","Cooler airflow C [PHX_RAIL]","Phoenix / airport canopy",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Dallas / bus",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Dallas / rail",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Boston / bus",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Boston / rail",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Phoenix / bus",0
 "devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Phoenix / rail",7.83685592333484
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Dallas / bus",3.47987541248072
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Dallas / rail",0
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Boston / bus",0
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Boston / rail",0
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Phoenix / bus",0
-"devices.2.dT_max","Outlet cooling B [DAL_BUS]","Phoenix / rail",0
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Dallas / bus",0
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Dallas / rail",3.47987541248072
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Boston / bus",0
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Boston / rail",0
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Phoenix / bus",0
-"devices.5.dT_max","Outlet cooling B [DAL_RAIL]","Phoenix / rail",0
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Dallas / bus",0
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Dallas / rail",0
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Boston / bus",0
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Boston / rail",0
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Phoenix / bus",7.79134584326161
-"weather_occ.5.dt_hours","dt_hours [PHX_BUS]","Phoenix / rail",0
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Dallas / bus",0
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Dallas / rail",0
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Boston / bus",0
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Boston / rail",0
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Phoenix / bus",7.77485262089468
-"weather_occ.5.pressure","Air pressure [PHX_BUS]","Phoenix / rail",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Dallas / bus",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Dallas / rail",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Boston / bus",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Boston / rail",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Phoenix / bus",0
-"weather_occ.6.dt_hours","dt_hours [PHX_RAIL]","Phoenix / rail",7.79134584326161
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Dallas / bus",0
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Dallas / rail",0
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Boston / bus",0
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Boston / rail",0
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Phoenix / bus",0
-"weather_occ.6.pressure","Air pressure [PHX_RAIL]","Phoenix / rail",7.77485262089468
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Dallas / courtyard",0
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Dallas / airport canopy",0
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Boston / courtyard",0
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Boston / airport canopy",0
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Phoenix / courtyard",0
+"devices.18.dT_max","Outlet cooling C [PHX_RAIL]","Phoenix / airport canopy",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Dallas / bus",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Dallas / rail",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Boston / bus",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Boston / rail",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Phoenix / bus",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Phoenix / rail",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Dallas / courtyard",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Dallas / airport canopy",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Boston / courtyard",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Boston / airport canopy",0
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Phoenix / courtyard",7.79134584326161
+"devices.33.airflow_m3_s","Cooler airflow C [PHX_QUAD]","Phoenix / airport canopy",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Dallas / bus",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Dallas / rail",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Boston / bus",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Boston / rail",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Phoenix / bus",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Phoenix / rail",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Dallas / courtyard",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Dallas / airport canopy",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Boston / courtyard",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Boston / airport canopy",0
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Phoenix / courtyard",7.83685592333484
+"devices.33.dT_max","Outlet cooling C [PHX_QUAD]","Phoenix / airport canopy",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Dallas / bus",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Dallas / rail",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Boston / bus",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Boston / rail",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Phoenix / bus",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Phoenix / rail",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Dallas / courtyard",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Dallas / airport canopy",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Boston / courtyard",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Boston / airport canopy",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Phoenix / courtyard",0
+"devices.36.airflow_m3_s","Cooler airflow C [PHX_PAV]","Phoenix / airport canopy",7.79134584326161
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Dallas / bus",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Dallas / rail",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Boston / bus",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Boston / rail",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Phoenix / bus",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Phoenix / rail",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Dallas / courtyard",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Dallas / airport canopy",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Boston / courtyard",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Boston / airport canopy",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Phoenix / courtyard",0
+"devices.36.dT_max","Outlet cooling C [PHX_PAV]","Phoenix / airport canopy",7.83685592333484
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Dallas / bus",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Dallas / rail",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Boston / bus",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Boston / rail",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Phoenix / bus",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Phoenix / rail",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Dallas / courtyard",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Dallas / airport canopy",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Boston / courtyard",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Boston / airport canopy",0
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Phoenix / courtyard",7.79134584326161
+"weather_occ.11.dt_hours","dt_hours [PHX_QUAD]","Phoenix / airport canopy",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Dallas / bus",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Dallas / rail",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Boston / bus",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Boston / rail",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / bus",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / rail",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Dallas / courtyard",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Dallas / airport canopy",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Boston / courtyard",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Boston / airport canopy",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / courtyard",0
+"weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / airport canopy",7.79134584326161

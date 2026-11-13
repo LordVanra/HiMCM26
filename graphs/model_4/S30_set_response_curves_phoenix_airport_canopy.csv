@@ -1,0 +1,161 @@
+"venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.T",33,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0,0,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.T",33.825,27.1348284335293,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.663227380036293,2.49999999999999,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.T",31.35,25.144431285024,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-1.32716976846896,-5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.T",34.65,27.7975598813108,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,1.32595882781781,5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.T",32.175,25.8080597484322,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.663541305060821,-2.50000000000001,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.met",1.05,26.3560788951534,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.115522158339584,5,"Activity"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.pressure",100117.5,26.4219003475794,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.0497007059136436,5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.clo",0.342,26.354274889441,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.117326164051974,-5,"Clothing"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.pressure",90582.5,26.5248479810183,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.0532469275253291,-5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.clo",0.351,26.4130281361172,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.0585729173758054,-2.5,"Clothing"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.pressure",92966.25,26.4977539652676,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.0261529117745773,-2.5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.clo",0.378,26.5882098809581,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.116608827465075,5,"Clothing"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.clo",0.36,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0,0,"Clothing"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.pressure",95350,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0,0,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.met",0.95,26.6132377947554,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.141636741262392,-5,"Activity"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.clo",0.369,26.5299946565454,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.0583936030524228,2.50000000000001,"Clothing"
+"PHX_PAV","summer_mean_1h","NONE","weather_occ.12.pressure",97733.75,26.4463335533189,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.0252675001740919,2.49999999999999,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.met",0.975,26.5412513345054,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0.0696502810123683,-2.5,"Activity"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.met",1,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,0,0,"Activity"
+"PHX_PAV","summer_mean_1h","NONE","groups.1.met",1.025,26.4041892211155,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",26.471601053493,-0.0674118323775268,2.49999999999999,"Activity"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.pressure",100117.5,25.8424879224838,0.579412425095526,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.0377254878513504,5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.pressure",90582.5,25.9205470566685,0.604300924349801,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.0403336463333481,-5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.T",34.65,27.2174742022516,0.580085679059188,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,1.33726079191644,5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.T",33,25.8802134103352,0.59138764315782,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0,0,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.pressure",92966.25,25.9000325848858,0.597721380381756,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.0198191745506406,-2.5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.T",31.35,24.5433307030984,0.601100581925596,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-1.33688270723674,-5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.T",33.825,26.5488660444419,0.585962389087442,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.668652634106671,2.49999999999999,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.pressure",95350,25.8802134103352,0.59138764315782,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0,0,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.T",32.175,25.2116482730327,0.59641147539946,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.668565137302462,-2.50000000000001,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","weather_occ.12.pressure",97733.75,25.8610355560882,0.585297997230732,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.0191778542470047,2.49999999999999,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","A","groups.1.met",1.05,25.7363028244266,0.619776070726861,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.143910585908625,5,"Activity"
+"PHX_PAV","summer_mean_1h","A","groups.1.clo",0.342,25.7574275995324,0.596847289908588,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.122785810802743,-5,"Clothing"
+"PHX_PAV","summer_mean_1h","A","groups.1.clo",0.351,25.8189216081681,0.594106527949148,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.0612918021671334,-2.5,"Clothing"
+"PHX_PAV","summer_mean_1h","A","groups.1.clo",0.36,25.8802134103352,0.59138764315782,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0,0,"Clothing"
+"PHX_PAV","summer_mean_1h","A","groups.1.clo",0.369,25.9412920167529,0.588702639792555,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.0610786064176878,2.50000000000001,"Clothing"
+"PHX_PAV","summer_mean_1h","A","groups.1.clo",0.378,26.0021858496559,0.586024031302166,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.121972439320729,5,"Clothing"
+"PHX_PAV","summer_mean_1h","A","groups.1.met",0.95,26.0507242575975,0.562513537157923,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.170510847262289,-5,"Activity"
+"PHX_PAV","summer_mean_1h","A","groups.1.met",0.975,25.9642571552275,0.576994179277904,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0.0840437448922842,-2.5,"Activity"
+"PHX_PAV","summer_mean_1h","A","groups.1.met",1.025,25.7985190235885,0.605670197526983,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,-0.0816943867466904,2.49999999999999,"Activity"
+"PHX_PAV","summer_mean_1h","A","groups.1.met",1,25.8802134103352,0.59138764315782,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8802134103352,0,0,"Activity"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.T",31.35,24.5120228302369,0.632408454787107,1.2,32.9678812293062,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-1.36610597834764,-5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.T",32.175,25.1951232281528,0.61293652027938,1.2,32.8620600961577,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.683005580431772,-2.50000000000001,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.T",33,25.8781288085846,0.59347224490843,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0,0,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.met",1.05,25.7671800460164,0.588898849136999,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.110948762568153,5,"Activity"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.T",33.825,26.5610516691481,0.573776764381179,1.2,32.6525615532232,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.682922860563544,2.49999999999999,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.T",34.65,27.2437046367115,0.553855244599351,1.2,32.5488807134951,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,1.36557582812689,5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.clo",0.342,25.7582151559333,0.596059733507744,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.119913652651288,-5,"Clothing"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.pressure",97733.75,25.8388240207376,0.607509532581307,1.2,33.574144431722,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.0393047878469694,2.49999999999999,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.clo",0.351,25.8182486059423,0.594779530174865,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.0598802026422405,-2.5,"Clothing"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.pressure",100117.5,25.8004609284694,0.621439419109937,1.2,34.3913347342316,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.0776678801151505,5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.clo",0.36,25.8781288085846,0.59347224490843,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0,0,"Clothing"
+"PHX_PAV","summer_mean_1h","B","groups.1.clo",0.369,25.9378559209459,0.592138735599534,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.059727112361319,2.50000000000001,"Clothing"
+"PHX_PAV","summer_mean_1h","B","groups.1.clo",0.378,25.9974166023592,0.590793278598834,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.119287793774671,5,"Clothing"
+"PHX_PAV","summer_mean_1h","B","groups.1.met",0.95,26.0155140622413,0.597723732514055,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.137385253656767,-5,"Activity"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.pressure",90582.5,25.9597740158467,0.565073965171628,1.2,31.1225735241988,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.081645207262131,-5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.met",0.975,25.9456209973381,0.595630337167321,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.0674921887534765,-2.5,"Activity"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.pressure",92966.25,25.9184268053865,0.579327159881107,1.2,31.9397638267055,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0.0402979968019004,-2.5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","weather_occ.12.pressure",95350,25.8781288085846,0.59347224490843,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0,0,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","B","groups.1.met",1,25.8781288085846,0.59347224490843,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,0,0,"Activity"
+"PHX_PAV","summer_mean_1h","B","groups.1.met",1.025,25.8128975795744,0.591291641541115,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.8781288085846,-0.0652312290102124,2.49999999999999,"Activity"
+"PHX_PAV","summer_mean_1h","C","groups.1.met",1.05,25.0863916083789,1.26968728677453,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.105025999461823,5,"Activity"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.T",31.35,23.7802525923258,1.36417869269819,2.5,78.4153619733633,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-1.41116501551486,-5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.T",32.175,24.4856471926331,1.32241255579903,2.5,78.1635592863368,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.70577041520756,-2.50000000000001,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.T",33,25.1914176078407,1.28018344565229,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0,0,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.T",33.825,25.8970781680198,1.23775026550945,2.5,77.6650551815816,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.705660560179133,2.49999999999999,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.T",34.65,26.6027021118983,1.19485776941254,2.5,77.4183455894049,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,1.41128450405756,5,"Outdoor temperature [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.pressure",90582.5,25.3024368278199,1.22241115319844,2.5,74.0260321221732,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.11101921997918,-5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.pressure",92966.25,25.2463219254974,1.25143203977023,2.5,75.9697452773935,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.0549043176566464,-2.5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.pressure",95350,25.1914176078407,1.28018344565229,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0,0,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","groups.1.clo",0.342,25.0686412225583,1.28563366688274,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.122776385282418,-5,"Clothing"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.pressure",97733.75,25.1376672306688,1.30866632265013,2.5,79.8571715878409,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.053750377171923,2.49999999999999,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","groups.1.clo",0.351,25.1300491265022,1.28297900961502,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.0613684813385262,-2.5,"Clothing"
+"PHX_PAV","summer_mean_1h","C","weather_occ.12.pressure",100117.5,25.0850160226311,1.33688432494824,2.5,81.8008847430679,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.106401585209586,5,"Air pressure [PHX_PAV]"
+"PHX_PAV","summer_mean_1h","C","groups.1.clo",0.36,25.1914176078407,1.28018344565229,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0,0,"Clothing"
+"PHX_PAV","summer_mean_1h","C","groups.1.clo",0.369,25.2525857043494,1.27740895219605,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.0611680965086627,2.50000000000001,"Clothing"
+"PHX_PAV","summer_mean_1h","C","groups.1.clo",0.378,25.3136316081651,1.274578272793,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.122214000324373,5,"Clothing"
+"PHX_PAV","summer_mean_1h","C","groups.1.met",0.95,25.3232144131247,1.29002338163065,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.131796805284036,-5,"Activity"
+"PHX_PAV","summer_mean_1h","C","groups.1.met",0.975,25.2561330426688,1.28511829183653,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0.064715434828134,-2.5,"Activity"
+"PHX_PAV","summer_mean_1h","C","groups.1.met",1,25.1914176078407,1.28018344565229,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,0,0,"Activity"
+"PHX_PAV","summer_mean_1h","C","groups.1.met",1.025,25.1289987950235,1.27519042609195,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / airport canopy","Phoenix / airport canopy
+summer_mean_1h",25.1914176078407,-0.0624188128171852,2.49999999999999,"Activity"

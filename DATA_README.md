@@ -1,6 +1,6 @@
 # Data README: active inputs, assumptions and source audit
 
-Updated 12 November 2026. All six original location references are retained. Ventilation and baseline airspeed are user-authorized estimates. These are a reproducible generic summer comparison, not surveyed site performance.
+Updated 12 November 2026. The summer comparison includes four venues in each study area: a bus stop, a rail platform, a campus courtyard, and a covered outdoor airport terminal area. Ventilation and baseline airspeed use documented scenario estimates.
 
 The technical correction holds reference radiant temperature at uncooled outdoor temperature across device options. It does not establish actual MRT. `weather_occ.dt_hours=1` now explicitly records the already selected operating interval. New optional `devices.v_occupied`, `T_ref`, `RH_ref` and `pressure_ref` fields remain NA; no passenger exposure or calibration conditions have been invented. The default fixed cooling comparison, per-person basis and purchase-cost basis remain as previously selected. Required missing data now stop the requested analysis; inputs used only by inactive modes do not. Current code behavior and the remaining limits are described in README.md.
 
@@ -30,7 +30,25 @@ CSV inputs retain full calculation precision. Each mass flow is written to BOTH 
 
 Boston bus means the clear-roof Grove Hall control shelter shown in the B-COOL report; the report does not identify its exact stop number. Mattapan means the outdoor trolley waiting zone, not the enclosed building. Phoenix bus and rail are separate waiting zones at Central/Camelback. Dallas bus is Rosa Parks Plaza and rail is West End. None of these identity sources supplies measured ventilation or passenger wind.
 
-## Explicit scenario assumptions
+## Additional venue case studies
+
+| Study area | Campus courtyard | Covered outdoor airport terminal area |
+|---|---|---|
+| Dallas | `DAL_QUAD` · [Dallas College Mountain View Student Courtyard](https://www.dallascollege.edu/about/legal/speech-expression-assembly/) | `DAL_PAV` · [Dallas Love Field baggage-claim curbside canopy](https://dallas.gov/government/Council%20Meeting%20Documents/2015/B-Dallas-LoveField_021815.pdf) |
+| Boston | `BOS_QUAD` · [Boston University George Sherman Union Courtyard](https://www.bu.edu/reservations/around-campus/outdoor-locations/) | `BOS_PAV` · [Boston Logan Terminal C departures canopy](https://www.skanska.com/us/en/construction/transportation-infrastructure/airports/massport-terminal-c-canopy) |
+| Phoenix | `PHX_QUAD` · [ASU Delph Courtyard, West Valley campus](https://tours.asu.edu/west/delph-courtyard) | `PHX_PAV` · [Phoenix Sky Harbor Terminal 3 curbside canopy](https://www.gftinc.com/project/phoenix-sky-harbor-international-airport-terminal-3-modernization-phase-1/) |
+
+The airport cases represent outdoor passenger areas beneath terminal canopies. Each site is modeled as one occupied zone with the same seated reference person and one device per candidate. The reference exposure is a standardized one-hour comparison; actual dwell times and occupancy are unknown.
+
+| Study area | Summer air temperature (°C) | Relative humidity (%) | Pressure (kPa) | Baseline airspeed (m/s), both sites | Courtyard exchange (kg dry air/s) | Canopy exchange (kg dry air/s) |
+|---|---:|---:|---:|---:|---:|---:|
+| Dallas | 29.2 | 62.0 | 99.230 | 1.397 | 11.626 | 17.439 |
+| Boston | 21.1 | 75.9 | 100.560 | 0.680 | 5.933 | 8.900 |
+| Phoenix | 33.0 | 26.8 | 95.350 | 1.035 | 8.269 | 12.403 |
+
+Each city uses the same 2001–2025 NASA POWER June–August climate reference as its bus and rail cases. Both venue types use the rail exposure factor of 0.75 and opening effectiveness of 0.35. Equivalent openings of 16 m² for courtyards and 24 m² for canopies are scenario assumptions that let the model compare larger outdoor exchange rates. Within each city, the modeled canopy has 1.5 times the courtyard exchange by construction. The calculation chain below converts those openings into airflow estimates. Site measurements of openings, airflow, radiant temperature, and equipment coverage would be needed to validate the comparison.
+
+## Explicit scenario assumptions for the transit stops
 
 | Input | Bus waiting zone | Rail waiting zone | Basis |
 |---|---:|---:|---|
@@ -312,6 +330,6 @@ Every CSV source key and every citation below has one standalone BibTeX entry. U
 
 ## Final validation
 
-All six passenger-speed inputs and all twelve balanced inlet/outlet mass-flow rows are populated. Independent calculations agree with the R model conversion; paired ventilation sensitivity changes preserve mass balance. The project test pipeline passes.
+All twelve passenger-speed inputs and all twenty-four balanced inlet/outlet mass-flow rows are populated. Paired ventilation sensitivity changes preserve mass balance.
 
 All 38 bibliography entries parse successfully with unique citation keys, and every key appears in this README. Biber also parses and writes the bibliography successfully. Its strict data-model check reports 23 missing-publication-date warnings for undated references; these are intentionally retained with access dates rather than fabricated publication years. These warnings are not BibTeX syntax errors.

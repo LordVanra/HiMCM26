@@ -37,11 +37,14 @@ chart_theme <- function() {
 # Enriches a data frame with display-friendly venue labels, ordered option
 # factor levels, and a combined site/scenario panel label for faceting.
 chart_data <- function(d) {
-  # Human-readable labels for the six analysis venues
+  # Human-readable labels for the reference venues
   labels <- c(
     DAL_BUS  = "Dallas / bus",  DAL_RAIL = "Dallas / rail",
     BOS_BUS  = "Boston / bus",  BOS_RAIL = "Boston / rail",
-    PHX_BUS  = "Phoenix / bus", PHX_RAIL = "Phoenix / rail"
+    PHX_BUS  = "Phoenix / bus", PHX_RAIL = "Phoenix / rail",
+    DAL_QUAD = "Dallas / courtyard", DAL_PAV = "Dallas / airport canopy",
+    BOS_QUAD = "Boston / courtyard", BOS_PAV = "Boston / airport canopy",
+    PHX_QUAD = "Phoenix / courtyard", PHX_PAV = "Phoenix / airport canopy"
   )
 
   # Translate venue codes to readable site names when the column is present

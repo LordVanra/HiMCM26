@@ -1,0 +1,121 @@
+"venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
+"BOS_BUS","hot_peak","NONE","weather_occ.8.T",29.63025,30.771915187543,0,0,0,0,NA,4.77191518754296,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_peak",30.771915187543,4.2632564145606e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","NONE","weather_occ.8.T",28.8705,30.771915187543,0,0,0,0,NA,4.77191518754296,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_peak",30.771915187543,4.2632564145606e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","NONE","weather_occ.8.T",31.9095,30.771915187543,0,0,0,0,NA,4.77191518754296,"per_person",NA,0,"A","C","Boston / bus","Boston / bus
+hot_peak",30.771915187543,4.2632564145606e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","NONE","weather_occ.8.T",31.14975,30.771915187543,0,0,0,0,NA,4.77191518754296,"per_person",NA,0,"A","C","Boston / bus","Boston / bus
+hot_peak",30.771915187543,4.2632564145606e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","NONE","weather_occ.8.T",30.39,30.771915187543,0,0,0,0,NA,4.77191518754296,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_peak",30.771915187543,4.2632564145606e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","A","weather_occ.8.T",29.63025,29.0659973957662,1.70591779177678,0.25,0,1499,6.82367116710711,3.06599739576618,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.0659973957662,1.77635683940025e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","A","weather_occ.8.T",28.8705,29.0659973957662,1.70591779177678,0.25,0,1499,6.82367116710711,3.06599739576618,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.0659973957662,1.77635683940025e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","A","weather_occ.8.T",30.39,29.0659973957662,1.70591779177678,0.25,0,1499,6.82367116710711,3.06599739576618,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.0659973957662,1.77635683940025e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","A","weather_occ.8.T",31.9095,29.0659973957662,1.70591779177678,0.25,0,1499,6.82367116710711,3.06599739576618,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",29.0659973957662,1.77635683940025e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","A","weather_occ.8.T",31.14975,29.0659973957662,1.70591779177678,0.25,0,1499,6.82367116710711,3.06599739576618,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",29.0659973957662,1.77635683940025e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","B","weather_occ.8.T",28.8705,29.5525613697641,1.21935381777887,1.2,33.9921014908409,4159,1.0161281814824,3.55256136976408,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.5525613697641,1.4210854715202e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","B","weather_occ.8.T",29.63025,29.5525613697641,1.21935381777887,1.2,33.9921014908409,4159,1.0161281814824,3.55256136976408,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.5525613697641,1.4210854715202e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","B","weather_occ.8.T",31.9095,29.5525613697641,1.21935381777887,1.2,33.9921014908409,4159,1.0161281814824,3.55256136976408,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",29.5525613697641,1.4210854715202e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","B","weather_occ.8.T",30.39,29.5525613697641,1.21935381777887,1.2,33.9921014908409,4159,1.0161281814824,3.55256136976408,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",29.5525613697641,1.4210854715202e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","B","weather_occ.8.T",31.14975,29.5525613697641,1.21935381777887,1.2,33.9921014908409,4159,1.0161281814824,3.55256136976408,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",29.5525613697641,1.4210854715202e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","C","weather_occ.8.T",29.63025,28.5737047735568,2.1982104139862,2.5,80.850808126701,4939,0.87928416559448,2.57370477355676,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",28.5737047735568,3.90798504668055e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","C","weather_occ.8.T",30.39,28.5737047735568,2.1982104139862,2.5,80.850808126701,4939,0.87928416559448,2.57370477355676,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",28.5737047735568,3.90798504668055e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","C","weather_occ.8.T",31.9095,28.5737047735568,2.1982104139862,2.5,80.850808126701,4939,0.87928416559448,2.57370477355676,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",28.5737047735568,3.90798504668055e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","C","weather_occ.8.T",31.14975,28.5737047735568,2.1982104139862,2.5,80.850808126701,4939,0.87928416559448,2.57370477355676,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_peak",28.5737047735568,3.90798504668055e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_peak","C","weather_occ.8.T",28.8705,28.5737047735568,2.1982104139862,2.5,80.850808126701,4939,0.87928416559448,2.57370477355676,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_peak",28.5737047735568,3.90798504668055e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","NONE","weather_occ.8.T",29.63025,26.6007366858743,0,0,0,0,NA,0.600736685874303,"per_person",NA,-1.05456133195506,"C","C","Boston / bus","Boston / bus
+hot_humid",27.6552980178294,-1.05456133195506,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","NONE","weather_occ.8.T",31.9095,29.8770195050144,0,0,0,0,NA,3.87701950501444,"per_person",NA,2.22172148718508,"A","C","Boston / bus","Boston / bus
+hot_humid",27.6552980178294,2.22172148718504,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","NONE","weather_occ.8.T",30.39,27.6552980178294,0,0,0,0,NA,1.65529801782936,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_humid",27.6552980178294,3.5527136788005e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","NONE","weather_occ.8.T",31.14975,28.7466792996023,0,0,0,0,NA,2.74667929960228,"per_person",NA,1.09138128177292,"A","C","Boston / bus","Boston / bus
+hot_humid",27.6552980178294,1.09138128177294,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","NONE","weather_occ.8.T",28.8705,25.5807580348863,0,0,0,0,NA,0,"per_person",NA,-1.65529801782936,"C","C","Boston / bus","Boston / bus
+hot_humid",27.6552980178294,-2.07453998294306,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","A","weather_occ.8.T",29.63025,24.0716582608037,2.52907842507057,0.25,0,1499,2.40294674349721,0,"per_person",-4.21824532782024,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.0886076371914,-1.01694937638774,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","A","weather_occ.8.T",31.9095,27.250335580858,2.62668392415647,0.25,0,1499,10.5067356966259,1.25033558085797,"per_person",3.88554362530842,1.25033558085797,"A","C","Boston / bus","Boston / bus
+hot_humid",25.0886076371914,2.16172794366656,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","A","weather_occ.8.T",31.14975,26.1467810160408,2.59989828356145,0.25,0,1499,10.3995931342458,0.146781016040826,"per_person",3.77840106292837,0.146781016040826,"A","C","Boston / bus","Boston / bus
+hot_humid",25.0886076371914,1.05817337884936,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","A","weather_occ.8.T",30.39,25.0886076371914,2.56669038063793,0.25,0,1499,6.62119207131745,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.0886076371914,-3.5527136788005e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","A","weather_occ.8.T",28.8705,23.0930447839627,2.4877132509236,0.25,0,1499,0,0,"per_person",-6.62119207131745,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.0886076371914,-1.99556285322874,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","B","weather_occ.8.T",29.63025,24.6642380868188,1.93649859905554,1.2,29.2139863830102,4159,0.500613904895252,0,"per_person",-0.87880110996255,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.8266005966417,-1.16236250982287,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","B","weather_occ.8.T",31.14975,27.0453651148666,1.70131418473567,1.2,29.9357200416302,4159,1.41776182061306,1.04536511486661,"per_person",0.0383468057552545,1.04536511486661,"A","C","Boston / bus","Boston / bus
+hot_humid",25.8266005966417,1.21876451822493,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","B","weather_occ.8.T",31.9095,28.3244279532111,1.55259155180337,1.2,30.2897281182602,4159,1.29382629316948,2.32442795321107,"per_person",-0.085588721688324,2.32442795321107,"A","C","Boston / bus","Boston / bus
+hot_humid",25.8266005966417,2.49782735656943,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","B","weather_occ.8.T",30.39,25.8266005966417,1.8286974211877,1.2,29.5771425402245,4159,1.3794150148578,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.8266005966417,3.5527136788005e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","B","weather_occ.8.T",28.8705,23.5544164880373,2.02634154684903,1.2,28.8462513901345,4159,0,0,"per_person",-1.3794150148578,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.8266005966417,-2.27218410860436,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","C","weather_occ.8.T",29.63025,24.5174695062481,2.08326717962617,2.5,43.3340798014652,4939,0.240294674349721,0,"per_person",-0.421824532782024,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.6871243207827,-1.16965481453455,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","C","weather_occ.8.T",30.39,25.6871243207827,1.96817369704671,2.5,43.8727614346663,4939,0.662119207131745,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.6871243207827,4.9737991503207e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","C","weather_occ.8.T",31.14975,26.9150426198795,1.83163667972274,2.5,44.4046513950848,4939,0.732654671889097,0.915042619879539,"per_person",0.0705354647573515,0.915042619879539,"A","C","Boston / bus","Boston / bus
+hot_humid",25.6871243207827,1.22791829909685,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","C","weather_occ.8.T",28.8705,23.4020457759823,2.17871225890401,2.5,42.7886062286995,4939,0,0,"per_person",-0.662119207131745,0,"C","C","Boston / bus","Boston / bus
+hot_humid",25.6871243207827,-2.28507854480035,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_humid","C","weather_occ.8.T",31.9095,28.2052095946771,1.67180991033736,2.5,44.9297633754193,4939,0.668723964134944,2.20520959467708,"per_person",0.0066047570031984,2.20520959467708,"A","C","Boston / bus","Boston / bus
+hot_humid",25.6871243207827,2.51808527389445,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","NONE","weather_occ.8.T",31.14975,24.4422181363483,0,0,0,0,NA,0,"per_person",NA,0,"A","C","Boston / bus","Boston / bus
+hot_dry",24.4422181363483,4.61852778244065e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","NONE","weather_occ.8.T",29.63025,24.4422181363483,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_dry",24.4422181363483,4.61852778244065e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","NONE","weather_occ.8.T",30.39,24.4422181363483,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_dry",24.4422181363483,4.61852778244065e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","NONE","weather_occ.8.T",31.9095,24.4422181363483,0,0,0,0,NA,0,"per_person",NA,0,"A","C","Boston / bus","Boston / bus
+hot_dry",24.4422181363483,4.61852778244065e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","NONE","weather_occ.8.T",28.8705,24.4422181363483,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / bus","Boston / bus
+hot_dry",24.4422181363483,4.61852778244065e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","A","weather_occ.8.T",29.63025,22.5724513001093,1.86976683623893,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.5724513001093,-2.48689957516035e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","A","weather_occ.8.T",31.14975,22.5724513001093,1.86976683623893,0.25,0,1499,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",22.5724513001093,-2.48689957516035e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","A","weather_occ.8.T",30.39,22.5724513001093,1.86976683623893,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.5724513001093,-2.48689957516035e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","A","weather_occ.8.T",31.9095,22.5724513001093,1.86976683623893,0.25,0,1499,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",22.5724513001093,-2.48689957516035e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","A","weather_occ.8.T",28.8705,22.5724513001093,1.86976683623893,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.5724513001093,-2.48689957516035e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","B","weather_occ.8.T",29.63025,22.4902905623992,1.95192757394902,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.4902905623992,-3.5527136788005e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","B","weather_occ.8.T",30.39,22.4902905623992,1.95192757394902,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.4902905623992,-3.5527136788005e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","B","weather_occ.8.T",31.14975,22.4902905623992,1.95192757394902,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",22.4902905623992,-3.5527136788005e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","B","weather_occ.8.T",28.8705,22.4902905623992,1.95192757394902,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",22.4902905623992,-3.5527136788005e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","B","weather_occ.8.T",31.9095,22.4902905623992,1.95192757394902,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",22.4902905623992,-3.5527136788005e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","C","weather_occ.8.T",29.63025,20.766133023741,3.67608511260722,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",20.766133023741,-3.5527136788005e-14,-2.5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","C","weather_occ.8.T",30.39,20.766133023741,3.67608511260722,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",20.766133023741,-3.5527136788005e-14,0,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","C","weather_occ.8.T",31.9095,20.766133023741,3.67608511260722,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",20.766133023741,-3.5527136788005e-14,5,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","C","weather_occ.8.T",31.14975,20.766133023741,3.67608511260722,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"A","C","Boston / bus","Boston / bus
+hot_dry",20.766133023741,-3.5527136788005e-14,2.49999999999999,"Outdoor temperature [BOS_BUS] hot_humid"
+"BOS_BUS","hot_dry","C","weather_occ.8.T",28.8705,20.766133023741,3.67608511260722,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / bus","Boston / bus
+hot_dry",20.766133023741,-3.5527136788005e-14,-5,"Outdoor temperature [BOS_BUS] hot_humid"

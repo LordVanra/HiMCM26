@@ -1,0 +1,217 @@
+"venue","option","max_regret","worst_L","chosen","status","scenario_count","decision_scope","model_basis","scenario","decision_cost","E","water_kg","site","panel","axis","metric","raw","scaled","axis_maximum","x","y"
+"BOS_BUS","A",0.492292622209423,3.06599739576618,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / bus","Boston / bus
+all scenarios",1,"Maximum
+regret",0.492292622209423,0.192428955414816,2.55830844764601,0,0.192428955414816
+"BOS_BUS","B",0.978856596207326,3.55256136976408,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / bus","Boston / bus
+all scenarios",1,"Maximum
+regret",0.978856596207326,0.382618678020629,2.55830844764601,0,0.382618678020629
+"BOS_BUS","C",0,2.57370477355676,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / bus","Boston / bus
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"BOS_BUS","NONE",2.1982104139862,4.77191518754296,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / bus","Boston / bus
+all scenarios",1,"Maximum
+regret",2.1982104139862,0.859243699096897,2.55830844764601,0,0.859243699096897
+"BOS_RAIL","A",0.941151991884777,3.06599739576617,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / rail","Boston / rail
+all scenarios",1,"Maximum
+regret",0.941151991884777,0.367880578571658,2.55830844764601,0,0.367880578571658
+"BOS_RAIL","B",0.974926537873412,3.0997719417548,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / rail","Boston / rail
+all scenarios",1,"Maximum
+regret",0.974926537873412,0.38108248392428,2.55830844764601,0,0.38108248392428
+"BOS_RAIL","C",0,2.12484540388139,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / rail","Boston / rail
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"BOS_RAIL","NONE",2.0308717497208,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / rail","Boston / rail
+all scenarios",1,"Maximum
+regret",2.0308717497208,0.793833812959289,2.55830844764601,0,0.793833812959289
+"DAL_BUS","A",1.78220144792556,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / bus","Dallas / bus
+all scenarios",1,"Maximum
+regret",1.78220144792556,0.696632749489382,2.55830844764601,0,0.696632749489382
+"DAL_BUS","B",1.2170293589858,5.91588150050694,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / bus","Dallas / bus
+all scenarios",1,"Maximum
+regret",1.2170293589858,0.475716428996522,2.55830844764601,0,0.475716428996522
+"DAL_BUS","C",0,5.09695560712581,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / bus","Dallas / bus
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"DAL_BUS","NONE",2.55830844764601,6.84893621407811,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / bus","Dallas / bus
+all scenarios",1,"Maximum
+regret",2.55830844764601,1,2.55830844764601,0,1
+"DAL_RAIL","A",1.72363405492245,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / rail","Dallas / rail
+all scenarios",1,"Maximum
+regret",1.72363405492245,0.673739734748726,2.55830844764601,0,0.673739734748726
+"DAL_RAIL","B",1.02696101216984,5.81820522268071,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / rail","Dallas / rail
+all scenarios",1,"Maximum
+regret",1.02696101216984,0.40142188996592,2.55830844764601,0,0.40142188996592
+"DAL_RAIL","C",0,5.11552014639302,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / rail","Dallas / rail
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"DAL_RAIL","NONE",1.99983857178372,6.49613983478397,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / rail","Dallas / rail
+all scenarios",1,"Maximum
+regret",1.99983857178372,0.781703462545275,2.55830844764601,0,0.781703462545275
+"PHX_BUS","A",0.748783449276736,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / bus","Phoenix / bus
+all scenarios",1,"Maximum
+regret",0.748783449276736,0.292686931462747,2.55830844764601,0,0.292686931462747
+"PHX_BUS","B",0.750207984459315,8.24755375439893,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / bus","Phoenix / bus
+all scenarios",1,"Maximum
+regret",0.750207984459315,0.293243758448911,2.55830844764601,0,0.293243758448911
+"PHX_BUS","C",0,7.68051188129451,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / bus","Phoenix / bus
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"PHX_BUS","NONE",1.64456250964012,8.93262918082993,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / bus","Phoenix / bus
+all scenarios",1,"Maximum
+regret",1.64456250964012,0.642831989689646,2.55830844764601,0,0.642831989689646
+"PHX_RAIL","A",0.949761517018935,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / rail","Phoenix / rail
+all scenarios",1,"Maximum
+regret",0.949761517018935,0.371245898004536,2.55830844764601,0,0.371245898004536
+"PHX_RAIL","B",0.702751857243747,8.01952648016913,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / rail","Phoenix / rail
+all scenarios",1,"Maximum
+regret",0.702751857243747,0.274693951736106,2.55830844764601,0,0.274693951736106
+"PHX_RAIL","C",0,7.48822217867016,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / rail","Phoenix / rail
+all scenarios",1,"Maximum
+regret",0,0,2.55830844764601,0,0
+"PHX_RAIL","NONE",1.41526263372437,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / rail","Phoenix / rail
+all scenarios",1,"Maximum
+regret",1.41526263372437,0.5532025018432,2.55830844764601,0,0.5532025018432
+"BOS_BUS","A",0.492292622209423,3.06599739576618,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / bus","Boston / bus
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"BOS_BUS","B",0.978856596207326,3.55256136976408,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / bus","Boston / bus
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"BOS_BUS","C",0,2.57370477355676,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / bus","Boston / bus
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"BOS_BUS","NONE",2.1982104139862,4.77191518754296,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / bus","Boston / bus
+all scenarios",2,"Cost",0,0,4939,0,0
+"BOS_RAIL","A",0.941151991884777,3.06599739576617,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / rail","Boston / rail
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"BOS_RAIL","B",0.974926537873412,3.0997719417548,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / rail","Boston / rail
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"BOS_RAIL","C",0,2.12484540388139,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / rail","Boston / rail
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"BOS_RAIL","NONE",2.0308717497208,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / rail","Boston / rail
+all scenarios",2,"Cost",0,0,4939,0,0
+"DAL_BUS","A",1.78220144792556,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / bus","Dallas / bus
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"DAL_BUS","B",1.2170293589858,5.91588150050694,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / bus","Dallas / bus
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"DAL_BUS","C",0,5.09695560712581,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / bus","Dallas / bus
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"DAL_BUS","NONE",2.55830844764601,6.84893621407811,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / bus","Dallas / bus
+all scenarios",2,"Cost",0,0,4939,0,0
+"DAL_RAIL","A",1.72363405492245,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / rail","Dallas / rail
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"DAL_RAIL","B",1.02696101216984,5.81820522268071,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / rail","Dallas / rail
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"DAL_RAIL","C",0,5.11552014639302,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / rail","Dallas / rail
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"DAL_RAIL","NONE",1.99983857178372,6.49613983478397,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / rail","Dallas / rail
+all scenarios",2,"Cost",0,0,4939,0,0
+"PHX_BUS","A",0.748783449276736,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / bus","Phoenix / bus
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"PHX_BUS","B",0.750207984459315,8.24755375439893,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / bus","Phoenix / bus
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"PHX_BUS","C",0,7.68051188129451,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / bus","Phoenix / bus
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"PHX_BUS","NONE",1.64456250964012,8.93262918082993,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / bus","Phoenix / bus
+all scenarios",2,"Cost",0,0,4939,0,0
+"PHX_RAIL","A",0.949761517018935,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / rail","Phoenix / rail
+all scenarios",2,"Cost",1499,0.303502733346831,4939,0.303502733346831,1.85835687829494e-17
+"PHX_RAIL","B",0.702751857243747,8.01952648016913,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / rail","Phoenix / rail
+all scenarios",2,"Cost",4159,0.842073294189107,4939,0.842073294189107,5.1560415322406e-17
+"PHX_RAIL","C",0,7.48822217867016,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / rail","Phoenix / rail
+all scenarios",2,"Cost",4939,1,4939,1,6.12303176911189e-17
+"PHX_RAIL","NONE",1.41526263372437,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / rail","Phoenix / rail
+all scenarios",2,"Cost",0,0,4939,0,0
+"BOS_BUS","A",0.492292622209423,3.06599739576618,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / bus","Boston / bus
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"BOS_BUS","B",0.978856596207326,3.55256136976408,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / bus","Boston / bus
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"BOS_BUS","C",0,2.57370477355676,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / bus","Boston / bus
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"BOS_BUS","NONE",2.1982104139862,4.77191518754296,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / bus","Boston / bus
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"BOS_RAIL","A",0.941151991884777,3.06599739576617,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / rail","Boston / rail
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"BOS_RAIL","B",0.974926537873412,3.0997719417548,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / rail","Boston / rail
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"BOS_RAIL","C",0,2.12484540388139,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / rail","Boston / rail
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"BOS_RAIL","NONE",2.0308717497208,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / rail","Boston / rail
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"DAL_BUS","A",1.78220144792556,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / bus","Dallas / bus
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"DAL_BUS","B",1.2170293589858,5.91588150050694,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / bus","Dallas / bus
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"DAL_BUS","C",0,5.09695560712581,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / bus","Dallas / bus
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"DAL_BUS","NONE",2.55830844764601,6.84893621407811,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / bus","Dallas / bus
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"DAL_RAIL","A",1.72363405492245,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / rail","Dallas / rail
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"DAL_RAIL","B",1.02696101216984,5.81820522268071,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / rail","Dallas / rail
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"DAL_RAIL","C",0,5.11552014639302,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / rail","Dallas / rail
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"DAL_RAIL","NONE",1.99983857178372,6.49613983478397,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / rail","Dallas / rail
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"PHX_BUS","A",0.748783449276736,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / bus","Phoenix / bus
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"PHX_BUS","B",0.750207984459315,8.24755375439893,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / bus","Phoenix / bus
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"PHX_BUS","C",0,7.68051188129451,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / bus","Phoenix / bus
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"PHX_BUS","NONE",1.64456250964012,8.93262918082993,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / bus","Phoenix / bus
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"PHX_RAIL","A",0.949761517018935,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / rail","Phoenix / rail
+all scenarios",3,"Electricity",0.25,0.1,2.5,1.22460635382238e-17,-0.1
+"PHX_RAIL","B",0.702751857243747,8.01952648016913,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / rail","Phoenix / rail
+all scenarios",3,"Electricity",1.2,0.48,2.5,5.87811049834741e-17,-0.48
+"PHX_RAIL","C",0,7.48822217867016,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / rail","Phoenix / rail
+all scenarios",3,"Electricity",2.5,1,2.5,1.22460635382238e-16,-1
+"PHX_RAIL","NONE",1.41526263372437,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / rail","Phoenix / rail
+all scenarios",3,"Electricity",0,0,2.5,0,0
+"BOS_BUS","A",0.492292622209423,3.06599739576618,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / bus","Boston / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"BOS_BUS","B",0.978856596207326,3.55256136976408,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / bus","Boston / bus
+all scenarios",4,"Water",35.3586583747279,0.42042484765196,84.1022089255742,-0.42042484765196,-7.72282409609093e-17
+"BOS_BUS","C",0,2.57370477355676,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / bus","Boston / bus
+all scenarios",4,"Water",84.1022089255742,1,84.1022089255742,-1,-1.83690953073357e-16
+"BOS_BUS","NONE",2.1982104139862,4.77191518754296,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / bus","Boston / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"BOS_RAIL","A",0.941151991884777,3.06599739576617,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Boston / rail","Boston / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"BOS_RAIL","B",0.974926537873412,3.0997719417548,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,35.3586583747279,"Boston / rail","Boston / rail
+all scenarios",4,"Water",35.3586583747279,0.42042484765196,84.1022089255742,-0.42042484765196,-7.72282409609093e-17
+"BOS_RAIL","C",0,2.12484540388139,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,84.1022089255742,"Boston / rail","Boston / rail
+all scenarios",4,"Water",84.1022089255742,1,84.1022089255742,-1,-1.83690953073357e-16
+"BOS_RAIL","NONE",2.0308717497208,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Boston / rail","Boston / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"DAL_BUS","A",1.78220144792556,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / bus","Dallas / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"DAL_BUS","B",1.2170293589858,5.91588150050694,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / bus","Dallas / bus
+all scenarios",4,"Water",33.8357746882454,0.402317312713965,84.1022089255742,-0.402317312713965,-7.39020506103399e-17
+"DAL_BUS","C",0,5.09695560712581,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / bus","Dallas / bus
+all scenarios",4,"Water",80.4790178600495,0.956919192589448,84.1022089255742,-0.956919192589448,-1.75777398500943e-16
+"DAL_BUS","NONE",2.55830844764601,6.84893621407811,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / bus","Dallas / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"DAL_RAIL","A",1.72363405492245,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Dallas / rail","Dallas / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"DAL_RAIL","B",1.02696101216984,5.81820522268071,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,33.8357746882454,"Dallas / rail","Dallas / rail
+all scenarios",4,"Water",33.8357746882454,0.402317312713965,84.1022089255742,-0.402317312713965,-7.39020506103399e-17
+"DAL_RAIL","C",0,5.11552014639302,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,80.4790178600495,"Dallas / rail","Dallas / rail
+all scenarios",4,"Water",80.4790178600495,0.956919192589448,84.1022089255742,-0.956919192589448,-1.75777398500943e-16
+"DAL_RAIL","NONE",1.99983857178372,6.49613983478397,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Dallas / rail","Dallas / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"PHX_BUS","A",0.748783449276736,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / bus","Phoenix / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"PHX_BUS","B",0.750207984459315,8.24755375439893,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / bus","Phoenix / bus
+all scenarios",4,"Water",31.518386390621,0.374762884272315,84.1022089255742,-0.374762884272315,-6.88405513885017e-17
+"PHX_BUS","C",0,7.68051188129451,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / bus","Phoenix / bus
+all scenarios",4,"Water",74.9663404517122,0.891371836833124,84.1022089255742,-0.891371836833124,-1.63736942250625e-16
+"PHX_BUS","NONE",1.64456250964012,8.93262918082993,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / bus","Phoenix / bus
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"PHX_RAIL","A",0.949761517018935,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",1499,0.25,0,"Phoenix / rail","Phoenix / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0
+"PHX_RAIL","B",0.702751857243747,8.01952648016913,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4159,1.2,31.518386390621,"Phoenix / rail","Phoenix / rail
+all scenarios",4,"Water",31.518386390621,0.374762884272315,84.1022089255742,-0.374762884272315,-6.88405513885017e-17
+"PHX_RAIL","C",0,7.48822217867016,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",4939,2.5,74.9663404517122,"Phoenix / rail","Phoenix / rail
+all scenarios",4,"Water",74.9663404517122,0.891371836833124,84.1022089255742,-0.891371836833124,-1.63736942250625e-16
+"PHX_RAIL","NONE",1.41526263372437,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios",0,0,0,"Phoenix / rail","Phoenix / rail
+all scenarios",4,"Water",0,0,84.1022089255742,0,0

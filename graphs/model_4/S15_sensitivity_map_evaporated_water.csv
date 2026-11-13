@@ -1,4 +1,5 @@
 "parameter","parameter_label","site","swing"
+<<<<<<< HEAD
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Dallas / bus",0
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Dallas / rail",0
 "devices.15.airflow_m3_s","Cooler airflow C [PHX_BUS]","Boston / bus",0
@@ -119,3 +120,65 @@
 "weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Boston / airport canopy",0
 "weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / courtyard",0
 "weather_occ.12.dt_hours","dt_hours [PHX_PAV]","Phoenix / airport canopy",7.79134584326161
+=======
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Dallas / bus",0
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Dallas / rail",0
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Boston / bus",0
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Boston / rail",8.4102208925574
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Phoenix / bus",0
+"devices.12.airflow_m3_s","Cooler airflow C [BOS_RAIL]","Phoenix / rail",0
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Dallas / bus",0
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Dallas / rail",0
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Boston / bus",0
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Boston / rail",8.45948328679199
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Phoenix / bus",0
+"devices.12.dT_max","Outlet cooling C [BOS_RAIL]","Phoenix / rail",0
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Dallas / bus",0
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Dallas / rail",0
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Boston / bus",8.4102208925574
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Boston / rail",0
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Phoenix / bus",0
+"devices.9.airflow_m3_s","Cooler airflow C [BOS_BUS]","Phoenix / rail",0
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Dallas / bus",0
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Dallas / rail",0
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Boston / bus",8.45948328679199
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Boston / rail",0
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Phoenix / bus",0
+"devices.9.dT_max","Outlet cooling C [BOS_BUS]","Phoenix / rail",0
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Dallas / bus",0
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Dallas / rail",0
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Boston / bus",0
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Boston / rail",12.2296647626647
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Phoenix / bus",0
+"weather_occ.11.RH","Outdoor humidity [BOS_RAIL] hot_humid","Phoenix / rail",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Dallas / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Dallas / rail",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Boston / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Boston / rail",8.4102208925574
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Phoenix / bus",0
+"weather_occ.12.dt_hours","dt_hours [BOS_RAIL] hot_dry","Phoenix / rail",0
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Dallas / bus",0
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Dallas / rail",0
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Boston / bus",0
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Boston / rail",8.396057811044
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Phoenix / bus",0
+"weather_occ.12.pressure","Air pressure [BOS_RAIL] hot_dry","Phoenix / rail",0
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Dallas / bus",0
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Dallas / rail",0
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Boston / bus",12.2296647626647
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Boston / rail",0
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Phoenix / bus",0
+"weather_occ.8.RH","Outdoor humidity [BOS_BUS] hot_humid","Phoenix / rail",0
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Dallas / bus",0
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Dallas / rail",0
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Boston / bus",8.4102208925574
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Boston / rail",0
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Phoenix / bus",0
+"weather_occ.9.dt_hours","dt_hours [BOS_BUS] hot_dry","Phoenix / rail",0
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Dallas / bus",0
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Dallas / rail",0
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Boston / bus",8.396057811044
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Boston / rail",0
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Phoenix / bus",0
+"weather_occ.9.pressure","Air pressure [BOS_BUS] hot_dry","Phoenix / rail",0
+>>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c

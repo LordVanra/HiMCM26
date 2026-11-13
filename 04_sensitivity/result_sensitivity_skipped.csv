@@ -1,4 +1,5 @@
 "model","output","context","inputs"
+<<<<<<< HEAD
 4,"eta/L/chosen option","exchanges.1.mass_kg_s","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
 4,"eta/L/chosen option","exchanges.3.mass_kg_s","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
 4,"eta/L/chosen option","exchanges.5.mass_kg_s","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
@@ -226,3 +227,5 @@
 4,"eta/L/chosen option","groups.1.csw","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
 4,"eta/L/chosen option","groups.1.cdil","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
 4,"eta/L/chosen option","groups.1.cstr","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model, evaporative_supply unavailable (see its missing inputs), cfg.set_upper, cfg.set_lower, zone_conditions.T, zone_conditions.RH, incomplete loss, eta unavailable for compared options"
+=======
+>>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c

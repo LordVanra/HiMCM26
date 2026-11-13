@@ -1,1 +1,3 @@
 "parameter","venue","lower","upper","choice_below","choice_above"
+"weather_occ.8.T","BOS_BUS",30.39,31.14975,"C","A"
+"cfg.set_upper","BOS_BUS",24.7,25.35,"A","C"

@@ -1,4 +1,5 @@
 "model","output","context","inputs"
+<<<<<<< HEAD
 1,"evaporative_supply/water","DAL_BUS/summer_mean_1h/1/C/waiting_area","invalid: fixed outlet reduction requires supersaturation under the direct-evaporation moisture model"
 1,"zone_T","DAL_BUS/summer_mean_1h/1/C","evaporative_supply unavailable (see its missing inputs)"
 1,"zone_w","DAL_BUS/summer_mean_1h/1/C","evaporative_supply unavailable (see its missing inputs)"
@@ -73,3 +74,5 @@
 3,"highest efficiency","PHX_QUAD summer_mean_1h","eta unavailable for compared options"
 3,"regret/recommendation","PHX_PAV/summer_mean_1h","incomplete loss"
 3,"highest efficiency","PHX_PAV summer_mean_1h","eta unavailable for compared options"
+=======
+>>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c

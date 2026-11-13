@@ -468,12 +468,13 @@ pareto_plot <- function(a, path) {
   a <- a[is.finite(a$annual_cost) & is.finite(a$L), , drop = FALSE]
   if (!nrow(a)) return(FALSE)
 
-  grDevices::png(path, width = 1200, height = 800, res = 120)
+  panels <- split(a, paste(a$venue, a$scenario))
+  columns <- min(3L, length(panels))
+  rows <- ceiling(length(panels)/columns)
+  grDevices::png(path, width = 1500, height = max(800, 420*rows), res = 120)
   on.exit(grDevices::dev.off())
 
-  panels <- split(a, paste(a$venue, a$scenario))
-  par(mfrow = c(ceiling(sqrt(length(panels))),
-                ceiling(length(panels) / ceiling(sqrt(length(panels))))))
+  par(mfrow = c(rows, columns), mar = c(5, 4, 3, 1))
 
   for (label in names(panels)) {
     d <- panels[[label]]
@@ -616,7 +617,7 @@ chart_radar <- function(book, id, d, fields, labels, title, subtitle = NULL) {
     ) +
     ggplot2::labs(
       title    = title,
-      caption  = "Rings: 0.25, 0.50, 0.75, 1.00. Shapes are not a combined score; NONE lies at the center when all metrics are zero."
+      caption  = "Each axis is divided by its displayed maximum; smaller means lower. Rings: 0.25, 0.50, 0.75, 1.00. Area is not a score."
     )
 
   chart_add(book, id, 3, title, p, data = long)
@@ -712,6 +713,7 @@ plot_decision_gallery <- function(result, cfg, book) {
     }
 
     front <- d[d$frontier, ]
+    front <- front[ave(rep(1, nrow(front)), front$panel, FUN = length) >= 2, , drop = FALSE]
     front <- front[order(front$decision_cost), ]
 
     p <- ggplot2::ggplot(d, ggplot2::aes(decision_cost, loss, color = option)) +

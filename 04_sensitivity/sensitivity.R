@@ -30,7 +30,7 @@ numeric_parameters <- function(cfg, tables) {
   # Scan all table cells (excluding the "hour" index column)
   for (name in setdiff(names(tables), "bounds")) {
     for (field in names(tables[[name]])) {
-      if (field == "hour") next
+      if (field %in% c("hour", "timestamp_utc")) next
       x <- tables[[name]][[field]]
       if (is.numeric(x))
         for (row in which(is.finite(x)))
@@ -257,6 +257,27 @@ choice_for <- function(result, venue) {
 #   detail    – one row per (parameter, value, venue, scenario, option)
 #   switching – intervals where the chosen option changes
 #   skipped   – skip-log entries
+rerun_sensitivity_case <- function(parameter, changed, base) {
+  parts <- strsplit(parameter, ".", fixed = TRUE)[[1]]
+  if (length(parts) != 3L || !"venue" %in% names(changed$tables[[parts[1]]]))
+    return(run_all(changed$cfg, changed$tables, quiet = TRUE))
+  venue <- changed$tables[[parts[1]]]$venue[as.integer(parts[2])]
+  local_tables <- lapply(changed$tables, function(d) {
+    if ("venue" %in% names(d)) d[d$venue == venue, , drop = FALSE] else d
+  })
+  local <- run_all(changed$cfg, local_tables, quiet = TRUE)
+  result <- base
+  # Venues are independent decisions; retain unchanged venues exactly rather than resolving them.
+  for (name in names(local)) {
+    if ("venue" %in% names(local[[name]]))
+      result[[name]] <- do.call(rbind, lapply(unique(base[[name]]$venue), function(v) {
+        if (v == venue) local[[name]] else base[[name]][base[[name]]$venue == v, , drop = FALSE]
+      }))
+    else result[[name]] <- unique(rbind(base[[name]], local[[name]]))
+  }
+  result
+}
+
 run_sensitivity <- function(cfg, tables, quiet = FALSE) {
   require_model_data(cfg, tables, bounds_required = TRUE)
 
@@ -271,7 +292,7 @@ run_sensitivity <- function(cfg, tables, quiet = FALSE) {
     # Sweep this parameter through sweep_levels evenly-spaced values
     for (value in seq(b$lower, b$upper, length.out = cfg$sweep_levels)) {
       changed <- set_parameter(b$parameter, value, cfg, tables)
-      result  <- run_all(changed$cfg, changed$tables, quiet = TRUE)
+      result  <- rerun_sensitivity_case(b$parameter, changed, base)
       a       <- result$options
 
       # Log if the pipeline produced results but key metrics are all missing
@@ -432,7 +453,17 @@ save_sensitivity <- function(result, root = ".") {
               file.path(root, "04_sensitivity", paste0("result_sensitivity_", name, ".csv")),
               row.names = FALSE, na = "NA")
 
-  if (!break_even_plot(result$detail, file.path(root, "04_sensitivity", "result_break_even.png"))) {
+  plot_data <- result$detail
+  if (!is.null(result$switching) && nrow(result$switching)) {
+    change <- result$switching[1, ]
+    plot_data <- plot_data[plot_data$parameter == change$parameter & plot_data$venue == change$venue, ]
+    cases <- split(plot_data, plot_data$scenario)
+    swing <- vapply(cases, function(d) max(vapply(split(d$L, d$option), function(x) {
+      x <- x[is.finite(x)]; if (length(x)) diff(range(x)) else 0
+    }, numeric(1))), numeric(1))
+    plot_data <- cases[[which.max(swing)]]
+  }
+  if (!break_even_plot(plot_data, file.path(root, "04_sensitivity", "result_break_even.png"))) {
     path <- file.path(root, "04_sensitivity", "result_break_even.png")
     if (file.exists(path)) unlink(path)
     cat("Skipped: break-even plot [complete bounded sweep with eta or L]\n")
@@ -613,6 +644,8 @@ chart_parameter_label <- function(parameter, tables) {
   # Append venue name when the table has a venue column
   if (length(parts) == 3 && "venue" %in% names(tables[[parts[1]]]))
     label <- paste0(label, " [", tables[[parts[1]]]$venue[as.integer(parts[2])], "]")
+  if (length(parts) == 3 && parts[1] == "weather_occ")
+    label <- paste(label, tables$weather_occ$scenario[as.integer(parts[2])])
 
   label
 }
@@ -647,11 +680,16 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
   d$parameter_label  <- unname(labels[d$parameter])
 
   # --- Per-venue ranked bar and response-curve charts ------------------------
+<<<<<<< HEAD
   venues <- unique(d$venue[order(d$site)])
   for (j in seq_along(venues)) {
     venue <- venues[j]
     ranking_id <- if (j <= 6L) j else 19L + 2L * (j - 7L)
     response_id <- if (j <= 6L) j + 6L else ranking_id + 1L
+=======
+  for (j in seq_along(unique(result$options$venue))) {
+    venue <- unique(result$options$venue)[j]
+>>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
     s     <- d[d$venue == venue & is.finite(d$delta_SET), ]
 
     # Rank parameters by maximum absolute SET impact across any option
@@ -686,7 +724,7 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
     x$parameter_label <- factor(x$parameter_label, levels = unname(labels[top]))
 
     p <- ggplot2::ggplot(x, ggplot2::aes(input_change, delta_SET,
-                                         color = option, group = interaction(option, scenario))) +
+                                         color = option, linetype = scenario, group = interaction(option, scenario))) +
       ggplot2::geom_hline(yintercept = 0, color = "grey70", linetype = 2) +
       ggplot2::geom_line(linewidth = .9, na.rm = TRUE) +
       ggplot2::geom_point(size = 2, na.rm = TRUE) +
@@ -707,7 +745,7 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
     x$metric_value <- x[[metric]]
 
     # Swing = max - min across sweep values per parameter/site/option
-    spans  <- dplyr::summarise(dplyr::group_by(x, parameter, parameter_label, site, option),
+    spans  <- dplyr::summarise(dplyr::group_by(x, parameter, parameter_label, site, scenario, option),
                                swing = max(metric_value) - min(metric_value), .groups = "drop")
     by_site <- dplyr::summarise(dplyr::group_by(spans, parameter, parameter_label, site),
                                 swing = max(swing), .groups = "drop")
@@ -749,16 +787,34 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
       next
     }
 
-    # Focus on the first parameter/venue combination
-    first <- x[1, ]
+    response <- dplyr::summarise(dplyr::group_by(x, parameter, venue, scenario, option),
+      swing = max(.data[[metric]]) - min(.data[[metric]]), .groups = "drop")
+    strongest <- response[which.max(response$swing), ]
+    first <- x[which(x$parameter == strongest$parameter & x$venue == strongest$venue)[1], ]
+    crossing <- NULL
+    if (!is.null(sensitivity$switching) && nrow(sensitivity$switching)) {
+      crossing <- sensitivity$switching[1, ]
+      first <- x[which(x$parameter == crossing$parameter & x$venue == crossing$venue)[1], ]
+    }
     x     <- x[x$venue == first$venue & x$parameter == first$parameter, ]
 
     p <- ggplot2::ggplot(x, ggplot2::aes(input_change, .data[[metric]], color = option)) +
-      ggplot2::geom_line(ggplot2::aes(group = interaction(option, scenario)), linewidth = 1) +
+      ggplot2::geom_line(ggplot2::aes(group = interaction(option, scenario), linetype = scenario), linewidth = 1) +
       ggplot2::geom_point() +
       chart_colors() + chart_theme() +
       ggplot2::labs(title = title,
-                    x = "Input change (%)", y = metric, caption = chart_caption())
+                    x = paste0("Change in ", first$parameter_label, " (%)"),
+                    y = if (metric == "eta") {
+                      if (cfg$comfort_basis == "per_person") "Discomfort avoided (degC-hours per person / kWh)" else "Discomfort avoided (person-degC-hours / kWh)"
+                    } else if (cfg$comfort_basis == "per_person") "Residual discomfort (degC-hours per person)" else "Residual discomfort (person-degC-hours)",
+                    caption = paste(as.character(first$site), "|", chart_caption()))
+    if (!is.null(crossing)) {
+      span <- 100*(c(crossing$lower, crossing$upper)/values[crossing$parameter] - 1)
+      p <- p + ggplot2::annotate("rect", xmin = min(span), xmax = max(span), ymin = -Inf, ymax = Inf,
+        fill = "grey40", alpha = .1) + ggplot2::labs(caption = paste0(as.character(first$site),
+        ": robust choice ", crossing$choice_below, " -> ", crossing$choice_above,
+        " within shaded tested interval; not an exact break-even estimate."))
+    }
     chart_add(book, id, 4, title, p, data = x)
   }
 
@@ -810,8 +866,10 @@ save_chart_gallery <- function(result, sensitivity, cfg, tables, root = ".") {
     ready    <- !is.null(item$plot)
 
     if (ready) {
-      ggplot2::ggsave(paste0(stem, ".png"), item$plot, width = 13.5, height = 8.2, dpi = 180, bg = "white")
-      ggplot2::ggsave(paste0(stem, ".svg"), item$plot, device = grDevices::svg, width = 13.5, height = 8.2, bg = "white")
+      panels <- if ("panel" %in% names(item$data)) length(unique(item$data$panel)) else 1L
+      height <- if (inherits(item$plot$facet, "FacetWrap")) max(8.2, 2 + ceiling(panels/3)*2.6) else max(8.2, panels*.58)
+      ggplot2::ggsave(paste0(stem, ".png"), item$plot, width = 13.5, height = height, dpi = 180, bg = "white")
+      ggplot2::ggsave(paste0(stem, ".svg"), item$plot, device = grDevices::svg, width = 13.5, height = height, bg = "white")
       write.csv(item$data, paste0(stem, ".csv"), row.names = FALSE, na = "NA")
     } else {
       # Remove stale files from a previous run when the chart is now pending
@@ -865,11 +923,12 @@ save_chart_gallery <- function(result, sensitivity, cfg, tables, root = ".") {
     '<p>', sum(index$status == "ready"), ' graphs ready to review. ',
     'Use the chart IDs to tell me which to keep. ',
     'Click any chart to enlarge it; SVG files retain editable vector graphics.</p>',
-    '<p>Current reference model: one summer-mean hour, estimated ventilation and airspeed, ',
-    'T-shirt/shorts, per-person comparison. Comfort thresholds and the fixed-cooling humidity ',
-    'conflict remain on hold. Missing results are not filled in. No Monte Carlo runs were added.</p>',
-    '<p>D02 is a resource radar, not a regret result. D07 is the actual minimax radar and ',
-    'remains pending until regret can be computed. Current venues each have one scenario.</p></header>',
+    '<p>Three sourced hot-weather hours per venue: peak temperature, humid-hot and dry-hot. ',
+    'Estimated ventilation and airspeed; T-shirt/shorts; per-person comparison. SET band: ',
+    cfg$set_lower, ' to ', cfg$set_upper, ' degC (user-selected comparison policy, not ASHRAE compliance). ',
+    'Cooler mode: ', cfg$cooler_limit, '. No Monte Carlo runs were added.</p>',
+    '<p>D02 compares resources; D07 includes maximum regret across the three scenarios. ',
+    'The selected option minimizes maximum regret, not radar area. Cost, energy and water caps remain disabled.</p></header>',
     '<nav>',
     '<button class="active" onclick="filterCharts(0,this)">All</button>',
     '<button onclick="filterCharts(1,this)">1 Physics</button>',

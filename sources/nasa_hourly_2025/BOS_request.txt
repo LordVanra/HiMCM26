@@ -1,0 +1,1 @@
+https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=T2M%2CRH2M%2CPS&community=SB&latitude=42.36056&longitude=-71.01056&start=20250601&end=20250831&format=JSON&time-standard=UTC

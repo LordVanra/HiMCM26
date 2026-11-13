@@ -1,0 +1,13 @@
+scenario,option,mean_SET,coverage_per_person
+hot_peak,NONE,30.771915187543,0
+hot_peak,A,29.0659973957662,0
+hot_peak,B,29.5525613697641,0
+hot_peak,C,28.5737047735568,0
+hot_humid,NONE,27.6552980178294,0
+hot_humid,A,25.0886076371914,1
+hot_humid,B,25.8266005966417,1
+hot_humid,C,25.6871243207827,1
+hot_dry,NONE,24.4422181363483,1
+hot_dry,A,22.5724513001093,0
+hot_dry,B,22.4902905623992,0
+hot_dry,C,20.766133023741,0

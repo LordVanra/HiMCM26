@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="576pt" height="360pt" viewBox="0 0 576 360" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-13T20:44:10.124286</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.6, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 360 
+L 576 360 
+L 576 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 56.56 301.48 
+L 564.12 301.48 
+L 564.12 44.84 
+L 56.56 44.84 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #48596d" x="138.169037" y="317.353594" transform="rotate(-0 138.169037 317.353594)">Boston</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #48596d" x="310.34" y="317.353594" transform="rotate(-0 310.34 317.353594)">Dallas</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #48596d" x="482.510963" y="317.353594" transform="rotate(-0 482.510963 317.353594)">Phoenix</text>
+     </g>
+    </g>
+    <g id="text_4">
+     <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #26364a" x="310.34" y="344.643281" transform="rotate(-0 310.34 344.643281)">City</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 56.56 301.48 
+L 564.12 301.48 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="305.416797" transform="rotate(-0 48.56 305.416797)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 56.56 271.287059 
+L 564.12 271.287059 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7"/>
+     <g id="text_6">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="275.223856" transform="rotate(-0 48.56 275.223856)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 56.56 241.094118 
+L 564.12 241.094118 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9"/>
+     <g id="text_7">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="245.030915" transform="rotate(-0 48.56 245.030915)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 56.56 210.901176 
+L 564.12 210.901176 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11"/>
+     <g id="text_8">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="214.837973" transform="rotate(-0 48.56 214.837973)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 56.56 180.708235 
+L 564.12 180.708235 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="184.645032" transform="rotate(-0 48.56 184.645032)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 56.56 150.515294 
+L 564.12 150.515294 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="154.452091" transform="rotate(-0 48.56 154.452091)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <path d="M 56.56 120.322353 
+L 564.12 120.322353 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17"/>
+     <g id="text_11">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="124.25915" transform="rotate(-0 48.56 124.25915)">6</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <path d="M 56.56 90.129412 
+L 564.12 90.129412 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19"/>
+     <g id="text_12">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="94.066209" transform="rotate(-0 48.56 94.066209)">7</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_20">
+      <path d="M 56.56 59.936471 
+L 564.12 59.936471 
+" clip-path="url(#pd04a500818)" style="fill: none; stroke: #e6ebf0; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_21"/>
+     <g id="text_13">
+      <text style="font-size: 11px; font-family: 'Arial'; text-anchor: end; fill: #48596d" x="48.56" y="63.873267" transform="rotate(-0 48.56 63.873267)">8</text>
+     </g>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 18px; font-family: 'Arial'; text-anchor: middle; fill: #26364a" x="24.654531" y="173.16" transform="rotate(-90 24.654531 173.16)">SET reduction per kWh (°C/kWh)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 56.56 301.48 
+L 56.56 44.84 
+" style="fill: none; stroke: #b8c1cb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 56.56 301.48 
+L 564.12 301.48 
+" style="fill: none; stroke: #b8c1cb; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 79.630909 301.48 
+L 134.725617 301.48 
+L 134.725617 95.453298 
+L 79.630909 95.453298 
+z
+" clip-path="url(#pd04a500818)" style="fill: #2364aa"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 251.801872 301.48 
+L 306.896581 301.48 
+L 306.896581 237.252288 
+L 251.801872 237.252288 
+z
+" clip-path="url(#pd04a500818)" style="fill: #2364aa"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 423.972836 301.48 
+L 479.067544 301.48 
+L 479.067544 215.015493 
+L 423.972836 215.015493 
+z
+" clip-path="url(#pd04a500818)" style="fill: #2364aa"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #2364aa" x="107.178263" y="87.282517" transform="rotate(-0 107.178263 87.282517)">6.82</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #2364aa" x="279.349227" y="229.081507" transform="rotate(-0 279.349227 229.081507)">2.13</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #2364aa" x="451.52019" y="206.844712" transform="rotate(-0 451.52019 206.844712)">2.86</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 141.612456 301.48 
+L 196.707164 301.48 
+L 196.707164 274.931825 
+L 141.612456 274.931825 
+z
+" clip-path="url(#pd04a500818)" style="fill: #cb592d"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 313.783419 301.48 
+L 368.878128 301.48 
+L 368.878128 280.321021 
+L 313.783419 280.321021 
+z
+" clip-path="url(#pd04a500818)" style="fill: #cb592d"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 485.954383 301.48 
+L 541.049091 301.48 
+L 541.049091 286.357958 
+L 485.954383 286.357958 
+z
+" clip-path="url(#pd04a500818)" style="fill: #cb592d"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #cb592d" x="169.15981" y="266.761044" transform="rotate(-0 169.15981 266.761044)">0.88</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #cb592d" x="341.330773" y="272.15024" transform="rotate(-0 341.330773 272.15024)">0.70</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Arial'; text-anchor: middle; fill: #cb592d" x="513.501737" y="278.187177" transform="rotate(-0 513.501737 278.187177)">0.50</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'Arial'; text-anchor: middle; fill: #26364a" x="310.34" y="24.84" transform="rotate(-0 310.34 24.84)">Felt cooling per kWh</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 207.030625 60.997813 
+L 227.030625 60.997813 
+L 227.030625 53.997813 
+L 207.030625 53.997813 
+z
+" style="fill: #2364aa"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 10px; font-family: 'Arial'; text-anchor: start; fill: #26364a" x="235.030625" y="60.997813" transform="rotate(-0 235.030625 60.997813)">Fan</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 272.260312 60.997813 
+L 292.260312 60.997813 
+L 292.260312 53.997813 
+L 272.260312 53.997813 
+z
+" style="fill: #cb592d"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 10px; font-family: 'Arial'; text-anchor: start; fill: #26364a" x="300.260312" y="60.997813" transform="rotate(-0 300.260312 60.997813)">Larger evaporative cooler</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd04a500818">
+   <rect x="56.56" y="44.84" width="507.56" height="256.64"/>
+  </clipPath>
+ </defs>
+</svg>

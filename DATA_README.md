@@ -1,10 +1,6 @@
 # Data README: active inputs, assumptions and source audit
 
-<<<<<<< HEAD
-Updated 12 November 2026. The summer comparison includes four venues in each study area: a bus stop, a rail platform, a campus courtyard, and a covered outdoor airport terminal area. Ventilation and baseline airspeed use documented scenario estimates.
-=======
-Updated 12 November 2026. All six original location references are retained. Ventilation and baseline airspeed are user-authorized estimates. Active weather now consists of three simultaneous NASA POWER hot-weather hours per city; the ventilation and exposure estimates remain a reference comparison, not surveyed site performance. See sources/nasa_hourly_2025/README.md for selection rules and original responses.
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+Updated 12 November 2026. Each study area has a bus stop, rail platform, campus courtyard, and covered outdoor airport terminal area. Active weather uses three simultaneous NASA POWER hot-weather hours per city. Ventilation and baseline airspeed use documented scenario estimates. See sources/nasa_hourly_2025/README.md for selection rules and original responses.
 
 The technical correction holds reference radiant temperature at uncooled outdoor temperature across device options. It does not establish actual MRT. `weather_occ.dt_hours=1` now explicitly records the already selected operating interval. New optional `devices.v_occupied`, `T_ref`, `RH_ref` and `pressure_ref` fields remain NA; no passenger exposure or calibration conditions have been invented. The current defaults are saturation-limited cooling and a user-selected 23-26 degC SET comparison band, with the existing per-person and purchase-cost bases. Required missing data now stop the requested analysis; inputs used only by inactive modes do not. Current code behavior and the remaining limits are described in README.md.
 
@@ -50,7 +46,7 @@ The airport cases represent outdoor passenger areas beneath terminal canopies. E
 | Boston | 21.1 | 75.9 | 100.560 | 0.680 | 5.933 | 8.900 |
 | Phoenix | 33.0 | 26.8 | 95.350 | 1.035 | 8.269 | 12.403 |
 
-Each city uses the same 2001–2025 NASA POWER June–August climate reference as its bus and rail cases. Both venue types use the rail exposure factor of 0.75 and opening effectiveness of 0.35. Equivalent openings of 16 m² for courtyards and 24 m² for canopies are scenario assumptions that let the model compare larger outdoor exchange rates. Within each city, the modeled canopy has 1.5 times the courtyard exchange by construction. The calculation chain below converts those openings into airflow estimates. Site measurements of openings, airflow, radiant temperature, and equipment coverage would be needed to validate the comparison.
+The 2001–2025 NASA POWER June–August climate values in this table are used for the airflow estimates and the separate summer-mean scaling exercise. The main comparison uses the three hot-weather hours per city. Both venue types use the rail exposure factor of 0.75 and opening effectiveness of 0.35. Equivalent openings of 16 m² for courtyards and 24 m² for canopies are scenario assumptions that let the model compare larger outdoor exchange rates. Within each city, the modeled canopy has 1.5 times the courtyard exchange by construction. The calculation chain below converts those openings into airflow estimates. Site measurements of openings, airflow, radiant temperature, and equipment coverage would be needed to validate the comparison.
 
 ## Explicit scenario assumptions for the transit stops
 

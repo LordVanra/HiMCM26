@@ -1,6 +1,5 @@
 """Export static publication figures from saved results; run at repository root."""
 from pathlib import Path
-import json
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -13,12 +12,18 @@ OUT = Path('graphs/paper_figures')
 OUT.mkdir(parents=True, exist_ok=True)
 o = pd.read_csv('03_decision/result_options.csv')
 s = pd.read_csv('04_sensitivity/result_sensitivity_detail.csv')
-assert len(o) == 72 and not o.duplicated(['venue','scenario','option']).any()
-assert o.physical_valid.all() and o.decision_ready.all()
 OPS = ['NONE','A','B','C']
 COL = dict(NONE='#66758A', A='#2364AA', B='#25836A', C='#CB592D')
 LAB = dict(NONE='No device', A='A · Fan', B='B · Evaporative', C='C · Large evaporative')
 SCEN = ['hot_peak','hot_humid','hot_dry']
+CITIES = {'DAL': 'Dallas', 'BOS': 'Boston', 'PHX': 'Phoenix'}
+VENUE_TYPES = {'BUS': 'Bus', 'RAIL': 'Rail', 'QUAD': 'Courtyard', 'PAV': 'Airport canopy'}
+expected = pd.MultiIndex.from_product(
+    [pd.read_csv('zones.csv').venue, SCEN, OPS], names=['venue', 'scenario', 'option']
+)
+actual = pd.MultiIndex.from_frame(o[['venue', 'scenario', 'option']])
+assert actual.is_unique and set(actual) == set(expected)
+assert o.physical_valid.all() and o.decision_ready.all()
 plt.rcParams.update({'font.family':'Arial','font.size':10,'axes.titlesize':11,
     'axes.labelsize':10,'axes.spines.top':False,'axes.spines.right':False,
     'axes.edgecolor':'#B8C1CB','axes.labelcolor':'#26364A','text.color':'#26364A',
@@ -91,17 +96,20 @@ foot(fig,'Benefit is measured against no device, above the chosen 26°C SET thre
 save(fig,'F2_boston_benefit_electricity',g.reset_index()[['option','E','B_per_person','decision_eta']])
 
 # 3. Matched small multiples for the main paper.
-venues=['DAL_BUS','DAL_RAIL','BOS_BUS','BOS_RAIL','PHX_BUS','PHX_RAIL']
-names=['Dallas · Bus','Dallas · Rail','Boston · Bus','Boston · Rail','Phoenix · Bus','Phoenix · Rail']
-p=o[o.scenario.eq('hot_peak')]
-fig,axs=plt.subplots(3,2,figsize=(10.8,8.0))
-fig.subplots_adjust(left=.18,right=.97,bottom=.13,top=.84,wspace=.17,hspace=.48)
-head(fig,'Peak heat remains above the comfort target at every venue',
-     'Predicted SET during each city’s selected peak-temperature hour; C gives the greatest relief in all six cases.')
-for ax,v,name in zip(axs.flat,venues,names):
-    dots(ax,p[p.venue.eq(v)].set_index('option'),v.endswith('BUS'))
-    ax.set_xlim(22,37); ax.set_xticks([23,26,29,32,35]); ax.set_title(name,loc='left',fontweight='bold')
-    ax.set_xlabel('SET (°C)')
+p = o[o.scenario.eq('hot_peak')]
+fig, axs = plt.subplots(len(CITIES), len(VENUE_TYPES), figsize=(14, 8))
+fig.subplots_adjust(left=.14, right=.97, bottom=.12, top=.84, wspace=.28, hspace=.55)
+head(fig, 'Peak-hour thermal comfort across 12 venues',
+     'Predicted SET for four cooling options during each city’s selected peak-temperature hour.')
+limits = (min(22, p.mean_SET.min() - 1), max(37, p.mean_SET.max() + 2.5))
+for row, (city, city_name) in zip(axs, CITIES.items()):
+    for ax, (kind, kind_name) in zip(row, VENUE_TYPES.items()):
+        venue = f'{city}_{kind}'
+        dots(ax, p[p.venue.eq(venue)].set_index('option'), kind == 'BUS')
+        ax.set_xlim(*limits)
+        ax.set_xticks([23, 26, 29, 32, 35])
+        ax.set_title(f'{city_name} · {kind_name}', loc='left', fontweight='bold')
+        ax.set_xlabel('SET (°C)')
 foot(fig,'Shaded band: chosen 23–26°C SET comparison target; not a safety classification.\nSource: result_options.csv · Peak hours differ by city · Reference exposure and estimated airflow; modeled results.')
 save(fig,'F3_all_venues_peak_comfort',p[['venue','option','mean_SET','mean_SET_drop']])
 
@@ -127,21 +135,25 @@ foot(fig,'A = fan; B = evaporative cooler; C = larger evaporative cooler. No-dev
 save(fig,'F4_boston_resources',g.reset_index()[['option','E','water_kg','purchase_cost']])
 
 # 5. A true one-parameter response: keep scenario fixed when calculating ranges.
-d=s[s.parameter.eq('weather_occ.8.T') & s.venue.eq('BOS_BUS') & s.scenario.eq('hot_humid')].copy()
+weather = pd.read_csv('weather_occ.csv')
+weather_row, = weather.index[weather.venue.eq('BOS_BUS') & weather.scenario.eq('hot_humid')]
+baseline_temperature = weather.loc[weather_row, 'T']
+parameter = f'weather_occ.{weather_row + 1}.T'
+d = s[s.parameter.eq(parameter) & s.venue.eq('BOS_BUS') & s.scenario.eq('hot_humid')].copy()
 assert len(d)==20 and not d.duplicated(['value','option']).any()
 fig,ax=plt.subplots(figsize=(7.5,4.9))
 fig.subplots_adjust(left=.11,right=.96,bottom=.25,top=.75)
 head(fig,'Boston comfort is sensitive to outdoor temperature',
      'Hot-humid scenario · Relative humidity and other inputs held fixed')
 ax.axhspan(23,26,color='#EDF3DF',zorder=0)
-ax.axvline(30.39,color='#9AA5B1',ls='--',lw=1)
+ax.axvline(baseline_temperature,color='#9AA5B1',ls='--',lw=1)
 for op in OPS:
     a=d[d.option.eq(op)].sort_values('value')
     ax.plot(a.value,a.mean_SET,marker='o',markersize=4,color=COL[op],label=LAB[op],lw=2)
 ax.set(xlabel='Outdoor air temperature (°C)',ylabel='Predicted SET (°C)',ylim=(21.8,30.5))
 ax.grid(color='#E6EBF0',lw=.7); ax.set_axisbelow(True)
 ax.legend(loc='upper left',frameon=False,fontsize=9,ncol=2)
-foot(fig,'Dashed line: baseline 30.39°C. Shaded band: chosen comparison target.\nSource: result_sensitivity_detail.csv · Five exploratory ±5% temperature settings; not confidence intervals.')
+foot(fig,f'Dashed line: baseline {baseline_temperature:.2f}°C. Shaded band: chosen comparison target.\nSource: result_sensitivity_detail.csv · Five exploratory ±5% temperature settings; not confidence intervals.')
 save(fig,'F5_boston_temperature_sensitivity',d[['value','option','mean_SET','L','chosen_option']].sort_values(['option','value']))
 
 print(f'Exported five figures as PNG (300 dpi), SVG, PDF and plotted-data CSV to {OUT.resolve()}')

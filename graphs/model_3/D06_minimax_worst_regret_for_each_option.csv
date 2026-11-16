@@ -47,3 +47,51 @@ all scenarios",0.949761517018935
 all scenarios",0.702751857243747
 "PHX_RAIL","C",0,7.48822217867016,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / rail","Phoenix / rail
 all scenarios",0
+"DAL_QUAD","NONE",1.32671911635365,6.49613983478397,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / courtyard","Dallas / courtyard
+all scenarios",1.32671911635365
+"DAL_QUAD","A",1.05051459949238,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / courtyard","Dallas / courtyard
+all scenarios",1.05051459949238
+"DAL_QUAD","B",0.712730829855097,6.06780809124446,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / courtyard","Dallas / courtyard
+all scenarios",0.712730829855097
+"DAL_QUAD","C",0,5.57553824757045,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / courtyard","Dallas / courtyard
+all scenarios",0
+"DAL_PAV","NONE",0.993051689401838,6.4961398347841,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / airport canopy","Dallas / airport canopy
+all scenarios",0.993051689401838
+"DAL_PAV","A",0.72347381912066,6.31712555267389,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / airport canopy","Dallas / airport canopy
+all scenarios",0.72347381912066
+"DAL_PAV","B",0.544464019487595,6.1831305853002,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / airport canopy","Dallas / airport canopy
+all scenarios",0.544464019487595
+"DAL_PAV","C",0,5.80581580364603,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Dallas / airport canopy","Dallas / airport canopy
+all scenarios",0
+"BOS_QUAD","NONE",1.52483559477168,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / courtyard","Boston / courtyard
+all scenarios",1.52483559477168
+"BOS_QUAD","A",0.435115836935662,3.06599739576617,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / courtyard","Boston / courtyard
+all scenarios",0.435115836935662
+"BOS_QUAD","B",0.775361155135574,3.40624271396608,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / courtyard","Boston / courtyard
+all scenarios",0.775361155135574
+"BOS_QUAD","C",0,2.63088155883051,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / courtyard","Boston / courtyard
+all scenarios",0
+"BOS_PAV","NONE",1.22062819727535,4.15571715360219,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / airport canopy","Boston / airport canopy
+all scenarios",1.22062819727535
+"BOS_PAV","A",0.130908439439342,3.06599739576618,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / airport canopy","Boston / airport canopy
+all scenarios",0.130908439439342
+"BOS_PAV","B",0.63972135913842,3.57481031546526,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / airport canopy","Boston / airport canopy
+all scenarios",0.63972135913842
+"BOS_PAV","C",0,2.93508895632684,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Boston / airport canopy","Boston / airport canopy
+all scenarios",0
+"PHX_QUAD","NONE",0.992471830960703,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / courtyard","Phoenix / courtyard
+all scenarios",0.992471830960703
+"PHX_QUAD","A",0.527283433565067,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / courtyard","Phoenix / courtyard
+all scenarios",0.527283433565067
+"PHX_QUAD","B",0.520312846024439,8.20278818375573,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / courtyard","Phoenix / courtyard
+all scenarios",0.520312846024439
+"PHX_QUAD","C",0,7.80779078007482,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / courtyard","Phoenix / courtyard
+all scenarios",0
+"PHX_PAV","NONE",0.763924666914832,8.56371053030994,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / airport canopy","Phoenix / airport canopy
+all scenarios",0.763924666914832
+"PHX_PAV","A",0.325283351499976,8.21669605904795,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / airport canopy","Phoenix / airport canopy
+all scenarios",0.325283351499976
+"PHX_PAV","B",0.41097499991789,8.29361664785593,FALSE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / airport canopy","Phoenix / airport canopy
+all scenarios",0.41097499991789
+"PHX_PAV","C",0,7.98101357847005,TRUE,"evaluated",3,"multiple supplied scenarios","heat: mixing_only ; radiation: air_reference ; comfort: per_person ; costs: purchase ; evaporative limit: saturation_limit ; assigned reference person/equipment, not measured installation performance","all scenarios","Phoenix / airport canopy","Phoenix / airport canopy
+all scenarios",0

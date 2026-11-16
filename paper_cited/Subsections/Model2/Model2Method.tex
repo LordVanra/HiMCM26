@@ -1,0 +1,41 @@
+\section{Model II: Human Thermal Comfort Using the Gagge Model}
+\subsection{Model Description}
+ 
+Air temperature alone does not tell us how hot a person feels. Air movement can cool the skin even when it does not change the thermometer. Humidity can reduce sweat evaporation. Radiant heat from a roof or pavement can make a person warmer than the air suggests. Model II combines these effects into the Standard Effective Temperature, or SET~\cite{ashrae_thermal_comfort_2025}.
+ 
+The code calls \texttt{comf::calcSET}. That function uses the Gagge two-node model of the human body. ``Two-node'' means that the body is simplified into a warm internal core and a skin layer. The model allows heat to move between the core, skin, clothing, and environment. It also represents sweating, skin blood flow, vasodilation, vasoconstriction, convection, radiation, respiration, and evaporation. The project selects \texttt{obj = "set"}, which uses the original Gagge SET calculation path~\cite{comf_0112_set}.
+ 
+\subsection{Primary Equations and Calculation Idea}
+ 
+The complete Gagge model is an iterative physiological heat-balance model rather than one short formula. Its central idea can be written as two energy balances~\cite{cbe_two_node}:
+\begin{align}
+\text{Core storage} &= \text{metabolic heat} - \text{external work} - \text{respiration} - \text{heat sent from core to skin} \\
+\text{Skin storage} &= \text{heat received from core} - \text{convection} - \text{radiation} - \text{evaporation}
+\end{align}
+Core and skin temperatures affect the body's control responses. If the body becomes warm, the model increases skin blood flow and sweating. If it becomes cold, it reduces skin blood flow and can add shivering heat. The project supplies the documented control coefficients~\cite{comf_0112_set}:
+\begin{equation}
+c_{sw} = 170, \qquad c_{dil} = 120, \qquad c_{str} = 0.5
+\end{equation}
+After simulating the body, SET is defined as the temperature of a standard reference environment that would cause the same skin temperature and skin wettedness as the actual environment~\cite{ashrae_thermal_comfort_2025}. The actual inputs are air temperature, mean radiant temperature, airspeed, humidity, pressure, clothing, activity, posture, body size, and exposure time.
+ 
+The project then defines the hot-discomfort loss:
+\begin{equation}
+L = \Delta t \cdot \max\left(0,\; SET - SET_{upper}\right)
+\end{equation}
+For the current comparison, $SET_{upper} = 26^\circ$C. The benefit is the reduction in loss relative to no device, and dividing that benefit by energy gives the reduction in hot discomfort per kWh:
+\begin{equation}
+B = L_{none} - L_{option}, \qquad \eta = \frac{B}{E}
+\end{equation}
+ 
+Section~\ref{sec:efficiency} uses raw SET reduction, $(SET_{\rm none}-SET_i)/E_i$, to compare the full temperature-equivalent change per kWh at the reference position. The two efficiency measures agree numerically for a one-hour case when both SET values are above the upper target. The hot-discomfort measure stops crediting additional cooling once SET reaches the upper target.
+
+\subsection{Key Assumptions and Justifications}
+ 
+\begin{enumerate}
+  \item \textbf{One reference person represents the comparison.} The person is seated, 171 cm, 70 kg, at 1 met, with no external work. This gives a consistent basis when actual passenger demographics are unavailable.
+  \item \textbf{Clothing is 0.36 clo.} This represents shorts and a short-sleeved shirt and is suitable for a hot-weather comparison. Actual riders will wear different clothing~\cite{ashrae_2021_comfort}.
+  \item \textbf{Exposure lasts 60 minutes.} The Gagge model is time-dependent, so an exposure period is required. Sixty minutes is a clear reference case, not an estimate of every passenger's wait.
+  \item \textbf{Radiant temperature uses an air-reference approximation.} It is held at the uncooled outdoor reference temperature across options. This avoids pretending that a cooler also cools the roof and pavement, but measured radiant temperature would be better.
+  \item \textbf{The $23$--$26^\circ$C SET band is a policy band.} It provides a common comparison rule. It is not an ASHRAE compliance claim or a guarantee that a fixed percentage of people will be satisfied.
+  \item \textbf{The model represents an average healthy adult response.} This is appropriate for comparative comfort, but it does not assess medical heat risk for children, older adults, or people with health conditions~\cite{cbe_two_node}.
+\end{enumerate}

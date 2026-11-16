@@ -1,161 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.clo",0.342,14.7104747177079,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.238881939448088,-5,"Clothing"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.clo",0.351,14.8306013612871,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.118755295868871,-2.5,"Clothing"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.clo",0.36,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0,0,"Clothing"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.v_local",0.646288609443542,15.0907502066144,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.141393549458394,-5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.clo",0.369,15.0668502718246,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.117493614668543,2.50000000000001,"Clothing"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.v_local",0.663296204428898,15.0191757200987,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.0698190629427202,-2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.clo",0.378,15.1831667512661,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.233810094110137,5,"Clothing"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.v_local",0.680303799414255,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0,0,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.met",0.95,14.7227088692303,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.226647787925678,-5,"Activity"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.v_local",0.697311394399611,14.8811624534128,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.0681942037432588,2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.met",0.975,14.8406507487086,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.108705908447376,-2.5,"Activity"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.v_local",0.714318989384967,14.8145039566544,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.134852700501648,5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.met",1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0,0,"Activity"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.met",1.025,15.0488863529904,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.0995296958344003,2.49999999999999,"Activity"
-"BOS_PAV","summer_mean_1h","NONE","groups.1.met",1.05,15.16748356782,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.218126910663996,5,"Activity"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.T",21.1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0,0,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.T",20.045,13.4538752526819,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-1.49548140447411,-4.99999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.T",21.6275,15.6842880579059,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,0.73493140074989,2.49999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.T",20.5725,14.2054489523009,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,-0.743907704855085,-2.5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","NONE","weather_occ.10.T",22.155,16.4105357168135,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",14.949356657156,1.46117905965746,5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.met",1.05,12.5108128214675,2.65667074635251,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0.28940820204099,5,"Activity"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.T",20.045,10.4815558518248,2.97231940085713,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-1.73984876760174,-4.99999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.T",20.5725,11.3543348569938,2.85111409530708,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-0.86706976243266,-2.5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.met",0.975,12.0823579038686,2.75829284484,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-0.139046715557875,-2.5,"Activity"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.T",21.1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,0,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.met",1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,0,"Activity"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.T",21.6275,13.0817050110378,2.60258304686813,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0.860300391611256,2.49999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.clo",0.342,11.9108817665401,2.79959295116783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-0.310522852886415,-5,"Clothing"
-"BOS_PAV","summer_mean_1h","A","groups.1.met",1.025,12.3548789195516,2.69400743343883,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0.133474300125068,2.49999999999999,"Activity"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.T",22.155,13.9334687571428,2.47706695967066,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,1.7120641377163,5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.clo",0.351,12.0670852427171,2.76351611857008,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-0.154319376709454,-2.5,"Clothing"
-"BOS_PAV","summer_mean_1h","A","groups.1.clo",0.36,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,0,"Clothing"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.v_local",0.646288609443542,12.2214046194265,2.86934558718789,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,-5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.clo",0.369,12.3738702676418,2.69298000418271,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0.152465648215328,2.50000000000001,"Clothing"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.v_local",0.663296204428898,12.2214046194265,2.79777110067222,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,-2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.clo",0.378,12.524516592965,2.65865015830119,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0.303111973538449,5,"Clothing"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.v_local",0.680303799414255,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,0,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","groups.1.met",0.95,11.938390465183,2.78431840404733,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,-0.283014154243507,-5,"Activity"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.v_local",0.697311394399611,12.2214046194265,2.65975783398624,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","A","weather_occ.10.v_local",0.714318989384967,12.2214046194265,2.59309933722785,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",12.2214046194265,0,5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.v_local",0.663296204428898,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.v_local",0.680303799414255,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.v_local",0.646288609443542,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.v_local",0.697311394399611,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.v_local",0.714318989384967,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","groups.1.met",1.05,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Activity"
-"BOS_PAV","summer_mean_1h","B","groups.1.clo",0.378,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_PAV","summer_mean_1h","B","groups.1.met",0.95,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_PAV","summer_mean_1h","B","groups.1.clo",0.342,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.T",21.6275,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.T",22.155,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","groups.1.met",0.975,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"BOS_PAV","summer_mean_1h","B","groups.1.clo",0.351,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_PAV","summer_mean_1h","B","groups.1.clo",0.36,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.T",21.1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.T",20.045,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","groups.1.met",1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_PAV","summer_mean_1h","B","weather_occ.10.T",20.5725,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","B","groups.1.clo",0.369,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_PAV","summer_mean_1h","B","groups.1.met",1.025,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_PAV","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_PAV","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.v_local",0.646288609443542,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.v_local",0.663296204428898,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.v_local",0.680303799414255,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_PAV","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.v_local",0.697311394399611,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.v_local",0.714318989384967,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_PAV","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_PAV","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Activity"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.T",21.1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.T",20.045,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.T",21.6275,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.T",20.5725,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_PAV]"
-"BOS_PAV","summer_mean_1h","C","weather_occ.10.T",22.155,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / airport canopy","Boston / airport canopy
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_PAV]"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.RH",68.324,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.T",31.14975,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.28.T",34.9505,28.645128665777,0,0,0,0,NA,2.64512866577702,"per_person",NA,-1.51058848782517,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,-1.51058848782517,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","NONE","weather_occ.28.T",35.87025,29.4008980219253,0,0,0,0,NA,3.40089802192533,"per_person",NA,-0.754819131676861,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,-0.754819131676861,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.RH",70.122,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.T",31.9095,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.28.T",36.79,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.RH",71.92,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.30.T",27.721,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","NONE","weather_occ.30.T",29.9095,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","NONE","weather_occ.28.T",37.70975,30.9092656664785,0,0,0,0,NA,4.90926566647848,"per_person",NA,0.753548512876286,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0.753548512876286,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.RH",73.718,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.30.T",28.4505,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.T",29.63025,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.30.T",30.639,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","NONE","weather_occ.28.T",38.6295,31.6609608296742,0,0,0,0,NA,5.66096082967416,"per_person",NA,1.50524367607197,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,1.50524367607197,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.RH",75.516,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.30.T",29.18,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.T",30.39,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","NONE","weather_occ.29.T",28.8705,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",30.1557171536022,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.RH",68.324,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.RH",71.92,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.RH",70.122,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.RH",73.718,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.RH",75.516,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.30.T",29.9095,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","A","weather_occ.29.T",31.14975,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.28.T",34.9505,27.5356824326124,1.10944623316459,0.25,0,1499,4.43778493265835,1.53568243261244,"per_person",0.0789059013143145,-1.53031496315375,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,-1.53031496315375,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","A","weather_occ.30.T",28.4505,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","A","weather_occ.28.T",35.87025,28.3005698039445,1.10032821798087,0.25,0,1499,4.40131287192348,2.30056980394446,"per_person",0.0424338405794487,-0.765427591821723,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,-0.765427591821723,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","A","weather_occ.30.T",30.639,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","A","weather_occ.29.T",31.9095,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.30.T",29.18,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","A","weather_occ.28.T",36.79,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","A","weather_occ.30.T",27.721,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","A","weather_occ.28.T",37.70975,29.8316639870777,1.07760167940076,0.25,0,1499,4.31040671760306,3.83166398707771,"per_person",-0.048472313740973,0.765666591311529,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0.765666591311529,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","A","weather_occ.28.T",38.6295,30.597177994591,1.06378283508312,0.25,0,1499,4.25513134033248,4.59717799459104,"per_person",-0.103747691011549,1.53118059882486,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,1.53118059882486,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","A","weather_occ.29.T",28.8705,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.T",29.63025,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","A","weather_occ.29.T",30.39,29.0659973957662,1.08971975783601,0.25,0,1499,4.35887903134403,3.06599739576618,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.29.RH",73.718,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.29.RH",75.516,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.29.RH",68.324,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.29.T",31.14975,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.28.T",34.9505,28.0005689069206,0.64455975885641,1.2,34.231984285926,4159,0.537133132380342,2.00056890692061,"per_person",0.0530441005995671,-1.57424140854465,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,-1.57424140854465,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","B","weather_occ.30.T",28.4505,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","B","weather_occ.28.T",35.87025,28.7879260096623,0.612972012263079,1.2,34.1115773824974,4159,0.510810010219232,2.78792600966225,"per_person",0.0267209784384578,-0.78688430580301,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,-0.78688430580301,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","B","weather_occ.29.RH",70.122,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.29.T",31.9095,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.30.T",29.18,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","B","weather_occ.28.T",36.79,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","B","weather_occ.29.RH",71.92,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.30.T",27.721,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","B","weather_occ.29.T",28.8705,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.30.T",29.9095,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","B","weather_occ.28.T",37.70975,30.3610860640389,0.548179602439568,1.2,33.8735549574471,4159,0.456816335366307,4.36108606403891,"per_person",-0.0272726964144679,0.786275748573647,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0.786275748573647,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","B","weather_occ.29.T",29.63025,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","B","weather_occ.30.T",30.639,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","B","weather_occ.28.T",38.6295,31.1465034371749,0.514457392499242,1.2,33.7559363273261,4159,0.428714493749368,5.14650343717492,"per_person",-0.055374538031406,1.57169312170966,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,1.57169312170966,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","B","weather_occ.29.T",30.39,29.5748103154653,0.580906838136929,1.2,33.9921014908409,4159,0.484089031780774,3.57481031546526,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",29.5748103154653,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.28.T",34.9505,27.2911671062492,1.3539615595278,2.5,81.4216115596436,4939,0.541584623811121,1.29116710624922,"per_person",0.0533333449009817,-1.64392185007762,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,-1.64392185007762,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","C","weather_occ.28.T",35.87025,28.1130550948302,1.28784292709517,2.5,81.1351021312282,4939,0.515137170838067,2.11305509483016,"per_person",0.0268858919279268,-0.822033861496678,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,-0.822033861496678,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","C","weather_occ.28.T",36.79,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","C","weather_occ.29.T",29.63025,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.T",28.8705,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.28.T",37.70975,29.756990056253,1.15227561022552,2.5,80.5687256014769,4939,0.460910244090206,3.75699005625296,"per_person",-0.0273410348199334,0.821901099926119,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0.821901099926119,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","C","weather_occ.28.T",38.6295,30.5787158284157,1.08224500125842,2.5,80.2888510832051,4939,0.43289800050337,4.57871582841574,"per_person",-0.0553532784067698,1.6436268720889,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,1.6436268720889,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_peak","C","weather_occ.29.T",30.39,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.T",31.14975,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.30.T",28.4505,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","C","weather_occ.29.T",31.9095,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.30.T",29.18,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","C","weather_occ.30.T",27.721,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","C","weather_occ.30.T",29.9095,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","C","weather_occ.30.T",30.639,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_peak","C","weather_occ.29.RH",75.516,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.RH",70.122,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.RH",68.324,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.RH",71.92,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_peak","C","weather_occ.29.RH",73.718,28.9350889563268,1.22062819727535,2.5,80.850808126701,4939,0.48825127891014,2.93508895632684,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_peak",28.9350889563268,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.28.T",37.70975,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","NONE","weather_occ.28.T",38.6295,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.T",28.8705,24.7529410919857,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,-2.03695095686116,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.T",29.63025,25.7531990539099,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,-1.03669299493695,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.28.T",35.87025,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.T",30.39,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.28.T",36.79,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","NONE","weather_occ.28.T",34.9505,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.T",31.14975,27.8658908695891,0,0,0,0,NA,1.86589086958906,"per_person",NA,1.07599882074217,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,1.07599882074217,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.30.T",28.4505,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.T",31.9095,28.9842963737195,0,0,0,0,NA,2.98429637371946,"per_person",NA,2.19440432487257,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,2.19440432487257,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.30.T",29.18,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","NONE","weather_occ.30.T",27.721,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.RH",68.324,26.5286119914074,0,0,0,0,NA,0.528611991407374,"per_person",NA,-0.261280057439517,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,-0.261280057439517,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.30.T",29.9095,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.RH",70.122,26.6554766070856,0,0,0,0,NA,0.655476607085575,"per_person",NA,-0.134415441761316,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,-0.134415441761316,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.30.T",30.639,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.RH",71.92,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.RH",75.516,27.0839659078556,0,0,0,0,NA,1.08396590785558,"per_person",NA,0.294073859008687,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0.294073859008687,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","NONE","weather_occ.29.RH",73.718,26.9324724604847,0,0,0,0,NA,0.932472460484664,"per_person",NA,0.142580411637773,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",26.7898920488469,0.142580411637773,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.28.T",34.9505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","A","weather_occ.28.T",35.87025,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","A","weather_occ.28.T",36.79,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","A","weather_occ.29.RH",68.324,24.8991666656419,1.62944532576544,0.25,0,1499,2.11444796562949,0,"per_person",-1.04512022975807,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,-0.189440971549505,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.28.T",37.70975,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","A","weather_occ.29.RH",70.122,24.9909101805398,1.66456642654576,0.25,0,1499,2.6219064283423,0,"per_person",-0.537661767045265,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,-0.0976974566516198,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.28.T",38.6295,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","A","weather_occ.29.RH",71.92,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.T",28.8705,23.0930447839627,1.65989630802303,0.25,0,1499,0,0,"per_person",-3.15956819538756,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,-1.99556285322874,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.RH",73.718,25.1928055816779,1.73966687880672,0.25,0,1499,3.72988984193866,0,"per_person",0.570321646551093,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0.104197944486508,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.T",29.63025,24.0716582608037,1.6815407931062,0.25,0,1499,0,0,"per_person",-3.15956819538756,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,-1.0169493763877,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.RH",75.516,25.3041941893213,1.7797717185343,0.25,0,1499,4.33586363142231,0,"per_person",1.17629543603475,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0.215586552129846,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.T",30.39,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.29.T",31.14975,26.1467810160408,1.71910985354824,0.25,0,1499,6.87643941419294,0.146781016040826,"per_person",3.71687121880538,0.146781016040826,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,1.05817337884939,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","A","weather_occ.30.T",28.4505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","A","weather_occ.30.T",27.721,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","A","weather_occ.30.T",29.18,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","A","weather_occ.30.T",30.639,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","A","weather_occ.30.T",29.9095,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","A","weather_occ.29.T",31.9095,27.250335580858,1.73396079286149,0.25,0,1499,6.93584317144595,1.25033558085797,"per_person",3.77627497605839,1.25033558085797,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.0886076371914,2.16172794366654,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.RH",68.324,25.5683376968956,0.960274294511819,1.2,33.7472273817483,4159,0.440509992839478,0,"per_person",-0.217733381199598,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,-0.370187065241865,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.RH",70.122,25.7493985195796,0.906078087505975,1.2,31.6499848726471,4159,0.546230505904646,0,"per_person",-0.11201286813443,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,-0.189126242557819,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.RH",71.92,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.T",31.14975,27.0643723768494,0.801518492739632,1.2,29.9357200416302,4159,0.667932077283027,1.06437237684943,"per_person",0.00968870324395077,1.06437237684943,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,1.12584761471201,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.RH",73.718,26.1362298351219,0.796242625362716,1.2,27.5281590739645,4159,0.663535521135596,0.136229835121949,"per_person",0.00529214709652059,0.136229835121949,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0.19770507298453,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.30.T",28.4505,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","B","weather_occ.29.T",31.9095,28.240814463092,0.74348191062743,1.2,30.2897281182602,4159,0.619568258856192,2.24081446309203,"per_person",-0.0386751151828838,2.24081446309203,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,2.30228970095461,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.29.RH",75.516,26.3432884095931,0.740677498262439,1.2,25.5025095642215,4159,0.617231248552033,0.343288409593139,"per_person",-0.0410121254870432,0.343288409593139,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0.40476364745572,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.30.T",29.18,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","B","weather_occ.30.T",27.721,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","B","weather_occ.28.T",34.9505,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","B","weather_occ.30.T",29.9095,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","B","weather_occ.29.T",29.63025,24.8594836812868,0.893715372623173,1.2,29.2139863830102,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,-1.07904108085065,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.28.T",35.87025,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","B","weather_occ.30.T",30.639,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","B","weather_occ.29.T",30.39,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.28.T",36.79,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","B","weather_occ.29.T",28.8705,23.8239059919536,0.929035100032085,1.2,28.8462513901345,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,-2.11461877018377,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","B","weather_occ.28.T",38.6295,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","B","weather_occ.28.T",37.70975,25.9385247621374,0.851367286709472,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.9385247621374,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.29.RH",68.324,25.2883315216141,1.24028046979325,2.5,50.0583872829266,4939,0.211444796562949,0,"per_person",-0.104512022975807,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,-0.402991411072897,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.29.RH",70.122,25.4858036956697,1.16967291141588,2.5,46.9474775610933,4939,0.26219064283423,0,"per_person",-0.0537661767045265,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,-0.205519237017324,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.29.RH",75.516,26.1294341059316,0.954531801923956,2.5,37.8287225202619,4939,0.381812720769582,0.129434105931622,"per_person",0.065855901230826,0.129434105931622,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0.438111173244604,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.29.RH",71.92,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.29.RH",73.718,25.9056277824773,1.02684467800735,2.5,40.8334359597141,4939,0.372988984193866,0,"per_person",0.0570321646551093,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0.214304849790292,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.28.T",34.9505,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.29.T",31.14975,26.8311738040627,1.03471706552637,2.5,44.4046513950848,4939,0.413886826210548,0.831173804062693,"per_person",0.0979300066717911,0.831173804062693,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,1.13985087137567,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.30.T",28.4505,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","C","weather_occ.28.T",35.87025,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.29.T",31.9095,28.0242517778483,0.960044595871182,2.5,44.9297633754193,4939,0.384017838348473,2.02425177784828,"per_person",0.0680610188097162,2.02425177784828,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,2.33292884516126,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.30.T",29.18,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","C","weather_occ.28.T",36.79,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.30.T",27.721,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","C","weather_occ.29.T",28.8705,23.5559847071625,1.19695638482325,2.5,42.7886062286995,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,-2.13533822552453,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.30.T",29.9095,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","C","weather_occ.28.T",37.70975,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.29.T",29.63025,24.6008809954922,1.15231805841774,2.5,43.3340798014652,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,-1.09044193719482,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_humid","C","weather_occ.30.T",30.639,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_humid","C","weather_occ.28.T",38.6295,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_humid","C","weather_occ.29.T",30.39,25.691322932687,1.09856911615987,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_humid",25.691322932687,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.RH",73.718,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.RH",75.516,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.RH",68.324,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.RH",70.122,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.RH",71.92,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.28.T",34.9505,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","NONE","weather_occ.28.T",35.87025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","NONE","weather_occ.28.T",36.79,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","NONE","weather_occ.28.T",37.70975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","NONE","weather_occ.28.T",38.6295,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.T",28.8705,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.30.T",28.4505,23.2834113214546,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,-0.591013014716239,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.T",29.63025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.30.T",29.18,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","NONE","weather_occ.30.T",29.9095,24.4692757529006,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0.594851416729785,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","NONE","weather_occ.30.T",27.721,22.4799784297615,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,-1.39444590640932,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.T",30.39,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.T",31.9095,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","NONE","weather_occ.30.T",30.639,25.0645250650602,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,1.19010072888938,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","NONE","weather_occ.29.T",31.14975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",23.8744243361708,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.30.T",29.9095,23.3807696087287,1.08850614417195,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0.808318308619349,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","A","weather_occ.29.T",31.14975,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.30.T",28.4505,21.7219539596141,1.56145736184055,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,-0.85049734049527,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","A","weather_occ.30.T",30.639,23.9412297104251,1.12329535463516,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,1.36877841031573,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","A","weather_occ.29.T",31.9095,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.30.T",29.18,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","A","weather_occ.30.T",27.721,20.8277491019053,1.65222932785618,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,-1.74470219820399,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","A","weather_occ.29.T",29.63025,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.29.T",30.39,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.29.RH",75.516,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.28.T",34.9505,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","A","weather_occ.29.RH",68.324,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.29.RH",73.718,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.28.T",37.70975,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","A","weather_occ.28.T",38.6295,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","A","weather_occ.28.T",35.87025,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","A","weather_occ.29.RH",71.92,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.28.T",36.79,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","A","weather_occ.29.RH",70.122,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","A","weather_occ.29.T",28.8705,22.5724513001093,1.30197303606151,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.5724513001093,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.T",31.14975,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.T",31.9095,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.30.T",27.721,21.301365261052,1.17861316870956,1.2,35.5631668980417,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,-1.67537350964501,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","B","weather_occ.28.T",34.9505,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","B","weather_occ.30.T",29.9095,23.6556529230978,0.813622829802792,1.2,35.2573048945231,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0.678914152400864,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","B","weather_occ.28.T",37.70975,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","B","weather_occ.30.T",28.4505,22.1543651266633,1.12904619479132,1.2,35.4606117972672,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,-0.822373644033689,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","B","weather_occ.29.T",29.63025,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.28.T",35.87025,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","B","weather_occ.30.T",30.639,24.2740619719875,0.790463093072706,1.2,35.1565496989098,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,1.29732320129055,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","B","weather_occ.28.T",38.6295,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","B","weather_occ.30.T",29.18,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","B","weather_occ.29.T",30.39,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.28.T",36.79,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","B","weather_occ.29.T",28.8705,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.RH",68.324,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.RH",73.718,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.RH",70.122,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.RH",75.516,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","B","weather_occ.29.RH",71.92,22.976738770697,0.897685565473871,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",22.976738770697,0,0,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.29.T",31.14975,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.29.T",31.9095,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"A","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.30.T",27.721,20.0372439439247,2.44273448583678,2.5,84.5888401882862,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,-1.76464032381416,-4.99999999999999,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","C","weather_occ.30.T",29.9095,22.642453887755,1.82682186514567,2.5,83.8610368546155,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0.840569620016058,2.50000000000001,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","C","weather_occ.30.T",28.4505,20.9321087747223,2.35130254673231,2.5,84.3448086584565,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,-0.869775493016608,-2.5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","C","weather_occ.29.T",29.63025,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-2.5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.30.T",30.639,23.4135899651398,1.65093509992039,2.5,83.6212884964909,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,1.61170569740094,5,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","C","weather_occ.30.T",29.18,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,0,"Outdoor temperature [BOS_PAV] hot_dry"
+"BOS_PAV","hot_dry","C","weather_occ.29.T",30.39,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,0,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.29.T",28.8705,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-5,"Outdoor temperature [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.28.T",34.9505,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","C","weather_occ.28.T",37.70975,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,2.49999999999999,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","C","weather_occ.29.RH",73.718,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,2.50000000000001,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.28.T",35.87025,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-2.5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","C","weather_occ.28.T",38.6295,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,5,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","C","weather_occ.29.RH",75.516,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.28.T",36.79,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,0,"Outdoor temperature [BOS_PAV] hot_peak"
+"BOS_PAV","hot_dry","C","weather_occ.29.RH",68.324,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.29.RH",70.122,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,-2.5,"Outdoor humidity [BOS_PAV] hot_humid"
+"BOS_PAV","hot_dry","C","weather_occ.29.RH",71.92,21.8018842677389,2.07254006843194,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / airport canopy","Boston / airport canopy
+hot_dry",21.8018842677389,0,0,"Outdoor humidity [BOS_PAV] hot_humid"

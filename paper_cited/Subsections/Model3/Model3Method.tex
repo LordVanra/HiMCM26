@@ -1,0 +1,43 @@
+\section{Model III: Cost, Feasibility, and Minimax Regret}
+\subsection{Model Description}
+ 
+Model III turns the physical and comfort results into a decision. It checks whether each option has a valid model solution and whether it meets any active cost, electricity, or water limits. It then compares the options in three hot-weather scenarios. Instead of assuming that one forecast is correct, it asks which choice would leave HiMCM with the smallest worst-case missed opportunity.
+ 
+\subsection{Primary Equations}
+ 
+We use the minimax-regret decision criterion, applied here to discomfort loss~\cite{savage1951}. For option $i$ in scenario $s$, the regret is
+\begin{equation}
+R_{i,s} = L_{i,s} - \min_{j\ \text{feasible}} L_{j,s}
+\end{equation}
+An option has zero regret if it is best in that scenario. Its worst regret is
+\begin{equation}
+R_{i,\max} = \max_{s} R_{i,s}
+\end{equation}
+The minimax recommendation is
+\begin{equation}
+i^{*} = \arg\min_{i}\; R_{i,\max}
+\end{equation}
+If annual costing is enabled, capital $C$ is converted to an annual amount using the capital recovery factor, with discount rate $r$ and lifetime $n$ years~\cite{nlr_capital_recovery}:
+\begin{equation}
+\text{Annualized capital} = \frac{C\, r}{1 - (1 + r)^{-n}}
+\end{equation}
+The selected run uses purchase cost rather than annual cost. Budget, electricity, and water caps are disabled, so all physically valid options remain feasible.
+ 
+\subsection{Why Minimax Regret Is Used Instead of TOPSIS}
+ 
+TOPSIS ranks choices by their distance from an ideal point and a worst point. Its usual weighted formulation normalizes the criteria and assigns criterion weights~\cite{hwang_yoon1981}. In this project, those criteria would be cost, energy, water, and comfort. Those choices can strongly affect the result, especially when the units are different. A TOPSIS score can look precise even when the weights are subjective.
+ 
+Minimax regret answers a simpler question that fits this project: if the weather scenario is uncertain, how much worse could this choice be than the best choice we could have made after seeing the weather? It does not require invented weights between dollars, kilowatt-hours, liters of water, and degrees of discomfort. Resource limits can be handled first as feasibility constraints. This makes minimax easier to explain and audit.
+ 
+There is an important trade-off. In the current run, regret is calculated from discomfort loss only. Because no cost, energy, or water caps are active, the largest cooler is often the minimax winner simply because it cools the most. Minimax is therefore the right robustness method for the stated objective, but the stated objective is not yet a complete balance of comfort and resources. TOPSIS would not automatically solve this problem; it would hide it inside weights.
+ 
+\subsection{Key Assumptions and Justifications}
+ 
+\begin{enumerate}
+  \item \textbf{The three selected weather scenarios represent the uncertainty of interest.} Peak, humid-hot, and dry-hot hours provide contrasting stresses. They are representative cases, not probabilities.
+  \item \textbf{Regret is based on hot-discomfort loss.} This keeps the objective tied directly to comfort. It also means cost and resources affect the choice only through active caps.
+  \item \textbf{An option must be feasible in every scenario to be robust.} This avoids recommending a device that fails under one supplied condition.
+  \item \textbf{Purchase cost is the selected cost basis.} It is available and easy to compare. It omits maintenance and long-term utility costs.
+  \item \textbf{Disabled caps mean no restriction.} This avoids inventing a budget or water limit. It also permits resource-heavy options to win.
+  \item \textbf{Scenarios are not assigned probabilities.} Minimax protects against poor outcomes without claiming how often each weather state will occur.
+\end{enumerate}

@@ -1,0 +1,2401 @@
+
+\subsection*{Prompt 1}
+Find simultaneous summer 2025 weather data for Dallas that can supply outdoor temperature, relative humidity, and pressure to our heat and moisture inputs. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Use the NASA POWER hourly point service with the project’s Dallas reference coordinates, 32.89743, -97.02196, and June 1 through August 31, 2025. These coordinates identify a reference grid query, not a sensor installed at the selected waiting area. Request T2M, RH2M, and PS together so the variables share timestamps.
+
+Open the request link and save the response as JSON. For a spreadsheet-friendly download, change format=JSON to format=CSV. Retain the metadata header and the original file. Check the returned parameter units before converting pressure to Pa; the project’s stored pressure values are in Pa. Preserve UTC timestamp keys and missing-value flags.
+
+The active CSV contains the following selected records. They are supplied project records pending comparison against the downloaded raw response; this report does not claim a fresh API retrieval succeeded. A blocked API link should be opened manually through the POWER Data Access Viewer or API page. Do not replace missing observations with a summer mean.
+
+Hourly data request  \url{https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=T2M%2CRH2M%2CPS&community=SB&latitude=32.89743&longitude=-97.02196&start=20250601&end=20250831&format=JSON&time-standard=UTC}
+
+NASA hourly documentation  \url{https://power.larc.nasa.gov/docs/services/api/temporal/hourly/}
+
+NASA Data Access Viewer  \url{https://power.larc.nasa.gov/data-access-viewer/}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 2}
+Find data for moisture balance in Dallas that will supply outdoor humidity ratio and the pressure and temperature needed to derive it. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Humidity ratio is a derived property when simultaneous dry-bulb temperature, relative humidity, and pressure are available. The source data are the hourly weather variables above; the conversion method is documented in PsychroLib. Its SI relative-humidity argument is a fraction, so an RH value stored in percent must be divided by 100.
+
+On the PsychroLib API page, find GetHumRatioFromRelHum, GetSatVapPres, and GetMoistAirVolume. Save the documentation or obtain a versioned release from the linked repository. Keep humidity ratio in kg water per kg dry air. Record the exact timestamp and all source inputs for each derived row.
+
+There is no single measured “Dallas moisture balance” to download. Local moisture generation, inflow, outflow, and evaporative water addition are separate quantities. The attached zones.csv leaves \nolinkurl{moisture_kg_s} missing. The weather download cannot establish passenger moisture release or actual cooler water use. Those remain field or device-test data needs.
+
+PsychroLib documentation  \url{https://psychrometrics.github.io/psychrolib/api_docs.html}
+
+Versioned source and releases  \url{https://github.com/psychrometrics/psychrolib}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 3}
+Find simultaneous summer 2025 weather data for Boston that can supply outdoor temperature, relative humidity, and pressure to our heat and moisture inputs. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Use the NASA POWER hourly point service with the project’s Boston reference coordinates, 42.36056, -71.01056, and June 1 through August 31, 2025. These coordinates identify a reference grid query, not a sensor installed at the selected waiting area. Request T2M, RH2M, and PS together so the variables share timestamps.
+
+Open the request link and save the response as JSON. For a spreadsheet-friendly download, change format=JSON to format=CSV. Retain the metadata header and the original file. Check the returned parameter units before converting pressure to Pa; the project’s stored pressure values are in Pa. Preserve UTC timestamp keys and missing-value flags.
+
+The active CSV contains the following selected records. They are supplied project records pending comparison against the downloaded raw response; this report does not claim a fresh API retrieval succeeded. A blocked API link should be opened manually through the POWER Data Access Viewer or API page. Do not replace missing observations with a summer mean.
+
+Hourly data request  \url{https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=T2M%2CRH2M%2CPS&community=SB&latitude=42.36056&longitude=-71.01056&start=20250601&end=20250831&format=JSON&time-standard=UTC}
+
+NASA hourly documentation  \url{https://power.larc.nasa.gov/docs/services/api/temporal/hourly/}
+
+NASA Data Access Viewer  \url{https://power.larc.nasa.gov/data-access-viewer/}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 4}
+Find data for moisture balance in Boston that will supply outdoor humidity ratio and the pressure and temperature needed to derive it. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Humidity ratio is a derived property when simultaneous dry-bulb temperature, relative humidity, and pressure are available. The source data are the hourly weather variables above; the conversion method is documented in PsychroLib. Its SI relative-humidity argument is a fraction, so an RH value stored in percent must be divided by 100.
+
+On the PsychroLib API page, find GetHumRatioFromRelHum, GetSatVapPres, and GetMoistAirVolume. Save the documentation or obtain a versioned release from the linked repository. Keep humidity ratio in kg water per kg dry air. Record the exact timestamp and all source inputs for each derived row.
+
+There is no single measured “Boston moisture balance” to download. Local moisture generation, inflow, outflow, and evaporative water addition are separate quantities. The attached zones.csv leaves \nolinkurl{moisture_kg_s} missing. The weather download cannot establish passenger moisture release or actual cooler water use. Those remain field or device-test data needs.
+
+PsychroLib documentation  \url{https://psychrometrics.github.io/psychrolib/api_docs.html}
+
+Versioned source and releases  \url{https://github.com/psychrometrics/psychrolib}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 5}
+Find simultaneous summer 2025 weather data for Phoenix that can supply outdoor temperature, relative humidity, and pressure to our heat and moisture inputs. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Use the NASA POWER hourly point service with the project’s Phoenix reference coordinates, 33.427799, -112.003465, and June 1 through August 31, 2025. These coordinates identify a reference grid query, not a sensor installed at the selected waiting area. Request T2M, RH2M, and PS together so the variables share timestamps.
+
+Open the request link and save the response as JSON. For a spreadsheet-friendly download, change format=JSON to format=CSV. Retain the metadata header and the original file. Check the returned parameter units before converting pressure to Pa; the project’s stored pressure values are in Pa. Preserve UTC timestamp keys and missing-value flags.
+
+The active CSV contains the following selected records. They are supplied project records pending comparison against the downloaded raw response; this report does not claim a fresh API retrieval succeeded. A blocked API link should be opened manually through the POWER Data Access Viewer or API page. Do not replace missing observations with a summer mean.
+
+Hourly data request  \url{https://power.larc.nasa.gov/api/temporal/hourly/point?parameters=T2M%2CRH2M%2CPS&community=SB&latitude=33.427799&longitude=-112.003465&start=20250601&end=20250831&format=JSON&time-standard=UTC}
+
+NASA hourly documentation  \url{https://power.larc.nasa.gov/docs/services/api/temporal/hourly/}
+
+NASA Data Access Viewer  \url{https://power.larc.nasa.gov/data-access-viewer/}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 6}
+Find data for moisture balance in Phoenix that will supply outdoor humidity ratio and the pressure and temperature needed to derive it. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Humidity ratio is a derived property when simultaneous dry-bulb temperature, relative humidity, and pressure are available. The source data are the hourly weather variables above; the conversion method is documented in PsychroLib. Its SI relative-humidity argument is a fraction, so an RH value stored in percent must be divided by 100.
+
+On the PsychroLib API page, find GetHumRatioFromRelHum, GetSatVapPres, and GetMoistAirVolume. Save the documentation or obtain a versioned release from the linked repository. Keep humidity ratio in kg water per kg dry air. Record the exact timestamp and all source inputs for each derived row.
+
+There is no single measured “Phoenix moisture balance” to download. Local moisture generation, inflow, outflow, and evaporative water addition are separate quantities. The attached zones.csv leaves \nolinkurl{moisture_kg_s} missing. The weather download cannot establish passenger moisture release or actual cooler water use. Those remain field or device-test data needs.
+
+PsychroLib documentation  \url{https://psychrometrics.github.io/psychrolib/api_docs.html}
+
+Versioned source and releases  \url{https://github.com/psychrometrics/psychrolib}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 7}
+Find the original data for Average summer temperature, Average summer relative humidity, Atmospheric pressure, summer reference wind 10m using NASA POWER climatology at Dallas reference coordinates. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The project uses this query for long-term monthly reference climate and wind. Download the JSON and inspect the header date range, coordinates, parameter metadata, and JUN, JUL, AUG values. A climatology is a different product from the selected 2025 hourly cases. Do not combine their periods or call either a shelter measurement.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: JSON properties.parameter.T2M.JUN/JUL/AUG; parameters.T2M.units; header.range; geometry.coordinates. Source key: \nolinkurl{nasa_2026_dallas_summer}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CPS%2CWS10M%2CALLSKY_SFC_SW_DWN&community=RE&longitude=-97.02196&latitude=32.89743&format=JSON}
+
+cd001  Average summer temperature
+
+Recorded value: 29.2 degC | Scope: Dallas | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (27.54*30+29.83*31+30.06*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd004  Average summer relative humidity
+
+Recorded value: 62.0 \%RH | Scope: Dallas | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (67.41*30+60.57*31+58.25*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd007  Atmospheric pressure
+
+Recorded value: 9.923E+4 Pa | Scope: Dallas | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (99.15*30+99.29*31+99.24*31)/92 * 1000 Pa/kPa; round to nearest 10 Pa
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+air001  summer reference wind 10m
+
+Recorded value: 3.859565217391304 m/s | Scope: \nolinkurl{DAL_BUS} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+air010  summer reference wind 10m
+
+Recorded value: 3.859565217391304 m/s | Scope: \nolinkurl{DAL_RAIL} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 8}
+Find the original data for Average summer temperature, Average summer relative humidity, Atmospheric pressure, summer reference wind 10m using NASA POWER climatology at Boston reference coordinates. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The project uses this query for long-term monthly reference climate and wind. Download the JSON and inspect the header date range, coordinates, parameter metadata, and JUN, JUL, AUG values. A climatology is a different product from the selected 2025 hourly cases. Do not combine their periods or call either a shelter measurement.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: JSON properties.parameter.T2M.JUN/JUL/AUG; parameters.T2M.units; header.range; geometry.coordinates. Source key: \nolinkurl{nasa_2026_boston_summer}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CPS%2CWS10M%2CALLSKY_SFC_SW_DWN&community=RE&longitude=-71.01056&latitude=42.36056&format=JSON}
+
+cd002  Average summer temperature
+
+Recorded value: 21.1 degC | Scope: Boston | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (18.57*30+22.43*31+22.07*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd005  Average summer relative humidity
+
+Recorded value: 75.9 \%RH | Scope: Boston | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (79.25*30+75.33*31+73.13*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd008  Atmospheric pressure
+
+Recorded value: 1.0056E+5 Pa | Scope: Boston | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (100.5*30+100.54*31+100.64*31)/92 * 1000 Pa/kPa; round to nearest 10 Pa
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+air019  summer reference wind 10m
+
+Recorded value: 1.8792391304347824 m/s | Scope: \nolinkurl{BOS_BUS} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+air028  summer reference wind 10m
+
+Recorded value: 1.8792391304347824 m/s | Scope: \nolinkurl{BOS_RAIL} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 9}
+Find the original data for Average summer temperature, Average summer relative humidity, Atmospheric pressure, summer reference wind 10m using NASA POWER climatology at Phoenix reference coordinates. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The project uses this query for long-term monthly reference climate and wind. Download the JSON and inspect the header date range, coordinates, parameter metadata, and JUN, JUL, AUG values. A climatology is a different product from the selected 2025 hourly cases. Do not combine their periods or call either a shelter measurement.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: JSON properties.parameter.T2M.JUN/JUL/AUG; parameters.T2M.units; header.range; geometry.coordinates. Source key: \nolinkurl{nasa_2026_phoenix_summer}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CRH2M%2CPS%2CWS10M%2CALLSKY_SFC_SW_DWN&community=RE&longitude=-112.003465&latitude=33.427799&format=JSON}
+
+cd003  Average summer temperature
+
+Recorded value: 33.0 degC | Scope: Phoenix | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (31.96*30+33.91*31+32.96*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd006  Average summer relative humidity
+
+Recorded value: 26.8 \%RH | Scope: Phoenix | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (15.33*30+30.16*31+34.56*31)/92; round to 1 decimal
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+cd009  Atmospheric pressure
+
+Recorded value: 9.535E+4 Pa | Scope: Phoenix | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (95.22*30+95.41*31+95.41*31)/92 * 1000 Pa/kPa; round to nearest 10 Pa
+
+Applicability: User-authorized generic summer: June-August full-day climatology. Gridded estimate, not a specific measured day or occupied-position condition.
+
+air037  summer reference wind 10m
+
+Recorded value: 2.8597826086956526 m/s | Scope: \nolinkurl{PHX_BUS} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+air046  summer reference wind 10m
+
+Recorded value: 2.8597826086956526 m/s | Scope: \nolinkurl{PHX_RAIL} | Status: \nolinkurl{verified_derived}
+
+Derivation recorded in attachment: (30*WS10M.JUN+31*WS10M.JUL+31*WS10M.AUG)/92
+
+Applicability: Authorized simplified waiting-zone estimate; not an on-site measurement.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 10}
+Find the original data for Dimensioned shelter/station layout, selected study location using Rosa Parks Plaza. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+This transit-agency page is useful for venue identity, address, and access or boarding information. Save the page or print it to PDF. A station identity page does not provide a dimensioned occupied control volume or measured ventilation.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Station Information: address and northbound bays N and O. Source key: \nolinkurl{dart_rosa}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.dart.org/guide/transit-and-use/rail/rail-station-detail/rosa-parks-plaza}
+
+\nolinkurl{cd019_bus}  Dimensioned shelter/station layout
+
+Recorded value: Roofed, open-front shelter; ambient air exchange \nolinkurl{not_applicable} | Scope: \nolinkurl{DAL_BUS} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel001  selected study location
+
+Recorded value: Rosa Parks Plaza, northbound shelter at bays N/O, 901 Elm St text | Scope: \nolinkurl{DAL_BUS} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 11}
+Find the original data for Dimensioned shelter/station layout, selected study location using West End Station. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+This transit-agency page is useful for venue identity, address, and access or boarding information. Save the page or print it to PDF. A station identity page does not provide a dimensioned occupied control volume or measured ventilation.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Station Information: Pacific Avenue between Market and Lamar; 800 Pacific Avenue. Source key: \nolinkurl{dart_west}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.dart.org/guide/transit-and-use/rail/rail-station-detail/west-end-station}
+
+\nolinkurl{cd019_rail}  Dimensioned shelter/station layout
+
+Recorded value: Roofed platform waiting zone, open to outdoor air \nolinkurl{not_applicable} | Scope: \nolinkurl{DAL_RAIL} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel002  selected study location
+
+Recorded value: West End Station, covered platform waiting area, 800 Pacific Ave text | Scope: \nolinkurl{DAL_RAIL} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 12}
+Find the original data for Dimensioned shelter/station layout, selected study location using The Shade Effect. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the direct source, save the relevant page or PDF, and retain the exact locator below. Verify the quantity definition and source conditions before transferring a number into the input table.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: March 2026; pp. 9-10, clear-roof control bus shelter in Grove Hall, Images 9 and 10. Source key: \nolinkurl{boston_shade}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.abettercity.org/docs-new/the%20shade%20effect%20final%20report%20march%202026.pdf}
+
+\nolinkurl{cd020_bus}  Dimensioned shelter/station layout
+
+Recorded value: Roofed, open-front shelter; ambient air exchange \nolinkurl{not_applicable} | Scope: \nolinkurl{BOS_BUS} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel003  selected study location
+
+Recorded value: Grove Hall Route 28 clear-roof control shelter shown in B-COOL Images 9-10 text | Scope: \nolinkurl{BOS_BUS} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 13}
+Find the original data for Dimensioned shelter/station layout, selected study location using Mattapan Station Building. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the direct source, save the relevant page or PDF, and retain the exact locator below. Verify the quantity definition and source conditions before transferring a number into the input table.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Project description: Boston, bus and trolley terminus; completed 2009. Source key: \nolinkurl{bwa_mattapan}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.bwaboston.com/mattapan-station-building}
+
+\nolinkurl{cd020_rail}  Dimensioned shelter/station layout
+
+Recorded value: Roofed platform waiting zone, open to outdoor air \nolinkurl{not_applicable} | Scope: \nolinkurl{BOS_RAIL} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel004  selected study location
+
+Recorded value: Mattapan Station, outdoor trolley-platform waiting area near Mattapan Square text | Scope: \nolinkurl{BOS_RAIL} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 14}
+Find the original data for Dimensioned shelter/station layout, selected study location using FY 2012-2016 Short Range Transit Plan. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+This is historical agency material. Download the PDF and locate Central Avenue and Camelback in the facility inventory or station map. Preserve its publication period. A historical map can support identity but does not establish current canopy geometry or passenger exposure.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Transit facility inventory: Central Ave / Camelback Transit Center; historical facility reference. Source key: \nolinkurl{valley_bus}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://d1rbsgppyrdqq4.cloudfront.net/prism/s3fs-public/c16/109292/2012-2016_Short_Range_Transit_Program.pdf?VersionId=3KqWFiKrvML2W.sBQeetilxKVkKusYuc}
+
+\nolinkurl{cd021_bus}  Dimensioned shelter/station layout
+
+Recorded value: Roofed, open-front shelter; ambient air exchange \nolinkurl{not_applicable} | Scope: \nolinkurl{PHX_BUS} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel005  selected study location
+
+Recorded value: Central Avenue/Camelback Transit Center, bus passenger shelter text | Scope: \nolinkurl{PHX_BUS} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+16 Station Platforms
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 15}
+Find the original data for Dimensioned shelter/station layout, selected study location using Station Platforms. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+This is historical agency material. Download the PDF and locate Central Avenue and Camelback in the facility inventory or station map. Preserve its publication period. A historical map can support identity but does not establish current canopy geometry or passenger exposure.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Page 1: Station design and map showing Central Ave/Camelback in Phoenix. Source key: \nolinkurl{valley_rail}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://vulcan-production.nyc3.cdn.digitaloceanspaces.com/pages/downloads/about/agency/fact-sheets-brochures/fact-sheets/lrt2274_station_platforms_-_october_2016_update_4.pdf}
+
+\nolinkurl{cd021_rail}  Dimensioned shelter/station layout
+
+Recorded value: Roofed platform waiting zone, open to outdoor air \nolinkurl{not_applicable} | Scope: \nolinkurl{PHX_RAIL} | Status: \nolinkurl{generic_representation}
+
+Applicability: User-authorized generic layout at the named real site; not an as-built survey.
+
+sel006  selected study location
+
+Recorded value: Central Avenue/Camelback light-rail station, canopy-covered waiting area text | Scope: \nolinkurl{PHX_RAIL} | Status: \nolinkurl{selected_reference}
+
+Applicability: Real location used as a reference for a generic open-sided bus shelter or semi-open rail waiting zone. No site dimensions or local measurements inferred.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 16}
+Find the original data for Evaporative cooler airflow, Equipment purchase price, selected equipment model, manufacturer airflow, manufacturer voltage, manufacturer current using APEX 2000 Portable Evaporative Coolers. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the exact model or resource page, then save the product information and any linked manual or specification PDF. Record the model number, operating setting, revision, and whether a number is a maximum, an advertised coverage figure, or a tested operating measurement.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Product Information table and MSRP beside product title; current page accessed 2026-11-11. Source key: \nolinkurl{portacool_2000}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.portacool.com/products/apex-series/apex-2000-portable-evaporative-coolers/}
+
+cd041  Evaporative cooler airflow
+
+Recorded value: 9000 CFM | Scope: \nolinkurl{not_applicable} | Status: \nolinkurl{proxy_estimate}
+
+Applicability: Selected manufacturer proxy; current Product Information airflow rating.
+
+cd048  Equipment purchase price
+
+Recorded value: 4159 USD | Scope: \nolinkurl{not_applicable} | Status: \nolinkurl{proxy_estimate}
+
+Applicability: Manufacturer MSRP used as purchase-price estimate; tax, freight, installation excluded.
+
+sel010  selected equipment model
+
+Recorded value: Portacool APEX 2000 (PACA20001A1) text | Scope: B | Status: \nolinkurl{selected_reference}
+
+sel019  manufacturer airflow
+
+Recorded value: 9000 CFM | Scope: B | Status: \nolinkurl{selected_reference}
+
+Applicability: Equipment flow; not shelter ventilation or occupied-position airspeed.
+
+sel020  manufacturer voltage
+
+Recorded value: 120 V | Scope: B | Status: \nolinkurl{selected_reference}
+
+sel021  manufacturer current
+
+Recorded value: 8 A | Scope: B | Status: \nolinkurl{selected_reference}
+
+Applicability: Do not interpret voltage times current as measured real power.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 17}
+Find the original data for Evaporative cooler airflow, Equipment purchase price, selected equipment model, manufacturer airflow, manufacturer voltage, manufacturer current using APEX 4000 Portable Evaporative Coolers. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the exact model or resource page, then save the product information and any linked manual or specification PDF. Record the model number, operating setting, revision, and whether a number is a maximum, an advertised coverage figure, or a tested operating measurement.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Product Information table and MSRP beside product title; current page accessed 2026-11-11. Source key: \nolinkurl{portacool_4000}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.portacool.com/products/apex-series/apex-4000-portable-evaporative-coolers/}
+
+cd042  Evaporative cooler airflow
+
+Recorded value: 13350 CFM | Scope: \nolinkurl{not_applicable} | Status: \nolinkurl{proxy_estimate}
+
+Applicability: Selected manufacturer proxy; current Product Information airflow rating.
+
+cd049  Equipment purchase price
+
+Recorded value: 4939 USD | Scope: \nolinkurl{not_applicable} | Status: \nolinkurl{proxy_estimate}
+
+Applicability: Manufacturer MSRP used as purchase-price estimate; tax, freight, installation excluded.
+
+sel013  selected equipment model
+
+Recorded value: Portacool APEX 4000 (PACA40001A1) text | Scope: C | Status: \nolinkurl{selected_reference}
+
+sel022  manufacturer airflow
+
+Recorded value: 13350 CFM | Scope: C | Status: \nolinkurl{selected_reference}
+
+Applicability: Equipment flow; not shelter ventilation or occupied-position airspeed.
+
+sel023  manufacturer voltage
+
+Recorded value: 120 V | Scope: C | Status: \nolinkurl{selected_reference}
+
+sel024  manufacturer current
+
+Recorded value: 9 A | Scope: C | Status: \nolinkurl{selected_reference}
+
+Applicability: Do not interpret voltage times current as measured real power.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 18}
+Find the original data for Equipment purchase price, selected equipment model using Big Ass Fans AirEye 20 inch Midnight Black Pedestal / Low Rider Fan. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Keep the exact AirEye size and model identifier with the source. Download the linked specification or maintenance PDF where available. Airflow contours need their distance, speed setting, and test configuration before they become passenger-position airspeed data.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Item 657AEPMB20, manufacturer F-AE1-2001A750C716L10S34, displayed price. Source key: \nolinkurl{aireye_20_price}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.webstaurantstore.com/big-ass-fans-aireye-20-midnight-black-pedestal-low-rider-fan-120v/657AEPMB20.html}
+
+cd047  Equipment purchase price
+
+Recorded value: 1499.00 USD | Scope: \nolinkurl{not_applicable} | Status: \nolinkurl{proxy_estimate}
+
+Applicability: Opened retailer listing price; supersedes search-snippet sale price. Reference product only, not a contest-issued price. Excludes tax and installation.
+
+sel007  selected equipment model
+
+Recorded value: Big Ass Fans AirEye 20-inch 120 V Midnight Black pedestal/low rider; F-AE1-2001A750C716L10S34 text | Scope: A | Status: \nolinkurl{selected_reference}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 19}
+Find the original data for Applicable local electricity tariff, Oncor distribution energy component using Tariff for Retail Delivery Service. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: See related \nolinkurl{tariff_reference} records for exact page/section and rate conditions.. Source key: \nolinkurl{oncor_2026_delivery}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.oncor.com/content/dam/oncorwww/documents/about-us/regulatory/tariff-and-rate-schedules/Tariff%20for%20Retail%20Delivery%20Service.pdf}
+
+cd056  Applicable local electricity tariff
+
+Recorded value: blank | Scope: Dallas | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Location/service provider, account class, price-effective period, supply contract and applicable riders; whole-account load matters, not just device power.
+
+cd073  Oncor distribution energy component
+
+Recorded value: 0.031236 USD/kWh | Scope: Dallas | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 20}
+Find the original data for Applicable local electricity tariff, Eversource G-1 non-demand variable delivery total using 2026 Summary of Eastern Massachusetts Electric Rates for Greater Boston Service Area. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: See related \nolinkurl{tariff_reference} records for exact page/section and rate conditions.. Source key: \nolinkurl{eversource_2026_boston}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.eversource.com/docs/default-source/rates-tariffs/ema-greater-boston-rates.pdf?sfvrsn=875c1c95_19}
+
+cd057  Applicable local electricity tariff
+
+Recorded value: blank | Scope: Boston | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Location/service provider, account class, price-effective period, supply contract and applicable riders; whole-account load matters, not just device power.
+
+cd074  Eversource G-1 non-demand variable delivery total
+
+Recorded value: 0.14804 USD/kWh | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Derivation recorded in attachment: Sum of eleven per-kWh components: 0.08249 + -0.00034 + 0.00450 + 0.00483 + 0.00006 + 0.00001 + 0.00079 + -0.00077 + 0.04208 + 0.01389 + 0.00050 = 0.14804 USD/kWh. No demand/fixed charges converted into energy charges.
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 21}
+Find the original data for Applicable local electricity tariff, APS E-32 XS summer base bundled energy rate using Rate Schedule E-32 XS: Extra Small General Service. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: See related \nolinkurl{tariff_reference} records for exact page/section and rate conditions.. Source key: \nolinkurl{aps_2024_e32xs}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.aps.com/-/media/APS/APSCOM-PDFs/Utility/Regulatory-and-Legal/Regulatory-Plan-Details-Tariffs/Business/Business-NonResidential-Plans/e32_ExtraSmall.pdf}
+
+cd058  Applicable local electricity tariff
+
+Recorded value: blank | Scope: Phoenix | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Location/service provider, account class, price-effective period, supply contract and applicable riders; whole-account load matters, not just device power.
+
+cd075  APS E-32 XS summer base bundled energy rate
+
+Recorded value: 0.15055 USD/kWh | Scope: Phoenix | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd076  APS E-32 XS summer base bundled energy rate
+
+Recorded value: 0.08327 USD/kWh | Scope: Phoenix | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 22}
+Find the original data for Applicable local water tariff (optional), DWU non-residential water volume rate using City of Dallas utility fees effective October 1, 2025. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: See related \nolinkurl{tariff_reference} records for exact page/section and rate conditions.. Source key: \nolinkurl{dallas_2025_water_rates}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://dallas.gov/departments/waterutilities/Documents/COD%20Rates%20Insert_Digital.pdf}
+
+cd059  Applicable local water tariff (optional)
+
+Recorded value: blank | Scope: Dallas | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Utility account, applicable billing tier/season, meter size and billing period. Water-rate selection cannot be inferred from cooler power.
+
+cd062  DWU non-residential water volume rate
+
+Recorded value: 5.32 USD/\nolinkurl{1000_US_gal} | Scope: Dallas | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd063  DWU non-residential water volume rate
+
+Recorded value: 5.88 USD/\nolinkurl{1000_US_gal} | Scope: Dallas | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd064  DWU non-residential water volume rate
+
+Recorded value: 8.59 USD/\nolinkurl{1000_US_gal} | Scope: Dallas | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 23}
+Find the original data for Applicable local water tariff (optional), BWSC tiered water volume rate using 2026 Rate Document. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: See related \nolinkurl{tariff_reference} records for exact page/section and rate conditions.. Source key: \nolinkurl{bwsc_2026_rates}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.bwsc.org/sites/default/files/2025-12/2026%20Final%20RATE%20DOC.pdf}
+
+cd060  Applicable local water tariff (optional)
+
+Recorded value: blank | Scope: Boston | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Utility account, applicable billing tier/season, meter size and billing period. Water-rate selection cannot be inferred from cooler power.
+
+cd065  BWSC tiered water volume rate
+
+Recorded value: 9.384 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd066  BWSC tiered water volume rate
+
+Recorded value: 10.022 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd067  BWSC tiered water volume rate
+
+Recorded value: 10.93 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd068  BWSC tiered water volume rate
+
+Recorded value: 11.649 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd069  BWSC tiered water volume rate
+
+Recorded value: 12.261 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd070  BWSC tiered water volume rate
+
+Recorded value: 12.764 USD/\nolinkurl{1000_US_gal} | Scope: Boston | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 24}
+Find the original data for Applicable local water tariff (optional), Phoenix high-season water volume charge, Phoenix water environmental charge using Water Rate Schedule Effective March 1, 2025. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the tariff PDF and retain its effective date and customer class. Locate the named rate and read its tier, seasonal, demand, fixed-charge, and rider conditions. The applicable venue account is still needed before selecting a modeled price.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: p. 1; User and Other Charges / High Season / Inside City; Environmental Charge / Inside City; notes 1-5. Source key: \nolinkurl{phoenix_2025_water_rates}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.phoenix.gov/content/dam/phoenix/waterservicessite/documents/rates_effective_march_2025.pdf}
+
+cd061  Applicable local water tariff (optional)
+
+Recorded value: blank | Scope: Phoenix | Status: \nolinkurl{awaiting_account_applicability}
+
+Applicability: Official reference rates appear below as \nolinkurl{tariff_reference} rows. No single all-in account rate can be established from the city name alone.
+
+Still needed: Utility account, applicable billing tier/season, meter size and billing period. Water-rate selection cannot be inferred from cooler power.
+
+cd071  Phoenix high-season water volume charge
+
+Recorded value: 6.13 USD/\nolinkurl{748_US_gal} | Scope: Phoenix | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+cd072  Phoenix water environmental charge
+
+Recorded value: 0.62 USD/\nolinkurl{748_US_gal} | Scope: Phoenix | Status: \nolinkurl{verified_reference_not_selected}
+
+Applicability: Published rate under the stated conditions; not selected as the project tariff. The project value column is deliberately blank.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 25}
+Find the original data for manufacturer airflow, manufacturer voltage, manufacturer rated power using FF10D 10-Inch AC Portable Axial Flow Fan. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the direct source, save the relevant page or PDF, and retain the exact locator below. Verify the quantity definition and source conditions before transferring a number into the input table.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Specifications: rated power, airflow, voltage and frequency. Source key: \nolinkurl{tttiger_ff10d}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://tttigerfan.com/products/industrial-ventilation-fans/ff-10-d/}
+
+sel016  manufacturer airflow
+
+Recorded value: 2100 m3/h | Scope: A | Status: \nolinkurl{superseded_reference}
+
+Applicability: Previous TTTIGER reference; replaced by the US-market AirEye reference. Do not use as current A specification.
+
+sel017  manufacturer voltage
+
+Recorded value: 220 V | Scope: A | Status: \nolinkurl{superseded_reference}
+
+Applicability: Previous TTTIGER reference; replaced by the US-market AirEye reference. Do not use as current A specification.
+
+sel018  manufacturer rated power
+
+Recorded value: 0.25 kW | Scope: A | Status: \nolinkurl{superseded_reference}
+
+Derivation recorded in attachment: 250 W / 1000
+
+Applicability: Previous TTTIGER reference; replaced by the US-market AirEye reference. Do not use as current A specification.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 26}
+Find the original data for fan reference maximum input power, fan reference maximum rotation, fan reference airflow diagram annotation using AirEye Technical Specifications. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Keep the exact AirEye size and model identifier with the source. Download the linked specification or maintenance PDF where available. Airflow contours need their distance, speed setting, and test configuration before they become passenger-position airspeed data.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: PDF p. 2 electrical table; p. 5 airflow graphic, 20-inch fan. Source key: \nolinkurl{aireye_2021_specs}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.webstaurantstore.com/documents/specsheets/baf_aireye_spec_sheet.pdf}
+
+res001  fan reference maximum input power
+
+Recorded value: 386 W | Scope: A | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: 2021 manufacturer table: 386 W for 20-inch 100-120 V. Current retailer lists 363 W; revision mismatch unresolved. Neither equals contest 250 W.
+
+res002  fan reference maximum rotation
+
+Recorded value: 1220 rpm | Scope: A | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: 20-inch 100-120 V version; airflow diagram does not explicitly state its controller setting.
+
+res003  fan reference airflow diagram annotation
+
+Recorded value: 1.81356 m/s | Scope: A | Status: \nolinkurl{published_reference_not_site_input}
+
+Derivation recorded in attachment: 357 * 0.3048 / 60
+
+Applicability: 357 fpm annotation in near-field center of 20-inch airflow contour; not a certified point measurement at a specified setting. Do not treat as a completed passenger-level input.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 27}
+Find the original data for fan inspection frequency using AirEye Maintenance. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Keep the exact AirEye size and model identifier with the source. Download the linked specification or maintenance PDF where available. Airflow contours need their distance, speed setting, and test configuration before they become passenger-position airspeed data.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: Page 1, annual preventive maintenance checklist. Source key: \nolinkurl{aireye_maintenance}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://bigassfans.com/docs/aireye/aireye-maintenance.pdf}
+
+res004  fan inspection frequency
+
+Recorded value: 1 per year | Scope: A | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Annual cleaning and inspection guidance; labor time and price are not published.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 28}
+Find the original data for replacement media set price, annualized media only allowance using Replacement Evaporative Cooler Media. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the exact model or resource page, then save the product information and any linked manual or specification PDF. Record the model number, operating setting, revision, and whether a number is a maximum, an advertised coverage figure, or a tested operating measurement.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: PACHT2000K and PACHT4000K product cards. Source key: \nolinkurl{portacool_media_prices}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.portacool.com/products/parts-accessories/media/}
+
+res005  replacement media set price
+
+Recorded value: 406.99 USD | Scope: B | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Replacement part cost only; excludes labor, water treatment, repairs, tax and freight.
+
+res007  annualized media only allowance
+
+Recorded value: 81.40 USD/year | Scope: B | Status: \nolinkurl{conditional_derived_reference}
+
+Derivation recorded in attachment: 406.99 / 5
+
+Applicability: Derived cost allocation using five-year media interval. Not total annual maintenance and not an annual cash payment.
+
+res010  replacement media set price
+
+Recorded value: 685.99 USD | Scope: C | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Replacement part cost only; excludes labor, water treatment, repairs, tax and freight.
+
+res012  annualized media only allowance
+
+Recorded value: 137.20 USD/year | Scope: C | Status: \nolinkurl{conditional_derived_reference}
+
+Derivation recorded in attachment: 685.99 / 5
+
+Applicability: Derived cost allocation using five-year media interval. Not total annual maintenance and not an annual cash payment.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 29}
+Find the original data for media life lower bound, media drying fan run time using Portacool Buying Guide. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the exact model or resource page, then save the product information and any linked manual or specification PDF. Record the model number, operating setting, revision, and whether a number is a maximum, an advertised coverage figure, or a tested operating measurement.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: FAQs: media life and daily/weekly maintenance. Source key: \nolinkurl{portacool_buying_guide}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.portacool.com/resources/buying-guide/}
+
+res006  media life lower bound
+
+Recorded value: 5 years | Scope: B | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Manufacturer says typically five years or more, dependent on maintenance and water. Media only, not complete equipment life.
+
+res009  media drying fan run time
+
+Recorded value: 15 minutes per shutdown | Scope: B | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Turn pump off before fan shutdown for media drying; not passenger exposure duration.
+
+res011  media life lower bound
+
+Recorded value: 5 years | Scope: C | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Manufacturer says typically five years or more, dependent on maintenance and water. Media only, not complete equipment life.
+
+res014  media drying fan run time
+
+Recorded value: 15 minutes per shutdown | Scope: C | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Turn pump off before fan shutdown for media drying; not passenger exposure duration.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 30}
+Find the original data for minimum reservoir drain frequency using APEX Series Maintenance and Care. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Open the exact model or resource page, then save the product information and any linked manual or specification PDF. Record the model number, operating setting, revision, and whether a number is a maximum, an advertised coverage figure, or a tested operating measurement.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: Regular Maintenance; applies to APEX 2000 and APEX 4000. Source key: \nolinkurl{portacool_apex_maintenance}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://www.portacool.com/resources/maintenance-care/apex-series/}
+
+res008  minimum reservoir drain frequency
+
+Recorded value: 1 per operating week | Scope: B | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Cleaning frequency; staff minutes and local labor cost still needed.
+
+res013  minimum reservoir drain frequency
+
+Recorded value: 1 per operating week | Scope: C | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Cleaning frequency; staff minutes and local labor cost still needed.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 31}
+Find the original data for set default clothing insulation, set default activity, set default external work, set default height, set default body mass, set default posture, set default exposure duration, set default turbulence intensity, set default body surface area using comf: Models and Equations for Human Comfort Research. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the technical reference where accessible and retain the edition or software version. A published physiological parameter or clothing table is reference evidence. It does not establish the actual clothing, activity, or body dimensions of passengers at these venues.
+
+The direct source was opened in this research pass. The project records below are retained as an extraction checklist; a successful open alone does not confirm each numeric value or its applicability.
+
+Look for: pp. 62-63, calcSET Usage and Arguments. Source key: \nolinkurl{comf_0112_set}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://cran.r-project.org/web/packages/comf/comf.pdf}
+
+res015  set default clothing insulation
+
+Recorded value: 0.5 clo | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res016  set default activity
+
+Recorded value: 1 met | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res017  set default external work
+
+Recorded value: 0 met | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res018  set default height
+
+Recorded value: 171 cm | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res019  set default body mass
+
+Recorded value: 70 kg | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res020  set default posture
+
+Recorded value: sitting text | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res021  set default exposure duration
+
+Recorded value: 60 minutes | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res022  set default turbulence intensity
+
+Recorded value: 40 \% | Scope: reference | Status: \nolinkurl{published_model_default}
+
+Applicability: Documented calcSET software default; candidate reference only, not observed passenger data.
+
+res023  set default body surface area
+
+Recorded value: 1.823458 m2 | Scope: reference | Status: \nolinkurl{derived_model_default}
+
+Derivation recorded in attachment: sqrt(171 cm * 70 kg / 3600)
+
+Applicability: Mosteller calculation using the documented reference height and mass.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 32}
+Find the original data for quiet seated activity, relaxed standing activity, shorts short sleeved shirt insulation, trousers short sleeved shirt insulation using 2021 ASHRAE Handbook Fundamentals, Chapter 9 Thermal Comfort. Tell me exactly what to download and where in it to look. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+Download the technical reference where accessible and retain the edition or software version. A published physiological parameter or clothing table is reference evidence. It does not establish the actual clothing, activity, or body dimensions of passengers at these venues.
+
+The direct source could not be read successfully in this research pass. The link and locator are retained for manual download; the attachment values below have not been independently reverified.
+
+Look for: Table 4 Metabolic Rates; Table 7 clothing ensembles. Source key: \nolinkurl{ashrae_2021_comfort}.
+
+The following entries show what the attached project register associates with this source. They preserve the original research status. Missing scalar values stay blank. These entries are evidence candidates or project references unless their status and scope establish an active, applicable input.
+
+Open source  \url{https://handbook.ashrae.org/handbooks/F21/SI/f21_ch09/F21_Ch09_si.aspx}
+
+res024  quiet seated activity
+
+Recorded value: 1 met | Scope: reference | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Table 4 activity reference. No claim about passenger clothing/activity proportions.
+
+res025  relaxed standing activity
+
+Recorded value: 1.2 met | Scope: reference | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Table 4 activity reference. No claim about passenger clothing/activity proportions.
+
+res026  shorts short sleeved shirt insulation
+
+Recorded value: 0.36 clo | Scope: reference | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Table 7 ensemble reference. No claim about passenger clothing/activity proportions.
+
+res027  trousers short sleeved shirt insulation
+
+Recorded value: 0.57 clo | Scope: reference | Status: \nolinkurl{published_reference_not_site_input}
+
+Applicability: Table 7 ensemble reference. No claim about passenger clothing/activity proportions.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 33}
+Find inlet rating temperature, inlet humidity, calibrated evaporative effectiveness, outlet conditions, and passenger airspeed for the actual A, B, and C references. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The contest powers and up-to cooling claims do not uniquely identify a product. The attached project selected reference products, but those products still need test conditions and exposure evidence before their advertised cooling can be treated as measured shelter performance.
+
+Download each exact model’s technical manual or test report through its product page or literature center. Look for paired inlet and outlet temperature, RH and pressure at the same airflow and power setting. Request or locate a traverse showing airspeed versus distance and lateral position. A maximum coverage area or airflow in CFM cannot supply a unique passenger airspeed.
+
+The attached devices.csv leaves \nolinkurl{T_ref}, \nolinkurl{RH_ref}, \nolinkurl{pressure_ref}, and \nolinkurl{v_occupied} missing. These are unresolved data fields. The stored fan contour reference is a selected reference exposure, and the B/C volumetric flows are product references. Preserve those definitions rather than relabeling them as observations at the six venues.
+
+Portacool product literature  \url{https://www.portacool.com/resources/literature-center/}
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 34}
+Find measured water use for the reference evaporative coolers, including evaporation, bleed, drift, and periodic draining. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+A tank capacity is a storage specification; it is not a measured hourly water-consumption rate. Likewise, a maintenance instruction to drain a reservoir does not establish the quantity discharged over a season.
+
+Download the exact cooler manual and any operating-test water data. Retain inlet weather, operating mode, test duration, refill volume, initial and final tank levels, and any bleed or drain events. Separate evaporated water from total supply water. Check whether reported litres per hour include all losses.
+
+No applicable measured water-use series for the proposed venue installations is provided in the attachments or established by the source pages reviewed. Keep the measured-use input missing. A derived evaporation estimate would need documented airflow and paired humidity ratios and must remain labeled derived; this data-finding report does not calculate a cooling outcome.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 35}
+Find justified clothing, activity, posture, exposure time, and body parameters for the SET inputs, and say which of our values are only reference choices. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The attached groups.csv uses 0.36 clo, 1 met, zero external work, sitting posture, 171 cm height, 70 kg mass, and 60 minutes exposure. These are the project’s chosen reference-person inputs, not a demographic survey. The software documentation gives implementation defaults; the clothing reference is a separate published ensemble source.
+
+To obtain actual population inputs, find a passenger survey or observational dataset specifying season, garments, activity, posture, and wait duration at the relevant venue. Preserve group shares and sample size. If no applicable dataset exists, leave population shares and measured waiting times missing.
+
+Download the comf manual and inspect calcSET Usage and Arguments. In particular, pressure pb is in torr or mmHg, while the weather CSV stores Pa. That interface requires an explicit conversion. Keep the package version and documented coefficients with the data provenance; do not silently apply a default to an unknown physical quantity.
+
+Current calcSET reference  \url{https://search.r-project.org/CRAN/refmans/comf/html/calcSET.html}
+
+49 Comfort targets resource caps and uncertainty inputs
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 36}
+Find sources or supplied decisions for comfort targets, budgets, energy limits, water limits, and uncertainty ranges in the attached project. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The supplied documentation identifies 23–26°C SET as the project’s chosen comparison band. It is a policy choice. It should not be described as a universal ASHRAE SET comfort interval or as evidence of heat safety. A separately selected safety-screen method and its exposure basis remain unresolved.
+
+The budget, energy, and water caps remain unassigned in the documented configuration. They need an operator or classroom scenario decision with units and a stated time horizon. A tariff page cannot provide the venue’s acceptable budget.
+
+bounds.csv contains 187 bound records. The documented ±5\% convention is a chosen perturbation range rather than a sensor accuracy statement or confidence interval. For empirical bounds, obtain instrument specifications, calibration certificates, repeated measurements, or a source’s reported uncertainty. Do not infer a probability distribution or independence from a pair of endpoints. Monte Carlo settings are outside this data-finding task.
+
+Project assumptions retained for traceability
+
+50 Document the airflow assumptions without inventing evidence
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 37}
+Go through the project’s airflow assumptions and tell me which values are documented choices and which have an external measurement source. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+The attachment identifies a wind-only reference scenario using assumed equivalent openings of 3 m² for bus zones and 8 m² for rail zones, an opening effectiveness of 0.35, a 1.1 m reference height, a 0.33 height-profile exponent, and sheltering factors of 0.50 and 0.75. Published wind methods can support a formula or a possible parameter range; they do not verify these selected values at these six sites.
+
+The following records preserve every assumption or derived scenario entry associated with \nolinkurl{airflow_scenario_2026}. Their source is the supplied \nolinkurl{DATA_README.md}. There is no external dataset to download for an analyst-selected choice. To replace it, obtain site geometry, wind-direction and speed measurements, and a validated relationship between outdoor approach wind and occupied-zone exposure.
+
+The scenario-derived mass exchanges must retain their \nolinkurl{scenario_estimate} status. Balanced inlet and outlet entries represent one throughflow, and are not independent discoveries or two separate ventilation rates.
+
+\nolinkurl{cd022_bus} | \nolinkurl{DAL_BUS} | Ventilation or measured airflow through location | 1.9560829564140139 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd022_rail} | \nolinkurl{DAL_RAIL} | Ventilation or measured airflow through location | 5.216221217104038 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd023_bus} | \nolinkurl{BOS_BUS} | Ventilation or measured airflow through location | 0.9524253191799562 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd023_rail} | \nolinkurl{BOS_RAIL} | Ventilation or measured airflow through location | 2.53980085114655 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd024_bus} | \nolinkurl{PHX_BUS} | Ventilation or measured airflow through location | 1.4493788043047402 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd024_rail} | \nolinkurl{PHX_RAIL} | Ventilation or measured airflow through location | 3.865010144812641 m3/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: 0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}
+
+\nolinkurl{cd037_bus} | \nolinkurl{DAL_BUS} | Airspeed where people stand or sit | 0.931468074482864 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+\nolinkurl{cd037_rail} | \nolinkurl{DAL_RAIL} | Airspeed where people stand or sit | 1.3972021117242959 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+\nolinkurl{cd038_bus} | \nolinkurl{BOS_BUS} | Airspeed where people stand or sit | 0.4535358662761697 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+\nolinkurl{cd038_rail} | \nolinkurl{BOS_RAIL} | Airspeed where people stand or sit | 0.6803037994142546 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+\nolinkurl{cd039_bus} | \nolinkurl{PHX_BUS} | Airspeed where people stand or sit | 0.6901803830022574 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+\nolinkurl{cd039_rail} | \nolinkurl{PHX_RAIL} | Airspeed where people stand or sit | 1.035270574503386 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: \nolinkurl{passenger_sheltering_factor}*\nolinkurl{U_approach}
+
+air002 | \nolinkurl{DAL_BUS} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air003 | \nolinkurl{DAL_BUS} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air004 | \nolinkurl{DAL_BUS} | assumed opening area | 3.0 m2 | \nolinkurl{explicit_assumption}
+
+air005 | \nolinkurl{DAL_BUS} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air006 | \nolinkurl{DAL_BUS} | passenger sheltering factor | 0.5 dimensionless | \nolinkurl{explicit_assumption}
+
+air007 | \nolinkurl{DAL_BUS} | local approach wind estimate | 1.862936148965728 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air009 | \nolinkurl{DAL_BUS} | ventilation dry air mass flow | 2.1798672874548366 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+air011 | \nolinkurl{DAL_RAIL} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air012 | \nolinkurl{DAL_RAIL} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air013 | \nolinkurl{DAL_RAIL} | assumed opening area | 8.0 m2 | \nolinkurl{explicit_assumption}
+
+air014 | \nolinkurl{DAL_RAIL} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air015 | \nolinkurl{DAL_RAIL} | passenger sheltering factor | 0.75 dimensionless | \nolinkurl{explicit_assumption}
+
+air016 | \nolinkurl{DAL_RAIL} | local approach wind estimate | 1.862936148965728 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air018 | \nolinkurl{DAL_RAIL} | ventilation dry air mass flow | 5.812979433212899 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+air020 | \nolinkurl{BOS_BUS} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air021 | \nolinkurl{BOS_BUS} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air022 | \nolinkurl{BOS_BUS} | assumed opening area | 3.0 m2 | \nolinkurl{explicit_assumption}
+
+air023 | \nolinkurl{BOS_BUS} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air024 | \nolinkurl{BOS_BUS} | passenger sheltering factor | 0.5 dimensionless | \nolinkurl{explicit_assumption}
+
+air025 | \nolinkurl{BOS_BUS} | local approach wind estimate | 0.9070717325523394 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air027 | \nolinkurl{BOS_BUS} | ventilation dry air mass flow | 1.1125284192793479 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+air029 | \nolinkurl{BOS_RAIL} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air030 | \nolinkurl{BOS_RAIL} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air031 | \nolinkurl{BOS_RAIL} | assumed opening area | 8.0 m2 | \nolinkurl{explicit_assumption}
+
+air032 | \nolinkurl{BOS_RAIL} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air033 | \nolinkurl{BOS_RAIL} | passenger sheltering factor | 0.75 dimensionless | \nolinkurl{explicit_assumption}
+
+air034 | \nolinkurl{BOS_RAIL} | local approach wind estimate | 0.9070717325523394 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air036 | \nolinkurl{BOS_RAIL} | ventilation dry air mass flow | 2.9667424514115948 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+air038 | \nolinkurl{PHX_BUS} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air039 | \nolinkurl{PHX_BUS} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air040 | \nolinkurl{PHX_BUS} | assumed opening area | 3.0 m2 | \nolinkurl{explicit_assumption}
+
+air041 | \nolinkurl{PHX_BUS} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air042 | \nolinkurl{PHX_BUS} | passenger sheltering factor | 0.5 dimensionless | \nolinkurl{explicit_assumption}
+
+air043 | \nolinkurl{PHX_BUS} | local approach wind estimate | 1.3803607660045147 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air045 | \nolinkurl{PHX_BUS} | ventilation dry air mass flow | 1.5503642028170657 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+air047 | \nolinkurl{PHX_RAIL} | reference height | 1.1 m | \nolinkurl{explicit_assumption}
+
+air048 | \nolinkurl{PHX_RAIL} | urban wind exponent | 0.33 dimensionless | \nolinkurl{explicit_assumption}
+
+air049 | \nolinkurl{PHX_RAIL} | assumed opening area | 8.0 m2 | \nolinkurl{explicit_assumption}
+
+air050 | \nolinkurl{PHX_RAIL} | opening effectiveness | 0.35 dimensionless | \nolinkurl{explicit_assumption}
+
+air051 | \nolinkurl{PHX_RAIL} | passenger sheltering factor | 0.75 dimensionless | \nolinkurl{explicit_assumption}
+
+air052 | \nolinkurl{PHX_RAIL} | local approach wind estimate | 1.3803607660045147 m/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: U10*(1.1/10)\textasciicircum{}0.33; same-profile approximation; \nolinkurl{energyplus_242_surface}
+
+air054 | \nolinkurl{PHX_RAIL} | ventilation dry air mass flow | 4.134304540845509 kg dry air/s | \nolinkurl{scenario_estimate}
+
+Recorded calculation: Q=0.35*\nolinkurl{A_open}*\nolinkurl{U_approach}; \nolinkurl{m_dry}=Q/\nolinkurl{v_specific}; wind-only balanced flow
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 38}
+List every remaining research record that does not have an external source link, and identify the evidence still needed. Don’t make up any data or fill gaps with typical values. Give me the original source, the exact page, table, or variable to look for, and a link with steps to download it. Keep measurements, published specifications, derived inputs, and project assumptions clearly labeled. If you can’t verify something, leave it missing and tell me what is still needed. Only find and document data; don’t run the cooling models.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+These rows remain in the data inventory even when a value cannot be found. Blank numeric values are intentional. Resolve the exact site, operating condition, or account class before assigning a source value. An empty source link is not evidence that the value is zero.
+
+\nolinkurl{cd010_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd010_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd011_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd011_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd012_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd012_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Shelter/station length
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd013_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd013_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd014_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd014_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd015_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd015_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Shelter/station width
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd016_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd016_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd017_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd017_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd018_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd018_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Shelter/station effective height
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd025_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd025_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd026_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd026_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd027_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd027_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Occupancy during study hours
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd028_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd028_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd029_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd029_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd030_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd030_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Air temperature measured in occupied area
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd031_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd031_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd032_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd032_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd033_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd033_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Surface temperature measured at location
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd034_bus} | Dallas \nolinkurl{DAL_BUS} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd034_rail} | Dallas \nolinkurl{DAL_RAIL} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd035_bus} | Boston \nolinkurl{BOS_BUS} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd035_rail} | Boston \nolinkurl{BOS_RAIL} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd036_bus} | Phoenix \nolinkurl{PHX_BUS} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{cd036_rail} | Phoenix \nolinkurl{PHX_RAIL} \nolinkurl{not_applicable} | Mean radiant temperature at occupied position
+
+Value: blank | Status: \nolinkurl{awaiting_location_selection} | Needed: Site selected; this specific quantity has not been established for the selected occupied zone. See \nolinkurl{DATA_README.md}.
+
+\nolinkurl{gap_DAL_BUS_roof_underside_heat_exchange_area} | Dallas \nolinkurl{DAL_BUS}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_DAL_BUS_wall_panel_heat_exchange_area} | Dallas \nolinkurl{DAL_BUS}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_DAL_BUS_floor_heat_exchange_area} | Dallas \nolinkurl{DAL_BUS}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_DAL_BUS_surface_convective_coefficient} | Dallas \nolinkurl{DAL_BUS}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_DAL_BUS_interzone_airflow} | Dallas \nolinkurl{DAL_BUS}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_DAL_BUS_internal_sensible_heat_into_air} | Dallas \nolinkurl{DAL_BUS}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_DAL_BUS_internal_moisture_generation} | Dallas \nolinkurl{DAL_BUS}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_DAL_BUS_annual_operating_schedule} | Dallas \nolinkurl{DAL_BUS}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\nolinkurl{gap_DAL_RAIL_roof_underside_heat_exchange_area} | Dallas \nolinkurl{DAL_RAIL}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_DAL_RAIL_wall_panel_heat_exchange_area} | Dallas \nolinkurl{DAL_RAIL}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_DAL_RAIL_floor_heat_exchange_area} | Dallas \nolinkurl{DAL_RAIL}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_DAL_RAIL_surface_convective_coefficient} | Dallas \nolinkurl{DAL_RAIL}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_DAL_RAIL_interzone_airflow} | Dallas \nolinkurl{DAL_RAIL}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_DAL_RAIL_internal_sensible_heat_into_air} | Dallas \nolinkurl{DAL_RAIL}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_DAL_RAIL_internal_moisture_generation} | Dallas \nolinkurl{DAL_RAIL}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_DAL_RAIL_annual_operating_schedule} | Dallas \nolinkurl{DAL_RAIL}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\nolinkurl{gap_BOS_BUS_roof_underside_heat_exchange_area} | Boston \nolinkurl{BOS_BUS}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_BOS_BUS_wall_panel_heat_exchange_area} | Boston \nolinkurl{BOS_BUS}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_BOS_BUS_floor_heat_exchange_area} | Boston \nolinkurl{BOS_BUS}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_BOS_BUS_surface_convective_coefficient} | Boston \nolinkurl{BOS_BUS}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_BOS_BUS_interzone_airflow} | Boston \nolinkurl{BOS_BUS}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_BOS_BUS_internal_sensible_heat_into_air} | Boston \nolinkurl{BOS_BUS}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_BOS_BUS_internal_moisture_generation} | Boston \nolinkurl{BOS_BUS}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_BOS_BUS_annual_operating_schedule} | Boston \nolinkurl{BOS_BUS}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\nolinkurl{gap_BOS_RAIL_roof_underside_heat_exchange_area} | Boston \nolinkurl{BOS_RAIL}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_BOS_RAIL_wall_panel_heat_exchange_area} | Boston \nolinkurl{BOS_RAIL}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_BOS_RAIL_floor_heat_exchange_area} | Boston \nolinkurl{BOS_RAIL}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_BOS_RAIL_surface_convective_coefficient} | Boston \nolinkurl{BOS_RAIL}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_BOS_RAIL_interzone_airflow} | Boston \nolinkurl{BOS_RAIL}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_BOS_RAIL_internal_sensible_heat_into_air} | Boston \nolinkurl{BOS_RAIL}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_BOS_RAIL_internal_moisture_generation} | Boston \nolinkurl{BOS_RAIL}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_BOS_RAIL_annual_operating_schedule} | Boston \nolinkurl{BOS_RAIL}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\nolinkurl{gap_PHX_BUS_roof_underside_heat_exchange_area} | Phoenix \nolinkurl{PHX_BUS}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_PHX_BUS_wall_panel_heat_exchange_area} | Phoenix \nolinkurl{PHX_BUS}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_PHX_BUS_floor_heat_exchange_area} | Phoenix \nolinkurl{PHX_BUS}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_PHX_BUS_surface_convective_coefficient} | Phoenix \nolinkurl{PHX_BUS}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_PHX_BUS_interzone_airflow} | Phoenix \nolinkurl{PHX_BUS}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_PHX_BUS_internal_sensible_heat_into_air} | Phoenix \nolinkurl{PHX_BUS}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_PHX_BUS_internal_moisture_generation} | Phoenix \nolinkurl{PHX_BUS}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_PHX_BUS_annual_operating_schedule} | Phoenix \nolinkurl{PHX_BUS}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\nolinkurl{gap_PHX_RAIL_roof_underside_heat_exchange_area} | Phoenix \nolinkurl{PHX_RAIL}  | roof underside heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Measured underside area, including shape; not just projected footprint.
+
+\nolinkurl{gap_PHX_RAIL_wall_panel_heat_exchange_area} | Phoenix \nolinkurl{PHX_RAIL}  | wall panel heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Area of the represented faces of actual panels, excluding openings.
+
+\nolinkurl{gap_PHX_RAIL_floor_heat_exchange_area} | Phoenix \nolinkurl{PHX_RAIL}  | floor heat exchange area
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Floor area inside the defined occupied-air control volume.
+
+\nolinkurl{gap_PHX_RAIL_surface_convective_coefficient} | Phoenix \nolinkurl{PHX_RAIL}  | surface convective coefficient
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Local flow and surface configuration needed; correlation supplied as a research method.
+
+\nolinkurl{gap_PHX_RAIL_interzone_airflow} | Phoenix \nolinkurl{PHX_RAIL}  | interzone airflow
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Only applicable if the final representation has multiple zones; no zero substituted.
+
+\nolinkurl{gap_PHX_RAIL_internal_sensible_heat_into_air} | Phoenix \nolinkurl{PHX_RAIL}  | internal sensible heat into air
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and convective heat release; do not assign all radiative heat to the air.
+
+\nolinkurl{gap_PHX_RAIL_internal_moisture_generation} | Phoenix \nolinkurl{PHX_RAIL}  | internal moisture generation
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Concurrent occupancy and compatible latent-heat/moisture model.
+
+\nolinkurl{gap_PHX_RAIL_annual_operating_schedule} | Phoenix \nolinkurl{PHX_RAIL}  | annual operating schedule
+
+Value: blank | Status: \nolinkurl{not_established} | Needed: Cooling-device operating policy and seasonal/hourly weights; transit service hours do not establish equipment runtime.
+
+\needspace{6\baselineskip}
+\subsection*{Prompt 39}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Write \nolinkurl{01_inputs.R} to load the six input CSVs and check them before running the model. Keep the original column names, source information, and row order. Treat empty cells and NA as missing values. Row order matters because the sensitivity file refers to the original row numbers.
+Use venue and zone to identify a waiting area. Use venue, scenario, hour, and zone to match weather records. Each venue should have one device row for each of A, B, and C, and one reference-person row should describe the comfort inputs. In the airflow file, OUTSIDE means outdoor air and the from and to columns give the flow direction.
+Check for missing required inputs, duplicate records, unknown zones, and inconsistent venue names. Each weather case needs a record for every zone, with the same pressure and operating duration across its zones. Temperature and humidity must be finite, humidity must be between zero and one hundred percent, and pressure and duration must be positive. Flow rates, power, prices, and airspeeds cannot be negative. Evaporative coolers need either a positive mass flow or a positive volume flow; use the mass flow when both are supplied.
+Only require inputs for the mode we selected. The full heat model needs surface and internal-load inputs. Measured radiation needs radiant temperatures. Occupied comfort needs passenger counts. Annual costs need maintenance, service life, discount rate, utility prices, and annual operating weights, including a water price for the coolers. Check the reference-person settings and the order of the comfort thresholds too.
+Collect all the problems into one error beginning “Analysis not started:”, and identify the table, field, and row for each problem. Don’t turn missing values into zero or fill them with typical values.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+load_tables <- function(root="data") {
+ n <- c("zones","exchanges","weather_occ","devices","groups","bounds")
+ setNames(lapply(n, function(s) read.csv(
+   file.path(root,paste0(s,".csv")), check.names=FALSE,
+   stringsAsFactors=FALSE, na.strings=c("","NA"),
+   fileEncoding="UTF-8-BOM")), n)
+}
+validate_inputs <- function(cfg,t) {
+ errors <- character()
+ fail <- function(s) errors <<- c(errors,s)
+ req <- function(tab,cols,nonneg=FALSE,positive=FALSE) {
+   d <- t[[tab]]
+   for (col in cols) {
+     if (!col %in% names(d)) {fail(paste(tab,col,"column missing")); next}
+     x <- suppressWarnings(as.numeric(d[[col]]))
+     bad <- !is.finite(x)
+     if(nonneg) bad <- bad | x<0
+     if(positive) bad <- bad | x<=0
+     for(i in which(bad)) fail(paste(tab,col,"row",i))
+   }
+ }
+ choices <- list(heat_model=c("mixing_only","full"),
+   radiant_model=c("air_reference","measured"),
+   comfort_basis=c("per_person","occupied"),
+   cost_basis=c("purchase","annual"))
+ for(k in names(choices)) if(!cfg[[k]] %in% choices[[k]]) fail(k)
+ if(!is.finite(cfg$set_lower)||!is.finite(cfg$set_upper) ||
+    cfg$set_lower>=cfg$set_upper) fail("SET thresholds")
+ for(k in c("budget","energy_cap","water_cap"))
+   if(!is.na(cfg[[k]]) && (!is.finite(cfg[[k]]) || cfg[[k]]<0)) fail(k)
+ for(n in c("zones","weather_occ","devices","exchanges","groups"))
+   if(is.null(t[[n]]) || !nrow(t[[n]])) fail(paste(n,"empty"))
+ if(length(errors)) stop(paste("Analysis not started:",
+   paste(errors,collapse="; ")))
+ z<-t$zones;w<-t$weather_occ; d<-t$devices;e<-t$exchanges
+ required_columns <- list(
+   zones=c("venue","zone"),
+   weather_occ=c(case_key,"zone","T","RH","pressure","v_local","dt_hours"),
+   devices=c("venue","option","type","zone","power_kW","capital",
+             "v_fan","m_dot","airflow_m3_s","dT_max"),
+   exchanges=c("venue","from","to","mass_kg_s"),
+   groups=c("clo","met","wme","height","weight","area_m2",
+            "posture","ltime","tu","csw","cdil","cstr"))
+ for(n in names(required_columns)) {
+   miss<-setdiff(required_columns[[n]],names(t[[n]]))
+   if(length(miss)) fail(paste(n,paste(miss,collapse=",")))
+ }
+ if(length(errors)) stop(paste("Analysis not started:",
+   paste(errors,collapse="; ")))
+ unique_key<-function(tab,keys) {
+   if(anyNA(t[[tab]][keys])) fail(paste(tab,"missing key"))
+   if(anyDuplicated(t[[tab]][keys])) fail(paste(tab,"duplicate key"))
+ }
+ unique_key("zones",c("venue","zone"))
+ unique_key("weather_occ",c(case_key,"zone"))
+ unique_key("devices",c("venue","option"))
+ req("weather_occ",c("T","RH"))
+ req("weather_occ",c("pressure","dt_hours"),positive=TRUE)
+ req("weather_occ","v_local",nonneg=TRUE)
+ if(any(w$RH<0|w$RH>100,na.rm=TRUE)) fail("weather_occ RH range")
+ req("devices",c("power_kW","capital"),nonneg=TRUE)
+ req("exchanges","mass_kg_s",nonneg=TRUE)
+ if(nrow(t$groups)!=1L) fail("groups needs exactly one reference row")
+ req("groups",setdiff(required_columns$groups,"posture"),nonneg=TRUE)
+ req("groups",c("met","height","weight","area_m2","ltime"),positive=TRUE)
+ if(any(!t$groups$posture %in% c("sitting","standing"))) fail("groups posture")
+ for(i in seq_len(nrow(d))) {
+   if(!d$option[i]%in%c("A","B","C")||d$type[i]!=d$option[i])
+     fail(paste("devices type/option row",i))
+   if(d$option[i]=="A") {
+     if(!is.finite(d$v_fan[i])||d$v_fan[i]<0) fail(paste("devices v_fan row",i))
+   } else {
+     if(!is.finite(d$dT_max[i])||d$dT_max[i]<0) fail(paste("devices dT_max row",i))
+     m<-d$m_dot[i];q<-d$airflow_m3_s[i]
+     if(!is.na(m)) {
+       if(!is.finite(m) || m<=0) fail(paste("devices m_dot row",i))
+     } else if(!is.finite(q) || q<=0) fail(paste("devices airflow_m3_s row",i))
+   }
+   if(!is.na(d$v_occupied[i]) &&
+      (!is.finite(d$v_occupied[i])||d$v_occupied[i]<0))
+     fail(paste("devices v_occupied row",i))
+ }
+ for(v in unique(z$venue)) {
+   zz<-z[z$venue==v,];ww<-w[w$venue==v,]; dd<-d[d$venue==v,]
+   ee<-e[e$venue==v,]
+   if(!setequal(dd$option,c("A","B","C"))) fail(paste(v,"A B C missing"))
+   if(!nrow(ww) || !nrow(ee)) fail(paste(v,"weather or exchanges missing"))
+   if(any(!dd$zone%in%zz$zone)) fail(paste(v,"device zone"))
+   nodes<-c("OUTSIDE",zz$zone)
+   if(any(!ee$from%in%nodes|!ee$to %in% nodes |
+          ee$from==ee$to)) fail(paste(v,"exchange endpoints"))
+   if(!any(ee$from=="OUTSIDE")||!any(ee$to=="OUTSIDE"))
+     fail(paste(v,"outdoor exchange paths"))
+   if(cfg$comfort_basis=="per_person" && nrow(zz)!=1L)
+     fail(paste(v,"per_person requires one zone"))
+   for(g in split(ww,interaction(ww$scenario,ww$hour,drop=TRUE))) {
+     if(!setequal(g$zone,zz$zone)) fail(paste(v,"incomplete weather case"))
+     for(k in c("dt_hours","pressure"))
+       if(length(unique(g[[k]]))!=1L) fail(paste(v,k,"differs within case"))
+     if(cfg$cost_basis=="annual" &&
+        length(unique(g$annual_weight))!=1L) fail(paste(v,"annual weights differ"))
+   }
+ }
+ if(!setequal(unique(z$venue),unique(w$venue)) ||
+    !setequal(unique(z$venue),unique(d$venue)) ||
+    !setequal(unique(z$venue),unique(e$venue))) fail("venue sets differ")
+ if(cfg$heat_model=="full") {
+   req("zones",c("area_m2","h","sensible_W","moisture_kg_s"),nonneg=TRUE)
+   req("zones","Tsurf")
+ }
+ if(cfg$radiant_model=="measured") req("weather_occ","Tr")
+ if(cfg$comfort_basis=="occupied") req("weather_occ","people",nonneg=TRUE)
+ if(cfg$cost_basis=="annual") {
+   req("devices",c("maintenance","discount_rate","electricity_price"),nonneg=TRUE)
+   req("devices","life_years",positive=TRUE)
+   req("weather_occ","annual_weight",nonneg=TRUE)
+   for(i in which(d$option %in% c("B","C")))
+     if(!is.finite(d$water_price[i])||d$water_price[i]<0)
+       fail(paste("devices water_price row",i))
+ }
+ if(length(errors)) stop(paste("Analysis not started:",
+   paste(unique(errors),collapse="; ")))
+ invisible(TRUE)
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 40}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Can you write the air-property functions in \nolinkurl{01_physics}/psychrometrics.R? Keep temperatures in degrees Celsius, pressure in pascals, relative humidity in percent, and humidity ratio in kilograms of water per kilogram of dry air.
+Use the ASHRAE saturation-pressure relationships documented by PsychroLib, including the separate ice and liquid-water branches. Use those relationships to convert temperature, relative humidity, and pressure into humidity ratio. Also provide the reverse conversion so we can recover relative humidity from humidity ratio. Reject inputs outside the supported temperature range or inputs with impossible vapor pressures.
+Add functions for moist-air enthalpy and specific volume on a dry-air basis. We also need to recover humidity ratio from a known temperature and enthalpy. Use the same property relationships throughout rather than mixing different approximations.
+Find thermodynamic wet-bulb temperature by solving the standard psychrometric wet-bulb relationship. Search between minus one hundred degrees Celsius and the inlet air temperature, with a root tolerance of one hundred-millionth of a degree. Use the correct relationship above or below freezing. If the inlet is saturated, return its temperature directly. If the solution cannot be bracketed, stop instead of using a shortcut.
+For \nolinkurl{cooler_state}, limit the outlet temperature drop to the smaller of the device’s maximum drop and the available wet-bulb depression. Calculate the outlet moisture while keeping inlet enthalpy constant. If that would produce more than saturated air, raise the outlet temperature to the saturated state at that same enthalpy and recalculate its moisture. Return the outlet temperature, humidity ratio, relative humidity, wet-bulb temperature, and actual temperature drop. Treat this as an ideal cooling limit rather than a measured product curve.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+sat_pressure <- function(T) {
+ if(any(!is.finite(T) | T < -100 | T > 200)) stop("Temperature outside psat range")
+ K<-T+273.15
+ a<- -5674.5359/K+6.3925247-0.009677843*K+
+   6.2215701e-7*K^2+2.0747825e-9*K^3-
+   9.484024e-13*K^4+4.1635019*log(K)
+ b<- -5800.2206/K+1.3914993-0.048640239*K+
+   4.1764768e-5*K^2-1.4452093e-8*K^3+6.5459673*log(K)
+ exp(ifelse(T<=0.01,a,b))
+}
+humidity_ratio <- function(T,RH,p) {
+ pv<-RH/100*sat_pressure(T)
+ if(any(!is.finite(p) | p<=pv | RH<0 | RH>100)) stop("Invalid humidity inputs")
+ 0.621945*pv/(p-pv)
+}
+rh_from_w <- function(T,w,p) 100*p*w/((0.621945+w)*sat_pressure(T))
+enthalpy <- function(T,w) 1.006*T+w*(2501+1.86*T)
+w_from_h <- function(H,T) (H-1.006*T)/(2501+1.86*T)
+specific_volume <- function(T,w,p) 287.042*(T+273.15)*(1+1.607858*w)/p
+wet_bulb <- function(T,w,p) {
+ if(abs(rh_from_w(T,w,p)-100)<1e-8) return(T)
+ f<-function(b) {
+   ws<-humidity_ratio(b,100,p)
+   if(b>=0) wb<-((2501-2.326*b)*ws-1.006*(T-b))/
+     (2501+1.86*T-4.186*b)
+   else wb<-((2830-0.24*b)*ws-1.006*(T-b))/
+     (2830+1.86*T-2.1*b)
+   wb-w
+ }
+ uniroot(f,c(-100,T),tol=1e-8)$root
+}
+cooler_state <- function(T,RH,p,dT_max) {
+ wi<-humidity_ratio(T,RH,p); H<-enthalpy(T,wi)
+ wb<-wet_bulb(T,wi,p)
+ ts<-T-min(dT_max,max(0,T-wb)); ws<-w_from_h(H,ts)
+ if(rh_from_w(ts,ws,p)>100+1e-7) {
+   ts<-uniroot(function(x) rh_from_w(x,w_from_h(H,x),p)-100,
+                c(ts,T),tol=1e-8)$root
+   ws<-w_from_h(H,ts)
+ }
+ list(T=ts,w=ws,Twb=wb,drop=T-ts,RH=rh_from_w(ts,ws,p))
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 41}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Please write \nolinkurl{01_physics}/physics.R to calculate the steady-state air conditions in each waiting area. Use zones.csv for the zone definitions, exchanges.csv for airflow between zones and outdoors, \nolinkurl{weather_occ.csv} for the outdoor conditions, and devices.csv for the cooling options. Treat the three weather scenarios as separate cases rather than consecutive hours.
+For every venue and case, calculate results for NONE, A, B, and C. Each active option means one device in the zone named in its device row. First add the dry-air flows entering each zone and compare them with the flows leaving it. Reject an unbalanced case using the tolerance from the setup file.
+Treat each evaporative cooler as bringing in outdoor air, with an equal extra relief flow leaving its served zone. Calculate the cooler outlet using \nolinkurl{cooler_state}. If only a volume flow is supplied, divide it by the inlet specific volume to get dry-air mass flow. Calculate evaporated water from the increase in humidity ratio through the cooler, the dry-air flow, and the operating duration in seconds. Calculate electricity from device power and operating duration in hours. Count each device’s resources once per case.
+Build one heat-balance equation and one moisture-balance equation for every zone. Include air entering from outdoors, air entering from connected zones, and any cooler supply. Use the incoming flow rates as the weights. Solve all the connected zones together so air arriving from another zone uses that zone’s calculated conditions. Don’t count the balanced outflow twice.
+In the full model, also include heat exchanged with surfaces, internal sensible heat, and internal moisture generation. In the simplified model, omit those terms without filling their missing input cells. A fan changes passenger airspeed later, so leave its air temperature and humidity the same as NONE and omit motor heat.
+Return zone temperature, humidity ratio, relative humidity, resource use, and balance residuals. Keep invalid cases visible with missing states and a reason. Reject singular systems, nonfinite results, negative humidity ratios, and humidity outside the physical range beyond the selected tolerance. Don’t clip an impossible result into a valid one.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+run_physics <- function(cfg,t) {
+ result<-list(); n<-0L
+ for(v in unique(t$zones$venue)) {
+   z<-t$zones[t$zones$venue==v,];ids<-z$zone; nz<-length(ids)
+   ex<-t$exchanges[t$exchanges$venue==v,]
+   vw<-t$weather_occ[t$weather_occ$venue==v,]
+   cases<-split(vw,interaction(vw$scenario,vw$hour,drop=TRUE))
+   residual<-sapply(ids,function(a)
+     sum(ex$mass_kg_s[ex$to==a])-sum(ex$mass_kg_s[ex$from==a]))
+   for(w in cases) {
+     w<-w[match(ids,w$zone),];wo<-humidity_ratio(w$T,w$RH,w$pressure)
+     for(op in c("NONE","A","B","C")) {
+       dev<-t$devices[t$devices$venue==v&t$devices$option==op,]
+       E<-W<-K<-0; md<-0; ds<-NULL; dz<-NA_integer_
+       if(op!="NONE") {
+         dz<-match(dev$zone,ids);E<-dev$power_kW*w$dt_hours[1]
+         K<-dev$capital
+       }
+       calc<-tryCatch({
+         if(any(abs(residual)>cfg$mass_tol)) stop("unbalanced exchange")
+         AT<-AW<-matrix(0,nz,nz); bT<-bw<-numeric(nz)
+         for(i in seq_len(nrow(ex))) {
+           a<-match(ex$to[i],ids);b<-match(ex$from[i],ids)
+           if(is.na(a)) next
+           m<-ex$mass_kg_s[i]; AT[a,a]<-AT[a,a]+m
+           AW[a,a]<-AW[a,a]+m
+           if(is.na(b)) {
+             bT[a]<-bT[a]+m*w$T[a]; bw[a]<-bw[a]+m*wo[a]
+           } else {
+             AT[a,b]<-AT[a,b]-m; AW[a,b]<-AW[a,b]-m
+           }
+         }
+         if(op %in% c("B","C")) {
+           ds<-cooler_state(w$T[dz],w$RH[dz],w$pressure[dz],dev$dT_max)
+           md<-if(!is.na(dev$m_dot))dev$m_dot else
+             dev$airflow_m3_s/specific_volume(w$T[dz],wo[dz],w$pressure[dz])
+           W<-md*(ds$w-wo[dz])*3600*w$dt_hours[1]
+           AT[dz,dz]<-AT[dz,dz]+md; AW[dz,dz]<-AW[dz,dz]+md
+           bT[dz]<-bT[dz]+md*ds$T;bw[dz]<-bw[dz]+md*ds$w
+         }
+         if(cfg$heat_model=="full") {
+           diag(AT)<-diag(AT)+z$h*z$area_m2/cfg$cp
+           bT<-bT+(z$h*z$area_m2*z$Tsurf+z$sensible_W)/cfg$cp
+           bw<-bw+z$moisture_kg_s
+         }
+         if(qr(AT)$rank<nz||qr(AW)$rank<nz) stop("singular balance")
+         Tz<-as.numeric(solve(AT,bT)); wz<-as.numeric(solve(AW,bw))
+         rh<-rh_from_w(Tz,wz,w$pressure)
+         if(any(!is.finite(c(Tz,wz,rh))) || any(wz<0) ||
+            any(rh < -cfg$state_tol|rh>100+cfg$state_tol))
+           stop("invalid zone state")
+         list(T=Tz,w=wz,RH=rh,
+              er=as.numeric(cfg$cp*(AT%*%Tz-bT)),
+              wr=as.numeric(AW%*%wz-bw),reason="")
+       },error=function(e) list(reason=conditionMessage(e)))
+       valid<-identical(calc$reason,"")
+       if(!valid) for(k in c("T","w","RH","er","wr")) calc[[k]]<-rep(NA_real_,nz)
+       n<-n+1L
+       result[[n]]<-data.frame(venue=v,scenario=w$scenario,hour=w$hour,
+         option=op,zone=ids,T=calc$T,w=calc$w,RH=calc$RH,
+         T_outdoor=w$T,pressure=w$pressure,dt_hours=w$dt_hours,
+         mass_residual=residual,energy_residual_W=calc$er,
+         moisture_residual_kg_s=calc$wr,E=E,water_kg=W,capital=K,
+         physical_valid=valid,reason=calc$reason,row.names=NULL)
+     }
+   }
+ }
+ bind_rows(result)
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 42}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Now write \nolinkurl{02_comfort}/comfort.R to calculate how the conditions feel to a passenger. Match the physics results to weather records using venue, scenario, hour, and zone. Take the reference-person settings directly from groups.csv.
+Use the Gagge SET calculation in comf version 0.1.12, with the original SET calculation option. Pass in the calculated air temperature and humidity, passenger airspeed, radiant temperature, clothing, activity, external work, body dimensions, surface area, exposure time, turbulence, posture, and physiological coefficients. Convert pressure from pascals to millimeters of mercury before calling it. Don’t substitute another comfort index or let software defaults replace supplied inputs.
+For the default radiant reference, keep radiant temperature at the original outdoor temperature for every device option. Use measured radiant temperature only in measured mode. Use baseline local airspeed for NONE and unserved zones. In the served zone, use a supplied passenger airspeed if available; otherwise use the fan reference for A and baseline airspeed for B and C. Don’t turn cooler airflow into a passenger airspeed estimate.
+Measure hot discomfort by how far SET exceeds the upper comfort threshold, with no hot discomfort at or below it. Multiply that excess by the operating duration and add the contributions within each case. Also count the duration spent inside the comfort band, including its endpoints. In occupied mode, weight those contributions by the number of passengers. Leave population totals missing when counts are missing. Per-person mode should only run with one zone.
+Find each option’s benefit by subtracting its remaining discomfort from NONE’s remaining discomfort for the same case. Keep negative benefits. Divide benefit by electricity use to get cooling efficiency, and leave NONE’s efficiency undefined because it uses no device electricity. Calculate comfort coverage from comfortable hours divided by total hours, using person-hours in occupied mode. Leave coverage missing when the occupied denominator is zero.
+Also report the unweighted mean zone SET and its reduction from NONE. Keep device resources at their case values instead of adding repeated zone entries. Keep failed comfort results visible and exclude them from valid decisions.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+run_comfort <- function(cfg,t,physics) {
+ w<-t$weather_occ
+ d<-merge(physics,w,by=c(case_key,"zone"),suffixes=c("","_input"),sort=FALSE)
+ g<-t$groups[1,];d$SET<-NA_real_; d$v<-d$v_local
+ d$Tr_used<-if(cfg$radiant_model=="air_reference") d$T_outdoorelsed$Tr
+ for(i in seq_len(nrow(d))) {
+   a<-t$devices[t$devices$venue==d$venue[i] &
+                t$devices$option==d$option[i],]
+   if(nrow(a) && a$zone==d$zone[i]) {
+     if(is.finite(a$v_occupied))d$v[i]<-a$v_occupied
+     else if(d$option[i]=="A")d$v[i]<-a$v_fan
+   }
+   if(!d$physical_valid[i]) next
+   d$SET[i]<-tryCatch(as.numeric(comf::calcSET(
+     ta=d$T[i],tr=d$Tr_used[i],vel=d$v[i],rh=d$RH[i],
+     clo=g$clo,met=g$met,wme=g$wme,sa=g$area_m2,
+     pb=d$pressure[i]*760/101325,ltime=g$ltime,
+     ht=g$height,wt=g$weight,tu=g$tu,obj="set",
+     csw=g$csw,cdil=g$cdil,cstr=g$cstr,
+     bodyPosition=g$posture)),error=function(e) NA_real_)
+ }
+ d$valid<-d$physical_valid & is.finite(d$SET)
+ out<-lapply(split(d,interaction(d[option_key],drop=TRUE)),function(x) {
+   ok<-all(x$valid);dt<-x$dt_hours; N<-x$people
+   D<-pmax(0,x$SET-cfg$set_upper)
+   band<-x$SET>=cfg$set_lower & x$SET<=cfg$set_upper
+   lp<-if(ok) sum(dt*D) else NA_real_
+   ch<-if(ok) sum(dt*band) else NA_real_
+   pop<-ok && all(is.finite(N))
+   L<-if(pop) sum(N*dt*D) else NA_real_
+   cph<-if(pop) sum(N*dt*band) else NA_real_
+   den<-if(pop) sum(N*dt) else NA_real_
+   coverage<-if(cfg$comfort_basis=="per_person") ch/sum(dt) else
+     if(is.finite(den) && den>0) cph/den else NA_real_
+   data.frame(x[1,option_key],physical_valid=all(x$physical_valid),
+     valid=ok,L_per_person=lp,L=L,comfortable_hours=ch,
+     comfortable_person_hours=cph,coverage=coverage,
+     mean_SET=if(ok) mean(x$SET) else NA_real_,
+     loss=if(cfg$comfort_basis=="per_person") lp else L,
+     E=x$E[1],water_kg=x$water_kg[1],capital=x$capital[1],
+     dt_hours=dt[1],safety_status="unassessed")
+ })
+ o<-bind_rows(out)
+ b<-o[o$option=="NONE",c(case_key,"loss","mean_SET")]
+ names(b)[4:5]<-c("loss_none","SET_none")
+ o<-merge(o,b,by=case_key,sort=FALSE)
+ o$B<-o$loss_none-o$loss;o$mean_SET_drop<-o$SET_none-o$mean_SET
+ o$eta<-ifelse(o$E>0,o$B/o$E,NA_real_)
+ list(detail=d,options=o)
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 43}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Can you write \nolinkurl{03_decision}/decision.R to compare the cooling options using minimax regret? Start by adding costs to the comfort results. In purchase mode, use the device’s purchase price once and give NONE zero cost.
+If we select annual mode, spread the purchase cost over the supplied service life using the standard capital recovery factor and supplied discount rate. With a zero discount rate, divide the purchase cost evenly over its life. Add annual maintenance once, then add electricity and water costs across the cases using their supplied annual operating weights. A has no device water charge. B and C need a water price. Don’t charge purchase or maintenance again for each scenario.
+Check whether each option has valid physics and comfort results and meets every enabled budget, electricity, and water limit. Missing calculated values should fail the checks. A missing limit means only that the limit is off.
+For each case, find the lowest remaining discomfort among feasible options. Subtract that best result from each feasible option’s discomfort to get its regret. Leave regret missing for infeasible options. An option can be a robust choice only if it is feasible in every supplied case. For each robust option, take its largest regret across the cases, then choose the option with the smallest of those worst regrets. Report all ties within the tolerance in the setup file.
+Keep all four options and every case in the comparison. If any case has no feasible option, choose nothing and report \nolinkurl{contingency_required}. If each case has a feasible option but none works across every case, report \nolinkurl{no_robust_option}. Don’t add probabilities, objective weights, cost penalties, or a chart-based score.
+Return the option-level costs, feasibility, and regret, plus the maximum regret and chosen status for each venue and option. Also identify the best feasible options in each individual case.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+attach_costs <- function(cfg,t,o) {
+ o$cost<-o$capital
+ if(cfg$cost_basis=="purchase") return(o)
+ for(v in unique(o$venue)) for(op in c("NONE","A","B","C")) {
+   idx<-which(o$venue==v&o$option==op)
+   if(op=="NONE") {o$cost[idx]<-0; next}
+   a<-t$devices[t$devices$venue==v&t$devices$option==op,]
+   i<-a$discount_rate;n<-a$life_years
+   crf<-if(i==0) 1/n else i*(1+i)^n/((1+i)^n-1)
+   wt<-t$weather_occ[t$weather_occ$venue==v,]
+   wt<-wt[!duplicated(wt[case_key]),c(case_key,"annual_weight")]
+   x<-merge(o[idx,],wt,by=case_key,sort=FALSE)
+   water_term<-if(op=="A") rep(0,nrow(x)) else a$water_price*x$water_kg
+   total<-crf*a$capital+a$maintenance+
+     sum(x$annual_weight*(a$electricity_price*x$E+water_term))
+   o$cost[idx]<-total
+ }
+ o
+}
+run_decision <- function(cfg,t,options) {
+ o<-attach_costs(cfg,t,options)
+ cap_ok<-function(x,cap) is.finite(x) & (is.na(cap) | x<=cap)
+ o$resource_feasible<-cap_ok(o$cost,cfg$budget) &
+   cap_ok(o$E,cfg$energy_cap) & cap_ok(o$water_kg,cfg$water_cap)
+ o$feasible<-o$valid & is.finite(o$loss)&o$resource_feasible
+ o$regret<-NA_real_;o$scenario_best<-FALSE; rec<-list()
+ for(v in unique(o$venue)) {
+   vi<-which(o$venue==v); vv<-o[vi,]
+   cases<-split(vi,interaction(vv$scenario,vv$hour,drop=TRUE))
+   contingency<-FALSE
+   for(ii in cases) {
+     if(!setequal(o$option[ii],c("NONE","A","B","C")))
+       stop("Incomplete competitor matrix")
+     good<-ii[o$feasible[ii]]
+     if(!length(good)) {contingency<-TRUE; next}
+     best<-min(o$loss[good]);o$regret[good]<-o$loss[good]-best
+     o$scenario_best[good]<-o$loss[good]<=best+cfg$tie_tol
+   }
+   r<-data.frame(venue=v,option=c("NONE","A","B","C"),
+     max_regret=NA_real_,chosen=FALSE,scenario_count=length(cases),
+     status="ok")
+   for(j in seq_len(nrow(r))) {
+     ii<-vi[o$option[vi]==r$option[j]]
+     if(length(ii)==length(cases) && all(o$feasible[ii]))
+       r$max_regret[j]<-max(o$regret[ii])
+   }
+   if(contingency) r$status<-"contingency_required"
+   else if(!any(is.finite(r$max_regret)))r$status<-"no_robust_option"
+   else {
+     best<-min(r$max_regret,na.rm=TRUE)
+     r$chosen<-is.finite(r$max_regret) & r$max_regret<=best+cfg$tie_tol
+   }
+   rec[[length(rec)+1L]]<-r
+ }
+ list(options=o,recommendations=bind_rows(rec))
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 44}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Please write \nolinkurl{04_sensitivity}/sensitivity.R to show how the results change when we vary the inputs. Read the existing ranges from bounds.csv. Its parameter names identify a table, original row number, and column, or a configuration setting. Don’t create new ranges or sweep identifiers such as venue names and timestamps.
+Skip and log targets that are missing, nonnumeric, unknown, or have invalid bounds. Treat the stored Celsius bounds as exploratory changes to those values rather than physical percentage uncertainties.
+Keep linked inputs together. Change a flow and its unique reverse flow together when their original values and bounds agree; otherwise skip the conflicting pair. If there is no unique reverse flow, leave that row independent and let the balance check reject an invalid trial. For temperature, humidity, pressure, and duration, keep all zone copies within the same venue and weather case consistent. Don’t link different venues. Count each linked group as one parameter.
+For each free parameter, test five evenly spaced values from its lower bound to its upper bound, including both endpoints. Start from a fresh copy of the baseline each time, change only that parameter group, and rerun physics, comfort, and decisions from the beginning. Recalculate derived quantities too. Save the option and recommendation results with the parameter and tested value, and keep failures separately.
+Compare each venue’s chosen options at adjacent successful values. If the choice changes, report the two values and the choices on either side as a switching interval. Don’t call it an exact threshold or compare across a failed trial.
+Also provide an optional \nolinkurl{run_monte_carlo} function with one thousand draws and a seed of one, but don’t run it automatically. If called, sample each free parameter uniformly inside its supplied range, update linked entries together, and rerun the model from baseline. Keep failures and report chosen frequencies among successful runs. Count tied choices separately and label the results as exploratory simulation frequencies rather than real-weather probabilities.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+parameter_members <- function(key,t) {
+ s<-strsplit(key,".",fixed=TRUE)[[1]]
+ if(length(s)==2L && s[1]=="cfg") return(key)
+ if(length(s)!=3L || !s[1] %in% names(t)) stop("unknown target")
+ tab<-s[1]; row<-suppressWarnings(as.integer(s[2])); col<-s[3]
+ if(is.na(row) || row<1L || row>nrow(t[[tab]]) ||
+    !col %in% names(t[[tab]])) stop("unknown row/column")
+ if(col %in% c("venue","zone","scenario","hour","timestamp_utc"))
+   stop("identifier not swept")
+ a<-t[[tab]]; rr<-row
+ if(tab=="exchanges" && col=="mass_kg_s") {
+   rev<-which(a$venue==a$venue[row] & a$from==a$to[row] &
+              a$to==a$from[row])
+   if(length(rev)==1L) rr<-sort(c(row,rev))
+ }
+ if(tab=="weather_occ" && col %in% c("T","RH","pressure","dt_hours"))
+   rr<-which(a$venue==a$venue[row] & a$scenario==a$scenario[row] &
+              a$hour==a$hour[row])
+ paste(tab,rr,col,sep=".")
+}
+get_parameter <- function(key,cfg,t) {
+ s<-strsplit(key,".",fixed=TRUE)[[1]]
+ if(s[1]=="cfg") return(cfg[[s[2]]])
+ t[[s[1]]][[s[3]]][as.integer(s[2])]
+}
+set_parameter <- function(keys,value,cfg,t) {
+ for(key in keys) {
+   s<-strsplit(key,".",fixed=TRUE)[[1]]
+   if(s[1]=="cfg") cfg[[s[2]]]<-value
+   else t[[s[1]]][[s[3]]][as.integer(s[2])]<-value
+ }
+ list(cfg=cfg,t=t)
+}
+canonical_bounds <- function(cfg,t) {
+ b<-t$bounds; free<-list(); skipped<-list(); seen<-character()
+ for(i in seq_len(nrow(b))) {
+   key<-b$parameter[i]
+   if(key %in% seen) next
+   members<-key
+   ans<-tryCatch({
+     members<-parameter_members(key,t)
+     seen<-union(seen,members)
+     loc<-match(members,b$parameter)
+     if(anyNA(loc) || anyDuplicated(b$parameter[b$parameter %in% members]))
+       stop("missing or duplicated linked bounds")
+     vals<-lapply(members,get_parameter,cfg=cfg,t=t)
+     if(any(!vapply(vals,function(x) is.numeric(x) && length(x)==1L &&
+                   is.finite(x),logical(1)))) stop("nonfinite/nonnumeric baseline")
+     x<-unlist(vals); lo<-b$lower[loc];hi<-b$upper[loc]
+     if(any(!is.finite(c(lo,hi))) || any(lo>hi)) stop("invalid bounds")
+     if(length(unique(x))!=1L || length(unique(lo))!=1L ||
+        length(unique(hi))!=1L) stop("linked baseline/bounds disagree")
+     list(parameter=sort(members)[1],members=members,
+          lower=lo[1],upper=hi[1])
+   },error=function(e) e)
+   if(inherits(ans,"error")) skipped[[length(skipped)+1L]]<-
+     data.frame(parameter=key,reason=conditionMessage(ans))
+   else free[[length(free)+1L]]<-ans
+ }
+ list(free=free,skipped=bind_rows(skipped))
+}
+run_sensitivity <- function(cfg,t) {
+ b<-canonical_bounds(cfg,t); oo<-rr<-ff<-sw<-list()
+ for(a in b$free) {
+   previous<-NULL
+   for(value in seq(a$lower,a$upper,length.out=cfg$sensitivity_levels)) {
+     trial<-set_parameter(a$members,value,cfg,t)
+     ans<-tryCatch(run_all(trial$cfg,trial$t),error=function(e)e)
+     if(inherits(ans,"error")) {
+       ff[[length(ff)+1L]]<-data.frame(parameter=a$parameter,value=value,
+                                      reason=conditionMessage(ans))
+       previous<-NULL; next
+     }
+     o<-ans$options;r<-ans$recommendations
+     o$parameter<-r$parameter<-a$parameter
+     o$value<-r$value<-value
+     oo[[length(oo)+1L]]<-o; rr[[length(rr)+1L]]<-r
+     selected<-sapply(split(r,r$venue),function(x)
+       paste(sort(x$option[x$chosen]),collapse="+"))
+     if(!is.null(previous)) for(v in names(selected))
+       if(selected[[v]]!=previous$selected[[v]])
+         sw[[length(sw)+1L]]<-data.frame(parameter=a$parameter,
+           venue=v,lower_value=previous$value,upper_value=value,
+           choices_below=previous$selected[[v]],choices_above=selected[[v]])
+     previous<-list(value=value,selected=selected)
+   }
+ }
+ list(options=bind_rows(oo),recommendations=bind_rows(rr),
+      failures=bind_rows(ff),switching=bind_rows(sw),skipped=b$skipped)
+}
+run_monte_carlo <- function(cfg,t,n=1000L,seed=1L) {
+ b<-canonical_bounds(cfg,t); set.seed(seed); oo<-rr<-ff<-list()
+ for(draw in seq_len(n)) {
+   cc<-cfg; tt<-t
+   for(a in b$free) {
+     trial<-set_parameter(a$members,runif(1,a$lower,a$upper),cc,tt)
+     cc<-trial$cfg;tt<-trial$t
+   }
+   ans<-tryCatch(run_all(cc,tt),error=function(e)e)
+   if(inherits(ans,"error")) {
+     ff[[length(ff)+1L]]<-data.frame(draw=draw,reason=conditionMessage(ans))
+     next
+   }
+   o<-ans$options;r<-ans$recommendations; o$draw<-r$draw<-draw
+   oo[[length(oo)+1L]]<-o; rr[[length(rr)+1L]]<-r
+ }
+ rec<-bind_rows(rr)
+ freq<-if(nrow(rec)) aggregate(chosen~venue+option,rec,mean) else data.frame()
+ if(nrow(freq)) names(freq)[3]<-"chosen_fraction_successful_runs"
+ list(options=bind_rows(oo),recommendations=rec,
+      failures=bind_rows(ff),frequency=freq,skipped=b$skipped)
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 45}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Write \nolinkurl{05_outputs}/outputs.R to run the calculations in order and save the results. In \nolinkurl{run_all}, validate the inputs, run physics, calculate comfort, and then make the decision. Return the zone conditions, detailed comfort results, option results, recommendations, and model settings.
+Record whether we used simplified or full heat balances, reference or measured radiation, per-person or occupied comfort, and purchase or annual costs. Also record ideal evaporation, omitted motor heat, and unassessed safety. Label the outputs as modeled results.
+Save those five tables in outputs/ as \nolinkurl{zone_conditions.csv}, \nolinkurl{comfort_detail.csv}, options.csv, recommendations.csv, and \nolinkurl{model_basis.csv}. Save the sensitivity options, recommendations, failures, switching intervals, and skipped inputs in separate CSVs with names beginning sensitivity\_. Write missing values as empty cells and leave out row numbers. Replace old output files even when a new table is empty.
+Make \nolinkurl{SET_by_case.pdf} with one page per venue, showing the unweighted mean zone SET for each option against the weather-case labels. Make \nolinkurl{regret_by_venue.pdf} with one page per venue, showing maximum regret by option and marking chosen options with an asterisk. Use gray for NONE, blue for A, green for B, and coral for C. Plot finite values only, label units using the selected comfort basis, and show “No finite results” when needed. Don’t fit trends or use the charts to choose an option.
+Finally, save \nolinkurl{pareto_by_case.csv}. Within each case, mark an option dominated when another feasible option has no higher cost and no higher discomfort, with at least one strictly lower. Leave that label missing for infeasible options. Keep cost and discomfort separate rather than inventing a combined score.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+run_all <- function(cfg,t) {
+ validate_inputs(cfg,t)
+ ph<-run_physics(cfg,t); co<-run_comfort(cfg,t,ph)
+ de<-run_decision(cfg,t,co$options)
+ list(zone_conditions=ph,comfort_detail=co$detail,
+   options=de$options,recommendations=de$recommendations,
+   model_basis=data.frame(heat_model=cfg$heat_model,
+     radiant_model=cfg$radiant_model,comfort_basis=cfg$comfort_basis,
+     cost_basis=cfg$cost_basis,evaporation="ideal saturation limited",
+     motor_heat="omitted",safety="unassessed"))
+}
+write_table <- function(x,path) write.csv(x,path,row.names=FALSE,na="")
+pareto_table <- function(o) {
+ o$dominated<-NA
+ for(ii in split(seq_len(nrow(o)),interaction(o[case_key],drop=TRUE))) {
+   good<-ii[o$feasible[ii]]
+   for(i in good) o$dominated[i]<-any(o$cost[good]<=o$cost[i] &
+     o$loss[good]<=o$loss[i] & (o$cost[good]<o$cost[i] | o$loss[good]<o$loss[i]))
+ }
+ o[,c(option_key,"cost","loss","feasible","dominated")]
+}
+save_results <- function(r,out="outputs") {
+ dir.create(out,recursive=TRUE,showWarnings=FALSE)
+ for(k in c("zone_conditions","comfort_detail","options",
+            "recommendations","model_basis"))
+   write_table(r[[k]],file.path(out,paste0(k,".csv")))
+ write_table(pareto_table(r$options),file.path(out,"pareto_by_case.csv"))
+}
+save_sensitivity <- function(s,out="outputs") {
+ dir.create(out,recursive=TRUE,showWarnings=FALSE)
+ for(k in c("options","recommendations","failures","switching","skipped"))
+   write_table(s[[k]],file.path(out,paste0("sensitivity_",k,".csv")))
+}
+save_plots <- function(r,out="outputs") {
+ cols<-c(NONE="gray50",A="#2878B5",B="#329D67",C="#E77965")
+ pdf(file.path(out,"SET_by_case.pdf"),width=8,height=5)
+ for(v in unique(r$options$venue)) {
+   x<-r$options[r$options$venue==v,]
+   x$case<-paste(x$scenario,x$hour,sep=" / ")
+   labs<-unique(x$case);good<-is.finite(x$mean_SET)
+   if(!any(good)) {plot.new(); title(paste(v,"No finite results")); next}
+   plot(NA,xlim=c(.5,length(labs)+.5),ylim=range(x$mean_SET[good])+c(-.2,.2),
+        xaxt="n",xlab="Scenario / hour",ylab="Unweighted zone mean SET (C)",main=v)
+   axis(1,at=seq_along(labs),labels=labs)
+   for(op in names(cols)) {
+     z<-x[x$option==op & good,]
+     points(match(z$case,labs),z$mean_SET,col=cols[op],pch=16)
+   }
+   legend("topright",legend=names(cols),col=cols,pch=16,bty="n")
+ }
+ dev.off()
+ pdf(file.path(out,"regret_by_venue.pdf"),width=8,height=5)
+ for(v in unique(r$recommendations$venue)) {
+   x<-r$recommendations[r$recommendations$venue==v,]
+   x<-x[is.finite(x$max_regret),]
+   if(!nrow(x)) {plot.new(); title(paste(v,"No finite results")); next}
+   units<-if(r$model_basis$comfort_basis=="per_person") "C h per reference person" else "person C h"
+   barplot(x$max_regret,names.arg=paste0(x$option,ifelse(x$chosen,"*","")),
+     col=cols[x$option],ylim=c(0,max(.01,x$max_regret)*1.1),
+     main=v,ylab=paste("Maximum regret",units))
+ }
+ dev.off()
+}
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 46}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Can you write \nolinkurl{run_project.R} so we can run the whole project with one command? Source \nolinkurl{00_setup.R}, \nolinkurl{01_inputs.R}, \nolinkurl{01_physics}/psychrometrics.R, \nolinkurl{01_physics}/physics.R, \nolinkurl{02_comfort}/comfort.R, \nolinkurl{03_decision}/decision.R, \nolinkurl{04_sensitivity}/sensitivity.R, and \nolinkurl{05_outputs}/outputs.R in that order.
+Check the dependencies, load the settings, and read the six input CSVs from data/. Run the baseline, save its tables and plots, then run and save the one-way sensitivity analysis. Save the R session information in outputs/sessionInfo.txt.
+Keep the original baseline data and settings for every sensitivity trial. Don’t run Monte Carlo or tests automatically, fetch data, fill missing values, enable annual costs, or turn on resource limits. Add comments showing the folder layout and tell us to run Rscript \nolinkurl{run_project.R} from the project root.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+# Run from the project root: Rscript run_project.R
+# data/ contains the six unchanged attached input CSV files.
+# Copy each AI output in this document to its named relative path.
+files<-c("00_setup.R","01_inputs.R",
+ "01_physics/psychrometrics.R","01_physics/physics.R",
+ "02_comfort/comfort.R","03_decision/decision.R",
+ "04_sensitivity/sensitivity.R","05_outputs/outputs.R")
+for(f in files) source(f)
+check_dependencies()
+cfg<-build_config(); tables<-load_tables("data")
+result<-run_all(cfg,tables)
+save_results(result); save_plots(result)
+sensitivity<-run_sensitivity(cfg,tables)
+save_sensitivity(sensitivity)
+capture.output(sessionInfo(),file="outputs/sessionInfo.txt")
+\end{lstlisting}
+\needspace{6\baselineskip}
+\subsection*{Prompt 47}
+Use the equations from the doc I attached for the mathematical details, and follow the steps below when putting them into code. Please write tests/\nolinkurl{test_classroom_pipeline.R} to check this implementation. Source the same calculation files as the runner without executing \nolinkurl{run_project.R}. Use the first actual venue’s data and the reference person as a small fixture. Keep any artificial test values inside this test file.
+Check that converting a temperature of thirty degrees Celsius, fifty percent relative humidity, and standard atmospheric pressure into humidity ratio and back recovers the original humidity within one hundred-millionth of a percentage point.
+Test a cooler with inlet air at thirty-five degrees Celsius, thirty percent relative humidity, standard atmospheric pressure, and an eight-degree maximum drop. Check that it stays above the wet-bulb limit, does not exceed saturation beyond the state tolerance, and preserves inlet enthalpy within one ten-millionth of a kilojoule per kilogram of dry air.
+Run the fixture and check that NONE and A have matching zone temperatures and humidity ratios, that NONE has no defined efficiency, and that valid SET values are finite. Check that electricity is device power multiplied by operating hours. Double the operating duration in a copied fixture and check that energy, water, and discomfort double while SET stays unchanged, since the person’s exposure-time setting has not changed. Compare the matched results using the keys from the earlier prompts.
+For the decision test, create two cases with losses in the order NONE, A, B, C. Give the first case losses of nine, three, five, and four, and the second nine, six, two, and four. Keep the options valid, give them nonnegative resources, and leave caps off. The expected maximum regrets are seven, four, two, and two, so B and C should tie. Check those values within one hundred-millionth. Then make every option invalid in the second case and check that nothing is chosen and the result says \nolinkurl{contingency_required}.
+Remove one required humidity value and check that validation names \nolinkurl{weather_occ} RH in its error. Print a success message only after the tests actually pass. Don’t claim the tests have run just because you’ve written them.
+
+\needspace{4\baselineskip}
+\subsubsection*{AI output}
+\begin{lstlisting}[style=Rcode]
+for(f in c("00_setup.R","01_inputs.R","01_physics/psychrometrics.R",
+ "01_physics/physics.R","02_comfort/comfort.R","03_decision/decision.R",
+ "04_sensitivity/sensitivity.R","05_outputs/outputs.R")) source(f)
+check_dependencies(); cfg<-build_config(); t<-load_tables("data")
+v<-t$zones$venue[1]
+for(k in c("zones","exchanges","weather_occ","devices"))
+ t[[k]]<-t[[k]][t[[k]]$venue==v,,drop=FALSE]
+t$bounds<-t$bounds[FALSE,]
+w<-humidity_ratio(30,50,101325)
+stopifnot(abs(rh_from_w(30,w,101325)-50)<1e-8)
+a<-cooler_state(35,30,101325,8)
+stopifnot(a$T>=a$Twb-1e-7,a$RH<=100+1e-7,
+ abs(enthalpy(a$T,a$w)-enthalpy(35,humidity_ratio(35,30,101325)))<1e-7)
+r<-run_all(cfg,t)
+z<-r$zone_conditions
+b<-z[z$option=="NONE",];f<-z[z$option=="A",]
+key<-c(case_key,"zone")
+m<-merge(b,f,by=key,suffixes=c("_b","_a"))
+stopifnot(max(abs(m$T_b-m$T_a))<1e-8,max(abs(m$w_b-m$w_a))<1e-8,
+ all(is.na(r$options$eta[r$options$option=="NONE"])),
+ all(is.finite(r$comfort_detail$SET[r$comfort_detail$valid])))
+o<-merge(r$options[r$options$option!="NONE",],
+        t$devices[,c("venue","option","power_kW")],by=c("venue","option"))
+stopifnot(max(abs(o$E-o$power_kW*o$dt_hours))<1e-8)
+t2<-t; t2$weather_occ$dt_hours<-2*t2$weather_occ$dt_hours
+r2<-run_all(cfg,t2)
+m<-merge(r$options,r2$options,by=option_key,suffixes=c("_1","_2"))
+for(k in c("E","water_kg","loss"))
+ stopifnot(max(abs(m[[paste0(k,"_2")]]-2*m[[paste0(k,"_1")]]))<1e-7)
+stopifnot(max(abs(m$mean_SET_2-m$mean_SET_1))<1e-7)
+h<-r$options[rep(1,8),];h$scenario<-rep(c("s1","s2"),each=4)
+h$hour<-1;h$option<-rep(c("NONE","A","B","C"),2)
+h$loss<-c(9,3,5,4,9,6,2,4);h$valid<-TRUE
+h$capital<-h$E<-h$water_kg<-0
+q<-run_decision(cfg,t,h)
+expected<-c(NONE=7,A=4,B=2,C=2)
+stopifnot(all(abs(q$recommendations$max_regret-
+ expected[q$recommendations$option])<1e-8),
+ setequal(q$recommendations$option[q$recommendations$chosen],c("B","C")))
+h$valid[h$scenario=="s2"]<-FALSE
+q<-run_decision(cfg,t,h)
+stopifnot(!any(q$recommendations$chosen),
+ all(q$recommendations$status=="contingency_required"))
+t$weather_occ$RH[1]<-NA_real_
+msg<-tryCatch({validate_inputs(cfg,t); "NO ERROR"},error=conditionMessage)
+stopifnot(grepl("Analysis not started:",msg,fixed=TRUE),
+         grepl("weather_occ RH",msg,fixed=TRUE))
+cat("PASS: classroom pipeline checks
+")
+\end{lstlisting}

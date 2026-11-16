@@ -1,161 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.pressure",90582.5,26.5248479810183,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.0532469275253291,-5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.pressure",100117.5,26.4219003475794,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.0497007059136436,5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.pressure",97733.75,26.4463335533189,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.0252675001740954,2.49999999999999,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.pressure",92966.25,26.4977539652676,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.0261529117745773,-2.5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.met",1.05,26.3560788951534,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.115522158339594,5,"Activity"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.pressure",95350,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0,0,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.met",0.975,26.5412513345054,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.0696502810123576,-2.5,"Activity"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.met",1,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0,0,"Activity"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.clo",0.342,26.354274889441,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.117326164051974,-5,"Clothing"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.met",1.025,26.4041892211155,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.0674118323775375,2.49999999999999,"Activity"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.clo",0.351,26.4130281361172,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.058572917375816,-2.5,"Clothing"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.T",31.35,25.144431285024,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-1.32716976846897,-5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.clo",0.36,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0,0,"Clothing"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.T",32.175,25.8080597484322,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,-0.663541305060829,-2.50000000000001,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.clo",0.369,26.5299946565454,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.0583936030524228,2.50000000000001,"Clothing"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.T",33,26.471601053493,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0,0,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.clo",0.378,26.5882098809581,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.116608827465065,5,"Clothing"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.T",33.825,27.1348284335293,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.663227380036282,2.49999999999999,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","NONE","groups.1.met",0.95,26.6132377947554,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,0.141636741262388,-5,"Activity"
-"PHX_QUAD","summer_mean_1h","NONE","weather_occ.11.T",34.65,27.7975598813108,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",26.471601053493,1.3259588278178,5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","groups.1.met",1.05,25.7363028244266,0.619776070726861,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.143910585908625,5,"Activity"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.T",31.35,24.5433307030984,0.601100581925596,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-1.33688270723674,-5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.T",32.175,25.2116482730327,0.596411475399442,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.668565137302441,-2.50000000000001,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.T",33,25.8802134103352,0.59138764315783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0,0,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.T",33.825,26.5488660444419,0.585962389087442,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.668652634106671,2.49999999999999,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.T",34.65,27.2174742022516,0.580085679059174,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,1.33726079191646,5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.pressure",90582.5,25.9205470566685,0.604300924349808,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.0403336463333517,-5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.pressure",92966.25,25.9000325848858,0.597721380381767,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.0198191745506406,-2.5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.pressure",95350,25.8802134103352,0.59138764315783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0,0,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.pressure",97733.75,25.8610355560882,0.585297997230725,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.0191778542469905,2.49999999999999,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","groups.1.clo",0.378,26.0021858496559,0.586024031302166,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.121972439320729,5,"Clothing"
-"PHX_QUAD","summer_mean_1h","A","weather_occ.11.pressure",100117.5,25.8424879224837,0.57941242509564,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.0377254878514535,5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","A","groups.1.met",0.95,26.0507242575975,0.56251353715793,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.170510847262289,-5,"Activity"
-"PHX_QUAD","summer_mean_1h","A","groups.1.clo",0.342,25.7574275995325,0.596847289908585,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.122785810802728,-5,"Clothing"
-"PHX_QUAD","summer_mean_1h","A","groups.1.met",0.975,25.9642571552275,0.576994179277897,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.0840437448922913,-2.5,"Activity"
-"PHX_QUAD","summer_mean_1h","A","groups.1.clo",0.351,25.8189216081681,0.594106527949148,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.0612918021671334,-2.5,"Clothing"
-"PHX_QUAD","summer_mean_1h","A","groups.1.met",1,25.8802134103352,0.59138764315783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0,0,"Activity"
-"PHX_QUAD","summer_mean_1h","A","groups.1.clo",0.36,25.8802134103352,0.59138764315783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0,0,"Clothing"
-"PHX_QUAD","summer_mean_1h","A","groups.1.met",1.025,25.7985190235885,0.60567019752698,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,-0.0816943867466868,2.49999999999999,"Activity"
-"PHX_QUAD","summer_mean_1h","A","groups.1.clo",0.369,25.9412920167529,0.588702639792565,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.8802134103352,0.0610786064176878,2.50000000000001,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.clo",0.36,25.6806602998064,0.79094075368662,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0,0,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.clo",0.351,25.6203651975892,0.792662938527965,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.0602951022171609,-2.5,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.clo",0.378,25.8008134475682,0.787396433389912,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.120153147761773,5,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.clo",0.369,25.7408066681138,0.789187988431628,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.0601463683074144,2.50000000000001,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.clo",0.342,25.5599301018899,0.794344787551161,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.120730197916515,-5,"Clothing"
-"PHX_QUAD","summer_mean_1h","B","groups.1.met",0.95,25.8164518899584,0.796785904797037,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.135791590151971,-5,"Activity"
-"PHX_QUAD","summer_mean_1h","B","groups.1.met",0.975,25.7473940260636,0.793857308441794,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.0667337262571834,-2.5,"Activity"
-"PHX_QUAD","summer_mean_1h","B","groups.1.met",1,25.6806602998064,0.79094075368662,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0,0,"Activity"
-"PHX_QUAD","summer_mean_1h","B","groups.1.met",1.025,25.6162074633196,0.787981757795905,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.0644528364868222,2.49999999999999,"Activity"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.T",34.65,27.0590641708381,0.738495710472687,1.2,32.5488807134951,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,1.37840387103173,5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","groups.1.met",1.05,25.5713283893258,0.784750505827617,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.109331910480591,5,"Activity"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.T",31.35,24.301928908431,0.842502376593011,1.2,32.9678812293062,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-1.37873139137536,-5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.T",32.175,24.9912097916506,0.816849956781631,1.2,32.8620600961577,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.68945050815584,-2.50000000000001,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.T",33,25.6806602998064,0.79094075368662,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0,0,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.T",33.825,26.369966913119,0.764861520410339,1.2,32.6525615532232,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.689306613312564,2.49999999999999,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.pressure",90582.5,25.7686501577294,0.756197823288932,1.2,31.1225735241988,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.0879898579230165,-5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.pressure",92966.25,25.724088287897,0.77366567737057,1.2,31.9397638267055,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0.0434279880906274,-2.5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.pressure",100117.5,25.596977233935,0.82492311364442,1.2,34.3913347342316,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.083683065871444,5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.pressure",95350,25.6806602998064,0.79094075368662,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,0,0,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","B","weather_occ.11.pressure",97733.75,25.6383078731926,0.808025680126324,1.2,33.574144431722,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",25.6806602998064,-0.0423524266137996,2.49999999999999,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","groups.1.clo",0.378,24.9385376032389,1.64967227771915,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.123731595015077,5,"Clothing"
-"PHX_QUAD","summer_mean_1h","C","groups.1.clo",0.342,24.6906704852449,1.66360440419617,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.124135522978985,-5,"Clothing"
-"PHX_QUAD","summer_mean_1h","C","groups.1.clo",0.351,24.7527877181784,1.66024041793883,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.06201829004549,-2.5,"Clothing"
-"PHX_QUAD","summer_mean_1h","C","groups.1.clo",0.36,24.8148060082239,1.65679504526916,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0,0,"Clothing"
-"PHX_QUAD","summer_mean_1h","C","groups.1.met",1.05,24.7133050228064,1.64277387234702,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.101500985417459,5,"Activity"
-"PHX_QUAD","summer_mean_1h","C","groups.1.met",0.95,24.9432590852064,1.66997870954896,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.128453076982584,-5,"Activity"
-"PHX_QUAD","summer_mean_1h","C","groups.1.met",0.975,24.8777940638746,1.66345727063074,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.0629880556507736,-2.5,"Activity"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.T",33,24.8148060082239,1.65679504526916,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0,0,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","groups.1.clo",0.369,24.8767238676427,1.65327078890271,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.0619178594188767,2.50000000000001,"Clothing"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.T",34.65,26.2506951674271,1.54686471388368,2.5,77.4183455894049,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,1.43588915920328,5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.T",31.35,23.3918673379197,1.75256394710438,2.5,78.4153619733633,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-1.42293867030419,-5,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","groups.1.met",1,24.8148060082239,1.65679504526916,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0,0,"Activity"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.T",33.825,25.5326781856067,1.60215024792257,2.5,77.6650551815816,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.717872177382869,2.49999999999999,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.T",32.175,24.0969602044392,1.71109954399302,2.5,78.1635592863368,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.717845803784687,-2.50000000000001,"Outdoor temperature [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","groups.1.met",1.025,24.7540639124285,1.65012530868699,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.0607420957953693,2.49999999999999,"Activity"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.pressure",90582.5,24.9357798975864,1.58906808343198,2.5,74.0260321221732,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.120973889362514,-5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.pressure",92966.25,24.8746075667748,1.62314639849277,2.5,75.9697452773935,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0.0598015585509657,-2.5,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.pressure",95350,24.8148060082239,1.65679504526916,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,0,0,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.pressure",97733.75,24.756314061216,1.69001949210289,2.5,79.8571715878409,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.0584919470078269,2.49999999999999,"Air pressure [PHX_QUAD]"
-"PHX_QUAD","summer_mean_1h","C","weather_occ.11.pressure",100117.5,24.6990657242368,1.72283462334258,2.5,81.8008847430679,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / courtyard","Phoenix / courtyard
-summer_mean_1h",24.8148060082239,-0.115740283987062,5,"Air pressure [PHX_QUAD]"
+"PHX_QUAD","hot_peak","NONE","groups.1.met",1.05,34.4200664086698,0,0,0,0,NA,8.42006640866983,"per_person",NA,-0.143644121640108,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,-0.143644121640108,5,"Activity"
+"PHX_QUAD","hot_peak","NONE","groups.1.met",0.975,34.643937617634,0,0,0,0,NA,8.64393761763403,"per_person",NA,0.08022708732409,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0.08022708732409,-2.5,"Activity"
+"PHX_QUAD","hot_peak","NONE","groups.1.met",1,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,0,"Activity"
+"PHX_QUAD","hot_peak","NONE","groups.1.met",0.95,34.7261719434104,0,0,0,0,NA,8.72617194341041,"per_person",NA,0.162461413100473,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0.162461413100473,-5,"Activity"
+"PHX_QUAD","hot_peak","NONE","groups.1.met",1.025,34.4851520900034,0,0,0,0,NA,8.4851520900034,"per_person",NA,-0.0785584403065371,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,-0.0785584403065371,2.49999999999999,"Activity"
+"PHX_QUAD","hot_peak","NONE","weather_occ.31.T",45.524,33.3670632679345,0,0,0,0,NA,7.36706326793445,"per_person",NA,-1.19664726237549,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,-1.19664726237549,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","NONE","weather_occ.33.T",46.3915,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","NONE","weather_occ.32.T",43.706,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","NONE","weather_occ.33.T",44.1285,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","NONE","weather_occ.33.T",47.523,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","NONE","weather_occ.32.T",44.772,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","NONE","weather_occ.33.T",45.26,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","NONE","weather_occ.32.T",42.64,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","NONE","weather_occ.31.T",49.118,35.1338749320193,0,0,0,0,NA,9.13387493201928,"per_person",NA,0.570164401709341,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0.570164401709341,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","NONE","weather_occ.33.T",42.997,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","NONE","weather_occ.32.T",41.574,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","NONE","weather_occ.31.T",46.722,33.9749892279139,0,0,0,0,NA,7.97498922791391,"per_person",NA,-0.588721302396031,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,-0.588721302396031,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","NONE","weather_occ.31.T",47.92,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","NONE","weather_occ.31.T",50.316,35.6866131526488,0,0,0,0,NA,9.68661315264879,"per_person",NA,1.12290262233885,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,1.12290262233885,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","NONE","weather_occ.32.T",40.508,34.5637105303099,0,0,0,0,NA,8.56371053030994,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.5637105303099,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","weather_occ.31.T",46.722,33.6178866089456,0.357102618968284,0.25,0,1499,1.42841047587314,7.61788660894562,"per_person",0.0403525908251936,-0.59880945010233,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,-0.59880945010233,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","A","weather_occ.31.T",47.92,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","A","weather_occ.31.T",45.524,32.9989145129401,0.36814875499438,0.25,0,1499,1.47259501997752,6.99891451294008,"per_person",0.084537134929576,-1.21778154610788,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,-1.21778154610788,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","A","weather_occ.31.T",49.118,34.7967411816302,0.3371337503891,0.25,0,1499,1.3485350015564,8.79674118163018,"per_person",-0.0395228834915429,0.580045122582227,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0.580045122582227,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","A","weather_occ.31.T",50.316,35.3587553881228,0.32785776452598,0.25,0,1499,1.31143105810392,9.35875538812281,"per_person",-0.0766268269440218,1.14205932907485,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,1.14205932907485,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","A","weather_occ.32.T",40.508,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","weather_occ.32.T",41.574,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","groups.1.met",0.95,34.3977198903165,0.328452053093955,0.25,0,1499,1.31380821237582,8.39771989031646,"per_person",-0.0742496726721242,0.181023831268504,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0.181023831268504,-5,"Activity"
+"PHX_QUAD","hot_peak","A","weather_occ.32.T",42.64,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","weather_occ.32.T",43.706,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","groups.1.met",1,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,0,"Activity"
+"PHX_QUAD","hot_peak","A","groups.1.met",1.025,34.1291141191233,0.356037970880131,0.25,0,1499,1.42415188352052,8.12911411912327,"per_person",0.0360939984725803,-0.0875819399246822,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,-0.0875819399246822,2.49999999999999,"Activity"
+"PHX_QUAD","hot_peak","A","weather_occ.33.T",45.26,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","A","groups.1.met",0.975,34.3062508313888,0.337686786245264,0.25,0,1499,1.35074714498106,8.30625083138877,"per_person",-0.0373107400668857,0.0895547723408114,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0.0895547723408114,-2.5,"Activity"
+"PHX_QUAD","hot_peak","A","groups.1.met",1.05,34.0551008243887,0.364965584281158,0.25,0,1499,1.45986233712463,8.05510082438867,"per_person",0.0718044520766909,-0.161595234659281,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,-0.161595234659281,5,"Activity"
+"PHX_QUAD","hot_peak","A","weather_occ.32.T",44.772,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","A","weather_occ.33.T",42.997,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","A","weather_occ.33.T",47.523,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","A","weather_occ.33.T",46.3915,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","A","weather_occ.33.T",44.1285,34.216696059048,0.347014471261986,0.25,0,1499,1.38805788504794,8.21669605904795,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.216696059048,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","B","weather_occ.31.T",46.722,33.5878041954783,0.387185032435603,1.2,30.983728950021,4159,0.322654193696336,7.58780419547831,"per_person",0.0218855715678264,-0.614983988277423,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,-0.614983988277423,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","B","weather_occ.31.T",47.92,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","B","weather_occ.31.T",49.118,34.7981250778203,0.335749854198973,1.2,30.7042217563446,4159,0.279791545165811,8.79812507782031,"per_person",-0.020977076962699,0.59533689406458,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0.59533689406458,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","B","weather_occ.31.T",50.316,35.3744607277364,0.312152424912348,1.2,30.5662397984428,4159,0.26012702076029,9.37446072773644,"per_person",-0.0406416013682195,1.17167254398071,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,1.17167254398071,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","B","weather_occ.32.T",40.508,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","B","weather_occ.32.T",41.574,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","B","weather_occ.32.T",42.64,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","B","weather_occ.31.T",45.524,32.9520315299426,0.415031737991846,1.2,31.1252728771458,4159,0.345859781659872,6.95203152994261,"per_person",0.0450911595313622,-1.25075665381312,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,-1.25075665381312,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","B","weather_occ.32.T",43.706,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","B","weather_occ.32.T",44.772,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","B","groups.1.met",0.95,34.3627438924978,0.363428050912617,1.2,30.8433817354451,4159,0.302856709093848,8.3627438924978,"per_person",0.00208808696533797,0.159955708742068,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0.159955708742068,-5,"Activity"
+"PHX_QUAD","hot_peak","B","groups.1.met",1,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,0,"Activity"
+"PHX_QUAD","hot_peak","B","weather_occ.33.T",42.997,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","B","groups.1.met",0.975,34.2818070951846,0.362130522449462,1.2,30.8433817354451,4159,0.301775435374552,8.28180709518457,"per_person",0.00100681324604202,0.0790189114288395,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0.0790189114288395,-2.5,"Activity"
+"PHX_QUAD","hot_peak","B","groups.1.met",1.025,34.1255348862885,0.359617203714883,1.2,30.8433817354451,4159,0.299681003095736,8.12553488628852,"per_person",-0.00108761903277355,-0.0772532974672089,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,-0.0772532974672089,2.49999999999999,"Activity"
+"PHX_QUAD","hot_peak","B","weather_occ.33.T",44.1285,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","B","groups.1.met",1.05,34.0618718582248,0.358194550444985,1.2,30.8433817354451,4159,0.298495458704154,8.06187185822485,"per_person",-0.00227316342435557,-0.140916325530881,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,-0.140916325530881,5,"Activity"
+"PHX_QUAD","hot_peak","B","weather_occ.33.T",45.26,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","B","weather_occ.33.T",46.3915,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","B","weather_occ.33.T",47.523,34.2027881837557,0.360922346554212,1.2,30.8433817354451,4159,0.30076862212851,8.20278818375573,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",34.2027881837557,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","weather_occ.32.T",43.706,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","C","weather_occ.33.T",44.1285,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","groups.1.met",0.95,33.9647704550799,0.761401488330485,2.5,73.3602377251573,4939,0.304560595332194,7.96477045507993,"per_person",0.00219269523814775,0.156979675005104,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0.156979675005104,-5,"Activity"
+"PHX_QUAD","hot_peak","C","weather_occ.32.T",44.772,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","C","weather_occ.33.T",45.26,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","groups.1.met",0.975,33.8853270950211,0.758610522612962,2.5,73.3602377251573,4939,0.303444209045185,7.88532709502107,"per_person",0.00107630895113858,0.0775363149462436,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0.0775363149462436,-2.5,"Activity"
+"PHX_QUAD","hot_peak","C","weather_occ.33.T",42.997,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","groups.1.met",1.05,33.6704241916973,0.749642216972546,2.5,73.3602377251573,4939,0.299856886789019,7.67042419169729,"per_person",-0.00251101330502762,-0.137366588377539,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,-0.137366588377539,5,"Activity"
+"PHX_QUAD","hot_peak","C","weather_occ.31.T",45.524,32.4979939192563,0.869069348678124,2.5,74.0309864619341,4939,0.34762773947125,6.49799391925633,"per_person",0.0452598393772036,-1.30979686081849,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,-1.30979686081849,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","C","weather_occ.33.T",46.3915,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","weather_occ.33.T",47.523,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_peak","C","groups.1.met",1,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,0,"Activity"
+"PHX_QUAD","hot_peak","C","weather_occ.31.T",46.722,33.1640144991047,0.810974728809192,2.5,73.6941881671036,4939,0.324389891523677,7.16401449910472,"per_person",0.0220219914296308,-0.643776280970108,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,-0.643776280970108,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","C","weather_occ.31.T",47.92,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","C","groups.1.met",1.025,33.732319263018,0.752832826985355,2.5,73.3602377251573,4939,0.301133130794142,7.73231926301805,"per_person",-0.00123476929990429,-0.0754715170567763,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,-0.0754715170567763,2.49999999999999,"Activity"
+"PHX_QUAD","hot_peak","C","weather_occ.31.T",49.118,34.4305117041621,0.703363227857231,2.5,73.0291125752935,4939,0.281345291142893,8.43051170416205,"per_person",-0.0210226089511536,0.622720924087226,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0.622720924087226,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_peak","C","weather_occ.32.T",41.574,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","C","weather_occ.32.T",42.64,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","C","weather_occ.32.T",40.508,33.8077907800748,0.755919750235115,2.5,73.3602377251573,4939,0.302367900094046,7.80779078007482,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_peak","C","weather_occ.31.T",50.316,35.0329037134393,0.653709439209464,2.5,72.7007907820005,4939,0.261483775683786,9.03290371343932,"per_person",-0.0408841244102603,1.2251129333645,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_peak",33.8077907800748,1.2251129333645,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","NONE","groups.1.met",0.95,33.4108891271536,0,0,0,0,NA,7.4108891271536,"per_person",NA,0.131499560188807,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0.131499560188807,-5,"Activity"
+"PHX_QUAD","hot_humid","NONE","groups.1.met",1.05,33.1679497589174,0,0,0,0,NA,7.16794975891742,"per_person",NA,-0.111439808047372,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,-0.111439808047372,5,"Activity"
+"PHX_QUAD","hot_humid","NONE","groups.1.met",0.975,33.3442075220225,0,0,0,0,NA,7.34420752202251,"per_person",NA,0.0648179550577197,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0.0648179550577197,-2.5,"Activity"
+"PHX_QUAD","hot_humid","NONE","groups.1.met",1.025,33.2165715760519,0,0,0,0,NA,7.21657157605189,"per_person",NA,-0.0628179909129045,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,-0.0628179909129045,2.49999999999999,"Activity"
+"PHX_QUAD","hot_humid","NONE","groups.1.met",1,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,0,"Activity"
+"PHX_QUAD","hot_humid","NONE","weather_occ.32.T",43.706,34.0143070691672,0,0,0,0,NA,8.01430706916721,"per_person",NA,0.734917502202414,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0.734917502202414,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","NONE","weather_occ.32.T",44.772,34.7401767611702,0,0,0,0,NA,8.74017676117018,"per_person",NA,1.46078719420538,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,1.46078719420538,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","NONE","weather_occ.33.T",42.997,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","NONE","weather_occ.33.T",44.1285,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","NONE","weather_occ.33.T",45.26,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","NONE","weather_occ.32.T",42.64,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","NONE","weather_occ.33.T",46.3915,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","NONE","weather_occ.31.T",49.118,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","NONE","weather_occ.33.T",47.523,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","NONE","weather_occ.31.T",50.316,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","NONE","weather_occ.32.T",41.574,32.5351472453713,0,0,0,0,NA,6.53514724537129,"per_person",NA,-0.744242321593504,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,-0.744242321593504,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","NONE","weather_occ.31.T",45.524,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","NONE","weather_occ.31.T",46.722,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","NONE","weather_occ.32.T",40.508,31.7814372099701,0,0,0,0,NA,5.78143720997008,"per_person",NA,-1.49795235699472,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,-1.49795235699472,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","NONE","weather_occ.31.T",47.92,33.2793895669648,0,0,0,0,NA,7.2793895669648,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",33.2793895669648,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","groups.1.met",0.95,32.9678061064647,0.443083020688931,0.25,0,1499,1.77233208275572,6.96780610646467,"per_person",-0.0896723840660059,0.153917656205309,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0.153917656205309,-5,"Activity"
+"PHX_QUAD","hot_humid","A","groups.1.met",0.975,32.8899449145716,0.454262607450957,0.25,0,1499,1.81705042980383,6.88994491457156,"per_person",-0.0449540370179022,0.0760564643121953,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0.0760564643121953,-2.5,"Activity"
+"PHX_QUAD","hot_humid","A","groups.1.met",1,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,0,"Activity"
+"PHX_QUAD","hot_humid","A","groups.1.met",1.025,32.7396491649005,0.476922411151357,0.25,0,1499,1.90768964460543,6.73964916490053,"per_person",0.045685177783696,-0.0742392853588285,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,-0.0742392853588285,2.49999999999999,"Activity"
+"PHX_QUAD","hot_humid","A","groups.1.met",1.05,32.6802595441991,0.487690214718363,0.25,0,1499,1.95076085887345,6.68025954419906,"per_person",0.0887563920517209,-0.133628906060302,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,-0.133628906060302,5,"Activity"
+"PHX_QUAD","hot_humid","A","weather_occ.31.T",45.524,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","weather_occ.32.T",43.706,33.5605853814991,0.45372168766815,0.25,0,1499,1.8148867506726,7.56058538149906,"per_person",-0.0471177161491312,0.746696931239697,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0.746696931239697,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","A","weather_occ.33.T",44.1285,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","A","weather_occ.33.T",45.26,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","A","weather_occ.31.T",47.92,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","weather_occ.32.T",44.772,34.298335552736,0.441841208434155,0.25,0,1499,1.76736483373662,8.29833555273602,"per_person",-0.0946396330851087,1.48444710247666,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,1.48444710247666,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","A","weather_occ.31.T",50.316,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","weather_occ.33.T",42.997,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","A","weather_occ.32.T",40.508,31.2917703805527,0.489666829417363,0.25,0,1499,1.95866731766945,5.29177038055272,"per_person",0.0966628508477214,-1.52211806970665,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,-1.52211806970665,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","A","weather_occ.32.T",41.574,32.0576533966178,0.477493848753532,0.25,0,1499,1.90997539501413,6.05765339661776,"per_person",0.0479709281923988,-0.756235053641603,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,-0.756235053641603,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","A","weather_occ.31.T",46.722,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","weather_occ.31.T",49.118,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","A","weather_occ.32.T",42.64,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","A","weather_occ.33.T",46.3915,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","A","weather_occ.33.T",47.523,32.8138884502594,0.465501116705433,0.25,0,1499,1.86200446682173,6.81388845025936,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8138884502594,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","weather_occ.32.T",43.706,33.5768860013769,0.437421067790261,1.2,31.3930299439514,4159,0.364517556491884,7.57688600137695,"per_person",-0.0289482642883361,0.769655419348418,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0.769655419348418,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","B","weather_occ.32.T",41.574,32.0279819927056,0.507165252665715,1.2,31.6448532772183,4159,0.422637710554762,6.02798199270558,"per_person",0.0291718897745419,-0.779248589322954,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,-0.779248589322954,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","B","weather_occ.32.T",42.64,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","B","weather_occ.32.T",44.772,34.3371982735146,0.402978487655574,1.2,31.2687813536428,4159,0.335815406379645,8.3371982735146,"per_person",-0.0576504144005756,1.52996769148607,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,1.52996769148607,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","B","weather_occ.33.T",42.997,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","weather_occ.33.T",44.1285,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","weather_occ.31.T",49.118,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","B","weather_occ.31.T",46.722,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","B","weather_occ.33.T",45.26,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","weather_occ.31.T",50.316,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","B","groups.1.met",1.05,32.7016513320512,0.466298426866267,1.2,31.518386390621,4159,0.388582022388556,6.70165133205116,"per_person",-0.00488379839166458,-0.105579249977374,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,-0.105579249977374,5,"Activity"
+"PHX_QUAD","hot_humid","B","groups.1.met",0.95,32.9329565650679,0.47793256208567,1.2,31.518386390621,4159,0.398277135071391,6.93295656506793,"per_person",0.00481131429117099,0.125725983039402,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0.125725983039402,-5,"Activity"
+"PHX_QUAD","hot_humid","B","weather_occ.31.T",47.92,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","B","weather_occ.33.T",46.3915,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","weather_occ.32.T",40.508,31.2392432306445,0.542193979325603,1.2,31.7724334711699,4159,0.451828316104669,5.23924323064448,"per_person",0.0583624953244488,-1.56798735138405,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,-1.56798735138405,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","B","weather_occ.33.T",47.523,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","B","groups.1.met",0.975,32.8691815094252,0.47502601259729,1.2,31.518386390621,4159,0.395855010497742,6.86918150942522,"per_person",0.00238918971752139,0.0619509273966941,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0.0619509273966941,-2.5,"Activity"
+"PHX_QUAD","hot_humid","B","weather_occ.31.T",45.524,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","B","groups.1.met",1,32.8072305820285,0.472158984936264,1.2,31.518386390621,4159,0.39346582078022,6.80723058202853,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,0,0,"Activity"
+"PHX_QUAD","hot_humid","B","groups.1.met",1.025,32.7470818546924,0.469489721359487,1.2,31.518386390621,4159,0.391241434466239,6.7470818546924,"per_person",-0.00222438631398109,-0.0601487273361272,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.8072305820285,-0.0601487273361272,2.49999999999999,"Activity"
+"PHX_QUAD","hot_humid","C","weather_occ.32.T",43.706,33.0943679718391,0.919939097328069,2.5,74.6680555536726,4939,0.367975638931227,7.09436797183914,"per_person",-0.0290130934530538,0.807450235835049,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0.807450235835049,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","C","weather_occ.32.T",44.772,33.8922567120037,0.847920049166468,2.5,74.3724068700725,4939,0.339168019666587,7.89225671200371,"per_person",-0.0578207127176938,1.60533897599962,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,1.60533897599962,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","C","weather_occ.33.T",42.997,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","C","weather_occ.33.T",44.1285,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","C","weather_occ.31.T",46.722,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","C","weather_occ.33.T",45.26,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","C","groups.1.met",0.95,32.4059447495038,1.00494437764979,2.5,74.9663404517122,4939,0.401977751059914,6.40594474950382,"per_person",0.00498901867563289,0.119027013499725,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0.119027013499725,-5,"Activity"
+"PHX_QUAD","hot_humid","C","weather_occ.31.T",47.92,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","C","weather_occ.33.T",46.3915,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","C","groups.1.met",0.975,32.3454865680701,0.998720953952457,2.5,74.9663404517122,4939,0.399488381580983,6.34548656807006,"per_person",0.00249964919670159,0.0585688320659656,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0.0585688320659656,-2.5,"Activity"
+"PHX_QUAD","hot_humid","C","weather_occ.31.T",49.118,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","C","groups.1.met",1,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,0,"Activity"
+"PHX_QUAD","hot_humid","C","weather_occ.32.T",41.574,31.4700109051734,1.06513634019792,2.5,75.2672677252186,4939,0.42605453607917,5.47001090517337,"per_person",0.0290658036948883,-0.816906830830725,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,-0.816906830830725,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","C","weather_occ.32.T",42.64,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_humid","C","weather_occ.33.T",47.523,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_humid","C","weather_occ.31.T",50.316,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","C","groups.1.met",1.025,32.230063203592,0.986508372459866,2.5,74.9663404517122,4939,0.394603348983947,6.23006320359202,"per_person",-0.00238538340033473,-0.0568545324120677,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,-0.0568545324120677,2.49999999999999,"Activity"
+"PHX_QUAD","hot_humid","C","groups.1.met",1.05,32.188231353812,0.979718405105459,2.5,74.9663404517122,4939,0.391887362042183,6.18823135381196,"per_person",-0.00510137034209779,-0.0986863821921276,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,-0.0986863821921276,5,"Activity"
+"PHX_QUAD","hot_humid","C","weather_occ.31.T",45.524,32.2869177360041,0.992471830960703,2.5,74.9663404517122,4939,0.396988732384281,6.28691773600409,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_humid","C","weather_occ.32.T",40.508,30.6441496449655,1.13728756500453,2.5,75.5708442104723,4939,0.454915026001814,4.64414964496554,"per_person",0.0579262936175325,-1.64276809103855,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_humid",32.2869177360041,-1.64276809103855,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","weather_occ.32.T",43.706,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","weather_occ.32.T",41.574,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","weather_occ.32.T",44.772,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","groups.1.met",0.95,33.1049395135132,0,0,0,0,NA,7.1049395135132,"per_person",NA,0.173165276132615,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0.173165276132615,-5,"Activity"
+"PHX_QUAD","hot_dry","NONE","weather_occ.32.T",42.64,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","weather_occ.33.T",42.997,31.7688066073747,0,0,0,0,NA,5.76880660737474,"per_person",NA,-1.16296763000585,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,-1.16296763000585,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","NONE","groups.1.met",0.975,33.0173814894972,0,0,0,0,NA,7.01738148949721,"per_person",NA,0.085607252116624,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0.085607252116624,-2.5,"Activity"
+"PHX_QUAD","hot_dry","NONE","weather_occ.31.T",49.118,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","NONE","groups.1.met",1.05,32.7787260007816,0,0,0,0,NA,6.77872600078159,"per_person",NA,-0.153048236598998,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,-0.153048236598998,5,"Activity"
+"PHX_QUAD","hot_dry","NONE","weather_occ.33.T",44.1285,32.3600861945616,0,0,0,0,NA,6.36008619456163,"per_person",NA,-0.571688042818955,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,-0.571688042818955,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","NONE","weather_occ.31.T",46.722,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","NONE","groups.1.met",1,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,0,"Activity"
+"PHX_QUAD","hot_dry","NONE","weather_occ.31.T",50.316,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","NONE","weather_occ.33.T",45.26,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","NONE","weather_occ.31.T",47.92,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","NONE","groups.1.met",1.025,32.8480278546489,0,0,0,0,NA,6.84802785464894,"per_person",NA,-0.0837463827316469,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,-0.0837463827316469,2.49999999999999,"Activity"
+"PHX_QUAD","hot_dry","NONE","weather_occ.32.T",40.508,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","NONE","weather_occ.33.T",46.3915,33.4841267792141,0,0,0,0,NA,7.48412677921413,"per_person",NA,0.552352541833542,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0.552352541833542,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","NONE","weather_occ.33.T",47.523,34.0180191605286,0,0,0,0,NA,8.01801916052859,"per_person",NA,1.086244923148,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,1.086244923148,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","NONE","weather_occ.31.T",45.524,32.9317742373806,0,0,0,0,NA,6.93177423738059,"per_person",NA,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.9317742373806,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.31.T",46.722,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.31.T",47.92,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.32.T",41.574,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","A","weather_occ.31.T",49.118,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.31.T",50.316,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.32.T",42.64,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","A","weather_occ.32.T",40.508,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","A","weather_occ.32.T",43.706,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","A","groups.1.met",1.05,32.401758167038,0.376967833743564,0.25,0,1499,1.50787133497425,6.40175816703803,"per_person",0.0744113596810791,-0.171651076519268,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,-0.171651076519268,5,"Activity"
+"PHX_QUAD","hot_dry","A","weather_occ.32.T",44.772,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","A","weather_occ.33.T",42.997,31.3869944893498,0.381812118024975,0.25,0,1499,1.5272484720999,5.38699448934976,"per_person",0.0937884968067237,-1.18641475420753,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,-1.18641475420753,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","A","weather_occ.31.T",45.524,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","A","weather_occ.33.T",46.3915,33.1363680348221,0.347758744392003,0.25,0,1499,1.39103497756801,7.13636803482213,"per_person",-0.0424249977251634,0.562958791264833,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0.562958791264833,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","A","groups.1.met",0.975,32.6684679973647,0.348913492132475,0.25,0,1499,1.3956539685299,6.66846799736474,"per_person",-0.0378060067632759,0.095058753807443,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0.095058753807443,-2.5,"Activity"
+"PHX_QUAD","hot_dry","A","weather_occ.33.T",44.1285,31.9905890233883,0.369497171173293,0.25,0,1499,1.47798868469317,5.99058902338834,"per_person",0.044528709399998,-0.582820220168955,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,-0.582820220168955,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","A","weather_occ.33.T",47.523,33.6799745899433,0.338044570585303,0.25,0,1499,1.35217828234121,7.67997458994328,"per_person",-0.0812816929519613,1.10656534638599,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,1.10656534638599,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","A","groups.1.met",1,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,0,"Activity"
+"PHX_QUAD","hot_dry","A","weather_occ.33.T",45.26,32.5734092435573,0.358364993823294,0.25,0,1499,1.43345997529318,6.57340924355729,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","A","groups.1.met",0.95,32.765536795028,0.339402718485232,0.25,0,1499,1.35761087394093,6.76553679502797,"per_person",-0.0758491013522473,0.192127551470676,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,0.192127551470676,-5,"Activity"
+"PHX_QUAD","hot_dry","A","groups.1.met",1.025,32.4801481958047,0.367879658844281,0.25,0,1499,1.47151863537712,6.48014819580466,"per_person",0.0380586600839479,-0.0932610477526339,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5734092435573,-0.0932610477526339,2.49999999999999,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.31.T",45.524,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","B","groups.1.met",1.05,32.35854736764,0.42017863314156,1.2,31.0931456571169,4159,0.3501488609513,6.35854736764003,"per_person",-0.00273663187201717,-0.149764278352578,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,-0.149764278352578,5,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.31.T",46.722,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","B","weather_occ.31.T",47.92,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","B","groups.1.met",0.975,32.5923756269811,0.425005862516109,1.2,31.0931456571169,4159,0.354171552096757,6.5923756269811,"per_person",0.00128605927343983,0.0840639809884962,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0.0840639809884962,-2.5,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.31.T",49.118,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","B","weather_occ.32.T",41.574,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","B","groups.1.met",1,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,0,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.31.T",50.316,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","B","groups.1.met",0.95,32.678431263719,0.426508249794189,1.2,31.0931456571169,4159,0.355423541495158,6.67843126371901,"per_person",0.00253804867183999,0.170119617726407,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0.170119617726407,-5,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.32.T",42.64,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","B","groups.1.met",1.025,32.4260513566357,0.421976498013251,1.2,31.0931456571169,4159,0.351647081677709,6.42605135663569,"per_person",-0.00123841114560835,-0.0822602893569169,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,-0.0822602893569169,2.49999999999999,"Activity"
+"PHX_QUAD","hot_dry","B","weather_occ.32.T",40.508,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","B","weather_occ.33.T",46.3915,33.0862083245131,0.397918454701014,1.2,30.9585950437684,4159,0.331598712250845,7.08620832451312,"per_person",-0.021286780572473,0.57789667852051,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0.57789667852051,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","B","weather_occ.32.T",43.706,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","B","weather_occ.33.T",44.1285,31.9102485564043,0.449837638157323,1.2,31.2287377309471,4159,0.374864698464436,5.91024855640431,"per_person",0.0219792056411183,-0.598063089588297,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,-0.598063089588297,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","B","weather_occ.33.T",47.523,33.6441911586216,0.373828001906944,1.2,30.8250763768703,4159,0.311523334922453,7.64419115862164,"per_person",-0.0413621579008646,1.13587951262904,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,1.13587951262904,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","B","weather_occ.32.T",44.772,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","B","weather_occ.33.T",45.26,32.5083116459926,0.423462591387981,1.2,31.0931456571169,4159,0.352885492823318,6.50831164599261,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","B","weather_occ.33.T",42.997,31.2913412446388,0.477465362735899,1.2,31.3653809633267,4159,0.397887802279916,5.29134124463884,"per_person",0.0450023094565981,-1.21697040135377,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.5083116459926,-1.21697040135377,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","groups.1.met",0.95,32.2126680604857,0.892271453027519,2.5,73.9546029595517,4939,0.356908581211007,6.21266806048568,"per_person",0.00264921025566306,0.166542250493457,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0.166542250493457,-5,"Activity"
+"PHX_QUAD","hot_dry","C","weather_occ.33.T",46.3915,32.65142017441,0.832706604804144,2.5,73.6344457449178,4939,0.333082641921658,6.65142017440999,"per_person",-0.0211767290336866,0.605294364417759,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0.605294364417759,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","groups.1.met",0.975,32.1283160688085,0.889065420688752,2.5,73.9546029595517,4939,0.355626168275501,6.12831606880846,"per_person",0.00136679732015638,0.0821902588162331,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0.0821902588162331,-2.5,"Activity"
+"PHX_QUAD","hot_dry","C","weather_occ.32.T",43.706,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,2.50000000000001,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","C","weather_occ.32.T",41.574,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","C","weather_occ.31.T",46.722,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,-2.5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","C","weather_occ.33.T",47.523,33.2359830270299,0.782036133498657,2.5,73.316744338286,4939,0.312814453399463,7.23598302702993,"per_person",-0.0414449175558815,1.18985721703771,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,1.18985721703771,5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","groups.1.met",1,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,0,"Activity"
+"PHX_QUAD","hot_dry","C","weather_occ.32.T",44.772,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,5,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","C","weather_occ.32.T",42.64,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,0,"Outdoor temperature [PHX_QUAD] hot_humid"
+"PHX_QUAD","hot_dry","C","weather_occ.31.T",47.92,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,0,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","C","weather_occ.31.T",49.118,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,2.49999999999999,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","C","groups.1.met",1.025,31.9656307501538,0.882397104495134,2.5,73.9546029595517,4939,0.352958841798053,5.96563075015381,"per_person",-0.00130052915729095,-0.0804950598384195,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,-0.0804950598384195,2.49999999999999,"Activity"
+"PHX_QUAD","hot_dry","C","weather_occ.33.T",42.997,30.7713845893975,0.997422017977208,2.5,74.6023758323267,4939,0.398968807190883,4.77138458939753,"per_person",0.0447094362355386,-1.2747412205947,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,-1.2747412205947,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","weather_occ.31.T",45.524,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,-5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","C","weather_occ.31.T",50.316,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,5,"Outdoor temperature [PHX_QUAD] hot_peak"
+"PHX_QUAD","hot_dry","C","groups.1.met",1.05,31.9000529119964,0.878673088785167,2.5,73.9546029595517,4939,0.351469235514067,5.90005291199642,"per_person",-0.00279013544127765,-0.146072897995804,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,-0.146072897995804,5,"Activity"
+"PHX_QUAD","hot_dry","C","weather_occ.33.T",44.1285,31.4193612989479,0.940724895613695,2.5,74.2772386275771,4939,0.376289958245478,5.41936129894794,"per_person",0.0220305872901335,-0.626764511044289,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,-0.626764511044289,-2.5,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","weather_occ.33.T",45.26,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,0,"Outdoor temperature [PHX_QUAD] hot_dry"
+"PHX_QUAD","hot_dry","C","weather_occ.32.T",40.508,32.0461258099922,0.885648427388361,2.5,73.9546029595517,4939,0.354259370955344,6.04612580999223,"per_person",0,0,"C","C","Phoenix / courtyard","Phoenix / courtyard
+hot_dry",32.0461258099922,0,-5.00000000000002,"Outdoor temperature [PHX_QUAD] hot_humid"

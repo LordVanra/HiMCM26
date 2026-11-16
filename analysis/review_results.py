@@ -7,7 +7,12 @@ o = pd.read_csv('03_decision/result_options.csv')
 z = pd.read_csv('01_physics/result_zone_conditions.csv')
 s = pd.read_csv('04_sensitivity/result_sensitivity_detail.csv')
 m = pd.read_csv('01_physics/result_mass_balance.csv')
-assert len(o) == 72 and not o.duplicated(['venue','scenario','option']).any()
+expected = pd.MultiIndex.from_product(
+    [pd.read_csv('zones.csv').venue, ['hot_peak', 'hot_humid', 'hot_dry'], ['NONE', 'A', 'B', 'C']],
+    names=['venue', 'scenario', 'option']
+)
+actual = pd.MultiIndex.from_frame(o[['venue', 'scenario', 'option']])
+assert actual.is_unique and set(actual) == set(expected)
 assert o.physical_valid.all() and o.decision_ready.all()
 base = o[o.option.eq('NONE')].set_index(['venue','scenario'])
 errors = []

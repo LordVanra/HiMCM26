@@ -680,16 +680,11 @@ plot_sensitivity_gallery <- function(sensitivity, result, cfg, tables, book) {
   d$parameter_label  <- unname(labels[d$parameter])
 
   # --- Per-venue ranked bar and response-curve charts ------------------------
-<<<<<<< HEAD
   venues <- unique(d$venue[order(d$site)])
   for (j in seq_along(venues)) {
     venue <- venues[j]
     ranking_id <- if (j <= 6L) j else 19L + 2L * (j - 7L)
     response_id <- if (j <= 6L) j + 6L else ranking_id + 1L
-=======
-  for (j in seq_along(unique(result$options$venue))) {
-    venue <- unique(result$options$venue)[j]
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
     s     <- d[d$venue == venue & is.finite(d$delta_SET), ]
 
     # Rank parameters by maximum absolute SET impact across any option

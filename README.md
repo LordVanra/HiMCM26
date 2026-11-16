@@ -8,6 +8,8 @@ Rscript run_pipeline.R
 
 `Rscript test_pipeline.R` runs the checks. Synthetic data exist only in the test file. Monte Carlo stays off unless `run_monte_carlo(cfg, tables)` is called explicitly.
 
+The main run evaluates 12 venues × 3 weather scenarios × 4 cooling options, for 144 results. After it finishes, run `python analysis/make_paper_figures.py` to regenerate the five paper figures with pandas and Matplotlib.
+
 ## Required data and unresolved decisions
 
 `run_all()` checks the selected model's required data before computing anything. It stops with one list naming the table, field, row and venue for every missing required value. The individual model entry points also check their required data. Unknown fields used only by an inactive mode do not block the current run: for example, surface temperatures are not required by mixing-only physics, and annual tariffs are not required by purchase-cost comparison. Bounds are required only when sensitivity or Monte Carlo is requested. No Monte Carlo enable flag is required.
@@ -24,17 +26,12 @@ The chart style follows the supplied ggplot example: a minimal white background,
 
 D02 compares cost, electricity and evaporated water on a radar chart. Each axis is divided by its largest displayed value across the complete profiles; smaller means lower resource use, not a better overall recommendation. D07 is the minimax decision radar (maximum regret, cost, electricity, water). Both are now calculable. Minimax selects by maximum regret, never by radar area. Cost, energy and water remain reported trade-offs with disabled caps; they are not silently combined into the regret objective.
 
-These comparison layouts target the current one-hour, one-zone reference cases. Missing values are marked NA or explicitly omitted, never converted to zero. Existing model assumptions and incomplete cooler outputs still apply. Charts with no calculable values appear as pending cards instead of fabricated figures.
+These comparison layouts target the one-hour, one-zone reference cases. Missing values are marked NA or explicitly omitted, never converted to zero. Existing model assumptions and incomplete cooler outputs still apply. Charts with no calculable values appear as pending cards instead of fabricated figures.
 
 ## Inputs now assigned
 
-<<<<<<< HEAD
 - Twelve named reference venues, one occupied zone each. Names and links are in the zones.csv source column.
-- Each venue receives its city's sourced summer temperature, humidity and pressure for the user-selected one-hour scenario.
-=======
-- Six named reference venues, one occupied waiting-area zone each. Names and links are in the zones.csv source column.
-- Each venue now receives three simultaneous hot-weather hours from NASA POWER/MERRA-2: peak temperature, humid-hot and dry-hot. Each scenario lasts one hour. The original summer means are preserved in `sources/weather_occ_summer_mean.csv` but are no longer active decision scenarios.
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+- Each venue now receives three simultaneous hot-weather hours from NASA POWER/MERRA-2: peak temperature, humid-hot and dry-hot. Each scenario lasts one hour. The summer-mean reference inputs for all 12 venues are archived in `sources/weather_occ_summer_mean.csv`.
 - Each A/B/C candidate has one reference device. These are candidate designs, not claims about installed equipment.
 - Reference purchase prices: A $1,499; B $4,159; C $4,939. These are product references, not quoted prices of the hypothetical contest devices. Tax/installation are excluded.
 - B/C airflow: 9,000 / 13,350 CFM, converted to 4.2475269888 / 6.30049836672 m3/s. Dry-air mass flow is calculated at each outdoor inlet condition from the ASHRAE specific-volume equation; no fixed density is guessed.
@@ -69,24 +66,20 @@ Passenger heat safety is unassessed. Optional budget/kWh/water caps remain inact
 
 ## Evaporative cooling limit
 
-<<<<<<< HEAD
-Fixed B/C drops plus a constant-enthalpy direct-evaporation moisture balance require supersaturation for B/C under the Boston mean and C under the Dallas mean. Those water and moisture results are flagged. Electrical energy and purchase cost still calculate. The alternative `cfg.cooler_limit="saturation_limit"` solves the saturated outlet state at the same moist-air enthalpy, taking the smaller of the requested reduction and this physical maximum. It represents an ideal upper limit for direct evaporation. The default comparison uses fixed drops.
-=======
 `saturation_limit` is now the default. Outlet cooling is capped at `min(dT_max, T_out - Twb_out)`. Humidity ratio follows the existing constant-enthalpy balance; if numerical/model differences would produce RH above 100%, the outlet is additionally limited at the constant-enthalpy saturation boundary. This preserves both the wet-bulb temperature limit and the moisture check. No device calibration values are invented. It is an ideal upper-limit model, not a measured product performance curve. The supersaturation conflict is resolved for the default run; the explicitly selected `fixed` mode still rejects impossible states.
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
 
 A calibrated branch remains available as `cooler_limit="effectiveness"`. It requires `devices.T_ref` (degC), `RH_ref` (%) and `pressure_ref` (Pa), with reference conditions applying to the stated outlet drop. Those fields remain NA and are not required by the selected saturation-limit mode. The device caps describe outlet air in this model; waiting-area cooling is calculated by mixing, not assumed equal to 5/8 degC.
 
 ## Courtyard and airport scaling cases
 
-Dallas, Boston, and Phoenix each have a campus courtyard and a covered outdoor passenger area at an airport terminal. Each city uses the same summer weather as its bus and rail cases. The airport venues are curbside areas under canopies. Site identity, weather sources, and assumptions are in [DATA_README.md](DATA_README.md#additional-venue-case-studies).
+Dallas, Boston, and Phoenix each have a campus courtyard and a covered outdoor passenger area at an airport terminal. This separate scaling exercise uses the archived city summer means. The main pipeline uses the three hot-weather scenarios. The airport venues are curbside areas under canopies. Site identity, weather sources, and assumptions are in [DATA_README.md](DATA_README.md#additional-venue-case-studies).
 
 `Rscript 03_decision/venue_scaling.R` writes `03_decision/result_venue_scaling.csv`. It tests 1×, 2×, and 4× the estimated balanced outdoor exchange with one device, fixed passenger airspeed for each option, and one hour of operation. It runs both fixed-drop and saturation-limited evaporation. The output reports SET drop per kWh and the model's discomfort reduction per kWh at illustrative upper SET thresholds of 22, 24, and 26 °C.
 
 | Study area | Fan SET drop (°C), both sites | Larger cooler SET drop (°C), courtyard at 1× → 4× | Larger cooler SET drop (°C), canopy at 1× → 4× |
 |---|---:|---:|---:|
-| Dallas | 0.36 | 1.53 → 0.53 | 1.15 → 0.37 |
-| Boston | 2.73 | 1.30 → 0.55 | 1.06 → 0.40 |
+| Dallas | 0.36 | 1.51 → 0.52 | 1.14 → 0.36 |
+| Boston | 2.73 | 1.29 → 0.55 | 1.05 → 0.40 |
 | Phoenix | 0.59 | 1.66 → 0.60 | 1.28 → 0.42 |
 
 The table uses saturation-limited evaporation. With fixed drops, the larger cooler is physically invalid at both Dallas sites and both coolers are invalid at both Boston sites. The fan uses 0.25 kWh per modeled hour and gives the most SET reduction per kWh at all six sites. At the illustrative 24 °C upper SET threshold, the fan saves 2.37 °C·h of hot discomfort per kWh at both Phoenix sites. The Dallas and Boston baselines are below that threshold, so valid options there save zero hot discomfort despite lowering SET.

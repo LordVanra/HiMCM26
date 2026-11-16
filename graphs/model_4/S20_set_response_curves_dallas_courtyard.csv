@@ -1,161 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.pressure",94268.5,23.707932349408,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.076968536596457,-5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.met",1.05,23.5872580356056,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.0437057772059148,5,"Activity"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.pressure",96749.25,23.6688039525327,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.0378401397211796,-2.5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.pressure",101710.75,23.5943376280875,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.0366261847239997,2.49999999999999,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.pressure",104191.5,23.5588571224765,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.0721066903350405,5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.pressure",99230,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0,0,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.met",0.975,23.6648910558694,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.0339272430578497,-2.5,"Activity"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.met",1,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0,0,"Activity"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.met",1.025,23.5988659284743,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.0320978843372757,2.49999999999999,"Activity"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.T",27.74,21.997998999281,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-1.63296481353053,-5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.T",28.47,22.8415253105702,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.789438502241318,-2.5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.T",30.66,25.3152196505063,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,1.68425583769474,5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.T",29.2,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0,0,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","weather_occ.7.T",29.93,24.4628245991436,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.831860786332062,2.49999999999999,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.clo",0.342,23.4740728503453,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.156890962466285,-5,"Clothing"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.clo",0.351,23.5525004853585,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,-0.0784633274530506,-2.5,"Clothing"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.clo",0.378,23.7877962687517,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.156832455940172,5,"Clothing"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.clo",0.36,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0,0,"Clothing"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.met",0.95,23.7029833448038,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.0720195319922432,-5,"Activity"
-"DAL_QUAD","summer_mean_1h","NONE","groups.1.clo",0.369,23.7093846925479,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.6309638128115,0.0784208797363526,2.50000000000001,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","groups.1.met",0.975,23.3470808009681,0.317810254901325,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.0754531088465633,-2.5,"Activity"
-"DAL_QUAD","summer_mean_1h","A","groups.1.met",1,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0,0,"Activity"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.T",27.74,21.6074045920546,0.390594407226409,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-1.66422310006691,-5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","groups.1.met",1.025,23.231091820016,0.367774108458274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.0405358721055116,2.49999999999999,"Activity"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.T",28.47,22.4743396430368,0.367185667533448,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.797288049084727,-2.5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.T",30.66,24.9545874775526,0.360632172953732,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,1.68295978543105,5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","groups.1.met",1.05,23.2114119073293,0.375846128276351,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.0602157847922271,5,"Activity"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.T",29.2,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0,0,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.T",29.93,24.102652392687,0.360172206456614,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.831024700565486,2.49999999999999,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.pressure",101710.75,23.2374291780331,0.356908450054455,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.0341985140884162,2.49999999999999,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","groups.1.clo",0.351,23.1926539980506,0.359846487307866,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.0789736940708785,-2.5,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.pressure",104191.5,23.2043099299363,0.354547192540256,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.0673177621852581,5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","groups.1.clo",0.36,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0,0,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","groups.1.clo",0.342,23.1147767702971,0.359296080048164,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,-0.156850921824411,-5,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","groups.1.clo",0.369,23.3507948633854,0.358589829162465,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.0791671712639257,2.50000000000001,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","groups.1.clo",0.378,23.4300406127739,0.357755655977822,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.158412920652388,5,"Clothing"
-"DAL_QUAD","summer_mean_1h","A","groups.1.met",0.95,23.3866785696961,0.316304775107685,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.115050877574596,-5,"Activity"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.pressure",96749.25,23.3068621498335,0.361941802699274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.0352344577119439,-2.5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.pressure",99230,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0,0,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","A","weather_occ.7.pressure",94268.5,23.343398982438,0.364533366970011,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",23.2716276921215,0.0717712903164838,-5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.pressure",94268.5,22.7723442088124,0.935588140595584,1.2,32.9450582623647,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.126202044813333,-5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.pressure",101710.75,22.5850514754327,1.00928615265484,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.0610906885663773,2.49999999999999,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.pressure",96749.25,22.7084386450294,0.960365307503366,1.2,33.808580977581,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.0622964810302733,-2.5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.pressure",104191.5,22.5253800171774,1.03347710529907,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.120762146821651,5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.pressure",99230,22.6461421639991,0.98482164881246,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0,0,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","groups.1.met",1.05,22.5850692581031,1.00218877750252,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.0610729058959798,5,"Activity"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.T",30.66,24.3630926485513,0.95212700195496,1.2,34.480126159811,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,1.71695048455224,5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.T",29.2,22.6461421639991,0.98482164881246,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0,0,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.T",27.74,20.8809925386794,1.11700646060157,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-1.76514962531965,-5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.T",29.93,23.4713046634463,0.99151993569734,1.2,34.5757726894599,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.825162499447181,2.49999999999999,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","weather_occ.7.T",28.47,21.7857522887663,1.05577302180393,1.2,34.7691181783897,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.860389875232784,-2.5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","B","groups.1.met",0.975,22.6747223176844,0.990168738185044,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.0285801536852652,-2.5,"Activity"
-"DAL_QUAD","summer_mean_1h","B","groups.1.met",1,22.6461421639991,0.98482164881246,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0,0,"Activity"
-"DAL_QUAD","summer_mean_1h","B","groups.1.met",1.025,22.6141121975586,0.984753730915696,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.0320299664405113,2.49999999999999,"Activity"
-"DAL_QUAD","summer_mean_1h","B","groups.1.clo",0.342,22.4869970866959,0.987075763649404,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.159145077303229,-5,"Clothing"
-"DAL_QUAD","summer_mean_1h","B","groups.1.clo",0.351,22.5667867668458,0.985713718512716,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,-0.0793553971533072,-2.5,"Clothing"
-"DAL_QUAD","summer_mean_1h","B","groups.1.clo",0.369,22.7248633950543,0.984521297493636,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.0787212310551766,2.50000000000001,"Clothing"
-"DAL_QUAD","summer_mean_1h","B","groups.1.clo",0.36,22.6461421639991,0.98482164881246,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0,0,"Clothing"
-"DAL_QUAD","summer_mean_1h","B","groups.1.met",0.95,22.6997970218128,1.00318632299096,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.0536548578137435,-5,"Activity"
-"DAL_QUAD","summer_mean_1h","B","groups.1.clo",0.378,22.8030488848038,0.984747383947887,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",22.6461421639991,0.156906720804745,5,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"DAL_QUAD","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,0,"Activity"
-"DAL_QUAD","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"DAL_QUAD","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,5,"Activity"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.T",30.66,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,5,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.T",29.93,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-5,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,5,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,0,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-5,"Activity"
-"DAL_QUAD","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.pressure",94268.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.pressure",96749.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,-2.5,"Air pressure [DAL_QUAD]"
-"DAL_QUAD","summer_mean_1h","C","weather_occ.7.pressure",99230,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / courtyard","Dallas / courtyard
-summer_mean_1h",NA,NA,0,"Air pressure [DAL_QUAD]"
+"DAL_QUAD","hot_peak","NONE","weather_occ.19.T",40.508,31.0829457597075,0,0,0,0,NA,5.08294575970748,"per_person",NA,-1.41319407507649,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,-1.41319407507649,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.T",34.6845,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.21.T",34.713,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","NONE","weather_occ.19.T",41.574,31.7958128589677,0,0,0,0,NA,5.79581285896771,"per_person",NA,-0.700326975816264,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,-0.700326975816264,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","NONE","weather_occ.19.T",42.64,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.T",35.59725,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.21.T",35.6265,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","NONE","weather_occ.21.T",36.54,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.T",36.51,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.19.T",43.706,33.1840091649669,0,0,0,0,NA,7.18400916496687,"per_person",NA,0.687869330182899,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0.687869330182899,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","NONE","weather_occ.21.T",37.4535,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.T",37.42275,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.19.T",44.772,33.8596045897855,0,0,0,0,NA,7.85960458978549,"per_person",NA,1.36346475500152,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,1.36346475500152,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","NONE","weather_occ.21.T",38.367,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.T",38.3355,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.RH",38.969,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.RH",39.9945,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.RH",41.02,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.RH",42.0455,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","NONE","weather_occ.20.RH",43.071,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.496139834784,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.21.T",37.4535,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","A","weather_occ.19.T",40.508,30.8915206837443,0.191425075963231,0.25,0,1499,0.765700303852924,4.89152068374425,"per_person",0.0496431754125979,-1.42560486892964,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,-1.42560486892964,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","A","weather_occ.20.T",37.42275,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.21.T",38.367,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","A","weather_occ.21.T",34.713,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","A","weather_occ.19.T",41.574,31.6107476643378,0.185065194629949,0.25,0,1499,0.740260778519797,5.61074766433776,"per_person",0.0242036500794711,-0.706377888336132,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,-0.706377888336132,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","A","weather_occ.20.T",38.3355,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.21.T",35.6265,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","A","weather_occ.21.T",36.54,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","A","weather_occ.20.T",36.51,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.19.T",42.64,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","A","weather_occ.20.T",34.6845,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.19.T",43.706,33.0106801638428,0.173329001124038,0.25,0,1499,0.693316004496154,7.01068016384284,"per_person",-0.0227411239441722,0.693554611168942,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0.693554611168942,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","A","weather_occ.20.T",35.59725,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.19.T",44.772,33.6919609118694,0.167643677916132,0.25,0,1499,0.670574711664528,7.69196091186936,"per_person",-0.0454824167757977,1.37483535919547,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,1.37483535919547,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","A","weather_occ.20.RH",38.969,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.20.RH",39.9945,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.20.RH",41.02,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.20.RH",42.0455,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","A","weather_occ.20.RH",43.071,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.3171255526739,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.19.T",42.64,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","B","weather_occ.20.T",37.42275,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.19.T",43.706,32.7833760848546,0.400633080112314,1.2,32.6787073964645,4159,0.333860900093595,6.78337608485456,"per_person",-0.0230822195226684,0.715567993610101,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0.715567993610101,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","B","weather_occ.21.T",38.367,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","B","weather_occ.21.T",37.4535,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","B","weather_occ.19.T",44.772,33.4863509974958,0.37325359228965,1.2,32.5480808677761,4159,0.311044660241375,7.48635099749584,"per_person",-0.0458984593748883,1.41854290625138,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,1.41854290625138,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","B","weather_occ.20.T",38.3355,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.20.T",34.6845,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.21.T",34.713,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","B","weather_occ.20.T",35.59725,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.21.T",35.6265,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","B","weather_occ.20.T",36.51,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.19.T",40.508,30.5987228945477,0.484222865159794,1.2,33.0772254217466,4159,0.403519054299828,4.59872289454769,"per_person",0.0465759346835644,-1.46908519669677,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,-1.46908519669677,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","B","weather_occ.21.T",36.54,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","B","weather_occ.20.RH",38.969,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.19.T",41.574,31.339507995436,0.45630486353171,1.2,32.9432751492805,4159,0.380254052943091,5.339507995436,"per_person",0.0233109333268278,-0.728300095808457,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,-0.728300095808457,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","B","weather_occ.20.RH",39.9945,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.20.RH",41.02,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.20.RH",42.0455,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","B","weather_occ.20.RH",43.071,32.0678080912445,0.428331743539516,1.2,32.8104373582311,4159,0.356943119616264,6.06780809124446,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",32.0678080912445,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.21.T",38.367,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","C","weather_occ.21.T",35.6265,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","C","weather_occ.21.T",34.713,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","C","weather_occ.21.T",36.54,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","C","weather_occ.21.T",37.4535,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_peak","C","weather_occ.20.RH",41.02,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.19.T",40.508,30.044440953071,1.03850480663645,2.5,78.6742964315174,4939,0.415401922654578,4.04444095307104,"per_person",0.0471612877691698,-1.53109729449942,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,-1.53109729449942,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","C","weather_occ.20.RH",38.969,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.20.RH",42.0455,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.19.T",41.574,30.8161395959518,0.979673263015862,2.5,78.3555634998474,4939,0.391869305206345,4.81613959595185,"per_person",0.0236286703209359,-0.759398651618604,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,-0.759398651618604,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","C","weather_occ.20.RH",39.9945,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.20.RH",43.071,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.19.T",42.64,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","C","weather_occ.20.T",34.6845,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.19.T",43.706,32.3223069848849,0.861702180082013,2.5,77.7260284737683,4939,0.344680872032805,6.32230698488486,"per_person",-0.0235597628526036,0.746768737314408,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0.746768737314408,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","C","weather_occ.20.T",35.59725,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.19.T",44.772,33.0560766653325,0.803527924453,2.5,77.4152048255713,4939,0.3214111697812,7.05607666533249,"per_person",-0.0468294651042086,1.48053841776204,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,1.48053841776204,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_peak","C","weather_occ.20.T",36.51,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.20.T",37.42275,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_peak","C","weather_occ.20.T",38.3355,31.5755382475705,0.920601587213522,2.5,78.0394778743704,4939,0.368240634885409,5.57553824757045,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_peak",31.5755382475705,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.21.T",38.367,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","NONE","weather_occ.21.T",37.4535,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","NONE","weather_occ.21.T",36.54,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","NONE","weather_occ.21.T",35.6265,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","NONE","weather_occ.21.T",34.713,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","NONE","weather_occ.19.T",40.508,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.RH",38.969,29.8966660365584,0,0,0,0,NA,3.89666603655842,"per_person",NA,-0.198523684673091,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,-0.198523684673091,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.T",37.42275,31.0019706199664,0,0,0,0,NA,5.00197061996636,"per_person",NA,0.906780898734848,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0.906780898734848,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.19.T",41.574,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.RH",39.9945,29.994415024173,0,0,0,0,NA,3.99441502417303,"per_person",NA,-0.100774697058476,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,-0.100774697058476,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.T",38.3355,31.9212868643988,0,0,0,0,NA,5.92128686439882,"per_person",NA,1.82609714316731,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,1.82609714316731,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.19.T",42.64,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.RH",41.02,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.RH",42.0455,30.1991203940161,0,0,0,0,NA,4.19912039401609,"per_person",NA,0.103930672784582,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0.103930672784582,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.19.T",43.706,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.RH",43.071,30.3063240281311,0,0,0,0,NA,4.30632402813114,"per_person",NA,0.211134306899631,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0.211134306899631,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.19.T",44.772,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.T",36.51,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.T",34.6845,28.3165784932556,0,0,0,0,NA,2.31657849325557,"per_person",NA,-1.77861122797594,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,-1.77861122797594,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","NONE","weather_occ.20.T",35.59725,29.2002341428176,0,0,0,0,NA,3.20023414281762,"per_person",NA,-0.894955578413885,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",30.0951897212315,-0.894955578413885,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.19.T",42.64,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","A","weather_occ.21.T",34.713,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","A","weather_occ.19.T",40.508,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","A","weather_occ.21.T",37.4535,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","A","weather_occ.19.T",43.706,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","A","weather_occ.21.T",35.6265,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","A","weather_occ.19.T",41.574,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","A","weather_occ.21.T",38.367,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","A","weather_occ.19.T",44.772,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","A","weather_occ.21.T",36.54,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","A","weather_occ.20.T",36.51,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.T",37.42275,30.7300008942331,0.271969725733221,0.25,0,1499,1.08787890293289,4.73000089423314,"per_person",-0.0169391645121806,0.911015689862893,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0.911015689862893,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.T",34.6845,28.033608110015,0.282970383240588,0.25,0,1499,1.13188153296235,2.03360811001498,"per_person",0.027063465517287,-1.78537709435527,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,-1.78537709435527,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.T",38.3355,31.6540708631512,0.267216001247604,0.25,0,1499,1.06886400499042,5.65407086315121,"per_person",-0.0359540624546497,1.83508565878097,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,1.83508565878097,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.T",35.59725,28.9204548317943,0.279779311023304,0.25,0,1499,1.11911724409322,2.92045483179432,"per_person",0.0142991766481515,-0.898530372575923,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,-0.898530372575923,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.RH",41.02,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.RH",42.0455,29.9197093305059,0.279411063510203,0.25,0,1499,1.11764425404081,3.91970933050589,"per_person",0.0128261865957455,0.100724126135646,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0.100724126135646,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.RH",38.969,29.6266977701389,0.26996826641949,0.25,0,1499,1.07987306567796,3.62669777013893,"per_person",-0.024945001767108,-0.192287434231314,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,-0.192287434231314,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.RH",39.9945,29.7213580659167,0.273056958256287,0.25,0,1499,1.09222783302515,3.72135806591675,"per_person",-0.0125902344199176,-0.0976271384534968,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,-0.0976271384534968,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","A","weather_occ.20.RH",43.071,30.0236679553596,0.282656072771534,0.25,0,1499,1.13062429108614,4.02366795535961,"per_person",0.0258062236410694,0.204682750989363,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.8189852043702,0.204682750989363,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.19.T",42.64,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","B","weather_occ.21.T",34.713,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","B","weather_occ.19.T",40.508,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","B","weather_occ.19.T",43.706,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","B","weather_occ.21.T",35.6265,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","B","weather_occ.19.T",41.574,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","B","weather_occ.19.T",44.772,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","B","weather_occ.21.T",36.54,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","B","weather_occ.20.T",34.6845,27.6315819852448,0.684996508010801,1.2,34.0693892776698,4159,0.570830423342334,1.63158198524476,"per_person",0.059173517926873,-1.84961944948819,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,-1.84961944948819,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.21.T",37.4535,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","B","weather_occ.20.T",35.59725,28.5500733470475,0.650160795770162,1.2,33.9520929892045,4159,0.541800663141802,2.55007334704746,"per_person",0.0301437577263405,-0.931128087685494,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,-0.931128087685494,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.21.T",38.367,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","B","weather_occ.20.T",36.51,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.RH",38.969,29.2828281152551,0.613837921303311,1.2,33.8294179563828,4159,0.511531601086093,3.28282811525511,"per_person",-0.000125304329368858,-0.198373319477849,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,-0.198373319477849,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.T",37.42275,30.4258665804595,0.576104039506905,1.2,33.7204348530836,4159,0.480086699589088,4.42586658045945,"per_person",-0.0315702058263738,0.944665145726496,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0.944665145726496,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.RH",39.9945,29.3804150639362,0.613999960236875,1.2,33.8325963223127,4159,0.511666633530729,3.38041506393616,"per_person",9.72811526744888e-06,-0.100786370796797,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,-0.100786370796797,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.T",38.3355,31.3848449648274,0.536441899571376,1.2,33.6060742010732,4159,0.44703491630948,5.38484496482744,"per_person",-0.0646219891059818,1.90364353009448,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,1.90364353009448,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.RH",41.02,29.481201434733,0.613988286498554,1.2,33.8357746882454,4159,0.511656905415461,3.48120143473296,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.RH",42.0455,29.5853426619027,0.613777732113434,1.2,33.8389530541814,4159,0.511481443427861,3.58534266190266,"per_person",-0.000175461987600101,0.104141227169702,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0.104141227169702,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","B","weather_occ.20.RH",43.071,29.6929910899597,0.613332938171485,1.2,33.8421314201202,4159,0.511110781809571,3.69299108995965,"per_person",-0.000546123605890458,0.211789655226699,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",29.481201434733,0.211789655226699,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.19.T",42.64,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","C","weather_occ.19.T",43.706,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","C","weather_occ.19.T",44.772,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","C","weather_occ.21.T",36.54,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","C","weather_occ.21.T",34.713,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","C","weather_occ.20.T",34.6845,26.8362393793485,1.48033911390711,2.5,81.034909663353,4939,0.592135645562844,0.836239379348456,"per_person",0.0614479990213838,-1.9322312255294,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,-1.9322312255294,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.21.T",37.4535,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","C","weather_occ.20.T",37.42275,29.7570230724114,1.24494754755492,2.5,80.2045637744398,4939,0.497979019021967,3.75702307241144,"per_person",-0.032708627519493,0.98855246753358,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0.98855246753358,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.21.T",35.6265,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","C","weather_occ.20.T",35.59725,27.7952977201961,1.40493642262154,2.5,80.7558001982181,4939,0.561974569048614,1.79529772019609,"per_person",0.0312869225071537,-0.97317288468177,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,-0.97317288468177,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.21.T",38.367,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_humid","C","weather_occ.20.T",38.3355,30.7619012506636,1.15938561373522,2.5,79.9324396356213,4939,0.463754245494087,4.7619012506636,"per_person",-0.0669334010473733,1.99343064578574,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,1.99343064578574,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.20.T",36.51,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.20.RH",41.02,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.20.RH",38.969,28.571890086446,1.32477595011243,2.5,80.4638982553762,4939,0.529910380044971,2.57189008644599,"per_person",-0.000777266496489015,-0.196580518431869,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,-0.196580518431869,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.20.RH",39.9945,28.668519674072,1.32589535010102,2.5,80.4714580577093,4939,0.530358140040407,2.66851967407202,"per_person",-0.000329506501053345,-0.0999509308058428,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,-0.0999509308058428,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.20.RH",42.0455,28.8720717544928,1.32704863952328,2.5,80.4865776623971,4939,0.530819455809312,2.87207175449281,"per_person",0.000131809267851613,0.103601149614953,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0.103601149614953,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.19.T",40.508,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_humid","C","weather_occ.20.RH",43.071,28.9793782698573,1.32694575827382,2.5,80.4941374647517,4939,0.530778303309526,2.97937826985732,"per_person",9.06567680658554e-05,0.210907664979466,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0.210907664979466,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_humid","C","weather_occ.19.T",41.574,28.7684706048779,1.32671911635365,2.5,80.4790178600495,4939,0.53068764654146,2.76847060487786,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_humid",28.7684706048779,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.21.T",36.54,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","NONE","weather_occ.21.T",37.4535,29.0869039815151,0,0,0,0,NA,3.08690398151512,"per_person",NA,0.660919324180718,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0.660919324180718,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.T",37.42275,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.21.T",34.713,27.0875231808282,0,0,0,0,NA,1.0875231808282,"per_person",NA,-1.33846147650621,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,-1.33846147650621,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","NONE","weather_occ.21.T",38.367,29.7413495869909,0,0,0,0,NA,3.74134958699093,"per_person",NA,1.31536492965652,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,1.31536492965652,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.T",38.3355,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.21.T",35.6265,27.75931407529,0,0,0,0,NA,1.75931407529001,"per_person",NA,-0.666670582044393,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,-0.666670582044393,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","NONE","weather_occ.19.T",42.64,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.19.T",43.706,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.19.T",44.772,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.T",34.6845,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.T",35.59725,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.T",36.51,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.RH",38.969,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.RH",39.9945,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.RH",42.0455,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.RH",41.02,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","NONE","weather_occ.19.T",40.508,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.19.T",41.574,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","NONE","weather_occ.20.RH",43.071,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.4259846573344,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.19.T",40.508,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","A","weather_occ.20.T",37.42275,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.19.T",41.574,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","A","weather_occ.20.T",38.3355,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.19.T",42.64,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","A","weather_occ.21.T",34.713,26.8581670443156,0.229356136512582,0.25,0,1499,0.917424546050327,0.858167044315618,"per_person",0.0408948484801499,-1.34868518862624,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,-1.34868518862624,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","A","weather_occ.21.T",37.4535,28.8731459663641,0.213758015151004,0.25,0,1499,0.855032060604017,2.87314596636412,"per_person",-0.0214976369661599,0.666293733422258,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0.666293733422258,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","A","weather_occ.19.T",43.706,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","A","weather_occ.21.T",35.6265,27.5349132292139,0.224400846076112,0.25,0,1499,0.897603384304446,1.5349132292139,"per_person",0.0210736867342689,-0.67193900372796,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,-0.67193900372796,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","A","weather_occ.21.T",38.367,29.5330453828002,0.208304204190704,0.25,0,1499,0.833216816762814,3.53304538280023,"per_person",-0.0433128808073633,1.32619314985837,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,1.32619314985837,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","A","weather_occ.19.T",44.772,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","A","weather_occ.21.T",36.54,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","A","weather_occ.20.T",36.51,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.T",34.6845,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.RH",38.969,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.T",35.59725,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.RH",39.9945,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.RH",41.02,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.RH",42.0455,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","A","weather_occ.20.RH",43.071,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",28.2068522329419,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.19.T",40.508,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","B","weather_occ.19.T",42.64,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","B","weather_occ.21.T",37.4535,28.5233743940105,0.563529587504664,1.2,33.4598895218815,4159,0.46960798958722,2.52337439401046,"per_person",-0.0186746835753748,0.683328944471167,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0.683328944471167,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","B","weather_occ.19.T",43.706,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","B","weather_occ.20.T",37.42275,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.19.T",41.574,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","B","weather_occ.21.T",38.367,29.2008729016416,0.540476685349343,1.2,33.3426121507359,4159,0.45039723779112,3.20087290164159,"per_person",-0.0378854353714757,1.3608274521023,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,1.3608274521023,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","B","weather_occ.19.T",44.772,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","B","weather_occ.21.T",36.54,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","B","weather_occ.20.T",38.3355,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.21.T",34.713,26.4583596493442,0.629163531483986,1.2,33.8167908781863,4159,0.524302942903322,0.458359649344214,"per_person",0.0360202697407264,-1.38168580019508,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,-1.38168580019508,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","B","weather_occ.20.T",34.6845,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.21.T",35.6265,27.1514724547339,0.607841620556126,1.2,33.6969754409718,4159,0.506534683796772,1.15147245473389,"per_person",0.0182520106341766,-0.688572994805405,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,-0.688572994805405,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","B","weather_occ.20.T",35.59725,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.T",36.51,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.RH",38.969,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.RH",39.9945,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.RH",41.02,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.RH",42.0455,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","B","weather_occ.20.RH",43.071,27.8400454495393,0.585939207795114,1.2,33.5780094952796,4159,0.488282673162595,1.84004544953929,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.8400454495393,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.20.T",37.42275,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.19.T",42.64,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,0,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","C","weather_occ.20.T",36.51,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,0,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.20.T",38.3355,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,5,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.20.RH",41.02,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,0,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.21.T",34.713,25.7443744471298,1.34314873369841,2.5,80.4340942910305,4939,0.43500927233128,0,"per_person",-0.06588612084213,-1.17374617440088,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,-1.42937172727109,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","C","weather_occ.19.T",43.706,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,2.50000000000001,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","C","weather_occ.20.T",34.6845,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-4.99999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.20.RH",38.969,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.21.T",37.4535,27.881715056238,1.2051889252771,2.5,79.584848887592,4939,0.482075570110838,1.88171505623803,"per_person",-0.0188198230625716,0.707968881837147,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0.707968881837147,2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","C","weather_occ.21.T",38.367,28.5844455826361,1.15690400435479,2.5,79.3057881190695,4939,0.462761601741916,2.58444558263614,"per_person",-0.0381337914314941,1.41069940823526,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,1.41069940823526,5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","C","weather_occ.19.T",44.772,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,5,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","C","weather_occ.20.RH",42.0455,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,2.49999999999999,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.21.T",35.6265,26.4611933969448,1.29812067834519,2.5,80.1489937697502,4939,0.519248271338077,0.461193396944822,"per_person",0.0183528781646671,-0.712552777456061,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,-0.712552777456061,-2.5,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","C","weather_occ.20.RH",43.071,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.20.T",35.59725,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-2.49999999999999,"Outdoor temperature [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.21.T",36.54,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,0,"Outdoor temperature [DAL_QUAD] hot_dry"
+"DAL_QUAD","hot_dry","C","weather_occ.20.RH",39.9945,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-2.5,"Outdoor humidity [DAL_QUAD] hot_humid"
+"DAL_QUAD","hot_dry","C","weather_occ.19.T",40.508,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-5.00000000000002,"Outdoor temperature [DAL_QUAD] hot_peak"
+"DAL_QUAD","hot_dry","C","weather_occ.19.T",41.574,27.1737461744009,1.25223848293352,2.5,79.8659147623647,4939,0.50089539317341,1.17374617440088,"per_person",0,0,"C","C","Dallas / courtyard","Dallas / courtyard
+hot_dry",27.1737461744009,0,-2.5,"Outdoor temperature [DAL_QUAD] hot_peak"

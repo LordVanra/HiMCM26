@@ -1,644 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-<<<<<<< HEAD
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",92966.25,27.0199846506458,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0.0316142904731791,-2.5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",95350,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,0,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",31.35,25.6585587836675,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-1.32981157650508,-5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",32.175,26.3237433726817,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-0.664626987490927,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",97733.75,26.9578347994929,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-0.0305355606796667,2.49999999999999,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",33,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,0,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",100117.5,26.9283154867887,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-0.0600548733839013,5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",33.825,27.6519951709897,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0.663624810817083,2.49999999999999,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.T",34.65,28.3143578546938,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,1.32598749452122,5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","weather_occ.5.pressure",90582.5,27.0527448039448,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0.0643744437721772,-5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8.2,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8.4,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","groups.1.met",0.975,27.0453351188206,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0.0569647586480144,-2.5,"Activity"
-"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",7.6,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,-5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,0,"Activity"
-"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",7.8,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,-2.5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1.025,26.9334100880343,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-0.0549602721382527,2.49999999999999,"Activity"
-"PHX_BUS","summer_mean_1h","NONE","devices.15.dT_max",8,26.9883703601726,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0,0,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","NONE","groups.1.met",0.95,27.1047004526481,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,0.116330092475479,-5,"Activity"
-"PHX_BUS","summer_mean_1h","NONE","groups.1.met",1.05,26.8973572645192,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",26.9883703601726,-0.0910130956533344,5,"Activity"
-"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",7.6,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,-5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",92966.25,25.9000325848858,1.11995206575993,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0.0198191745506406,-2.5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",7.8,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,-2.5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",95350,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,0,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,0,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",97733.75,25.8610355560882,1.09679924340473,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-0.0191778542470047,2.49999999999999,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",100117.5,25.8424879224838,1.08582756430484,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-0.0377254878513504,5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8.2,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","devices.15.dT_max",8.4,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",34.65,27.2174742022516,1.09688365244217,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,1.33726079191644,5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","groups.1.met",0.975,25.9642571552275,1.08107796359312,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0.0840437448922842,-2.5,"Activity"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",33,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,0,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","groups.1.met",1,25.8802134103352,1.10815694983739,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0,0,"Activity"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",33.825,26.5488660444419,1.10312912654781,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0.668652634106671,2.49999999999999,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","groups.1.met",1.025,25.7985190235885,1.13489106444583,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-0.0816943867466904,2.49999999999999,"Activity"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",32.175,25.2116482730327,1.11209509964893,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-0.668565137302462,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.pressure",90582.5,25.9205470566685,1.13219774727622,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0.0403336463333481,-5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","groups.1.met",1.05,25.7363028244266,1.16105444009268,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-0.143910585908625,5,"Activity"
-"PHX_BUS","summer_mean_1h","A","weather_occ.5.T",31.35,24.5433307030984,1.11522808056906,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,-1.33688270723674,-5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","A","groups.1.met",0.95,26.0507242575975,1.05397619505058,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.8802134103352,0.170510847262289,-5,"Activity"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",34.65,26.8791296885027,1.43522816619106,1.2,32.5488807134951,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,1.43679467477566,5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",33,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,0,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",32.175,24.7230706613598,1.60067271132186,1.2,32.8620600961577,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-0.719264352367286,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",31.35,24.0037061988181,1.65485258484937,1.2,32.9678812293062,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-1.43862881490895,-5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.T",33.825,26.1610392822055,1.49095588878417,1.2,32.6525615532232,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0.718704268478415,2.49999999999999,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",97733.75,25.3931674241728,1.56466737532013,1.2,33.574144431722,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-0.0491675895542976,2.49999999999999,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",92966.25,25.4930428382256,1.52694181242015,1.2,31.9397638267055,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0.0507078244985308,-2.5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",100117.5,25.3454576177352,1.58285786905352,1.2,34.3913347342316,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-0.0968773959919176,5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",95350,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,0,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8.2,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,2.49999999999999,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8.4,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","groups.1.met",0.975,25.4912270329177,1.55410808590289,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0.0488920191906246,-2.5,"Activity"
-"PHX_BUS","summer_mean_1h","B","groups.1.met",1.05,25.3685410530866,1.52881621143261,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-0.0737939606404403,5,"Activity"
-"PHX_BUS","summer_mean_1h","B","groups.1.met",1,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,0,"Activity"
-"PHX_BUS","summer_mean_1h","B","groups.1.met",1.025,25.3956463447008,1.53776374333351,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,-0.0466886690262633,2.49999999999999,"Activity"
-"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",7.6,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,-5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",7.8,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,-2.5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","weather_occ.5.pressure",90582.5,25.5453802048639,1.50736459908088,1.2,31.1225735241988,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0.1030451911368,-5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","devices.15.dT_max",8,25.4423350137271,1.5460353464455,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0,0,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","B","groups.1.met",0.95,25.5424446916202,1.56225576102791,1.2,32.7569541292133,4159,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",25.4423350137271,0.100109677893073,-5,"Activity"
-"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",7.6,24.3007441812833,2.68762617888929,2.5,73.9961748518725,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.160469378715312,-5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",7.8,24.2208233086487,2.76754705152385,2.5,75.9545306723267,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.0805485060807527,-2.5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0,0,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",34.65,25.6728679871999,2.64148986749386,2.5,77.4183455894049,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,1.53259318463196,5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8.2,24.0592832011457,2.92908715902685,2.5,79.8729583833308,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.080991601422248,2.49999999999999,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","devices.15.dT_max",8.4,23.9776831178403,3.01068724233229,2.5,81.8330307752073,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.162591684727687,5,"Outlet cooling C [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",92966.25,24.2048993243004,2.8150853263454,2.5,75.9697452773935,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.0646245217323802,-2.5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",31.35,22.4653290727353,3.19322971093223,2.5,78.4153619733633,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-1.6749457298327,-5,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",95350,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0,0,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",32.175,23.3892908121463,2.93445256053534,2.5,78.1635592863368,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.75098399042167,-2.50000000000001,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","groups.1.met",0.975,24.1807782071816,2.86455691163895,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.0405034046136628,-2.5,"Activity"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",97733.75,24.0774326720081,2.8804021274848,2.5,79.8571715878409,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.0628421305598614,2.49999999999999,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",33,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0,0,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","groups.1.met",1,24.140274802568,2.8480955576046,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0,0,"Activity"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",100117.5,24.0162754025749,2.91204008421376,2.5,81.8008847430679,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.12399939999306,5,"Air pressure [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.T",33.825,24.9067027462269,2.74529242476271,2.5,77.6650551815816,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.766427943658972,2.49999999999999,"Outdoor temperature [PHX_BUS]"
-"PHX_BUS","summer_mean_1h","C","groups.1.met",1.025,24.1021573321049,2.83125275592944,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.0381174704630887,2.49999999999999,"Activity"
-"PHX_BUS","summer_mean_1h","C","groups.1.met",1.05,24.0841066981217,2.81325056639751,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,-0.0561681044462468,5,"Activity"
-"PHX_BUS","summer_mean_1h","C","groups.1.met",0.95,24.2240574066534,2.88064304599464,2.5,77.9134584326161,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.0837826040854424,-5,"Activity"
-"PHX_BUS","summer_mean_1h","C","weather_occ.5.pressure",90582.5,24.2714762119813,2.78126859196341,2.5,74.0260321221732,4939,NA,NA,"per_person",NA,NA,NA,NA,"Phoenix / bus","Phoenix / bus
-summer_mean_1h",24.140274802568,0.131201409413368,-5,"Air pressure [PHX_BUS]"
-=======
-"PHX_BUS","hot_peak","NONE","weather_occ.13.T",46.722,34.3505207970151,0,0,0,0,NA,8.35052079701508,"per_person",NA,-0.582108383814848,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-0.582108383814827,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","NONE","weather_occ.14.T",41.574,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","NONE","weather_occ.14.T",42.64,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","NONE","weather_occ.15.T",44.1285,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","NONE","weather_occ.13.T",45.524,33.7488431799923,0,0,0,0,NA,7.74884317999233,"per_person",NA,-1.1837860008376,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-1.18378600083763,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","NONE","weather_occ.15.T",42.997,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","NONE","weather_occ.14.T",40.508,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","NONE","weather_occ.15.T",46.3915,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","NONE","weather_occ.14.T",43.706,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","NONE","weather_occ.15.T",45.26,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","NONE","groups.1.met",1,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,0,"Activity"
-"PHX_BUS","hot_peak","NONE","weather_occ.15.T",47.523,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","NONE","groups.1.met",0.975,35.0051193891776,0,0,0,0,NA,9.00511938917755,"per_person",NA,0.0724902083476238,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,0.0724902083476735,-2.5,"Activity"
-"PHX_BUS","hot_peak","NONE","weather_occ.13.T",47.92,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","NONE","weather_occ.13.T",49.118,35.4965999148459,0,0,0,0,NA,9.49659991484586,"per_person",NA,0.563970734015932,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,0.563970734015975,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_peak",34.9326291808299,0.0724902083476238,-2.5,"Activity"
 "PHX_BUS","hot_peak","NONE","groups.1.met",1.05,34.8046135276037,0,0,0,0,NA,8.80461352760368,"per_person",NA,-0.12801565322625,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-0.128015653226228,5,"Activity"
+hot_peak",34.9326291808299,-0.12801565322625,5,"Activity"
 "PHX_BUS","hot_peak","NONE","groups.1.met",1.025,34.8622155442715,0,0,0,0,NA,8.86221554427149,"per_person",NA,-0.0704136365584347,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-0.0704136365584276,2.49999999999999,"Activity"
+hot_peak",34.9326291808299,-0.0704136365584347,2.49999999999999,"Activity"
+"PHX_BUS","hot_peak","NONE","groups.1.met",1,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,0,"Activity"
+"PHX_BUS","hot_peak","NONE","weather_occ.14.T",42.64,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","NONE","weather_occ.13.T",47.92,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","NONE","weather_occ.14.T",40.508,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","NONE","weather_occ.13.T",45.524,33.7488431799923,0,0,0,0,NA,7.74884317999233,"per_person",NA,-1.1837860008376,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,-1.1837860008376,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","NONE","weather_occ.14.T",43.706,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","NONE","weather_occ.13.T",49.118,35.4965999148459,0,0,0,0,NA,9.49659991484586,"per_person",NA,0.563970734015932,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0.563970734015932,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","NONE","weather_occ.14.T",41.574,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","NONE","weather_occ.13.T",46.722,34.3505207970151,0,0,0,0,NA,8.35052079701508,"per_person",NA,-0.582108383814848,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,-0.582108383814848,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_peak","NONE","weather_occ.14.T",44.772,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,-2.8421709430404e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_peak",34.9326291808299,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","NONE","weather_occ.13.T",50.316,36.0431046993997,0,0,0,0,NA,10.0431046993997,"per_person",NA,1.11047551856979,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,1.11047551856977,5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_peak",34.9326291808299,1.11047551856979,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","NONE","weather_occ.15.T",42.997,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","NONE","groups.1.met",0.95,35.0791050874862,0,0,0,0,NA,9.07910508748624,"per_person",NA,0.146475906656313,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.9326291808299,0.146475906656271,-5,"Activity"
-"PHX_BUS","hot_peak","A","weather_occ.13.T",46.722,33.6178866089454,0.732634188069632,0.25,0,1499,2.93053675227853,7.61788660894545,"per_person",0.0668042651506369,-0.598809450102507,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,-0.598809450102557,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","A","weather_occ.13.T",45.524,32.9989145129401,0.749928667052252,0.25,0,1499,2.99971466820901,6.99891451294008,"per_person",0.135982181081118,-1.21778154610788,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,-1.21778154610786,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","A","weather_occ.13.T",47.92,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","A","weather_occ.15.T",44.1285,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","A","weather_occ.14.T",41.574,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","A","weather_occ.15.T",45.26,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_peak",34.9326291808299,0.146475906656313,-5,"Activity"
+"PHX_BUS","hot_peak","NONE","weather_occ.15.T",44.1285,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","NONE","weather_occ.15.T",45.26,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","NONE","weather_occ.15.T",46.3915,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","NONE","weather_occ.15.T",47.523,34.9326291808299,0,0,0,0,NA,8.93262918082993,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.9326291808299,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","A","weather_occ.14.T",40.508,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","A","weather_occ.13.T",50.316,35.3587553881228,0.684349311276918,0.25,0,1499,2.73739724510767,9.35875538812279,"per_person",-0.126335242020218,1.14205932907484,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,1.14205932907485,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","A","groups.1.met",1,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,0,"Activity"
-"PHX_BUS","hot_peak","A","weather_occ.14.T",42.64,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","A","weather_occ.15.T",42.997,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","A","weather_occ.15.T",46.3915,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","A","weather_occ.13.T",49.118,34.7967411816306,0.699858733215272,0.25,0,1499,2.79943493286109,8.79674118163059,"per_person",-0.0642975542668012,0.580045122582632,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,0.580045122582646,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","A","groups.1.met",1.025,34.1291141191233,0.733101425148227,0.25,0,1499,2.93240570059291,8.12911411912327,"per_person",0.0686732134650185,-0.0875819399246893,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,-0.0875819399246538,2.49999999999999,"Activity"
+hot_peak",34.216696059048,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","A","groups.1.met",0.975,34.3062508313889,0.698868557788693,0.25,0,1499,2.79547423115477,8.30625083138886,"per_person",-0.0682582559731202,0.0895547723409038,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,0.0895547723409464,-2.5,"Activity"
+hot_peak",34.216696059048,0.0895547723409038,-2.5,"Activity"
+"PHX_BUS","hot_peak","A","weather_occ.14.T",41.574,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","A","groups.1.met",1,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,0,"Activity"
+"PHX_BUS","hot_peak","A","groups.1.met",1.025,34.1291141191233,0.733101425148227,0.25,0,1499,2.93240570059291,8.12911411912327,"per_person",0.0686732134650185,-0.0875819399246893,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,-0.0875819399246893,2.49999999999999,"Activity"
+"PHX_BUS","hot_peak","A","weather_occ.14.T",42.64,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","A","weather_occ.13.T",47.92,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_peak","A","groups.1.met",1.05,34.0551008243889,0.749512703214748,0.25,0,1499,2.99805081285899,8.05510082438893,"per_person",0.134318325731101,-0.161595234659025,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,-0.161595234659053,5,"Activity"
-"PHX_BUS","hot_peak","A","groups.1.met",0.95,34.3977198903165,0.681385197169782,0.25,0,1499,2.72554078867913,8.39771989031646,"per_person",-0.138191698448765,0.181023831268504,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,0.181023831268547,-5,"Activity"
-"PHX_BUS","hot_peak","A","weather_occ.14.T",44.772,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","A","weather_occ.15.T",47.523,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_peak",34.216696059048,-0.161595234659025,5,"Activity"
+"PHX_BUS","hot_peak","A","weather_occ.15.T",42.997,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","A","weather_occ.14.T",43.706,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.216696059048,4.2632564145606e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","B","weather_occ.13.T",46.722,33.613036501924,0.7374842950911,1.2,30.983728950021,4159,0.61457024590925,7.61303650192398,"per_person",0.0436740572167515,-0.63451725247495,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-0.634517252474929,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","B","weather_occ.13.T",47.92,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","B","weather_occ.15.T",46.3915,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","B","weather_occ.14.T",41.574,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","B","weather_occ.15.T",42.997,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","B","groups.1.met",1.025,34.1806348375879,0.681580706683548,1.2,30.8433817354451,4159,0.56798392223629,8.18063483758795,"per_person",-0.00291226645620901,-0.0669189168109838,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-0.0669189168110265,2.49999999999999,"Activity"
+hot_peak",34.216696059048,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","A","weather_occ.13.T",49.118,34.7967411816306,0.699858733215272,0.25,0,1499,2.79943493286109,8.79674118163059,"per_person",-0.0642975542668012,0.580045122582632,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0.580045122582632,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","A","weather_occ.15.T",44.1285,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","A","weather_occ.14.T",44.772,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","A","weather_occ.13.T",50.316,35.3587553881228,0.684349311276918,0.25,0,1499,2.73739724510767,9.35875538812279,"per_person",-0.126335242020218,1.14205932907484,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,1.14205932907484,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","A","weather_occ.15.T",45.26,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","A","weather_occ.13.T",45.524,32.9989145129401,0.749928667052252,0.25,0,1499,2.99971466820901,6.99891451294008,"per_person",0.135982181081118,-1.21778154610788,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,-1.21778154610788,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","A","weather_occ.15.T",46.3915,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","A","groups.1.met",0.95,34.3977198903165,0.681385197169782,0.25,0,1499,2.72554078867913,8.39771989031646,"per_person",-0.138191698448765,0.181023831268504,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0.181023831268504,-5,"Activity"
+"PHX_BUS","hot_peak","A","weather_occ.13.T",46.722,33.6178866089454,0.732634188069632,0.25,0,1499,2.93053675227853,7.61788660894545,"per_person",0.0668042651506369,-0.598809450102507,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,-0.598809450102507,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","A","weather_occ.15.T",47.523,34.216696059048,0.715933121781973,0.25,0,1499,2.86373248712789,8.21669605904795,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.216696059048,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","B","weather_occ.14.T",42.64,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","B","weather_occ.15.T",44.1285,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","B","groups.1.met",1,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,0,"Activity"
-"PHX_BUS","hot_peak","B","groups.1.met",0.95,34.3873911543593,0.69171393312692,1.2,30.8433817354451,4159,0.576428277605767,8.38739115435932,"per_person",0.00553208891326784,0.139837399960392,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,0.139837399960371,-5,"Activity"
-"PHX_BUS","hot_peak","B","weather_occ.13.T",45.524,32.9568159559331,0.792027224059183,1.2,31.1252728771458,4159,0.660022686715986,6.95681595593314,"per_person",0.089126498023487,-1.29073779846578,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-1.29073779846583,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","B","groups.1.met",0.975,34.3164976420126,0.68862174716493,1.2,30.8433817354451,4159,0.573851455970775,8.31649764201262,"per_person",0.00295526727827655,0.0689438876136919,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,0.0689438876136705,-2.5,"Activity"
-"PHX_BUS","hot_peak","B","weather_occ.13.T",50.316,35.4546505376,0.588454161799724,1.2,30.5662397984428,4159,0.490378468166437,9.45465053759999,"per_person",-0.0805177205260618,1.20709678320106,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,1.20709678320107,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","B","weather_occ.14.T",44.772,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","B","weather_occ.15.T",45.26,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","B","weather_occ.15.T",47.523,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","B","weather_occ.13.T",49.118,34.8613082927293,0.635291622116519,1.2,30.7042217563446,4159,0.529409685097099,8.86130829272934,"per_person",-0.0414865035953996,0.613754538330411,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,0.613754538330369,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_peak",34.2475537543989,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","B","weather_occ.14.T",40.508,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_peak",34.2475537543989,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","B","weather_occ.15.T",42.997,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","B","groups.1.met",0.975,34.3164976420126,0.68862174716493,1.2,30.8433817354451,4159,0.573851455970775,8.31649764201262,"per_person",0.00295526727827655,0.0689438876136919,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0.0689438876136919,-2.5,"Activity"
+"PHX_BUS","hot_peak","B","groups.1.met",1,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,0,"Activity"
 "PHX_BUS","hot_peak","B","weather_occ.14.T",43.706,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-2.8421709430404e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_peak",34.2475537543989,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","B","groups.1.met",1.05,34.1268473226251,0.677766204978589,1.2,30.8433817354451,4159,0.564805170815491,8.12684732262509,"per_person",-0.00609101787700794,-0.12070643177384,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",34.2475537543989,-0.120706431773826,5,"Activity"
-"PHX_BUS","hot_peak","C","weather_occ.13.T",46.722,33.0023689935942,1.34815180342088,2.5,73.6941881671036,4939,0.539260721368353,7.0023689935942,"per_person",0.0384138015541879,-0.678142887700318,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-0.678142887700311,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","C","weather_occ.14.T",41.574,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","C","weather_occ.15.T",46.3915,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","C","groups.1.met",0.975,33.74604758276,1.25907180641757,2.5,73.3602377251573,4939,0.503628722567026,7.74604758275999,"per_person",0.002781802752861,0.0655357014654712,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,0.0655357014654854,-2.5,"Activity"
+hot_peak",34.2475537543989,-0.12070643177384,5,"Activity"
+"PHX_BUS","hot_peak","B","weather_occ.14.T",44.772,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","B","weather_occ.15.T",44.1285,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","B","weather_occ.14.T",41.574,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","B","weather_occ.13.T",47.92,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","B","groups.1.met",1.025,34.1806348375879,0.681580706683548,1.2,30.8433817354451,4159,0.56798392223629,8.18063483758795,"per_person",-0.00291226645620901,-0.0669189168109838,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,-0.0669189168109838,2.49999999999999,"Activity"
+"PHX_BUS","hot_peak","B","weather_occ.13.T",49.118,34.8613082927293,0.635291622116519,1.2,30.7042217563446,4159,0.529409685097099,8.86130829272934,"per_person",-0.0414865035953996,0.613754538330411,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0.613754538330411,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","B","weather_occ.13.T",50.316,35.4546505376,0.588454161799724,1.2,30.5662397984428,4159,0.490378468166437,9.45465053759999,"per_person",-0.0805177205260618,1.20709678320106,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,1.20709678320106,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","B","weather_occ.15.T",45.26,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","B","weather_occ.15.T",46.3915,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","B","weather_occ.15.T",47.523,34.2475537543989,0.685075426430998,1.2,30.8433817354451,4159,0.570896188692499,8.24755375439893,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","B","groups.1.met",0.95,34.3873911543593,0.69171393312692,1.2,30.8433817354451,4159,0.576428277605767,8.38739115435932,"per_person",0.00553208891326784,0.139837399960392,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,0.139837399960392,-5,"Activity"
+"PHX_BUS","hot_peak","B","weather_occ.13.T",45.524,32.9568159559331,0.792027224059183,1.2,31.1252728771458,4159,0.660022686715986,6.95681595593314,"per_person",0.089126498023487,-1.29073779846578,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,-1.29073779846578,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","B","weather_occ.13.T",46.722,33.613036501924,0.7374842950911,1.2,30.983728950021,4159,0.61457024590925,7.61303650192398,"per_person",0.0436740572167515,-0.63451725247495,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",34.2475537543989,-0.63451725247495,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_peak","C","weather_occ.14.T",42.64,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_peak",33.6805118812945,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","C","weather_occ.13.T",47.92,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","C","groups.1.met",1,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,0,"Activity"
-"PHX_BUS","hot_peak","C","weather_occ.15.T",44.1285,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","C","groups.1.met",0.95,33.8137591682095,1.26534591927672,2.5,73.3602377251573,4939,0.506138367710687,7.81375916820952,"per_person",0.00529144789652203,0.133247286915008,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,0.133247286914987,-5,"Activity"
-"PHX_BUS","hot_peak","C","weather_occ.15.T",45.26,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_peak",33.6805118812945,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","C","weather_occ.14.T",41.574,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","C","weather_occ.14.T",40.508,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_peak","C","weather_occ.14.T",43.706,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_peak",33.6805118812945,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","C","weather_occ.13.T",49.118,34.3355065520906,1.16109336275522,2.5,73.0291125752935,4939,0.464437345102087,8.33550655209064,"per_person",-0.0364095747120786,0.654994670796128,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0.654994670796128,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","C","weather_occ.13.T",50.316,34.9683713746548,1.07473332474495,2.5,72.7007907820005,4939,0.429893329897979,8.96837137465477,"per_person",-0.0709535899161864,1.28785949336025,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,1.28785949336025,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","C","weather_occ.15.T",44.1285,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","C","weather_occ.14.T",44.772,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_peak","C","weather_occ.15.T",42.997,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","C","groups.1.met",0.95,33.8137591682095,1.26534591927672,2.5,73.3602377251573,4939,0.506138367710687,7.81375916820952,"per_person",0.00529144789652203,0.133247286915008,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0.133247286915008,-5,"Activity"
+"PHX_BUS","hot_peak","C","weather_occ.15.T",45.26,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","C","weather_occ.13.T",45.524,32.3007991699454,1.44804401004688,2.5,74.0309864619341,4939,0.579217604018751,6.30079916994545,"per_person",0.0783706842045859,-1.37971271134906,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,-1.37971271134906,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","C","groups.1.met",0.975,33.74604758276,1.25907180641757,2.5,73.3602377251573,4939,0.503628722567026,7.74604758275999,"per_person",0.002781802752861,0.0655357014654712,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0.0655357014654712,-2.5,"Activity"
+"PHX_BUS","hot_peak","C","weather_occ.15.T",46.3915,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_peak","C","weather_occ.13.T",46.722,33.0023689935942,1.34815180342088,2.5,73.6941881671036,4939,0.539260721368353,7.0023689935942,"per_person",0.0384138015541879,-0.678142887700318,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,-0.678142887700318,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_peak","C","groups.1.met",1,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,0,"Activity"
+"PHX_BUS","hot_peak","C","groups.1.met",1.025,33.6164237413697,1.24579180290178,2.5,73.3602377251573,4939,0.498316721160714,7.61642374136971,"per_person",-0.0025301986534515,-0.0640881399248059,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,-0.0640881399248059,2.49999999999999,"Activity"
+"PHX_BUS","hot_peak","C","weather_occ.15.T",47.523,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_peak",33.6805118812945,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_peak","C","groups.1.met",1.05,33.5661862994566,1.23842722814708,2.5,73.3602377251573,4939,0.495370891258833,7.5661862994566,"per_person",-0.00547602855533286,-0.114325581837917,"C","C","Phoenix / bus","Phoenix / bus
 hot_peak",33.6805118812945,-0.114325581837917,5,"Activity"
-"PHX_BUS","hot_peak","C","weather_occ.13.T",49.118,34.3355065520906,1.16109336275522,2.5,73.0291125752935,4939,0.464437345102087,8.33550655209064,"per_person",-0.0364095747120786,0.654994670796128,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,0.654994670796086,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","C","weather_occ.15.T",42.997,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","C","weather_occ.14.T",44.772,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","C","groups.1.met",1.025,33.6164237413697,1.24579180290178,2.5,73.3602377251573,4939,0.498316721160714,7.61642374136971,"per_person",-0.0025301986534515,-0.0640881399248059,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-0.064088139924813,2.49999999999999,"Activity"
-"PHX_BUS","hot_peak","C","weather_occ.14.T",40.508,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_peak","C","weather_occ.13.T",45.524,32.3007991699454,1.44804401004688,2.5,74.0309864619341,4939,0.579217604018751,6.30079916994545,"per_person",0.0783706842045859,-1.37971271134906,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.37971271134911,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_peak","C","weather_occ.15.T",47.523,33.6805118812945,1.25211729953541,2.5,73.3602377251573,4939,0.500846919814165,7.68051188129451,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,-1.4210854715202e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_peak","C","weather_occ.13.T",50.316,34.9683713746548,1.07473332474495,2.5,72.7007907820005,4939,0.429893329897979,8.96837137465477,"per_person",-0.0709535899161864,1.28785949336025,"C","C","Phoenix / bus","Phoenix / bus
-hot_peak",33.6805118812945,1.28785949336029,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","NONE","weather_occ.14.T",41.574,32.9974816249184,0,0,0,0,NA,6.99748162491844,"per_person",NA,-0.737558881602588,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-0.737558881602624,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","NONE","weather_occ.14.T",42.64,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","NONE","weather_occ.13.T",47.92,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","NONE","weather_occ.13.T",46.722,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","NONE","weather_occ.15.T",46.3915,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","NONE","weather_occ.15.T",44.1285,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","NONE","weather_occ.15.T",47.523,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","NONE","groups.1.met",1,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,0,"Activity"
-"PHX_BUS","hot_humid","NONE","weather_occ.15.T",42.997,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","NONE","weather_occ.15.T",45.26,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_humid",33.735040506521,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_humid","NONE","groups.1.met",1.05,33.6419748700275,0,0,0,0,NA,7.6419748700275,"per_person",NA,-0.0930656364935274,"C","C","Phoenix / bus","Phoenix / bus
 hot_humid",33.735040506521,-0.0930656364935274,5,"Activity"
+"PHX_BUS","hot_humid","NONE","weather_occ.14.T",40.508,32.2497245536836,0,0,0,0,NA,6.24972455368356,"per_person",NA,-1.48531595283747,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,-1.48531595283747,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","NONE","weather_occ.13.T",45.524,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_humid","NONE","weather_occ.13.T",49.118,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_humid",33.735040506521,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","NONE","weather_occ.14.T",41.574,32.9974816249184,0,0,0,0,NA,6.99748162491844,"per_person",NA,-0.737558881602588,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,-0.737558881602588,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","NONE","weather_occ.13.T",46.722,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","NONE","weather_occ.13.T",50.316,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","NONE","groups.1.met",0.975,33.7903059454085,0,0,0,0,NA,7.79030594540847,"per_person",NA,0.0552654388874458,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0.0552654388874458,-2.5,"Activity"
+"PHX_BUS","hot_humid","NONE","weather_occ.15.T",45.26,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","NONE","weather_occ.14.T",42.64,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","NONE","weather_occ.14.T",43.706,34.4627762268621,0,0,0,0,NA,8.46277622686208,"per_person",NA,0.727735720341052,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0.727735720341052,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","NONE","groups.1.met",1,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,0,"Activity"
+"PHX_BUS","hot_humid","NONE","weather_occ.15.T",46.3915,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_humid","NONE","weather_occ.14.T",44.772,35.1808383925065,0,0,0,0,NA,9.1808383925065,"per_person",NA,1.44579788598548,"C","C","Phoenix / bus","Phoenix / bus
 hot_humid",33.735040506521,1.44579788598548,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","NONE","weather_occ.14.T",43.706,34.4627762268621,0,0,0,0,NA,8.46277622686208,"per_person",NA,0.727735720341052,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,0.727735720341073,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","NONE","groups.1.met",1.025,33.6813999416793,0,0,0,0,NA,7.68139994167926,"per_person",NA,-0.0536405648417642,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-0.0536405648417215,2.49999999999999,"Activity"
-"PHX_BUS","hot_humid","NONE","groups.1.met",0.975,33.7903059454085,0,0,0,0,NA,7.79030594540847,"per_person",NA,0.0552654388874458,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,0.0552654388874743,-2.5,"Activity"
-"PHX_BUS","hot_humid","NONE","weather_occ.13.T",50.316,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","NONE","weather_occ.14.T",40.508,32.2497245536836,0,0,0,0,NA,6.24972455368356,"per_person",NA,-1.48531595283747,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-1.48531595283742,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","NONE","weather_occ.13.T",45.524,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,-2.1316282072803e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_humid",33.735040506521,-0.0536405648417642,2.49999999999999,"Activity"
+"PHX_BUS","hot_humid","NONE","weather_occ.15.T",47.523,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","NONE","weather_occ.15.T",42.997,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","NONE","weather_occ.15.T",44.1285,33.735040506521,0,0,0,0,NA,7.73504050652102,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",33.735040506521,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_humid","NONE","groups.1.met",0.95,33.8472630787644,0,0,0,0,NA,7.84726307876436,"per_person",NA,0.11222257224334,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",33.735040506521,0.112222572243375,-5,"Activity"
-"PHX_BUS","hot_humid","A","weather_occ.13.T",47.92,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","A","weather_occ.13.T",46.722,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","A","weather_occ.14.T",42.64,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","A","weather_occ.15.T",44.1285,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","A","weather_occ.14.T",41.574,32.0576533966178,0.939828228300676,0.25,0,1499,3.75931291320271,6.05765339661776,"per_person",0.0747046881565154,-0.756235053641717,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,-0.756235053641674,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","A","weather_occ.13.T",49.118,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","A","weather_occ.15.T",45.26,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","A","groups.1.met",1,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,0,"Activity"
-"PHX_BUS","hot_humid","A","groups.1.met",0.95,32.9678061064647,0.879456972299693,0.25,0,1499,3.51782788919877,6.96780610646467,"per_person",-0.16678033584742,0.153917656205195,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,0.153917656205223,-5,"Activity"
-"PHX_BUS","hot_humid","A","groups.1.met",1.025,32.7396491649005,0.941750776778726,0.25,0,1499,3.7670031071149,6.73964916490053,"per_person",0.0823948820687121,-0.0742392853589422,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,-0.0742392853589777,2.49999999999999,"Activity"
-"PHX_BUS","hot_humid","A","weather_occ.14.T",43.706,33.5605853814991,0.902190845363016,0.25,0,1499,3.60876338145206,7.56058538149906,"per_person",-0.0758448435941261,0.746696931239583,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,0.746696931239626,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","A","weather_occ.15.T",42.997,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_humid",33.735040506521,0.11222257224334,-5,"Activity"
 "PHX_BUS","hot_humid","A","groups.1.met",1.05,32.6802595441991,0.961715325828429,0.25,0,1499,3.84686130331372,6.68025954419907,"per_person",0.162253078267526,-0.133628906060409,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,-0.133628906060373,5,"Activity"
-"PHX_BUS","hot_humid","A","weather_occ.14.T",44.772,34.2983355527366,0.882502839769941,0.25,0,1499,3.53001135907977,8.29833555273656,"per_person",-0.154596865966425,1.48444710247708,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,1.48444710247713,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","A","weather_occ.15.T",47.523,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","A","weather_occ.15.T",46.3915,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_humid",32.8138884502595,-0.133628906060409,5,"Activity"
 "PHX_BUS","hot_humid","A","groups.1.met",0.975,32.8899449145716,0.900361030836912,0.25,0,1499,3.60144412334765,6.88994491457156,"per_person",-0.0831641016985429,0.0760564643120816,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,0.0760564643121242,-2.5,"Activity"
-"PHX_BUS","hot_humid","A","weather_occ.13.T",45.524,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","A","weather_occ.13.T",50.316,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_humid",32.8138884502595,0.0760564643120816,-2.5,"Activity"
+"PHX_BUS","hot_humid","A","weather_occ.14.T",42.64,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","A","weather_occ.14.T",40.508,31.2917703805527,0.957954173130897,0.25,0,1499,3.83181669252359,5.29177038055266,"per_person",0.147208467477398,-1.52211806970682,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8138884502595,-1.52211806970678,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","B","weather_occ.15.T",44.1285,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_humid",32.8138884502595,-1.52211806970682,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","A","weather_occ.13.T",45.524,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","A","groups.1.met",1,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,0,"Activity"
+"PHX_BUS","hot_humid","A","weather_occ.13.T",47.92,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","A","weather_occ.14.T",43.706,33.5605853814991,0.902190845363016,0.25,0,1499,3.60876338145206,7.56058538149906,"per_person",-0.0758448435941261,0.746696931239583,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0.746696931239583,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","A","weather_occ.13.T",49.118,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","A","weather_occ.14.T",41.574,32.0576533966178,0.939828228300676,0.25,0,1499,3.75931291320271,6.05765339661776,"per_person",0.0747046881565154,-0.756235053641717,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,-0.756235053641717,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","A","weather_occ.13.T",46.722,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","A","groups.1.met",1.025,32.7396491649005,0.941750776778726,0.25,0,1499,3.7670031071149,6.73964916490053,"per_person",0.0823948820687121,-0.0742392853589422,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,-0.0742392853589422,2.49999999999999,"Activity"
+"PHX_BUS","hot_humid","A","weather_occ.14.T",44.772,34.2983355527366,0.882502839769941,0.25,0,1499,3.53001135907977,8.29833555273656,"per_person",-0.154596865966425,1.48444710247708,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,1.48444710247708,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","A","weather_occ.13.T",50.316,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","A","weather_occ.15.T",42.997,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","A","weather_occ.15.T",44.1285,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","A","weather_occ.15.T",45.26,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","A","weather_occ.15.T",46.3915,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","A","weather_occ.15.T",47.523,32.8138884502595,0.921152056261548,0.25,0,1499,3.68460822504619,6.81388845025948,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","A","groups.1.met",0.95,32.9678061064647,0.879456972299693,0.25,0,1499,3.51782788919877,6.96780610646467,"per_person",-0.16678033584742,0.153917656205195,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8138884502595,0.153917656205195,-5,"Activity"
+"PHX_BUS","hot_humid","B","weather_occ.15.T",45.26,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","weather_occ.14.T",40.508,31.2146193908567,1.03510516282686,1.2,31.7724334711699,4159,0.862587635689049,5.2146193908567,"per_person",0.117292198038381,-1.62606659048352,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,-1.62606659048352,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","B","weather_occ.14.T",41.574,32.0326079020834,0.964873722835037,1.2,31.6448532772183,4159,0.804061435695864,6.0326079020834,"per_person",0.058765998045196,-0.808078079256823,"C","C","Phoenix / bus","Phoenix / bus
 hot_humid",32.8406859813402,-0.808078079256823,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","B","weather_occ.14.T",42.64,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","B","weather_occ.13.T",47.92,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","B","weather_occ.14.T",44.772,34.4261788278578,0.754659564648684,1.2,31.2687813536428,4159,0.62888297054057,8.42617882785782,"per_person",-0.116412467110099,1.5854928465176,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,1.58549284651757,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","B","weather_occ.13.T",46.722,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","B","weather_occ.13.T",49.118,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_humid","B","weather_occ.14.T",43.706,33.6386633027929,0.824112924069176,1.2,31.3930299439514,4159,0.686760770057647,7.6386633027929,"per_person",-0.0585346675930213,0.797977321452677,"C","C","Phoenix / bus","Phoenix / bus
 hot_humid",32.8406859813402,0.797977321452677,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","B","groups.1.met",1.025,32.7940883498012,0.887311591878095,1.2,31.518386390621,4159,0.73942632656508,6.79408834980116,"per_person",-0.00586911108558863,-0.0465976315390577,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-0.0465976315390222,2.49999999999999,"Activity"
-"PHX_BUS","hot_humid","B","weather_occ.15.T",45.26,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","B","groups.1.met",0.975,32.8889344639971,0.901371481411338,1.2,31.518386390621,4159,0.751142901176115,6.88893446399713,"per_person",0.00584746352544729,0.0482484826569092,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,0.0482484826568808,-2.5,"Activity"
-"PHX_BUS","hot_humid","B","groups.1.met",1,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,0,"Activity"
-"PHX_BUS","hot_humid","B","groups.1.met",0.95,32.9389699527134,0.908293126050914,1.2,31.518386390621,4159,0.756910938375762,6.93896995271345,"per_person",0.0116155007250937,0.0982839713732275,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,0.0982839713731778,-5,"Activity"
-"PHX_BUS","hot_humid","B","weather_occ.15.T",46.3915,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","weather_occ.14.T",42.64,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","B","groups.1.met",1.05,32.7621395474622,0.879835322565334,1.2,31.518386390621,4159,0.733196102137779,6.76213954746216,"per_person",-0.0120993355128896,-0.0785464338780599,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-0.0785464338780244,5,"Activity"
-"PHX_BUS","hot_humid","B","weather_occ.13.T",50.316,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","B","weather_occ.15.T",42.997,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","B","weather_occ.13.T",45.524,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_humid",32.8406859813402,-0.0785464338780599,5,"Activity"
+"PHX_BUS","hot_humid","B","weather_occ.15.T",46.3915,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","groups.1.met",0.975,32.8889344639971,0.901371481411338,1.2,31.518386390621,4159,0.751142901176115,6.88893446399713,"per_person",0.00584746352544729,0.0482484826569092,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0.0482484826569092,-2.5,"Activity"
+"PHX_BUS","hot_humid","B","groups.1.met",1.025,32.7940883498012,0.887311591878095,1.2,31.518386390621,4159,0.73942632656508,6.79408834980116,"per_person",-0.00586911108558863,-0.0465976315390577,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,-0.0465976315390577,2.49999999999999,"Activity"
 "PHX_BUS","hot_humid","B","weather_occ.15.T",47.523,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","B","weather_occ.14.T",40.508,31.2146193908567,1.03510516282686,1.2,31.7724334711699,4159,0.862587635689049,5.2146193908567,"per_person",0.117292198038381,-1.62606659048352,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.8406859813402,-1.62606659048352,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","C","weather_occ.13.T",47.92,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","C","weather_occ.14.T",42.64,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","C","weather_occ.13.T",49.118,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","C","weather_occ.15.T",44.1285,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","C","weather_occ.14.T",41.574,31.2248259510255,1.77265567389296,2.5,75.2672677252186,4939,0.709062269557185,5.22482595102547,"per_person",0.0512372657011383,-0.865652045855434,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-0.865652045855406,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","C","groups.1.met",0.975,32.1325124153341,1.65779353007435,2.5,74.9663404517122,4939,0.66311741202974,6.13251241533412,"per_person",0.00529240817369325,0.0420344184532127,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,0.0420344184531913,-2.5,"Activity"
-"PHX_BUS","hot_humid","C","weather_occ.13.T",45.524,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","C","weather_occ.15.T",46.3915,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","C","weather_occ.15.T",45.26,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","C","weather_occ.14.T",43.706,32.9463642111928,1.51641201566926,2.5,74.6680555536726,4939,0.606564806267704,6.94636421119282,"per_person",-0.0512601975883428,0.855886214311909,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,0.855886214311894,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","C","groups.1.met",1,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,0,"Activity"
+hot_humid",32.8406859813402,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","groups.1.met",1,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,0,"Activity"
+"PHX_BUS","hot_humid","B","weather_occ.14.T",44.772,34.4261788278578,0.754659564648684,1.2,31.2687813536428,4159,0.62888297054057,8.42617882785782,"per_person",-0.116412467110099,1.5854928465176,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,1.5854928465176,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","B","weather_occ.15.T",42.997,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","weather_occ.13.T",45.524,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","B","weather_occ.13.T",47.92,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","B","weather_occ.13.T",49.118,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","B","weather_occ.15.T",44.1285,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","B","weather_occ.13.T",46.722,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","B","weather_occ.13.T",50.316,32.8406859813402,0.894354525180802,1.2,31.518386390621,4159,0.745295437650668,6.84068598134022,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","B","groups.1.met",0.95,32.9389699527134,0.908293126050914,1.2,31.518386390621,4159,0.756910938375762,6.93896995271345,"per_person",0.0116155007250937,0.0982839713732275,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.8406859813402,0.0982839713732275,-5,"Activity"
 "PHX_BUS","hot_humid","C","groups.1.met",1.025,32.0501123619188,1.63128757976046,2.5,74.9663404517122,4939,0.652515031904184,6.0501123619188,"per_person",-0.00530997195186278,-0.0403656349621073,"C","C","Phoenix / bus","Phoenix / bus
 hot_humid",32.0904779968809,-0.0403656349621073,2.49999999999999,"Activity"
-"PHX_BUS","hot_humid","C","weather_occ.13.T",46.722,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","C","weather_occ.14.T",44.772,33.7920444533096,1.38879393919693,2.5,74.3724068700725,4939,0.555517575678772,7.79204445330957,"per_person",-0.102307428177275,1.70156645642867,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,1.70156645642869,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_humid","C","weather_occ.13.T",50.316,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_humid","C","weather_occ.14.T",40.508,30.3498302539397,1.89989429974389,2.5,75.5708442104723,4939,0.759957719897557,4.34983025393966,"per_person",0.10213271604151,-1.74064774294124,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-1.74064774294121,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","C","groups.1.met",0.975,32.1325124153341,1.65779353007435,2.5,74.9663404517122,4939,0.66311741202974,6.13251241533412,"per_person",0.00529240817369325,0.0420344184532127,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0.0420344184532127,-2.5,"Activity"
+"PHX_BUS","hot_humid","C","groups.1.met",1,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,0,"Activity"
 "PHX_BUS","hot_humid","C","weather_occ.15.T",42.997,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_humid","C","groups.1.met",0.95,32.1763557051305,1.6709073736339,2.5,74.9663404517122,4939,0.668362949453561,6.17635570513046,"per_person",0.010537945597514,0.085877708249555,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,0.0858777082495905,-5,"Activity"
+hot_humid",32.0904779968809,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","C","weather_occ.14.T",42.64,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","C","weather_occ.13.T",45.524,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","C","weather_occ.14.T",43.706,32.9463642111928,1.51641201566926,2.5,74.6680555536726,4939,0.606564806267704,6.94636421119282,"per_person",-0.0512601975883428,0.855886214311909,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0.855886214311909,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","C","weather_occ.13.T",46.722,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_humid","C","groups.1.met",1.05,32.024785860904,1.61718900912354,2.5,74.9663404517122,4939,0.646875603649417,6.02478586090395,"per_person",-0.0109494002066299,-0.0656921359769527,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-0.06569213597691,5,"Activity"
+hot_humid",32.0904779968809,-0.0656921359769527,5,"Activity"
+"PHX_BUS","hot_humid","C","weather_occ.15.T",44.1285,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","C","weather_occ.14.T",44.772,33.7920444533096,1.38879393919693,2.5,74.3724068700725,4939,0.555517575678772,7.79204445330957,"per_person",-0.102307428177275,1.70156645642867,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,1.70156645642867,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","C","weather_occ.15.T",45.26,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","C","weather_occ.14.T",40.508,30.3498302539397,1.89989429974389,2.5,75.5708442104723,4939,0.759957719897557,4.34983025393966,"per_person",0.10213271604151,-1.74064774294124,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,-1.74064774294124,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_humid","C","weather_occ.13.T",47.92,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","C","weather_occ.15.T",46.3915,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","C","weather_occ.13.T",49.118,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","C","weather_occ.14.T",41.574,31.2248259510255,1.77265567389296,2.5,75.2672677252186,4939,0.709062269557185,5.22482595102547,"per_person",0.0512372657011383,-0.865652045855434,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,-0.865652045855434,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_humid","C","weather_occ.15.T",47.523,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_humid",32.0904779968809,-7.105427357601e-15,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","NONE","weather_occ.13.T",47.92,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","NONE","weather_occ.13.T",46.722,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","NONE","weather_occ.15.T",42.997,32.1541771853781,0,0,0,0,NA,6.15417718537807,"per_person",NA,-1.15027161305616,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-1.15027161305612,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","NONE","weather_occ.14.T",42.64,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","NONE","weather_occ.14.T",44.772,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","NONE","weather_occ.15.T",44.1285,32.7390041778941,0,0,0,0,NA,6.73900417789408,"per_person",NA,-0.565444620540141,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-0.56544462054012,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","NONE","weather_occ.14.T",41.574,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","NONE","groups.1.met",1.025,33.2289570746678,0,0,0,0,NA,7.22895707466776,"per_person",NA,-0.0754917237664614,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-0.0754917237664259,2.49999999999999,"Activity"
-"PHX_BUS","hot_dry","NONE","weather_occ.15.T",45.26,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","NONE","weather_occ.15.T",46.3915,33.850879491587,0,0,0,0,NA,7.85087949158699,"per_person",NA,0.546430693152772,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,0.546430693152779,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","NONE","weather_occ.13.T",49.118,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_humid",32.0904779968809,0,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_humid","C","weather_occ.13.T",50.316,32.0904779968809,1.64456250964012,2.5,74.9663404517122,4939,0.657825003856047,6.09047799688091,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_humid","C","groups.1.met",0.95,32.1763557051305,1.6709073736339,2.5,74.9663404517122,4939,0.668362949453561,6.17635570513046,"per_person",0.010537945597514,0.085877708249555,"C","C","Phoenix / bus","Phoenix / bus
+hot_humid",32.0904779968809,0.085877708249555,-5,"Activity"
 "PHX_BUS","hot_dry","NONE","weather_occ.13.T",50.316,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","NONE","groups.1.met",0.95,33.4609009899026,0,0,0,0,NA,7.46090098990261,"per_person",NA,0.156452191468389,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,0.156452191468375,-5,"Activity"
+hot_dry",33.3044487984342,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","NONE","weather_occ.13.T",47.92,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","NONE","weather_occ.14.T",41.574,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","NONE","weather_occ.15.T",45.26,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","NONE","weather_occ.14.T",42.64,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","NONE","weather_occ.15.T",46.3915,33.850879491587,0,0,0,0,NA,7.85087949158699,"per_person",NA,0.546430693152772,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0.546430693152772,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","NONE","weather_occ.13.T",49.118,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","NONE","weather_occ.15.T",47.523,34.3788256430682,0,0,0,0,NA,8.37882564306825,"per_person",NA,1.07437684463402,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,1.07437684463402,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","NONE","weather_occ.14.T",40.508,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","NONE","weather_occ.13.T",45.524,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_dry","NONE","weather_occ.14.T",43.706,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_dry",33.3044487984342,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","NONE","weather_occ.13.T",46.722,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","NONE","weather_occ.15.T",44.1285,32.7390041778941,0,0,0,0,NA,6.73900417789408,"per_person",NA,-0.565444620540141,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,-0.565444620540141,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","NONE","weather_occ.14.T",44.772,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","NONE","weather_occ.15.T",42.997,32.1541771853781,0,0,0,0,NA,6.15417718537807,"per_person",NA,-1.15027161305616,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,-1.15027161305616,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_dry","NONE","groups.1.met",0.975,33.3816667997589,0,0,0,0,NA,7.3816667997589,"per_person",NA,0.0772180013246739,"C","C","Phoenix / bus","Phoenix / bus
 hot_dry",33.3044487984342,0.0772180013246739,-2.5,"Activity"
-"PHX_BUS","hot_dry","NONE","weather_occ.13.T",45.524,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","NONE","groups.1.met",1,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,0,"Activity"
-"PHX_BUS","hot_dry","NONE","weather_occ.14.T",40.508,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_dry","NONE","groups.1.met",1.05,33.1676014832847,0,0,0,0,NA,7.16760148328468,"per_person",NA,-0.136847315149538,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,-0.136847315149524,5,"Activity"
-"PHX_BUS","hot_dry","NONE","weather_occ.15.T",47.523,34.3788256430682,0,0,0,0,NA,8.37882564306825,"per_person",NA,1.07437684463402,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",33.3044487984342,1.07437684463397,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","groups.1.met",1,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,0,"Activity"
+hot_dry",33.3044487984342,-0.136847315149538,5,"Activity"
+"PHX_BUS","hot_dry","NONE","groups.1.met",1,33.3044487984342,0,0,0,0,NA,7.30444879843422,"per_person",NA,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0,0,"Activity"
+"PHX_BUS","hot_dry","NONE","groups.1.met",0.95,33.4609009899026,0,0,0,0,NA,7.46090098990261,"per_person",NA,0.156452191468389,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,0.156452191468389,-5,"Activity"
+"PHX_BUS","hot_dry","NONE","groups.1.met",1.025,33.2289570746678,0,0,0,0,NA,7.22895707466776,"per_person",NA,-0.0754917237664614,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",33.3044487984342,-0.0754917237664614,2.49999999999999,"Activity"
 "PHX_BUS","hot_dry","A","weather_occ.13.T",47.92,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","A","weather_occ.13.T",46.722,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","A","weather_occ.15.T",44.1285,31.9905890233883,0.748415154505754,0.25,0,1499,2.99366061802301,5.99058902338833,"per_person",0.0695023985151266,-0.582820220168923,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,-0.582820220168951,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","weather_occ.13.T",45.524,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","A","weather_occ.14.T",42.64,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","A","weather_occ.13.T",49.118,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","A","weather_occ.15.T",45.26,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","groups.1.met",1.025,32.4801481958047,0.748808878863102,0.25,0,1499,2.99523551545241,6.48014819580466,"per_person",0.0710772959445194,-0.0932610477525913,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,-0.0932610477525486,2.49999999999999,"Activity"
-"PHX_BUS","hot_dry","A","weather_occ.13.T",50.316,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","A","weather_occ.14.T",41.574,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","A","groups.1.met",0.95,32.765536795028,0.695364194874642,0.25,0,1499,2.78145677949857,6.76553679502797,"per_person",-0.142701440009319,0.192127551470719,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,0.192127551470747,-5,"Activity"
-"PHX_BUS","hot_dry","A","groups.1.met",0.975,32.6684679973647,0.713198802394174,0.25,0,1499,2.8527952095767,6.66846799736472,"per_person",-0.0713630099311899,0.0950587538074714,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,0.0950587538074501,-2.5,"Activity"
-"PHX_BUS","hot_dry","A","weather_occ.15.T",46.3915,33.136368034822,0.714511456765024,0.25,0,1499,2.8580458270601,7.13636803482197,"per_person",-0.066112392447792,0.56295879126472,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,0.562958791264748,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","weather_occ.14.T",44.772,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","A","weather_occ.15.T",47.523,33.6799745899433,0.698851053124962,0.25,0,1499,2.79540421249985,7.67997458994328,"per_person",-0.128754007008041,1.10656534638603,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,1.10656534638605,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","weather_occ.14.T",43.706,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","A","weather_occ.15.T",42.997,31.3869944893498,0.767182696028314,0.25,0,1499,3.06873078411326,5.38699448934975,"per_person",0.144572564605369,-1.1864147542075,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,-1.18641475420745,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","A","groups.1.met",1.05,32.401758167038,0.765843316246666,0.25,0,1499,3.06337326498667,6.40175816703802,"per_person",0.139215045478778,-0.171651076519233,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,-0.171651076519254,5,"Activity"
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_dry","A","weather_occ.14.T",40.508,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.5734092435573,4.9737991503207e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","B","weather_occ.13.T",47.92,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","B","groups.1.met",1,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,0,"Activity"
-"PHX_BUS","hot_dry","B","weather_occ.13.T",46.722,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","B","weather_occ.13.T",49.118,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","B","weather_occ.14.T",42.64,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","B","weather_occ.15.T",44.1285,31.8763954569131,0.862608720981001,1.2,31.2287377309471,4159,0.718840600817501,5.87639545691308,"per_person",0.0432660423326029,-0.617363871339265,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-0.617363871339244,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","B","weather_occ.13.T",45.524,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","B","groups.1.met",1.025,32.4220354143517,0.806921660316078,1.2,31.0931456571169,4159,0.672434716930065,6.42203541435168,"per_person",-0.0031398415548326,-0.0717239139006622,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-0.071723913900648,2.49999999999999,"Activity"
-"PHX_BUS","hot_dry","B","weather_occ.14.T",43.706,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","B","weather_occ.15.T",45.26,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","B","weather_occ.14.T",41.574,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","B","groups.1.met",0.975,32.567325149218,0.814341650540847,1.2,31.0931456571169,4159,0.678618042117372,6.56732514921805,"per_person",0.00304348363247442,0.0735658209657046,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,0.0735658209656549,-2.5,"Activity"
-"PHX_BUS","hot_dry","B","groups.1.met",0.95,32.6425541126196,0.81834687728297,1.2,31.0931456571169,4159,0.681955731069142,6.64255411261964,"per_person",0.00638117258424364,0.148794784367297,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,0.148794784367254,-5,"Activity"
-"PHX_BUS","hot_dry","B","weather_occ.15.T",46.3915,33.0900646103341,0.760814881252912,1.2,30.9585950437684,4159,0.634012401044094,7.09006461033408,"per_person",-0.0415621574408043,0.596305282081737,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,0.596305282081758,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_dry",32.5734092435573,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","A","weather_occ.13.T",45.524,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","A","weather_occ.13.T",49.118,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","A","weather_occ.14.T",41.574,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","A","weather_occ.13.T",46.722,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","A","weather_occ.13.T",50.316,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","A","groups.1.met",0.975,32.6684679973647,0.713198802394174,0.25,0,1499,2.8527952095767,6.66846799736472,"per_person",-0.0713630099311899,0.0950587538074714,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0.0950587538074714,-2.5,"Activity"
+"PHX_BUS","hot_dry","A","weather_occ.14.T",42.64,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","A","weather_occ.15.T",42.997,31.3869944893498,0.767182696028314,0.25,0,1499,3.06873078411326,5.38699448934975,"per_person",0.144572564605369,-1.1864147542075,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,-1.1864147542075,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","A","groups.1.met",1,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,0,"Activity"
+"PHX_BUS","hot_dry","A","weather_occ.14.T",43.706,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","A","weather_occ.15.T",44.1285,31.9905890233883,0.748415154505754,0.25,0,1499,2.99366061802301,5.99058902338833,"per_person",0.0695023985151266,-0.582820220168923,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,-0.582820220168923,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","A","groups.1.met",1.025,32.4801481958047,0.748808878863102,0.25,0,1499,2.99523551545241,6.48014819580466,"per_person",0.0710772959445194,-0.0932610477525913,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,-0.0932610477525913,2.49999999999999,"Activity"
+"PHX_BUS","hot_dry","A","weather_occ.14.T",44.772,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","A","weather_occ.15.T",45.26,32.5734092435573,0.731039554876972,0.25,0,1499,2.92415821950789,6.57340924355725,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","A","groups.1.met",1.05,32.401758167038,0.765843316246666,0.25,0,1499,3.06337326498667,6.40175816703802,"per_person",0.139215045478778,-0.171651076519233,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,-0.171651076519233,5,"Activity"
+"PHX_BUS","hot_dry","A","weather_occ.15.T",46.3915,33.136368034822,0.714511456765024,0.25,0,1499,2.8580458270601,7.13636803482197,"per_person",-0.066112392447792,0.56295879126472,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0.56295879126472,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","A","weather_occ.15.T",47.523,33.6799745899433,0.698851053124962,0.25,0,1499,2.79540421249985,7.67997458994328,"per_person",-0.128754007008041,1.10656534638603,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,1.10656534638603,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","A","groups.1.met",0.95,32.765536795028,0.695364194874642,0.25,0,1499,2.78145677949857,6.76553679502797,"per_person",-0.142701440009319,0.192127551470719,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.5734092435573,0.192127551470719,-5,"Activity"
 "PHX_BUS","hot_dry","B","groups.1.met",1.05,32.3649090724872,0.802692410797526,1.2,31.0931456571169,4159,0.668910342331272,6.36490907248716,"per_person",-0.006664216153626,-0.128850255765187,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-0.128850255765144,5,"Activity"
-"PHX_BUS","hot_dry","B","weather_occ.15.T",42.997,31.2378495828858,0.916327602492267,1.2,31.3653809633267,4159,0.763606335410222,5.2378495828858,"per_person",0.0880317769253244,-1.25590974536654,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-1.25590974536654,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","B","weather_occ.14.T",44.772,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","B","weather_occ.13.T",50.316,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_dry",32.4937593282523,-0.128850255765187,5,"Activity"
+"PHX_BUS","hot_dry","B","weather_occ.13.T",45.524,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","B","groups.1.met",0.975,32.567325149218,0.814341650540847,1.2,31.0931456571169,4159,0.678618042117372,6.56732514921805,"per_person",0.00304348363247442,0.0735658209657046,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0.0735658209657046,-2.5,"Activity"
+"PHX_BUS","hot_dry","B","weather_occ.13.T",46.722,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","B","weather_occ.14.T",43.706,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
 "PHX_BUS","hot_dry","B","weather_occ.14.T",40.508,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,-4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_dry",32.4937593282523,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","B","weather_occ.14.T",42.64,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","B","groups.1.met",1,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,0,"Activity"
+"PHX_BUS","hot_dry","B","weather_occ.13.T",47.92,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","B","groups.1.met",1.025,32.4220354143517,0.806921660316078,1.2,31.0931456571169,4159,0.672434716930065,6.42203541435168,"per_person",-0.0031398415548326,-0.0717239139006622,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,-0.0717239139006622,2.49999999999999,"Activity"
+"PHX_BUS","hot_dry","B","weather_occ.13.T",49.118,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","B","weather_occ.14.T",44.772,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","B","weather_occ.14.T",41.574,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","B","weather_occ.13.T",50.316,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","B","weather_occ.15.T",42.997,31.2378495828858,0.916327602492267,1.2,31.3653809633267,4159,0.763606335410222,5.2378495828858,"per_person",0.0880317769253244,-1.25590974536654,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,-1.25590974536654,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","B","weather_occ.15.T",44.1285,31.8763954569131,0.862608720981001,1.2,31.2287377309471,4159,0.718840600817501,5.87639545691308,"per_person",0.0432660423326029,-0.617363871339265,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,-0.617363871339265,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","B","weather_occ.15.T",45.26,32.4937593282523,0.810689470181877,1.2,31.0931456571169,4159,0.675574558484898,6.49375932825235,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","B","weather_occ.15.T",46.3915,33.0900646103341,0.760814881252912,1.2,30.9585950437684,4159,0.634012401044094,7.09006461033408,"per_person",-0.0415621574408043,0.596305282081737,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0.596305282081737,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_dry","B","weather_occ.15.T",47.523,33.6656986136945,0.713127029373716,1.2,30.8250763768703,4159,0.594272524478097,7.66569861369453,"per_person",-0.0813020340068012,1.17193928544219,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",32.4937593282523,1.17193928544216,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","C","groups.1.met",1,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,0,"Activity"
-"PHX_BUS","hot_dry","C","weather_occ.13.T",47.92,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","C","weather_occ.13.T",46.722,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","C","weather_occ.14.T",43.706,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+hot_dry",32.4937593282523,1.17193928544219,5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","B","groups.1.met",0.95,32.6425541126196,0.81834687728297,1.2,31.0931456571169,4159,0.681955731069142,6.64255411261964,"per_person",0.00638117258424364,0.148794784367297,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",32.4937593282523,0.148794784367297,-5,"Activity"
 "PHX_BUS","hot_dry","C","weather_occ.14.T",41.574,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","C","weather_occ.13.T",49.118,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_dry",31.8246257942805,0,-2.5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","C","weather_occ.14.T",40.508,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","C","weather_occ.13.T",50.316,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","C","weather_occ.13.T",47.92,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,0,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","C","groups.1.met",0.975,31.8945456932908,1.48712110646808,2.5,73.9546029595517,4939,0.594848442587231,5.89454569329082,"per_person",0.00291924092574769,0.0699198990103049,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0.0699198990103049,-2.5,"Activity"
 "PHX_BUS","hot_dry","C","weather_occ.14.T",42.64,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","C","weather_occ.15.T",45.26,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,0,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","C","weather_occ.13.T",45.524,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+hot_dry",31.8246257942805,0,0,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","C","groups.1.met",1.05,31.7028808287188,1.46472065456592,2.5,73.9546029595517,4939,0.585888261826368,5.70288082871877,"per_person",-0.00604093983511544,-0.121744965561749,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,-0.121744965561749,5,"Activity"
+"PHX_BUS","hot_dry","C","groups.1.met",1,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,0,"Activity"
+"PHX_BUS","hot_dry","C","weather_occ.14.T",43.706,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","C","weather_occ.13.T",49.118,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,2.49999999999999,"Outdoor temperature [PHX_BUS] hot_peak"
 "PHX_BUS","hot_dry","C","groups.1.met",1.025,31.7562709693374,1.47268610533036,2.5,73.9546029595517,4939,0.589074442132144,5.7562709693374,"per_person",-0.00285475952933889,-0.0683548249431141,"C","C","Phoenix / bus","Phoenix / bus
 hot_dry",31.8246257942805,-0.0683548249431141,2.49999999999999,"Activity"
 "PHX_BUS","hot_dry","C","weather_occ.14.T",44.772,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,5,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","C","weather_occ.15.T",46.3915,32.4616675833327,1.38921190825431,2.5,73.6344457449178,4939,0.555684763301724,6.46166758333268,"per_person",-0.0362444383597591,0.637041789052169,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,0.637041789052184,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
+hot_dry",31.8246257942805,0,5,"Outdoor temperature [PHX_BUS] hot_humid"
+"PHX_BUS","hot_dry","C","weather_occ.15.T",42.997,30.4837777329807,1.67039945239742,2.5,74.6023758323267,4939,0.668159780958966,4.48377773298065,"per_person",0.0762305792974829,-1.34084806129986,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,-1.34084806129986,-5.00000000000002,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_dry","C","weather_occ.15.T",44.1285,31.1650100363006,1.57399414159347,2.5,74.2772386275771,4939,0.629597656637388,5.16501003630061,"per_person",0.0376684549759049,-0.659615757979903,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-0.659615757979914,-2.49999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","C","weather_occ.13.T",50.316,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,5,"Outdoor temperature [PHX_BUS] hot_peak"
-"PHX_BUS","hot_dry","C","groups.1.met",0.975,31.8945456932908,1.48712110646808,2.5,73.9546029595517,4939,0.594848442587231,5.89454569329082,"per_person",0.00291924092574769,0.0699198990103049,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,0.0699198990102872,-2.5,"Activity"
-"PHX_BUS","hot_dry","C","groups.1.met",0.95,31.966592978826,1.49430801107656,2.5,73.9546029595517,4939,0.597723204430625,5.96659297882605,"per_person",0.00579400276914166,0.141967184545535,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,0.141967184545486,-5,"Activity"
-"PHX_BUS","hot_dry","C","weather_occ.14.T",40.508,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.4210854715202e-14,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_humid"
-"PHX_BUS","hot_dry","C","groups.1.met",1.05,31.7028808287188,1.46472065456592,2.5,73.9546029595517,4939,0.585888261826368,5.70288082871877,"per_person",-0.00604093983511544,-0.121744965561749,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-0.121744965561714,5,"Activity"
+hot_dry",31.8246257942805,-0.659615757979903,-2.5,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","C","weather_occ.13.T",45.524,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,-5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","C","weather_occ.15.T",45.26,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,0,"Outdoor temperature [PHX_BUS] hot_dry"
+"PHX_BUS","hot_dry","C","weather_occ.13.T",46.722,31.8246257942805,1.47982300415371,2.5,73.9546029595517,4939,0.591929201661483,5.82462579428051,"per_person",0,0,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0,-2.5,"Outdoor temperature [PHX_BUS] hot_peak"
+"PHX_BUS","hot_dry","C","weather_occ.15.T",46.3915,32.4616675833327,1.38921190825431,2.5,73.6344457449178,4939,0.555684763301724,6.46166758333268,"per_person",-0.0362444383597591,0.637041789052169,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0.637041789052169,2.50000000000001,"Outdoor temperature [PHX_BUS] hot_dry"
 "PHX_BUS","hot_dry","C","weather_occ.15.T",47.523,33.0768021692554,1.30202347381285,2.5,73.316744338286,4939,0.520809389525138,7.0768021692554,"per_person",-0.0711198121363452,1.25217637497489,"C","C","Phoenix / bus","Phoenix / bus
 hot_dry",31.8246257942805,1.25217637497489,5,"Outdoor temperature [PHX_BUS] hot_dry"
-"PHX_BUS","hot_dry","C","weather_occ.15.T",42.997,30.4837777329807,1.67039945239742,2.5,74.6023758323267,4939,0.668159780958966,4.48377773298065,"per_person",0.0762305792974829,-1.34084806129986,"C","C","Phoenix / bus","Phoenix / bus
-hot_dry",31.8246257942805,-1.34084806129982,-4.99999999999999,"Outdoor temperature [PHX_BUS] hot_dry"
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+"PHX_BUS","hot_dry","C","groups.1.met",0.95,31.966592978826,1.49430801107656,2.5,73.9546029595517,4939,0.597723204430625,5.96659297882605,"per_person",0.00579400276914166,0.141967184545535,"C","C","Phoenix / bus","Phoenix / bus
+hot_dry",31.8246257942805,0.141967184545535,-5,"Activity"

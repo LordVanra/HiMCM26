@@ -1,0 +1,33 @@
+\section{Model Discussion}
+
+\subsection{Strengths}
+
+\begin{enumerate}
+    \item
+    The model calculates how cooled air mixes with outdoor air before estimating the temperature in the waiting area. It also limits evaporative cooling by the outdoor wet-bulb temperature and accounts for the moisture added to the air.
+
+    \item
+    Standard Effective Temperature combines air temperature, humidity, airspeed, and radiant temperature into a common comfort measure. This allows the model to capture the benefit of a fan even when it leaves the air temperature unchanged.
+
+    \item
+    The model reports both the reduction in hot discomfort and the reduction per kilowatt-hour. An option can therefore lead on comfort while another delivers more benefit per unit of electricity.
+
+    \item
+    Minimax regret compares a single equipment choice across three hot-weather scenarios at each venue without requiring a probability for each scenario. The decision can also account for budget, electricity, and water limits when those are specified.
+
+    \item
+    The sensitivity analysis shows which inputs can change the recommendation. At the Boston bus venue, changing either the humid-hot outdoor temperature or the upper comfort threshold switched the recommendation between the fan and the larger evaporative cooler.
+\end{enumerate}
+
+\subsection{Weaknesses}
+
+\begin{enumerate}
+    \item
+    The model estimates average conditions in each waiting area. This keeps the comparison consistent across venues, although cooling at a particular seat may differ from the zone average.
+
+    \item
+    The comfort calculation holds passenger characteristics and radiant conditions constant across equipment options. This helps isolate the effect of each device, while differences in clothing, activity, and sun exposure can affect the comfort an individual passenger experiences.
+
+    \item
+    The recommendation reflects three contrasting hot-weather cases per venue under the study's comfort objective. Different operating conditions or resource limits could change the ranking. The sensitivity analysis identifies where the choice changes within the tested range, though it checks inputs individually and locates switches between sampled values.
+\end{enumerate}

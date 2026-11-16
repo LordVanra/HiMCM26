@@ -1,644 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-<<<<<<< HEAD
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",20.5725,14.2054489523009,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.743907704855085,-2.5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",22.155,16.4105357168134,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,1.46117905965743,5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",21.1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0,0,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",21.6275,15.6842880579059,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.73493140074989,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.T",20.045,13.4538752526819,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-1.49548140447411,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.646288609443542,15.0907502066144,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.141393549458394,-5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.663296204428898,15.0191757200987,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.0698190629427202,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.680303799414255,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0,0,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.697311394399611,14.8811624534128,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.0681942037432588,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","weather_occ.4.v_local",0.714318989384967,14.8145039566544,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.134852700501648,5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.342,14.7104747177079,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.238881939448088,-5,"Clothing"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",0.975,14.8406507487086,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.108705908447376,-2.5,"Activity"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1.05,15.16748356782,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.218126910663996,5,"Activity"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.378,15.1831667512661,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.233810094110137,5,"Clothing"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",0.95,14.7227088692303,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.226647787925678,-5,"Activity"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.351,14.8306013612871,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,-0.118755295868871,-2.5,"Clothing"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0,0,"Activity"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.36,14.949356657156,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0,0,"Clothing"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.clo",0.369,15.0668502718246,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.117493614668543,2.50000000000001,"Clothing"
-"BOS_RAIL","summer_mean_1h","NONE","groups.1.met",1.025,15.0488863529904,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",14.949356657156,0.0995296958344003,2.49999999999999,"Activity"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",20.5725,11.3543348569938,2.85111409530708,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-0.86706976243266,-2.5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",22.155,13.9334687571428,2.47706695967059,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,1.71206413771634,5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",21.1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,0,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",21.6275,13.0817050110378,2.60258304686813,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0.860300391611256,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.T",20.045,10.4815558518248,2.97231940085713,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-1.73984876760174,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","groups.1.met",0.975,12.0823579038686,2.75829284484,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-0.139046715557875,-2.5,"Activity"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.714318989384967,12.2214046194265,2.59309933722785,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","groups.1.met",1,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,0,"Activity"
-"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.342,11.9108817665401,2.79959295116783,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-0.310522852886415,-5,"Clothing"
-"BOS_RAIL","summer_mean_1h","A","groups.1.met",1.025,12.3548789195516,2.69400743343883,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0.133474300125068,2.49999999999999,"Activity"
-"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.351,12.0670852427171,2.76351611857008,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-0.154319376709454,-2.5,"Clothing"
-"BOS_RAIL","summer_mean_1h","A","groups.1.met",1.05,12.5108128214675,2.65667074635251,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0.28940820204099,5,"Activity"
-"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.36,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,0,"Clothing"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.646288609443542,12.2214046194265,2.86934558718789,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,-5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.369,12.3738702676418,2.69298000418271,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0.152465648215328,2.50000000000001,"Clothing"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.663296204428898,12.2214046194265,2.79777110067222,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","groups.1.clo",0.378,12.524516592965,2.65865015830119,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0.303111973538449,5,"Clothing"
-"BOS_RAIL","summer_mean_1h","A","groups.1.met",0.95,11.938390465183,2.78431840404733,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,-0.283014154243507,-5,"Activity"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.680303799414255,12.2214046194265,2.7279520377295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,0,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","A","weather_occ.4.v_local",0.697311394399611,12.2214046194265,2.65975783398624,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",12.2214046194265,0,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",21.1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",22.155,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.714318989384967,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",21.6275,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.646288609443542,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",20.5725,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.663296204428898,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.T",20.045,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.680303799414255,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","weather_occ.4.v_local",0.697311394399611,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","B","groups.1.met",0.975,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"BOS_RAIL","summer_mean_1h","B","groups.1.met",1.05,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Activity"
-"BOS_RAIL","summer_mean_1h","B","groups.1.met",1,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_RAIL","summer_mean_1h","B","groups.1.met",1.025,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.378,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.351,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.342,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.36,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_RAIL","summer_mean_1h","B","groups.1.met",0.95,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_RAIL","summer_mean_1h","B","groups.1.clo",0.369,NA,NA,1.2,NA,4159,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",22.155,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",21.1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",20.045,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-4.99999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",21.6275,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.T",20.5725,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.646288609443542,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.663296204428898,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.680303799414255,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.697311394399611,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.50000000000001,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","weather_occ.4.v_local",0.714318989384967,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Baseline airspeed [BOS_RAIL]"
-"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"BOS_RAIL","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Clothing"
-"BOS_RAIL","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,-5,"Activity"
-"BOS_RAIL","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,0,"Activity"
-"BOS_RAIL","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"BOS_RAIL","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Boston / rail","Boston / rail
-summer_mean_1h",NA,NA,5,"Activity"
-=======
-"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",38.6295,31.6609608296742,0,0,0,0,NA,5.6609608296742,"per_person",NA,1.50524367607202,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.50524367607201,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",34.9505,28.645128665777,0,0,0,0,NA,2.64512866577702,"per_person",NA,-1.51058848782516,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,-1.51058848782518,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",37.70975,30.9092656664785,0,0,0,0,NA,4.90926566647848,"per_person",NA,0.753548512876289,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,0.753548512876314,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_peak","NONE","weather_occ.12.T",30.639,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",29.63025,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",35.87025,29.4008980219253,0,0,0,0,NA,3.40089802192533,"per_person",NA,-0.754819131676857,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,-0.754819131676886,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",68.324,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",28.8705,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",36.79,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+hot_peak",30.1557171536022,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_peak","NONE","weather_occ.12.T",29.9095,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",31.9095,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",73.718,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",31.14975,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",70.122,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.12.T",27.721,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",75.516,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","NONE","weather_occ.12.T",29.18,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",71.92,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",30.1557171536022,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_peak","NONE","weather_occ.12.T",28.4505,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_peak",30.1557171536022,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","NONE","weather_occ.12.T",29.18,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","NONE","weather_occ.12.T",27.721,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",31.9095,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",68.324,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",70.122,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",71.92,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",34.9505,28.645128665777,0,0,0,0,NA,2.64512866577702,"per_person",NA,-1.51058848782516,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,-1.51058848782516,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",73.718,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",35.87025,29.4008980219253,0,0,0,0,NA,3.40089802192533,"per_person",NA,-0.754819131676857,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,-0.754819131676857,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",38.6295,31.6609608296742,0,0,0,0,NA,5.6609608296742,"per_person",NA,1.50524367607202,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,1.50524367607202,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.RH",75.516,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",36.79,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",28.8705,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","NONE","weather_occ.11.T",30.39,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_peak",30.1557171536022,1.4210854715202e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.10.T",37.70975,29.8316639870777,1.07760167940076,0.25,0,1499,4.31040671760306,3.83166398707771,"per_person",-0.0484723137410157,0.765666591311543,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,0.765666591311533,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","A","weather_occ.10.T",38.6295,30.5971779945911,1.06378283508314,0.25,0,1499,4.25513134033255,4.59717799459106,"per_person",-0.10374769101152,1.5311805988249,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,1.53118059882493,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","A","weather_occ.10.T",34.9505,27.5356824326124,1.10944623316459,0.25,0,1499,4.43778493265835,1.53568243261244,"per_person",0.0789059013142719,-1.53031496315373,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,-1.53031496315377,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","A","weather_occ.11.T",31.9095,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.10.T",36.79,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","A","weather_occ.12.T",29.9095,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","A","weather_occ.10.T",35.87025,28.3005698039445,1.10032821798087,0.25,0,1499,4.40131287192348,2.30056980394446,"per_person",0.042433840579406,-0.765427591821709,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,-0.765427591821666,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","A","weather_occ.11.RH",73.718,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",30.1557171536022,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",31.14975,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","NONE","weather_occ.10.T",37.70975,30.9092656664785,0,0,0,0,NA,4.90926566647848,"per_person",NA,0.753548512876289,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0.753548512876289,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","NONE","weather_occ.11.T",29.63025,30.1557171536022,0,0,0,0,NA,4.15571715360219,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_peak",30.1557171536022,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","A","weather_occ.11.RH",68.324,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.11.T",31.14975,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.11.T",28.8705,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.12.T",30.639,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","A","weather_occ.11.RH",75.516,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.12.T",27.721,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","A","weather_occ.11.T",29.63025,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.11.T",30.39,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.11.RH",70.122,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","A","weather_occ.12.T",29.18,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","A","weather_occ.12.T",28.4505,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_peak",29.0659973957662,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","A","weather_occ.11.RH",71.92,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0659973957662,3.19744231092045e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",29.0659973957662,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.RH",73.718,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.RH",70.122,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.RH",75.516,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.10.T",34.9505,27.5356824326124,1.10944623316459,0.25,0,1499,4.43778493265835,1.53568243261244,"per_person",0.0789059013142719,-1.53031496315373,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,-1.53031496315373,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","A","weather_occ.10.T",35.87025,28.3005698039445,1.10032821798087,0.25,0,1499,4.40131287192348,2.30056980394446,"per_person",0.042433840579406,-0.765427591821709,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,-0.765427591821709,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","A","weather_occ.10.T",36.79,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","A","weather_occ.10.T",37.70975,29.8316639870777,1.07760167940076,0.25,0,1499,4.31040671760306,3.83166398707771,"per_person",-0.0484723137410157,0.765666591311543,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0.765666591311543,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","A","weather_occ.11.T",31.9095,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.10.T",38.6295,30.5971779945911,1.06378283508314,0.25,0,1499,4.25513134033255,4.59717799459106,"per_person",-0.10374769101152,1.5311805988249,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,1.5311805988249,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","A","weather_occ.12.T",27.721,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","A","weather_occ.12.T",28.4505,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","A","weather_occ.12.T",29.18,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","A","weather_occ.12.T",29.9095,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","A","weather_occ.12.T",30.639,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","A","weather_occ.11.T",29.63025,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.T",28.8705,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.T",30.39,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","A","weather_occ.11.T",31.14975,29.0659973957662,1.08971975783602,0.25,0,1499,4.35887903134407,3.06599739576617,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0659973957662,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","B","weather_occ.10.T",38.6295,30.7233315422973,0.937629287376939,1.2,33.7559363273261,4159,0.781357739480783,4.72333154229726,"per_person",-0.09859660372537,1.62355960054246,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,1.6235596005425,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","B","weather_occ.10.T",37.70975,29.9116243910516,0.997641275426847,1.2,33.8735549574471,4159,0.831367729522373,3.91162439105163,"per_person",-0.0485866136837801,0.811852449296826,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,0.811852449296797,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","B","weather_occ.11.RH",73.718,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.10.T",34.9505,27.4757157948519,1.16941287092514,1.2,34.231984285926,4159,0.974510725770953,1.47571579485188,"per_person",0.0945563825647996,-1.62405614690292,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-1.6240561469029,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","B","weather_occ.11.T",28.8705,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.11.T",31.9095,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.10.T",35.87025,28.2875851213804,1.11331290054498,1.2,34.1115773824974,4159,0.927760750454147,2.28758512138035,"per_person",0.0478064072479938,-0.81218682037445,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-0.812186820374404,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","B","weather_occ.11.T",31.14975,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.12.T",29.9095,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","B","weather_occ.12.T",30.639,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","B","weather_occ.11.RH",75.516,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.11.RH",70.122,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.10.T",36.79,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","B","weather_occ.11.RH",68.324,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",29.0997719417548,1.62355960054246,5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_peak","B","weather_occ.11.T",30.39,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.12.T",27.721,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","B","weather_occ.11.T",29.63025,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_peak",29.0997719417548,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.10.T",36.79,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","B","weather_occ.10.T",37.70975,29.9116243910516,0.997641275426847,1.2,33.8735549574471,4159,0.831367729522373,3.91162439105163,"per_person",-0.0485866136837801,0.811852449296826,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0.811852449296826,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_peak","B","weather_occ.11.RH",71.92,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","B","weather_occ.12.T",29.18,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_peak",29.0997719417548,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.11.T",28.8705,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.10.T",34.9505,27.4757157948519,1.16941287092514,1.2,34.231984285926,4159,0.974510725770953,1.47571579485188,"per_person",0.0945563825647996,-1.62405614690292,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,-1.62405614690292,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","B","weather_occ.11.T",29.63025,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.11.RH",68.324,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.11.T",31.14975,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.11.RH",73.718,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.10.T",35.87025,28.2875851213804,1.11331290054498,1.2,34.1115773824974,4159,0.927760750454147,2.28758512138035,"per_person",0.0478064072479938,-0.81218682037445,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,-0.81218682037445,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","B","weather_occ.11.RH",70.122,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.11.T",31.9095,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","B","weather_occ.12.T",27.721,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","B","weather_occ.11.RH",75.516,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","B","weather_occ.12.T",28.4505,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",29.0997719417548,-3.5527136788005e-15,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_peak",29.0997719417548,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","B","weather_occ.12.T",30.639,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","B","weather_occ.12.T",29.18,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","B","weather_occ.12.T",29.9095,29.0997719417548,1.05594521184738,1.2,33.9921014908409,4159,0.879954343206153,3.0997719417548,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",29.0997719417548,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_peak","C","weather_occ.10.T",34.9505,26.3956771722035,2.24945149357348,2.5,81.4216115596436,4939,0.899780597429393,0.395677172203541,"per_person",0.0874318975410745,-1.72916823167785,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,-1.72916823167789,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","C","weather_occ.10.T",37.70975,28.9902656520407,1.91900001443774,2.5,80.5687256014769,4939,0.767600005775095,2.99026565204074,"per_person",-0.0447486941132226,0.865420248159346,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,0.86542024815931,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","C","weather_occ.10.T",38.6295,29.8566461087686,1.80431472090557,2.5,80.2888510832051,4939,0.721725888362229,3.85664610876863,"per_person",-0.0906228115260888,1.73180070488724,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.73180070488721,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","C","weather_occ.11.T",31.14975,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.10.T",35.87025,27.2599954607519,2.14090256117344,2.5,81.1351021312282,4939,0.856361024469375,1.25999546075189,"per_person",0.0440123245810569,-0.864849943129499,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,-0.864849943129492,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_peak","C","weather_occ.11.T",31.9095,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.11.T",28.8705,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.11.RH",73.718,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.12.T",29.9095,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","C","weather_occ.12.T",27.721,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","C","weather_occ.11.RH",75.516,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.11.T",30.39,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.10.T",36.79,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+hot_peak",28.1248454038814,-1.72916823167785,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_peak","C","weather_occ.11.RH",68.324,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.12.T",30.639,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_peak","C","weather_occ.11.T",29.63025,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_peak","C","weather_occ.12.T",29.18,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_peak",28.1248454038814,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.10.T",36.79,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","C","weather_occ.10.T",37.70975,28.9902656520407,1.91900001443774,2.5,80.5687256014769,4939,0.767600005775095,2.99026565204074,"per_person",-0.0447486941132226,0.865420248159346,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0.865420248159346,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","C","weather_occ.10.T",35.87025,27.2599954607519,2.14090256117344,2.5,81.1351021312282,4939,0.856361024469375,1.25999546075189,"per_person",0.0440123245810569,-0.864849943129499,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,-0.864849943129499,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_peak","C","weather_occ.11.RH",70.122,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",28.1248454038814,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.11.T",31.9095,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.10.T",38.6295,29.8566461087686,1.80431472090557,2.5,80.2888510832051,4939,0.721725888362229,3.85664610876863,"per_person",-0.0906228115260888,1.73180070488724,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,1.73180070488724,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_peak","C","weather_occ.11.RH",75.516,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.11.T",30.39,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","C","weather_occ.11.RH",71.92,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_peak",28.1248454038814,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.12.T",27.721,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","C","weather_occ.11.T",28.8705,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.11.T",31.14975,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.11.RH",73.718,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_peak","C","weather_occ.12.T",28.4505,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_peak",28.1248454038814,1.06581410364015e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",38.6295,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",34.9505,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",35.87025,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",31.14975,27.8658908695891,0,0,0,0,NA,1.86589086958906,"per_person",NA,1.07599882074217,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.07599882074221,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_peak",28.1248454038814,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","C","weather_occ.11.T",29.63025,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_peak","C","weather_occ.12.T",29.18,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","C","weather_occ.12.T",29.9095,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_peak","C","weather_occ.12.T",30.639,28.1248454038814,2.0308717497208,2.5,80.850808126701,4939,0.812348699888318,2.12484540388139,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_peak",28.1248454038814,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","NONE","weather_occ.11.T",31.9095,28.9842963737195,0,0,0,0,NA,2.98429637371948,"per_person",NA,2.19440432487259,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,2.19440432487261,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",29.9095,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",37.70975,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",28.8705,24.7529410919857,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,-2.03695095686119,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",29.18,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",30.639,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",75.516,27.0839659078556,0,0,0,0,NA,1.08396590785558,"per_person",NA,0.294073859008687,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,0.294073859008709,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",27.721,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",68.324,26.5286119914074,0,0,0,0,NA,0.528611991407374,"per_person",NA,-0.261280057439517,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,-0.261280057439492,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",26.7898920488469,2.19440432487259,5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","NONE","weather_occ.11.T",30.39,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",29.63025,25.7531990539099,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,-1.03669299493699,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",70.122,26.6554766070856,0,0,0,0,NA,0.655476607085575,"per_person",NA,-0.134415441761316,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,-0.134415441761291,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",27.721,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","NONE","weather_occ.10.T",36.79,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",31.14975,27.8658908695891,0,0,0,0,NA,1.86589086958906,"per_person",NA,1.07599882074217,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,1.07599882074217,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",37.70975,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",34.9505,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_humid","NONE","weather_occ.12.T",28.4505,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",73.718,26.9324724604847,0,0,0,0,NA,0.932472460484675,"per_person",NA,0.142580411637784,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,0.142580411637809,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",26.7898920488469,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",30.639,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",38.6295,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","NONE","weather_occ.10.T",35.87025,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",29.18,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",28.8705,24.7529410919857,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,-2.03695095686116,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.12.T",29.9095,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.T",29.63025,25.7531990539099,0,0,0,0,NA,0,"per_person",NA,-0.789892048846891,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,-1.03669299493695,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",68.324,26.5286119914074,0,0,0,0,NA,0.528611991407374,"per_person",NA,-0.261280057439517,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,-0.261280057439517,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",70.122,26.6554766070856,0,0,0,0,NA,0.655476607085575,"per_person",NA,-0.134415441761316,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,-0.134415441761316,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",75.516,27.0839659078556,0,0,0,0,NA,1.08396590785558,"per_person",NA,0.294073859008687,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0.294073859008687,5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",71.92,26.7898920488469,0,0,0,0,NA,0.789892048846891,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_humid",26.7898920488469,1.06581410364015e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.10.T",34.9505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","A","weather_occ.10.T",37.70975,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","A","weather_occ.10.T",38.6295,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","A","weather_occ.12.T",29.9095,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","A","weather_occ.11.T",31.14975,26.1467810160408,1.71910985354824,0.25,0,1499,6.87643941419294,0.146781016040826,"per_person",3.71687121880538,0.146781016040826,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,1.05817337884936,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.10.T",36.79,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","A","weather_occ.10.T",35.87025,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","A","weather_occ.12.T",28.4505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","A","weather_occ.11.RH",68.324,24.8991666656419,1.62944532576545,0.25,0,1499,2.11444796562949,0,"per_person",-1.04512022975807,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-0.189440971549544,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",26.7898920488469,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","NONE","weather_occ.11.RH",73.718,26.9324724604847,0,0,0,0,NA,0.932472460484675,"per_person",NA,0.142580411637784,"C","C","Boston / rail","Boston / rail
+hot_humid",26.7898920488469,0.142580411637784,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","A","weather_occ.12.T",30.639,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","A","weather_occ.11.T",28.8705,23.0930447839626,1.65989630802311,0.25,0,1499,0,0,"per_person",-3.15956819538756,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-1.99556285322884,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_humid",25.0886076371914,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","A","weather_occ.10.T",34.9505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","A","weather_occ.10.T",36.79,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","A","weather_occ.10.T",37.70975,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","A","weather_occ.10.T",35.87025,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_humid","A","weather_occ.11.T",31.9095,27.250335580858,1.73396079286151,0.25,0,1499,6.93584317144604,1.25033558085797,"per_person",3.77627497605847,1.25033558085797,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,2.16172794366656,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.11.RH",75.516,25.3041941893213,1.7797717185343,0.25,0,1499,4.33586363142231,0,"per_person",1.17629543603475,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,0.215586552129857,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.12.T",27.721,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_humid",25.0886076371914,2.16172794366653,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.10.T",38.6295,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_humid","A","weather_occ.12.T",29.18,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","A","weather_occ.11.RH",71.92,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.11.RH",73.718,25.1928055816779,1.73966687880673,0.25,0,1499,3.7298898419387,0,"per_person",0.570321646551136,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,0.104197944486454,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","A","weather_occ.11.T",30.39,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","A","weather_occ.11.RH",70.122,24.9909101805398,1.66456642654575,0.25,0,1499,2.6219064283423,0,"per_person",-0.537661767045265,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-0.0976974566516446,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",25.0886076371914,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.12.T",27.721,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","A","weather_occ.11.T",28.8705,23.0930447839626,1.65989630802311,0.25,0,1499,0,0,"per_person",-3.15956819538756,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,-1.99556285322882,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.12.T",29.9095,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","A","weather_occ.11.T",31.14975,26.1467810160408,1.71910985354824,0.25,0,1499,6.87643941419294,0.146781016040826,"per_person",3.71687121880538,0.146781016040826,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,1.05817337884938,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.12.T",28.4505,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","A","weather_occ.11.T",29.63025,24.0716582608037,1.6815407931062,0.25,0,1499,0,0,"per_person",-3.15956819538756,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.0886076371914,-1.01694937638774,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.10.T",37.70975,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","B","weather_occ.10.T",34.9505,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","B","weather_occ.12.T",29.9095,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","B","weather_occ.10.T",38.6295,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","B","weather_occ.11.T",30.39,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.11.T",31.14975,26.3775461010841,1.48834476850491,1.2,29.9357200416302,4159,1.24028730708743,0.37754610108415,"per_person",0.582043933048352,0.37754610108415,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,1.16600246081118,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.12.T",27.721,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","B","weather_occ.10.T",36.79,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+hot_humid",25.0886076371914,-1.01694937638771,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.11.RH",68.324,24.8991666656419,1.62944532576545,0.25,0,1499,2.11444796562949,0,"per_person",-1.04512022975807,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,-0.189440971549516,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.11.RH",70.122,24.9909101805398,1.66456642654575,0.25,0,1499,2.6219064283423,0,"per_person",-0.537661767045265,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,-0.0976974566516198,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.11.RH",71.92,25.0886076371914,1.70128441165545,0.25,0,1499,3.15956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.11.RH",73.718,25.1928055816779,1.73966687880673,0.25,0,1499,3.7298898419387,0,"per_person",0.570321646551136,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0.104197944486504,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","A","weather_occ.11.RH",75.516,25.3041941893213,1.7797717185343,0.25,0,1499,4.33586363142231,0,"per_person",1.17629543603475,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.0886076371914,0.215586552129839,5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","B","weather_occ.11.RH",68.324,24.7426397949197,1.78597219648769,1.2,33.7472273817483,4159,0.440509992839478,0,"per_person",-0.217733381199598,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-0.468903845353218,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.12.T",30.639,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","B","weather_occ.11.T",28.8705,23.0404286941664,1.7125123978193,1.2,28.8462513901345,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-2.17111494610652,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.11.RH",73.718,25.4589033067033,1.47356915378133,1.2,27.5281590739645,4159,0.777060383737229,0,"per_person",0.118817009698153,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,0.247359666430381,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.11.T",31.9095,27.6023822230684,1.3819141506511,1.2,30.2897281182602,4159,1.15159512554259,1.60238222306838,"per_person",0.49335175150351,1.60238222306838,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,2.39083858279548,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.11.RH",75.516,25.715740718133,1.36822518972255,1.2,25.5025095642215,4159,0.903304923212982,0,"per_person",0.245061549173906,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,0.504197077860081,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.12.T",28.4505,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","B","weather_occ.10.T",35.87025,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","B","weather_occ.11.T",29.63025,24.0998393605556,1.65335969335436,1.2,29.2139863830102,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.11170427971732,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","B","weather_occ.12.T",29.18,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_humid",25.2115436402729,-0.468903845353232,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","B","weather_occ.11.RH",70.122,24.9729574124107,1.68251919467487,1.2,31.6499848726471,4159,0.546230505904646,0,"per_person",-0.11201286813443,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-0.238586227862218,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",25.2115436402729,-0.238586227862214,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.11.RH",75.516,25.715740718133,1.36822518972255,1.2,25.5025095642215,4159,0.903304923212982,0,"per_person",0.245061549173906,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0.504197077860113,5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","B","weather_occ.11.RH",71.92,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",25.2115436402729,-1.77635683940025e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",25.2115436402729,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.11.RH",73.718,25.4589033067033,1.47356915378133,1.2,27.5281590739645,4159,0.777060383737229,0,"per_person",0.118817009698153,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0.247359666430423,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.12.T",30.639,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","B","weather_occ.10.T",38.6295,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","B","weather_occ.12.T",29.18,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","B","weather_occ.10.T",36.79,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","B","weather_occ.11.T",28.8705,23.0404286941664,1.7125123978193,1.2,28.8462513901345,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,-2.17111494610648,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.11.T",29.63025,24.0998393605556,1.65335969335436,1.2,29.2139863830102,4159,0,0,"per_person",-0.658243374039076,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,-1.11170427971734,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.12.T",29.9095,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","B","weather_occ.10.T",37.70975,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","B","weather_occ.11.T",30.39,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.11.T",31.9095,27.6023822230684,1.3819141506511,1.2,30.2897281182602,4159,1.15159512554259,1.60238222306838,"per_person",0.49335175150351,1.60238222306838,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,2.39083858279546,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","B","weather_occ.12.T",27.721,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","B","weather_occ.10.T",34.9505,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","B","weather_occ.12.T",28.4505,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","B","weather_occ.10.T",35.87025,25.2115436402729,1.57834840857397,1.2,29.5771425402245,4159,0.658243374039076,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","B","weather_occ.11.T",31.14975,26.3775461010841,1.48834476850491,1.2,29.9357200416302,4159,1.24028730708743,0.37754610108415,"per_person",0.582043933048352,0.37754610108415,"C","C","Boston / rail","Boston / rail
+hot_humid",25.2115436402729,1.16600246081123,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","C","weather_occ.11.T",31.9095,27.3768143204942,1.60748205322526,2.5,44.9297633754193,4939,0.642992821290103,1.37681432049423,"per_person",0.327036001751347,1.37681432049423,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,2.42108444315134,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.10.T",38.6295,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","C","weather_occ.11.T",30.39,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.11.T",28.8705,22.818742084722,1.93419900726375,2.5,42.7886062286995,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,-2.13698779262086,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.11.T",31.14975,26.135261703849,1.73062916574007,2.5,44.4046513950848,4939,0.692251666296029,0.13526170384899,"per_person",0.376294846757273,0.13526170384899,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,1.17953182650614,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.11.RH",68.324,24.4508176491614,2.077794342246,2.5,50.0583872829266,4939,0.211444796562949,0,"per_person",-0.104512022975807,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,-0.504912228181457,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.11.RH",75.516,25.4962009174423,1.58776499041327,2.5,37.8287225202619,4939,0.433586363142231,0,"per_person",0.117629543603475,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,0.540471040099444,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.12.T",29.9095,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","C","weather_occ.11.RH",70.122,24.6991787568478,1.95629785023775,2.5,46.9474775610933,4939,0.26219064283423,0,"per_person",-0.0537661767045265,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,-0.256551120495057,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.12.T",29.18,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","C","weather_occ.10.T",35.87025,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+hot_humid",24.9557298773429,2.42108444315137,5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_humid","C","weather_occ.12.T",27.721,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","C","weather_occ.10.T",34.9505,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","C","weather_occ.12.T",30.639,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_humid","C","weather_occ.11.T",29.63025,23.8334067741224,1.91979227978749,2.5,43.3340798014652,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,-1.12232310322046,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_humid",24.9557298773429,0,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","C","weather_occ.12.T",28.4505,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_humid",24.9557298773429,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","C","weather_occ.12.T",29.18,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","C","weather_occ.10.T",36.79,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_humid","C","weather_occ.11.RH",71.92,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_humid","C","weather_occ.11.RH",73.718,25.221168176555,1.71130428392966,2.5,40.8334359597141,4939,0.37298898419387,0,"per_person",0.0570321646551136,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,0.265438299212143,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_humid",24.9557298773429,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","C","weather_occ.12.T",29.9095,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_humid","C","weather_occ.10.T",37.70975,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_humid",24.9557298773429,4.2632564145606e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",38.6295,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",29.9095,24.4692757529006,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,0.594851416729849,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",28.8705,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",68.324,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",31.14975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_humid",24.9557298773429,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","C","weather_occ.12.T",30.639,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_humid","C","weather_occ.10.T",38.6295,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","C","weather_occ.11.RH",71.92,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.T",28.8705,22.818742084722,1.93419900726375,2.5,42.7886062286995,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,-2.13698779262087,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.RH",68.324,24.4508176491614,2.077794342246,2.5,50.0583872829266,4939,0.211444796562949,0,"per_person",-0.104512022975807,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,-0.504912228181485,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.RH",73.718,25.221168176555,1.71130428392966,2.5,40.8334359597141,4939,0.37298898419387,0,"per_person",0.0570321646551136,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0.265438299212157,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.T",29.63025,23.8334067741224,1.91979227978749,2.5,43.3340798014652,4939,0,0,"per_person",-0.315956819538756,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,-1.12232310322041,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.RH",70.122,24.6991787568478,1.95629785023775,2.5,46.9474775610933,4939,0.26219064283423,0,"per_person",-0.0537661767045265,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,-0.256551120495033,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.11.RH",75.516,25.4962009174423,1.58776499041327,2.5,37.8287225202619,4939,0.433586363142231,0,"per_person",0.117629543603475,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0.540471040099455,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.10.T",34.9505,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","C","weather_occ.11.T",30.39,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_humid","C","weather_occ.10.T",35.87025,24.9557298773429,1.83416217150403,2.5,43.8727614346663,4939,0.315956819538756,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_humid","C","weather_occ.11.T",31.14975,26.135261703849,1.73062916574007,2.5,44.4046513950848,4939,0.692251666296029,0.13526170384899,"per_person",0.376294846757273,0.13526170384899,"C","C","Boston / rail","Boston / rail
+hot_humid",24.9557298773429,1.17953182650613,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","NONE","weather_occ.11.T",31.9095,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",30.639,25.0645250650602,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,1.19010072888945,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",29.18,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_dry",23.8744243361708,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",38.6295,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","NONE","weather_occ.11.T",30.39,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",28.4505,23.2834113214546,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,-0.59101301471615,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",29.63025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",34.9505,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",75.516,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",37.70975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",35.87025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",71.92,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",27.721,22.4799784297615,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,-1.39444590640925,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",70.122,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",73.718,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","NONE","weather_occ.10.T",36.79,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
-hot_dry",23.8744243361708,4.9737991503207e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.12.T",29.9095,23.3807696087287,1.08850614417195,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,0.808318308619388,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","A","weather_occ.11.T",31.9095,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.10.T",38.6295,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.11.T",28.8705,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.12.T",29.18,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","A","weather_occ.11.T",29.63025,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.10.T",34.9505,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.12.T",30.639,23.9412297104251,1.12329535463516,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,1.36877841031579,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","A","weather_occ.12.T",28.4505,21.721953959614,1.5614573618406,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-0.850497340495309,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","A","weather_occ.10.T",37.70975,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.11.T",30.39,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.11.RH",68.324,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",71.92,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",27.721,22.4799784297615,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,-1.39444590640924,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",28.8705,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",68.324,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",31.14975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",37.70975,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",73.718,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",28.4505,23.2834113214546,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,-0.59101301471615,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.T",29.63025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",70.122,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",30.639,25.0645250650602,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,1.19010072888947,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","NONE","weather_occ.11.RH",75.516,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",29.18,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",34.9505,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","NONE","weather_occ.12.T",29.9095,24.4692757529006,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0.594851416729874,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","NONE","weather_occ.10.T",35.87025,23.8744243361708,0,0,0,0,NA,0,"per_person",NA,0,"C","C","Boston / rail","Boston / rail
+hot_dry",23.8744243361708,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","A","weather_occ.11.T",31.14975,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.10.T",35.87025,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.12.T",27.721,20.8277491019053,1.65222932785617,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.74470219820401,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_dry",22.5724513001093,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.12.T",30.639,23.9412297104251,1.12329535463516,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,1.36877841031575,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","A","weather_occ.11.T",30.39,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.11.T",31.9095,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.12.T",29.18,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_dry","A","weather_occ.10.T",36.79,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","A","weather_occ.11.RH",75.516,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","A","weather_occ.11.RH",73.718,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_dry",22.5724513001093,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","A","weather_occ.10.T",37.70975,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","A","weather_occ.10.T",38.6295,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","A","weather_occ.12.T",27.721,20.8277491019053,1.65222932785617,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,-1.74470219820397,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","A","weather_occ.11.T",28.8705,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.12.T",29.9095,23.3807696087287,1.08850614417195,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0.808318308619363,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","A","weather_occ.12.T",28.4505,21.721953959614,1.5614573618406,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,-0.850497340495313,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","A","weather_occ.11.T",29.63025,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.10.T",34.9505,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","A","weather_occ.10.T",35.87025,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","A","weather_occ.11.RH",68.324,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","A","weather_occ.11.RH",71.92,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+hot_dry",22.5724513001093,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.11.RH",73.718,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","A","weather_occ.11.RH",75.516,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.5724513001093,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","A","weather_occ.11.RH",70.122,22.5724513001093,1.30197303606144,0.25,0,1499,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.5724513001093,-1.06581410364015e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","B","weather_occ.11.T",31.14975,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_dry",22.5724513001093,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","B","weather_occ.12.T",27.721,20.3795807306127,2.1003976991488,1.2,35.5631668980417,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,-1.74011460333739,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.12.T",28.4505,21.2628126049742,2.02059871648038,1.2,35.4606117972672,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,-0.856882728975879,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.12.T",30.639,23.6399568107315,1.42456825432873,1.2,35.1565496989098,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,1.52026147678139,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.11.T",31.9095,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","B","weather_occ.12.T",29.18,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_dry","B","weather_occ.11.T",30.39,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","B","weather_occ.12.T",29.9095,22.9458662298997,1.52340952300089,1.2,35.2573048945231,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0.826170895949598,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","B","weather_occ.12.T",29.18,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","B","weather_occ.11.T",28.8705,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_dry",22.1196953339501,0.826170895949634,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.11.T",31.14975,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","B","weather_occ.10.T",38.6295,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","B","weather_occ.12.T",28.4505,21.2628126049742,2.02059871648038,1.2,35.4606117972672,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,-0.856882728975901,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.10.T",36.79,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","B","weather_occ.11.T",28.8705,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","B","weather_occ.10.T",34.9505,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","B","weather_occ.11.T",29.63025,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","B","weather_occ.12.T",30.639,23.6399568107315,1.42456825432873,1.2,35.1565496989098,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,1.5202614767814,5,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","B","weather_occ.11.T",31.9095,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","B","weather_occ.10.T",37.70975,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","B","weather_occ.12.T",27.721,20.3795807306127,2.1003976991488,1.2,35.5631668980417,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,-1.7401146033374,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","B","weather_occ.11.T",29.63025,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","B","weather_occ.10.T",35.87025,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","B","weather_occ.11.RH",68.324,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","B","weather_occ.11.RH",70.122,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","B","weather_occ.11.RH",75.516,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","B","weather_occ.10.T",36.79,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","B","weather_occ.11.RH",71.92,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","B","weather_occ.10.T",35.87025,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",22.1196953339501,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","B","weather_occ.11.RH",73.718,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",22.1196953339501,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.12.T",29.9095,21.2716763670465,3.19759938585412,2.5,83.8610368546155,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,0.889047578932615,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","C","weather_occ.12.T",29.18,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","C","weather_occ.10.T",38.6295,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","C","weather_occ.11.T",29.63025,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.11.T",28.8705,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.10.T",34.9505,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","B","weather_occ.11.RH",75.516,22.1196953339501,1.75472900222065,1.2,35.3586583747279,4159,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",22.1196953339501,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.RH",71.92,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,0,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.RH",68.324,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.RH",73.718,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.RH",70.122,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.RH",75.516,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,5,"Outdoor humidity [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.11.T",30.39,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,0,"Outdoor temperature [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","C","weather_occ.11.T",31.14975,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.12.T",28.4505,19.469725373267,3.81368594818759,2.5,84.3448086584565,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,-0.912903414846884,-2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_dry",20.3826287881139,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.10.T",38.6295,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","C","weather_occ.11.T",28.8705,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,-5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.10.T",36.79,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,0,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","C","weather_occ.10.T",37.70975,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
 "BOS_RAIL","hot_dry","C","weather_occ.12.T",30.639,22.1339317551886,2.93059330987165,2.5,83.6212884964909,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.75130296707471,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+hot_dry",20.3826287881139,1.75130296707469,5,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","C","weather_occ.11.T",29.63025,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.12.T",29.18,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,0,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_dry","C","weather_occ.11.T",31.9095,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+hot_dry",20.3826287881139,0,5,"Outdoor temperature [BOS_RAIL] hot_humid"
+"BOS_RAIL","hot_dry","C","weather_occ.10.T",34.9505,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0,-5,"Outdoor temperature [BOS_RAIL] hot_peak"
+"BOS_RAIL","hot_dry","C","weather_occ.12.T",29.9095,21.2716763670465,3.19759938585412,2.5,83.8610368546155,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,0.889047578932622,2.50000000000001,"Outdoor temperature [BOS_RAIL] hot_dry"
+"BOS_RAIL","hot_dry","C","weather_occ.12.T",28.4505,19.469725373267,3.81368594818759,2.5,84.3448086584565,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
+hot_dry",20.3826287881139,-0.912903414846873,-2.5,"Outdoor temperature [BOS_RAIL] hot_dry"
 "BOS_RAIL","hot_dry","C","weather_occ.12.T",27.721,18.5348230439218,3.9451553858397,2.5,84.5888401882862,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
 hot_dry",20.3826287881139,-1.84780574419208,-4.99999999999999,"Outdoor temperature [BOS_RAIL] hot_dry"
-"BOS_RAIL","hot_dry","C","weather_occ.11.RH",73.718,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,2.50000000000001,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.11.T",30.39,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.11.RH",68.324,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.11.RH",75.516,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,5,"Outdoor humidity [BOS_RAIL] hot_humid"
-"BOS_RAIL","hot_dry","C","weather_occ.10.T",37.70975,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,2.49999999999999,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","C","weather_occ.11.RH",70.122,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-2.5,"Outdoor humidity [BOS_RAIL] hot_humid"
 "BOS_RAIL","hot_dry","C","weather_occ.10.T",35.87025,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","C","weather_occ.10.T",36.79,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,0,"Outdoor temperature [BOS_RAIL] hot_peak"
-"BOS_RAIL","hot_dry","C","weather_occ.11.RH",71.92,20.3826287881139,3.49179554805687,2.5,84.1022089255742,4939,0,0,"per_person",0,0,"C","C","Boston / rail","Boston / rail
-hot_dry",20.3826287881139,1.77635683940025e-14,0,"Outdoor humidity [BOS_RAIL] hot_humid"
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+hot_dry",20.3826287881139,0,-2.5,"Outdoor temperature [BOS_RAIL] hot_peak"

@@ -1,184 +1,121 @@
 "parameter","parameter_label","site","swing"
-<<<<<<< HEAD
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Dallas / bus",3.56471728696218
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Dallas / rail",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Boston / bus",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Boston / rail",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Phoenix / bus",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Phoenix / rail",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Dallas / courtyard",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Dallas / airport canopy",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Boston / courtyard",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Boston / airport canopy",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Phoenix / courtyard",0
-"weather_occ.1.T","Outdoor temperature [DAL_BUS]","Phoenix / airport canopy",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Dallas / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Dallas / rail",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Boston / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Boston / rail",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Phoenix / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Phoenix / rail",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Dallas / courtyard",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Dallas / airport canopy",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Boston / courtyard",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Boston / airport canopy",3.45191290531804
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Phoenix / courtyard",0
-"weather_occ.10.T","Outdoor temperature [BOS_PAV]","Phoenix / airport canopy",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Dallas / bus",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Dallas / rail",3.55238063741911
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Boston / bus",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Boston / rail",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Phoenix / bus",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Phoenix / rail",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Dallas / courtyard",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Dallas / airport canopy",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Boston / courtyard",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Boston / airport canopy",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Phoenix / courtyard",0
-"weather_occ.2.T","Outdoor temperature [DAL_RAIL]","Phoenix / airport canopy",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Dallas / bus",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Dallas / rail",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Boston / bus",3.45191290531804
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Boston / rail",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Phoenix / bus",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Phoenix / rail",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Dallas / courtyard",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Dallas / airport canopy",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Boston / courtyard",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Boston / airport canopy",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Phoenix / courtyard",0
-"weather_occ.3.T","Outdoor temperature [BOS_BUS]","Phoenix / airport canopy",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Dallas / bus",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Dallas / rail",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Boston / bus",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Boston / rail",3.45191290531807
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Phoenix / bus",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Phoenix / rail",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Dallas / courtyard",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Dallas / airport canopy",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Boston / courtyard",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Boston / airport canopy",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Phoenix / courtyard",0
-"weather_occ.4.T","Outdoor temperature [BOS_RAIL]","Phoenix / airport canopy",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Dallas / bus",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Dallas / rail",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Boston / bus",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Boston / rail",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Phoenix / bus",3.20753891446466
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Phoenix / rail",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Dallas / courtyard",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Dallas / airport canopy",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Boston / courtyard",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Boston / airport canopy",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Phoenix / courtyard",0
-"weather_occ.5.T","Outdoor temperature [PHX_BUS]","Phoenix / airport canopy",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Dallas / bus",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Dallas / rail",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Boston / bus",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Boston / rail",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Phoenix / bus",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Phoenix / rail",3.12816618825573
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Dallas / courtyard",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Dallas / airport canopy",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Boston / courtyard",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Boston / airport canopy",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Phoenix / courtyard",0
-"weather_occ.6.T","Outdoor temperature [PHX_RAIL]","Phoenix / airport canopy",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Dallas / bus",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Dallas / rail",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Boston / bus",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Boston / rail",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Phoenix / bus",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Phoenix / rail",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Dallas / courtyard",3.48210010987189
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Dallas / airport canopy",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Boston / courtyard",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Boston / airport canopy",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Phoenix / courtyard",0
-"weather_occ.7.T","Outdoor temperature [DAL_QUAD]","Phoenix / airport canopy",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Dallas / bus",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Dallas / rail",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Boston / bus",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Boston / rail",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Phoenix / bus",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Phoenix / rail",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Dallas / courtyard",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Dallas / airport canopy",3.44268187205507
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Boston / courtyard",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Boston / airport canopy",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Phoenix / courtyard",0
-"weather_occ.8.T","Outdoor temperature [DAL_PAV]","Phoenix / airport canopy",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Dallas / bus",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Dallas / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Boston / bus",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Boston / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Phoenix / bus",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Phoenix / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Dallas / courtyard",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Dallas / airport canopy",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Boston / courtyard",3.45191290531807
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Boston / airport canopy",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Phoenix / courtyard",0
-"weather_occ.9.T","Outdoor temperature [BOS_QUAD]","Phoenix / airport canopy",0
-=======
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Dallas / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Dallas / rail",0
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Boston / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Boston / rail",3.4609689365651
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Phoenix / bus",0
-"weather_occ.10.T","Outdoor temperature [BOS_RAIL] hot_peak","Phoenix / rail",0
 "weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Dallas / bus",0
 "weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Dallas / rail",0
 "weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Boston / bus",0
-"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Boston / rail",4.561953528902
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Boston / rail",4.56195352890195
 "weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Phoenix / bus",0
 "weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Phoenix / rail",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Dallas / courtyard",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Dallas / airport canopy",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Boston / courtyard",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Boston / airport canopy",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Phoenix / courtyard",0
+"weather_occ.11.T","Outdoor temperature [BOS_RAIL] hot_humid","Phoenix / airport canopy",0
 "weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Dallas / bus",0
 "weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Dallas / rail",0
 "weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Boston / bus",0
-"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Boston / rail",3.5991087112668
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Boston / rail",3.59910871126677
 "weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Phoenix / bus",0
 "weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Phoenix / rail",0
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Dallas / bus",0
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Dallas / rail",0
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Boston / bus",0
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Boston / rail",0
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Phoenix / bus",3.4422141993699
-"weather_occ.14.T","Outdoor temperature [PHX_BUS] hot_humid","Phoenix / rail",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Dallas / bus",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Dallas / rail",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Boston / bus",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Boston / rail",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Phoenix / bus",0
-"weather_occ.17.T","Outdoor temperature [PHX_RAIL] hot_humid","Phoenix / rail",3.3646465134384
-"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Dallas / bus",4.2831130091467
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Dallas / courtyard",0
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Dallas / airport canopy",0
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Boston / courtyard",0
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Boston / airport canopy",0
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Phoenix / courtyard",0
+"weather_occ.12.T","Outdoor temperature [BOS_RAIL] hot_dry","Phoenix / airport canopy",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Dallas / bus",4.28311300914671
 "weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Dallas / rail",0
 "weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Boston / bus",0
 "weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Boston / rail",0
 "weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Phoenix / bus",0
 "weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Phoenix / rail",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Dallas / courtyard",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Dallas / airport canopy",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Boston / courtyard",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Boston / airport canopy",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Phoenix / courtyard",0
+"weather_occ.2.T","Outdoor temperature [DAL_BUS] hot_humid","Phoenix / airport canopy",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Dallas / bus",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Dallas / rail",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Boston / bus",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Boston / rail",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Phoenix / bus",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Phoenix / rail",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Dallas / courtyard",3.92566187131514
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Dallas / airport canopy",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Boston / courtyard",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Boston / airport canopy",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Phoenix / courtyard",0
+"weather_occ.20.T","Outdoor temperature [DAL_QUAD] hot_humid","Phoenix / airport canopy",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Dallas / bus",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Dallas / rail",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Boston / bus",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Boston / rail",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Phoenix / bus",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Phoenix / rail",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Dallas / courtyard",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Dallas / airport canopy",3.84578271055292
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Boston / courtyard",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Boston / airport canopy",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Phoenix / courtyard",0
+"weather_occ.23.T","Outdoor temperature [DAL_PAV] hot_humid","Phoenix / airport canopy",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Dallas / bus",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Dallas / rail",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Boston / bus",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Boston / rail",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Phoenix / bus",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Phoenix / rail",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Dallas / courtyard",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Dallas / airport canopy",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Boston / courtyard",4.52378954671207
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Boston / airport canopy",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Phoenix / courtyard",0
+"weather_occ.26.T","Outdoor temperature [BOS_QUAD] hot_humid","Phoenix / airport canopy",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Dallas / bus",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Dallas / rail",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Boston / bus",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Boston / rail",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Phoenix / bus",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Phoenix / rail",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Dallas / courtyard",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Dallas / airport canopy",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Boston / courtyard",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Boston / airport canopy",4.46826707068579
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Phoenix / courtyard",0
+"weather_occ.29.T","Outdoor temperature [BOS_PAV] hot_humid","Phoenix / airport canopy",0
 "weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Dallas / bus",0
-"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Dallas / rail",4.0864611230212
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Dallas / rail",4.08646112302121
 "weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Boston / bus",0
 "weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Boston / rail",0
 "weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Phoenix / bus",0
 "weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Phoenix / rail",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Dallas / courtyard",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Dallas / airport canopy",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Boston / courtyard",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Boston / airport canopy",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Phoenix / courtyard",0
+"weather_occ.5.T","Outdoor temperature [DAL_RAIL] hot_humid","Phoenix / airport canopy",0
 "weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Dallas / bus",0
 "weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Dallas / rail",0
-"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Boston / bus",3.5663636175319
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Boston / bus",3.56636361753183
 "weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Boston / rail",0
 "weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Phoenix / bus",0
 "weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Phoenix / rail",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Dallas / courtyard",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Dallas / airport canopy",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Boston / courtyard",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Boston / airport canopy",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Phoenix / courtyard",0
+"weather_occ.7.T","Outdoor temperature [BOS_BUS] hot_peak","Phoenix / airport canopy",0
 "weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Dallas / bus",0
 "weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Dallas / rail",0
-"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Boston / bus",4.8031638186948
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Boston / bus",4.80316381869479
 "weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Boston / rail",0
 "weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Phoenix / bus",0
 "weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Phoenix / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Dallas / bus",0
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Dallas / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Boston / bus",3.479239966754
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Boston / rail",0
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Phoenix / bus",0
-"weather_occ.9.T","Outdoor temperature [BOS_BUS] hot_dry","Phoenix / rail",0
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Dallas / courtyard",0
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Dallas / airport canopy",0
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Boston / courtyard",0
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Boston / airport canopy",0
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Phoenix / courtyard",0
+"weather_occ.8.T","Outdoor temperature [BOS_BUS] hot_humid","Phoenix / airport canopy",0

@@ -677,20 +677,31 @@ if (requireNamespace("ggplot2", quietly = TRUE) &&
 }
 
 
-<<<<<<< HEAD
 # Test 34 – The study inputs cover all four venue types in each city.
 study_venues <- as.vector(outer(c("DAL", "BOS", "PHX"),
                                c("BUS", "RAIL", "QUAD", "PAV"), paste, sep = "_"))
 study <- run_all(build_config(), load_tables(), quiet = TRUE)
-study_options <- table(study$options$venue, study$options$option)
+study_scenarios <- c("hot_peak", "hot_humid", "hot_dry")
+study_options <- xtabs(~ venue + scenario + option, study$options)
 stopifnot(
   setequal(rownames(study_options), study_venues),
-  setequal(colnames(study_options), c("NONE", "A", "B", "C")),
+  setequal(dimnames(study_options)$scenario, study_scenarios),
+  setequal(dimnames(study_options)$option, c("NONE", "A", "B", "C")),
   all(study_options == 1L),
   setequal(study$outdoor$venue, study_venues),
-  setequal(study$comfort_detail$venue, study_venues)
+  setequal(study$comfort_detail$venue, study_venues),
+  nrow(study$outdoor) == 36L,
+  nrow(study$zone_conditions) == 144L,
+  nrow(study$comfort_detail) == 144L,
+  all(study$mass_balance$balanced),
+  all(study$options$physical_valid & study$options$decision_ready),
+  all(is.finite(study$options$mean_SET)),
+  all(study$recommendations$scenario_count == 3L),
+  setequal(study$recommendations$venue[study$recommendations$chosen], study_venues)
 )
-=======
+
+
+# Test 35 - Cached sensitivity reruns agree with full recomputation.
 two_venues <- fixture()
 for (name in c("zones", "exchanges", "weather_occ", "devices")) {
   extra <- two_venues[[name]]; extra$venue <- "second"
@@ -706,6 +717,7 @@ ordered <- function(x) {
 stopifnot(isTRUE(all.equal(ordered(cached_two$options), ordered(full_two$options))),
   isTRUE(all.equal(ordered(cached_two$recommendations), ordered(full_two$recommendations))))
 
+# Test 36 - Verify evaporative cooling limits across a range of humidity.
 cap_cfg <- build_config()
 for (rh in c(0, 30, 70, 99, 100)) {
   w <- fixture()$weather_occ; w$RH <- rh
@@ -715,7 +727,6 @@ for (rh in c(0, 30, 70, 99, 100)) {
   stopifnot(supply["T"] >= twb - cap_cfg$rtol, supply["T"] >= w$T-dev$dT_max-cap_cfg$rtol,
     relative_humidity(supply["T"], supply["w"], w$pressure) <= 100 + cap_cfg$rtol, supply["water_kg"] >= 0)
 }
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
 
 # All tests passed
 cat("PASS: physics, RH, SET reference, duration scaling, fixed radiation, four zones,",

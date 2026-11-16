@@ -10,7 +10,7 @@ Three distinct hours are selected deterministically for each city, before lookin
 
 The hottest 10% means ceil(0.10 * 2208) = 221 records, ordered by temperature descending and UTC timestamp ascending for ties. Humidity ratio uses the same ASHRAE saturation-pressure equation as physics.R. The humid/dry labels are relative to that city's hot subset; Phoenix's humid-hot scenario is not humid on a Boston scale. The 10% selection rule defines stress scenarios, not probabilities. There is no assertion that these scenarios span every plausible summer condition.
 
-All variables for each scenario come from the same timestamp. Bus and rail in a city use the same three weather records. The previously approved venue ventilation and passenger airspeed estimates are held fixed across weather scenarios; hourly wind/exposure changes are not claimed to have been measured.
+All variables for each scenario come from the same timestamp. All four venues in a city share the same three weather records. Each venue uses its own ventilation and passenger airspeed estimates across the weather scenarios.
 
 | City | Scenario | UTC hour (YYYYMMDDHH) | T (degC) | RH (%) | Pressure (Pa) |
 |---|---|---|---:|---:|---:|

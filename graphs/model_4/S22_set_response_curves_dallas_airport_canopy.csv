@@ -1,161 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.pressure",94268.5,23.7079323494078,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.0769685365962403,-5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.pressure",96749.25,23.6688039525329,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.0378401397213395,-2.5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.pressure",99230,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0,0,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.T",30.66,25.3152196505063,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,1.68425583769474,5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.pressure",101710.75,23.5943376280875,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.0366261847240104,2.49999999999999,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.pressure",104191.5,23.5588571224765,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.0721066903350476,5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.met",0.975,23.6648910558694,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.0339272430578426,-2.5,"Activity"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.met",1.05,23.5872580356058,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.0437057772057834,5,"Activity"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.T",29.2,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0,0,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.met",1,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0,0,"Activity"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.T",29.93,24.4628245991436,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.831860786332058,2.49999999999999,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.met",1.025,23.5988659284743,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.0320978843372828,2.49999999999999,"Activity"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.clo",0.351,23.5525004853586,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.0784633274529938,-2.5,"Clothing"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.clo",0.378,23.7877962687518,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.156832455940272,5,"Clothing"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.T",27.74,21.997998999281,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-1.63296481353059,-5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.clo",0.36,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0,0,"Clothing"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.met",0.95,23.7029833448037,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.0720195319921366,-5,"Activity"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.clo",0.342,23.4740728503452,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.156890962466338,-5,"Clothing"
-"DAL_PAV","summer_mean_1h","NONE","weather_occ.8.T",28.47,22.8415253105702,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,-0.78943850224136,-2.5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","NONE","groups.1.clo",0.369,23.7093846925481,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.6309638128115,0.0784208797365515,2.50000000000001,"Clothing"
-"DAL_PAV","summer_mean_1h","A","groups.1.met",1.05,23.2114119073291,0.375846128276653,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.0602157847925007,5,"Activity"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.pressure",94268.5,23.343398982438,0.364533366969823,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.0717712903163523,-5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.pressure",101710.75,23.2374291780331,0.356908450054455,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.0341985140885299,2.49999999999999,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.pressure",96749.25,23.3068621498333,0.361941802699619,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.0352344577116561,-2.5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.pressure",104191.5,23.2043099299362,0.354547192540295,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.0673177621854073,5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.pressure",99230,23.2716276921216,0.359336120689935,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0,0,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.clo",0.342,23.1147767702971,0.359296080048118,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.156850921824521,-5,"Clothing"
-"DAL_PAV","summer_mean_1h","A","groups.1.clo",0.351,23.1926539980507,0.359846487307877,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.0789736940709354,-2.5,"Clothing"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.T",27.74,21.6074045920545,0.390594407226459,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-1.66422310006712,-5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.clo",0.36,23.2716276921216,0.359336120689935,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0,0,"Clothing"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.T",28.47,22.4743396430368,0.367185667533413,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.797288049084838,-2.5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.clo",0.369,23.3507948633855,0.358589829162572,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.079167171263915,2.50000000000001,"Clothing"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.T",29.2,23.2716276921216,0.359336120689935,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0,0,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.clo",0.378,23.4300406127739,0.35775565597795,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.158412920652257,5,"Clothing"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.T",29.93,24.102652392687,0.360172206456618,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.831024700565376,2.49999999999999,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.met",0.95,23.3866785696961,0.316304775107632,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.11505087757444,-5,"Activity"
-"DAL_PAV","summer_mean_1h","A","weather_occ.8.T",30.66,24.9545874775526,0.360632172953729,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,1.68295978543095,5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","A","groups.1.met",0.975,23.3470808009681,0.317810254901335,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0.0754531088464425,-2.5,"Activity"
-"DAL_PAV","summer_mean_1h","A","groups.1.met",1,23.2716276921216,0.359336120689935,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,0,0,"Activity"
-"DAL_PAV","summer_mean_1h","A","groups.1.met",1.025,23.231091820016,0.367774108458274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",23.2716276921216,-0.0405358721056217,2.49999999999999,"Activity"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.T",30.66,24.6223828396442,0.692836810862044,1.2,34.480126159811,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,1.70964080395207,5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","groups.1.met",0.975,22.946756282741,0.718134773128394,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.0340142470488196,-2.5,"Activity"
-"DAL_PAV","summer_mean_1h","B","groups.1.clo",0.351,22.8347644721571,0.717736013201453,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.0779775635350752,-2.5,"Clothing"
-"DAL_PAV","summer_mean_1h","B","groups.1.met",1.05,22.8542810329975,0.73297700260828,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.0584610026946919,5,"Activity"
-"DAL_PAV","summer_mean_1h","B","groups.1.clo",0.378,23.0669521510856,0.720844117666235,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.154210115393408,5,"Clothing"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.T",27.74,21.1797009675892,0.818298031691779,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-1.733041068103,-5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","groups.1.met",1,22.9127420356922,0.718221777119371,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0,0,"Activity"
-"DAL_PAV","summer_mean_1h","B","groups.1.clo",0.36,22.9127420356922,0.718221777119371,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0,0,"Clothing"
-"DAL_PAV","summer_mean_1h","B","groups.1.met",0.95,22.9773182390308,0.725665105772851,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.0645762033386568,-5,"Activity"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.T",28.47,22.0694810975758,0.772044212994391,1.2,34.7691181783897,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.84326093811638,-2.5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","groups.1.met",1.025,22.859589933626,0.739275994848253,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.0531521020661643,2.49999999999999,"Activity"
-"DAL_PAV","summer_mean_1h","B","groups.1.clo",0.369,22.9900203877594,0.719364304788684,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.0772783520672391,2.50000000000001,"Clothing"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.T",29.2,22.9127420356922,0.718221777119371,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0,0,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.T",29.93,23.7411505656917,0.721674033451908,1.2,34.5757726894599,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.828408529999521,2.49999999999999,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","groups.1.clo",0.342,22.7566590214223,0.717413828922894,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.156083014269861,-5,"Clothing"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.pressure",101710.75,22.8570623546036,0.737275273483956,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.0556796810885949,2.49999999999999,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.pressure",96749.25,22.9695550032963,0.69924894923663,1.2,33.808580977581,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.0568129676040812,-2.5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.pressure",104191.5,22.802720320004,0.756136802472511,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,-0.110021715688188,5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.pressure",99230,22.9127420356922,0.718221777119371,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0,0,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","B","weather_occ.8.pressure",94268.5,23.027743261907,0.680189087500803,1.2,32.9450582623647,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",22.9127420356922,0.115001226214808,-5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.T",30.66,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,5,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.pressure",96749.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.T",29.93,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.pressure",99230,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,0,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","weather_occ.8.pressure",94268.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-5,"Air pressure [DAL_PAV]"
-"DAL_PAV","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,5,"Activity"
-"DAL_PAV","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"DAL_PAV","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,0,"Activity"
-"DAL_PAV","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"DAL_PAV","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"DAL_PAV","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,5,"Clothing"
-"DAL_PAV","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,0,"Clothing"
-"DAL_PAV","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-5,"Activity"
-"DAL_PAV","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,-5,"Clothing"
-"DAL_PAV","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / airport canopy","Dallas / airport canopy
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.T",37.42275,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.T",38.3355,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.24.T",35.6265,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","NONE","weather_occ.24.T",36.54,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","NONE","weather_occ.24.T",37.4535,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","NONE","weather_occ.24.T",34.713,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","NONE","weather_occ.22.T",40.508,31.0829457597075,0,0,0,0,NA,5.08294575970748,"per_person",NA,-1.41319407507662,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,-1.41319407507662,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","NONE","weather_occ.24.T",38.367,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.T",34.6845,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.T",35.59725,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.22.T",41.574,31.7958128589677,0,0,0,0,NA,5.79581285896771,"per_person",NA,-0.700326975816392,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,-0.700326975816392,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.T",36.51,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.22.T",43.706,33.1840091649669,0,0,0,0,NA,7.18400916496687,"per_person",NA,0.687869330182764,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0.687869330182764,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","NONE","weather_occ.22.T",44.772,33.8596045897856,0,0,0,0,NA,7.85960458978563,"per_person",NA,1.36346475500152,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,1.36346475500152,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","NONE","weather_occ.22.T",42.64,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.RH",41.02,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.RH",38.969,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.RH",42.0455,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.RH",39.9945,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","NONE","weather_occ.23.RH",43.071,32.4961398347841,0,0,0,0,NA,6.4961398347841,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.4961398347841,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.T",37.42275,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.T",38.3355,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.22.T",43.706,33.0106801638427,0.173329001124124,0.25,0,1499,0.693316004496495,7.01068016384274,"per_person",-0.0227411239443427,0.69355461116885,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0.69355461116885,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","A","weather_occ.22.T",41.574,31.6107476643378,0.185065194629949,0.25,0,1499,0.740260778519797,5.61074766433776,"per_person",0.0242036500789595,-0.706377888336132,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,-0.706377888336132,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","A","weather_occ.23.T",34.6845,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.T",35.59725,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.22.T",44.772,33.6919609118691,0.167643677916516,0.25,0,1499,0.670574711666063,7.69196091186911,"per_person",-0.0454824167747745,1.37483535919522,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,1.37483535919522,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","A","weather_occ.24.T",34.713,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","A","weather_occ.22.T",40.508,30.8915206837443,0.191425075963231,0.25,0,1499,0.765700303852924,4.89152068374425,"per_person",0.0496431754120863,-1.42560486892964,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,-1.42560486892964,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","A","weather_occ.24.T",35.6265,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","A","weather_occ.23.T",36.51,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.22.T",42.64,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","A","weather_occ.24.T",36.54,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","A","weather_occ.24.T",37.4535,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","A","weather_occ.24.T",38.367,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","A","weather_occ.23.RH",38.969,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.RH",39.9945,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.RH",41.02,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.RH",43.071,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","A","weather_occ.23.RH",42.0455,32.3171255526739,0.179014282110209,0.25,0,1499,0.716057128440838,6.31712555267389,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.T",38.3355,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.T",37.42275,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.24.T",34.713,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","B","weather_occ.24.T",37.4535,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","B","weather_occ.24.T",35.6265,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","B","weather_occ.24.T",38.367,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","B","weather_occ.24.T",36.54,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","B","weather_occ.23.RH",41.02,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.RH",38.969,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.RH",42.0455,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.RH",39.9945,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.RH",43.071,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.23.T",34.6845,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.22.T",40.508,30.7286322453941,0.354313514313333,1.2,33.0772254217466,4159,0.295261261927777,4.72863224539415,"per_person",0.0344202206911899,-1.45449833990605,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,-1.45449833990605,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","B","weather_occ.23.T",35.59725,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.22.T",41.574,31.462164700971,0.333648157996691,1.2,32.9432751492805,4159,0.27804013166391,5.46216470097102,"per_person",0.0171990904273223,-0.720965884329178,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,-0.720965884329178,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","B","weather_occ.23.T",36.51,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","B","weather_occ.22.T",42.64,32.1831305853002,0.313009249483905,1.2,32.8104373582311,4159,0.260841041236587,6.1831305853002,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","B","weather_occ.22.T",43.706,32.8913100044392,0.292699160527704,1.2,32.6787073964645,4159,0.24391596710642,6.89131000443916,"per_person",-0.0169250741301674,0.708179419138965,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,0.708179419138965,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","B","weather_occ.22.T",44.772,33.5869311856289,0.272673404156741,1.2,32.5480808677761,4159,0.227227836797284,7.58693118562888,"per_person",-0.033613204439303,1.40380060032869,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",32.1831305853002,1.40380060032869,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.23.T",37.42275,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.23.T",38.3355,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.24.T",34.713,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","C","weather_occ.24.T",35.6265,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","C","weather_occ.24.T",36.54,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","C","weather_occ.23.T",34.6845,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.22.T",40.508,30.3030094012703,0.779936358437187,2.5,78.6742964315174,4939,0.311974543374875,4.30300940127029,"per_person",0.0358449309196474,-1.50280640237574,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,-1.50280640237574,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.24.T",37.4535,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","C","weather_occ.23.T",35.59725,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.22.T",41.574,31.060632673156,0.735180185811753,2.5,78.3555634998474,4939,0.294072074324701,5.06063267315596,"per_person",0.0179424618694739,-0.745183130490076,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,-0.745183130490076,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.24.T",38.367,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_peak","C","weather_occ.23.T",36.51,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.22.T",42.64,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.23.RH",41.02,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.23.RH",38.969,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.22.T",43.706,32.5380772610393,0.645931903927554,2.5,77.7260284737683,4939,0.258372761571022,6.53807726103931,"per_person",-0.0177568508842057,0.732261457393278,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0.732261457393278,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.23.RH",42.0455,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.23.RH",39.9945,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_peak","C","weather_occ.22.T",44.772,33.2576816493978,0.601922940387851,2.5,77.4152048255713,4939,0.24076917615514,7.25768164939777,"per_person",-0.0353604363000869,1.45186584575174,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,1.45186584575174,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_peak","C","weather_occ.23.RH",43.071,31.805815803646,0.690324031138069,2.5,78.0394778743704,4939,0.276129612455227,5.80581580364603,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_peak",31.805815803646,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.T",38.3355,31.9212868643988,0,0,0,0,NA,5.92128686439882,"per_person",NA,1.82609714316731,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,1.82609714316731,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.T",37.42275,31.0019706199664,0,0,0,0,NA,5.00197061996636,"per_person",NA,0.906780898734848,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0.906780898734848,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.24.T",34.713,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","NONE","weather_occ.22.T",40.508,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","NONE","weather_occ.24.T",35.6265,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.RH",39.9945,29.994415024173,0,0,0,0,NA,3.99441502417303,"per_person",NA,-0.100774697058476,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,-0.100774697058476,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.22.T",41.574,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","NONE","weather_occ.24.T",36.54,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.RH",38.969,29.8966660365584,0,0,0,0,NA,3.89666603655842,"per_person",NA,-0.198523684673091,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,-0.198523684673091,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.22.T",42.64,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.RH",41.02,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.T",34.6845,28.3165784932556,0,0,0,0,NA,2.31657849325557,"per_person",NA,-1.77861122797594,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,-1.77861122797594,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.24.T",37.4535,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","NONE","weather_occ.22.T",43.706,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.RH",42.0455,30.1991203940161,0,0,0,0,NA,4.19912039401609,"per_person",NA,0.103930672784582,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0.103930672784582,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.T",35.59725,29.2002341428176,0,0,0,0,NA,3.20023414281762,"per_person",NA,-0.894955578413885,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,-0.894955578413885,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.24.T",38.367,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","NONE","weather_occ.22.T",44.772,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.RH",43.071,30.3063240281311,0,0,0,0,NA,4.30632402813114,"per_person",NA,0.211134306899631,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0.211134306899631,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","NONE","weather_occ.23.T",36.51,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.T",37.42275,30.7300008942331,0.271969725733221,0.25,0,1499,1.08787890293289,4.73000089423314,"per_person",-0.0169391645121806,0.911015689862893,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0.911015689862893,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.T",38.3355,31.6540708631512,0.267216001247604,0.25,0,1499,1.06886400499042,5.65407086315121,"per_person",-0.0359540624546497,1.83508565878097,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,1.83508565878097,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.24.T",34.713,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","A","weather_occ.23.T",34.6845,28.033608110015,0.282970383240588,0.25,0,1499,1.13188153296235,2.03360811001498,"per_person",0.027063465517287,-1.78537709435527,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,-1.78537709435527,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.22.T",40.508,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","A","weather_occ.22.T",43.706,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","A","weather_occ.24.T",35.6265,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","A","weather_occ.23.T",35.59725,28.9204548317943,0.279779311023304,0.25,0,1499,1.11911724409322,2.92045483179432,"per_person",0.0142991766481515,-0.898530372575923,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,-0.898530372575923,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.22.T",41.574,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","A","weather_occ.22.T",44.772,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","A","weather_occ.24.T",36.54,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","A","weather_occ.23.T",36.51,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.22.T",42.64,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","A","weather_occ.24.T",37.4535,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","A","weather_occ.24.T",38.367,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","A","weather_occ.23.RH",41.02,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.RH",39.9945,29.7213580659167,0.273056958256287,0.25,0,1499,1.09222783302515,3.72135806591675,"per_person",-0.0125902344199176,-0.0976271384534968,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,-0.0976271384534968,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.RH",42.0455,29.9197093305059,0.279411063510203,0.25,0,1499,1.11764425404081,3.91970933050589,"per_person",0.0128261865957455,0.100724126135646,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0.100724126135646,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.RH",38.969,29.6266977701389,0.26996826641949,0.25,0,1499,1.07987306567796,3.62669777013893,"per_person",-0.024945001767108,-0.192287434231314,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,-0.192287434231314,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","A","weather_occ.23.RH",43.071,30.0236679553596,0.282656072771534,0.25,0,1499,1.13062429108614,4.02366795535961,"per_person",0.0258062236410694,0.204682750989363,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.8189852043702,0.204682750989363,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.24.T",34.713,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","B","weather_occ.24.T",35.6265,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","B","weather_occ.23.T",37.42275,30.5812226147144,0.420748005252001,1.2,33.7204348530836,4159,0.350623337710001,4.58122261471436,"per_person",-0.0231997205518683,0.93462056339709,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0.93462056339709,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.24.T",36.54,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","B","weather_occ.23.T",38.3355,31.5296261534463,0.391660710952532,1.2,33.6060742010732,4159,0.326383925793777,5.52962615344628,"per_person",-0.0474391324680923,1.88302410212902,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,1.88302410212902,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.24.T",37.4535,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","B","weather_occ.23.T",34.6845,27.8159373463076,0.500641146947927,1.2,34.0693892776698,4159,0.41720095578994,1.81593734630764,"per_person",0.0433778975280704,-1.83066470500963,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,-1.83066470500963,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.24.T",38.367,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","B","weather_occ.23.T",35.59725,28.7249612685501,0.475272874267549,1.2,33.9520929892045,4159,0.396060728556291,2.72496126855008,"per_person",0.0222376702944219,-0.921640782767192,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,-0.921640782767192,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.23.T",36.51,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.23.RH",41.02,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.22.T",40.508,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","B","weather_occ.23.RH",38.969,29.4480401515176,0.448625885040851,1.2,33.8294179563828,4159,0.373854904200709,3.44804015151757,"per_person",3.18459388400361e-05,-0.198561899799699,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,-0.198561899799699,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.22.T",43.706,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","B","weather_occ.23.RH",42.0455,29.7507617531428,0.448358640873341,1.2,33.8389530541814,4159,0.373632200727784,3.75076175314275,"per_person",-0.000190857534085154,0.104159701825484,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0.104159701825484,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.22.T",41.574,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","B","weather_occ.23.RH",39.9945,29.5457410967491,0.448673927423933,1.2,33.8325963223127,4159,0.373894939519944,3.5457410967491,"per_person",7.18812580746686e-05,-0.100860954568166,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,-0.100860954568166,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.22.T",44.772,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","B","weather_occ.23.RH",43.071,29.8583671012647,0.447956926866421,1.2,33.8421314201202,4159,0.373297439055351,3.85836710126472,"per_person",-0.000525619206518058,0.211765049947452,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0.211765049947452,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","B","weather_occ.22.T",42.64,29.6466020513173,0.448587669914243,1.2,33.8357746882454,4159,0.373823058261869,3.64660205131727,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.6466020513173,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","C","weather_occ.24.T",38.367,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","C","weather_occ.24.T",37.4535,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","C","weather_occ.23.T",37.42275,30.0704734219072,0.931497198059191,2.5,80.2045637744398,4939,0.372598879223676,4.07047342190717,"per_person",-0.024621796537059,0.968335390077495,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0.968335390077495,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.T",38.3355,31.054000506147,0.867286358251803,2.5,79.9324396356213,4939,0.346914543300721,5.05400050614701,"per_person",-0.0503061324600139,1.95186247431734,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,1.95186247431734,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.24.T",34.713,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","C","weather_occ.24.T",35.6265,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","C","weather_occ.24.T",36.54,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_humid","C","weather_occ.23.RH",38.969,28.9043757757101,0.992290260848367,2.5,80.4638982553762,4939,0.396916104339347,2.90437577571005,"per_person",-0.000304571421388289,-0.197762256119621,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,-0.197762256119621,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.RH",39.9945,29.0016014943234,0.992813529849617,2.5,80.4714580577093,4939,0.397125411939847,3.00160149432342,"per_person",-9.52638208886469e-05,-0.100536537506255,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,-0.100536537506255,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.RH",41.02,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.T",34.6845,27.2082177955941,1.10836069766147,2.5,81.034909663353,4939,0.443344279064588,1.20821779559409,"per_person",0.0461236033038531,-1.89392023623558,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,-1.89392023623558,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.RH",42.0455,29.2061442578969,0.9929761361192,2.5,80.4865776623971,4939,0.39719045444768,3.20614425789689,"per_person",-3.02213130553008e-05,0.10400622606722,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0.10400622606722,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.T",35.59725,28.1486214960701,1.05161264674756,2.5,80.7558001982181,4939,0.420645058699026,2.14862149607006,"per_person",0.0234243829382905,-0.953516535759611,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,-0.953516535759611,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.RH",43.071,29.313788972765,0.992535055366162,2.5,80.4941374647517,4939,0.397014022146465,3.31378897276498,"per_person",-0.000206653614270635,0.211650940935307,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0.211650940935307,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.23.T",36.51,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_humid","C","weather_occ.22.T",40.508,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","C","weather_occ.22.T",43.706,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","C","weather_occ.22.T",41.574,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","C","weather_occ.22.T",44.772,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_humid","C","weather_occ.22.T",42.64,29.1021380318297,0.993051689401838,2.5,80.4790178600495,4939,0.397220675760735,3.10213803182967,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_humid",29.1021380318297,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.T",38.3355,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.T",37.42275,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.24.T",34.713,27.0875231808282,0,0,0,0,NA,1.08752318082816,"per_person",NA,-1.33846147650624,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,-1.33846147650624,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","NONE","weather_occ.24.T",35.6265,27.75931407529,0,0,0,0,NA,1.75931407529,"per_person",NA,-0.6666705820444,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,-0.6666705820444,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","NONE","weather_occ.24.T",36.54,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","NONE","weather_occ.24.T",37.4535,29.0869039815151,0,0,0,0,NA,3.08690398151512,"per_person",NA,0.660919324180721,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0.660919324180721,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","NONE","weather_occ.24.T",38.367,29.741349586991,0,0,0,0,NA,3.74134958699096,"per_person",NA,1.31536492965656,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,1.31536492965656,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.RH",41.02,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.RH",42.0455,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.RH",38.969,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.RH",39.9945,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.RH",43.071,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.T",34.6845,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.22.T",40.508,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","NONE","weather_occ.22.T",43.706,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.T",35.59725,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.22.T",41.574,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","NONE","weather_occ.22.T",44.772,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","NONE","weather_occ.23.T",36.51,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","NONE","weather_occ.22.T",42.64,28.4259846573344,0,0,0,0,NA,2.4259846573344,"per_person",NA,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.23.T",38.3355,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.24.T",34.713,26.8581670443156,0.229356136512553,0.25,0,1499,0.917424546050214,0.858167044315611,"per_person",0.0408948484799794,-1.34868518862623,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,-1.34868518862623,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","A","weather_occ.24.T",38.367,29.5330453828002,0.208304204190711,0.25,0,1499,0.833216816762842,3.53304538280025,"per_person",-0.0433128808073917,1.3261931498584,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,1.3261931498584,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","A","weather_occ.24.T",37.4535,28.8731459663641,0.213758015151004,0.25,0,1499,0.855032060604017,2.87314596636412,"per_person",-0.0214976369662168,0.666293733422275,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0.666293733422275,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","A","weather_occ.23.T",37.42275,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.24.T",36.54,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","A","weather_occ.24.T",35.6265,27.5349132292139,0.224400846076115,0.25,0,1499,0.89760338430446,1.53491322921389,"per_person",0.0210736867342263,-0.671939003727957,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,-0.671939003727957,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","A","weather_occ.23.RH",38.969,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.23.RH",39.9945,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.23.RH",41.02,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.22.T",40.508,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.23.RH",42.0455,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.22.T",41.574,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.23.RH",43.071,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.22.T",42.64,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.22.T",43.706,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.22.T",44.772,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","A","weather_occ.23.T",34.6845,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.23.T",35.59725,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","A","weather_occ.23.T",36.51,28.2068522329418,0.219132424392559,0.25,0,1499,0.876529697570234,2.20685223294184,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",28.2068522329418,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.24.T",34.713,26.62613372524,0.461389455588161,1.2,33.8167908781863,4159,0.384491212990135,0.626133725240003,"per_person",0.0266793313554488,-1.37047667413278,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,-1.37047667413278,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","B","weather_occ.24.T",35.6265,27.3136398477618,0.445674227528251,1.2,33.6969754409718,4159,0.371395189606876,1.31363984776175,"per_person",0.0135833079721899,-0.682970551611028,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,-0.682970551611028,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","B","weather_occ.22.T",40.508,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","B","weather_occ.24.T",36.54,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","B","weather_occ.23.T",37.42275,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.22.T",41.574,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","B","weather_occ.24.T",37.4535,28.6741367941531,0.412767187362014,1.2,33.4598895218815,4159,0.343972656135012,2.67413679415311,"per_person",-0.0138392254996737,0.67752639478033,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0.67752639478033,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","B","weather_occ.23.T",38.3355,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.22.T",42.64,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","B","weather_occ.24.T",38.367,29.3456372967829,0.395712290208088,1.2,33.3426121507359,4159,0.329760241840074,3.34563729678287,"per_person",-0.0280516397946122,1.34902689741009,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,1.34902689741009,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","B","weather_occ.23.T",34.6845,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.22.T",43.706,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","B","weather_occ.23.T",35.59725,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.22.T",44.772,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","B","weather_occ.23.T",36.51,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.23.RH",41.02,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.23.RH",38.969,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.23.RH",42.0455,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.23.RH",43.071,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","B","weather_occ.23.RH",39.9945,27.9966103993728,0.429374257961623,1.2,33.5780094952796,4159,0.357811881634686,1.99661039937278,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.9966103993728,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.24.T",38.367,28.8713554435121,0.869994143478845,2.5,79.3057881190695,4939,0.347997657391538,2.87135544351212,"per_person",-0.0290448400137492,1.38797702969093,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,1.38797702969093,5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","C","weather_occ.23.T",38.3355,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,5,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.24.T",37.4535,28.1801206423709,0.906783339144233,2.5,79.584848887592,4939,0.362713335657693,2.18012064237089,"per_person",-0.0143291617475939,0.696742228549706,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0.696742228549706,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","C","weather_occ.23.T",37.42275,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.24.T",35.6265,26.7815697582696,0.977744317020424,2.5,80.1489937697502,4939,0.391097726808169,0.78156975826958,"per_person",0.0140552294028822,-0.701808655551606,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,-0.701808655551606,-2.5,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","C","weather_occ.24.T",34.713,26.0756051002288,1.01191808059936,2.5,80.4340942910305,4939,0.404767232239745,0.0756051002288025,"per_person",0.0277247348344574,-1.40777331359238,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,-1.40777331359238,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","C","weather_occ.24.T",36.54,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,0,"Outdoor temperature [DAL_PAV] hot_dry"
+"DAL_PAV","hot_dry","C","weather_occ.22.T",40.508,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-5.00000000000002,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","C","weather_occ.22.T",41.574,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-2.5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","C","weather_occ.22.T",42.64,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,0,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","C","weather_occ.23.T",34.6845,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-4.99999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.22.T",43.706,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,2.50000000000001,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","C","weather_occ.23.T",35.59725,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-2.49999999999999,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.22.T",44.772,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,5,"Outdoor temperature [DAL_PAV] hot_peak"
+"DAL_PAV","hot_dry","C","weather_occ.23.T",36.51,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,0,"Outdoor temperature [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.23.RH",41.02,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,0,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.23.RH",42.0455,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,2.49999999999999,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.23.RH",43.071,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.23.RH",38.969,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-5,"Outdoor humidity [DAL_PAV] hot_humid"
+"DAL_PAV","hot_dry","C","weather_occ.23.RH",39.9945,27.4833784138212,0.942606243513218,2.5,79.8659147623647,4939,0.377042497405287,1.48337841382119,"per_person",0,0,"C","C","Dallas / airport canopy","Dallas / airport canopy
+hot_dry",27.4833784138212,0,-2.5,"Outdoor humidity [DAL_PAV] hot_humid"

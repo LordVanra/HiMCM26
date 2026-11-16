@@ -1,644 +1,481 @@
 "venue","scenario","option","parameter","value","mean_SET","mean_SET_drop","kWh","water_kg","purchase_cost","eta","L","comfort_basis","delta_eta","delta_L","chosen_option","baseline_choice","site","panel","base_SET","delta_SET","input_change","parameter_label"
-<<<<<<< HEAD
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",101710.75,23.5943376280875,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.0366261847239997,2.49999999999999,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",104191.5,23.5588571224765,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.0721066903350405,5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",94268.5,23.707932349408,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.076968536596457,-5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",30.66,25.3152196505063,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,1.68425583769474,5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",96749.25,23.6688039525327,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.0378401397211796,-2.5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.pressure",99230,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0,0,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",0.975,23.6648910558694,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.0339272430578497,-2.5,"Activity"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0,0,"Activity"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1.025,23.5988659284743,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.0320978843372757,2.49999999999999,"Activity"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",1.05,23.5872580356056,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.0437057772059148,5,"Activity"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.351,23.5525004853585,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.0784633274530506,-2.5,"Clothing"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.342,23.4740728503453,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.156890962466285,-5,"Clothing"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.36,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0,0,"Clothing"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.369,23.7093846925479,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.0784208797363526,2.50000000000001,"Clothing"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.clo",0.378,23.7877962687517,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.156832455940172,5,"Clothing"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",27.74,21.997998999281,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-1.63296481353053,-5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","groups.1.met",0.95,23.7029833448038,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.0720195319922432,-5,"Activity"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",28.47,22.8415253105702,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,-0.789438502241318,-2.5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",29.2,23.6309638128115,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0,0,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","NONE","weather_occ.2.T",29.93,24.4628245991436,0,0,0,0,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.6309638128115,0.831860786332062,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",30.66,24.9545874775526,0.360632172953732,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,1.68295978543105,5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.met",0.975,23.3470808009681,0.317810254901325,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.0754531088465633,-2.5,"Activity"
-"DAL_RAIL","summer_mean_1h","A","groups.1.met",1,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0,0,"Activity"
-"DAL_RAIL","summer_mean_1h","A","groups.1.met",1.025,23.231091820016,0.367774108458274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.0405358721055116,2.49999999999999,"Activity"
-"DAL_RAIL","summer_mean_1h","A","groups.1.met",1.05,23.2114119073293,0.375846128276351,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.0602157847922271,5,"Activity"
-"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.342,23.1147767702971,0.359296080048164,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.156850921824411,-5,"Clothing"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",94268.5,23.343398982438,0.364533366970011,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.0717712903164838,-5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",96749.25,23.3068621498335,0.361941802699274,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.0352344577119439,-2.5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.351,23.1926539980506,0.359846487307866,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.0789736940708785,-2.5,"Clothing"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",99230,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0,0,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",101710.75,23.2374291780331,0.356908450054455,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.0341985140884162,2.49999999999999,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.pressure",104191.5,23.2043099299363,0.354547192540256,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.0673177621852581,5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.36,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0,0,"Clothing"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",27.74,21.6074045920546,0.390594407226409,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-1.66422310006691,-5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",28.47,22.4743396430368,0.367185667533448,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,-0.797288049084727,-2.5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.378,23.4300406127739,0.357755655977822,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.158412920652388,5,"Clothing"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",29.2,23.2716276921215,0.359336120690038,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0,0,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.clo",0.369,23.3507948633854,0.358589829162465,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.0791671712639257,2.50000000000001,"Clothing"
-"DAL_RAIL","summer_mean_1h","A","weather_occ.2.T",29.93,24.102652392687,0.360172206456614,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.831024700565486,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","A","groups.1.met",0.95,23.3866785696961,0.316304775107685,0.25,0,1499,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",23.2716276921215,0.115050877574596,-5,"Activity"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",30.66,23.7926132936301,1.52260635687616,1.2,34.480126159811,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,1.7249599082359,5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",94268.5,22.2117225156036,1.49620983380443,1.2,32.9450582623647,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.144069130209342,-5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",96749.25,22.1387927005128,1.53001125201996,1.2,33.808580977581,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.0711393151185362,-2.5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",27.74,20.240232656211,1.75776634307,1.2,34.8668152821308,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-1.82742072918321,-5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",99230,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0,0,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",28.47,21.1744365328951,1.6670887776751,1.2,34.7691181783897,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.893216852499105,-2.5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",101710.75,21.9982233804166,1.59611424767091,1.2,35.5356264080236,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.069430004977594,2.49999999999999,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",29.2,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0,0,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.pressure",104191.5,21.9303315474897,1.62852557498683,1.2,36.3991491232493,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.137321837904558,5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","weather_occ.2.T",29.93,22.9139345909362,1.54889000820743,1.2,34.5757726894599,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.846281205541946,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","B","groups.1.met",0.975,22.0853489956365,1.57954206023294,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.0176956102422245,-2.5,"Activity"
-"DAL_RAIL","summer_mean_1h","B","groups.1.met",1,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0,0,"Activity"
-"DAL_RAIL","summer_mean_1h","B","groups.1.met",1.025,22.0464872669,1.55237866157426,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.0211661184942216,2.49999999999999,"Activity"
-"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.342,21.9028601013004,1.57121274904488,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.16479328409385,-5,"Clothing"
-"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.378,22.2304612177434,1.55733505100834,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.162807832349149,5,"Clothing"
-"DAL_RAIL","summer_mean_1h","B","groups.1.met",1.05,22.0413665287937,1.54589150681197,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.0262868566005636,5,"Activity"
-"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.351,21.9855936600679,1.56690682529064,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,-0.0820597253263742,-2.5,"Clothing"
-"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.36,22.0676533853942,1.56331042741732,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0,0,"Clothing"
-"DAL_RAIL","summer_mean_1h","B","groups.1.clo",0.369,22.1493000634289,1.560084629119,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.0816466780346659,2.50000000000001,"Clothing"
-"DAL_RAIL","summer_mean_1h","B","groups.1.met",0.95,22.0990256812097,1.60395766359411,1.2,34.6721036928007,4159,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",22.0676533853942,0.0313722958154514,-5,"Activity"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",101710.75,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",104191.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",30.66,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",96749.25,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-2.5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",99230,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,0,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.pressure",94268.5,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-5,"Air pressure [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","groups.1.met",0.975,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-2.5,"Activity"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",29.2,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,0,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","groups.1.met",1,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,0,"Activity"
-"DAL_RAIL","summer_mean_1h","C","groups.1.met",1.025,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Activity"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",29.93,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,2.49999999999999,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","groups.1.met",1.05,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,5,"Activity"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",28.47,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-2.5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.342,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-5,"Clothing"
-"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.36,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,0,"Clothing"
-"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.378,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,5,"Clothing"
-"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.351,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-2.5,"Clothing"
-"DAL_RAIL","summer_mean_1h","C","weather_occ.2.T",27.74,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-5,"Outdoor temperature [DAL_RAIL]"
-"DAL_RAIL","summer_mean_1h","C","groups.1.clo",0.369,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,2.50000000000001,"Clothing"
-"DAL_RAIL","summer_mean_1h","C","groups.1.met",0.95,NA,NA,2.5,NA,4939,NA,NA,"per_person",NA,NA,NA,NA,"Dallas / rail","Dallas / rail
-summer_mean_1h",NA,NA,-5,"Activity"
-=======
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",39.9945,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.T",34.6845,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",40.508,31.0829457597075,0,0,0,0,NA,5.08294575970748,"per_person",NA,-1.41319407507649,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,-1.41319407507648,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",41.02,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.T",35.59725,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",41.574,31.7958128589677,0,0,0,0,NA,5.79581285896771,"per_person",NA,-0.700326975816264,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,-0.700326975816274,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",42.0455,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",36.54,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_peak","NONE","weather_occ.5.T",36.51,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",42.64,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",43.071,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",37.4535,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",39.9945,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","NONE","weather_occ.5.T",37.42275,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",43.706,33.1840091649669,0,0,0,0,NA,7.18400916496687,"per_person",NA,0.687869330182899,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,0.687869330182927,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",38.367,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",38.969,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",32.496139834784,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",41.02,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",34.713,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",42.0455,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","NONE","weather_occ.5.T",38.3355,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_peak",32.496139834784,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",35.6265,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.RH",43.071,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",41.574,31.7958128589677,0,0,0,0,NA,5.79581285896771,"per_person",NA,-0.700326975816264,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,-0.700326975816264,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_peak","NONE","weather_occ.4.T",44.772,33.8596045897855,0,0,0,0,NA,7.85960458978549,"per_person",NA,1.36346475500152,"C","C","Dallas / rail","Dallas / rail
 hot_peak",32.496139834784,1.36346475500152,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",34.713,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",36.54,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",35.6265,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",37.4535,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","NONE","weather_occ.6.T",38.367,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.496139834784,2.8421709430404e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","A","weather_occ.5.RH",39.9945,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.5.T",34.6845,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.5.RH",41.02,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.5.T",35.59725,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.4.T",41.574,31.6107476643378,0.185065194629949,0.25,0,1499,0.740260778519797,5.61074766433776,"per_person",0.0242036500794711,-0.706377888336132,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,-0.706377888336092,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","A","weather_occ.4.T",40.508,30.8915206837443,0.191425075963231,0.25,0,1499,0.765700303852924,4.89152068374425,"per_person",0.0496431754125979,-1.42560486892964,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,-1.42560486892959,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","A","weather_occ.5.RH",42.0455,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.6.T",36.54,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",42.64,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",43.706,33.1840091649669,0,0,0,0,NA,7.18400916496687,"per_person",NA,0.687869330182899,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0.687869330182899,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.T",34.6845,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.5.T",35.59725,32.496139834784,0,0,0,0,NA,6.49613983478397,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","NONE","weather_occ.4.T",40.508,31.0829457597075,0,0,0,0,NA,5.08294575970748,"per_person",NA,-1.41319407507649,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.496139834784,-1.41319407507649,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_peak","A","weather_occ.5.T",36.51,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.4.T",42.64,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","A","weather_occ.5.T",38.3355,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.5.RH",43.071,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","A","weather_occ.5.T",37.42275,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.4.T",43.706,33.0106801638428,0.173329001124038,0.25,0,1499,0.693316004496154,7.01068016384284,"per_person",-0.0227411239441722,0.693554611168942,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,0.693554611168906,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","A","weather_occ.6.T",34.713,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","A","weather_occ.5.RH",38.969,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","A","weather_occ.4.T",44.772,33.6919609118694,0.167643677916132,0.25,0,1499,0.670574711664528,7.69196091186936,"per_person",-0.0454824167757977,1.37483535919547,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,1.37483535919551,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","A","weather_occ.6.T",35.6265,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","A","weather_occ.6.T",37.4535,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","A","weather_occ.6.T",38.367,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",32.3171255526739,7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","B","weather_occ.5.RH",42.0455,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.5.RH",39.9945,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.5.RH",41.02,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.5.RH",43.071,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.6.T",37.4535,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","A","weather_occ.5.T",38.3355,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.6.T",36.54,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","A","weather_occ.6.T",34.713,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","A","weather_occ.6.T",37.4535,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","A","weather_occ.6.T",35.6265,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","A","weather_occ.4.T",41.574,31.6107476643378,0.185065194629949,0.25,0,1499,0.740260778519797,5.61074766433776,"per_person",0.0242036500794711,-0.706377888336132,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,-0.706377888336132,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","A","weather_occ.4.T",42.64,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","A","weather_occ.4.T",43.706,33.0106801638428,0.173329001124038,0.25,0,1499,0.693316004496154,7.01068016384284,"per_person",-0.0227411239441722,0.693554611168942,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0.693554611168942,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","A","weather_occ.5.RH",39.9945,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.5.RH",41.02,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.4.T",44.772,33.6919609118694,0.167643677916132,0.25,0,1499,0.670574711664528,7.69196091186936,"per_person",-0.0454824167757977,1.37483535919547,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,1.37483535919547,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","A","weather_occ.5.RH",43.071,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.5.RH",42.0455,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.5.T",34.6845,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.4.T",40.508,30.8915206837443,0.191425075963231,0.25,0,1499,0.765700303852924,4.89152068374425,"per_person",0.0496431754125979,-1.42560486892964,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,-1.42560486892964,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","A","weather_occ.5.T",35.59725,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","A","weather_occ.5.RH",38.969,32.3171255526739,0.179014282110082,0.25,0,1499,0.716057128440326,6.31712555267389,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",32.3171255526739,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.4.T",41.574,31.0743589571623,0.721453901805422,1.2,32.9432751492805,4159,0.601211584837852,5.07435895716229,"per_person",0.0362660747517977,-0.743846265518421,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,-0.743846265518421,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","B","weather_occ.6.T",36.54,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","B","weather_occ.5.T",36.51,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","B","weather_occ.4.T",42.64,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","B","weather_occ.5.RH",38.969,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.6.T",38.367,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",31.8182052226807,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","B","weather_occ.6.T",37.4535,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_peak","B","weather_occ.5.T",37.42275,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_peak",31.8182052226807,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","B","weather_occ.4.T",43.706,32.5491907856999,0.634818379266967,1.2,32.6787073964645,4159,0.529015316055806,6.54919078569991,"per_person",-0.0359301940302478,0.730985563019196,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,0.730985563019189,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","B","weather_occ.6.T",34.713,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",31.8182052226807,0.730985563019196,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","B","weather_occ.6.T",38.367,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","B","weather_occ.5.T",38.3355,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","B","weather_occ.4.T",44.772,33.267583648064,0.592020941721486,1.2,32.5480808677761,4159,0.493350784767905,7.267583648064,"per_person",-0.0715947253181486,1.44937842538329,"C","C","Dallas / rail","Dallas / rail
 hot_peak",31.8182052226807,1.44937842538329,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","B","weather_occ.5.T",35.59725,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.6.T",34.713,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_peak","B","weather_occ.5.T",34.6845,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.4.T",40.508,30.3181215696832,0.76482419002425,1.2,33.0772254217466,4159,0.637353491686875,4.31812156968323,"per_person",0.0724079816008208,-1.50008365299748,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.50008365299751,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","B","weather_occ.6.T",36.54,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",31.8182052226807,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","B","weather_occ.6.T",35.6265,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","B","weather_occ.5.T",36.51,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","B","weather_occ.4.T",41.574,31.0743589571623,0.721453901805422,1.2,32.9432751492805,4159,0.601211584837852,5.07435895716229,"per_person",0.0362660747517977,-0.743846265518421,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-0.74384626551841,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","B","weather_occ.5.T",38.3355,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.8182052226807,-1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.4.T",42.64,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","C","weather_occ.4.T",44.772,32.6519411012121,1.20766348857342,2.5,77.4152048255713,4939,0.483065395429369,6.65194110121207,"per_person",-0.0691824799270123,1.53642095481905,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,1.53642095481908,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","C","weather_occ.4.T",43.706,31.8900713961109,1.29393776885593,2.5,77.7260284737683,4939,0.51757510754237,5.89007139611095,"per_person",-0.0346727678140113,0.774551249717927,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,0.774551249717881,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","C","weather_occ.5.RH",39.9945,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.5.T",34.6845,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.6.T",36.54,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","C","weather_occ.6.T",35.6265,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","C","weather_occ.5.T",35.59725,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.4.T",41.574,30.328598165169,1.46721469379868,2.5,78.3555634998474,4939,0.586885877519471,4.32859816516903,"per_person",0.0346380021630892,-0.786921981223987,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-0.786921981224019,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","C","weather_occ.6.T",37.4535,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","C","weather_occ.4.T",40.508,29.5300429326395,1.552902827068,2.5,78.6742964315174,4939,0.6211611308272,3.53004293263948,"per_person",0.0689132554708181,-1.58547721375354,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-1.58547721375352,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_peak","C","weather_occ.6.T",38.367,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_peak","C","weather_occ.5.RH",42.0455,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.5.RH",41.02,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",31.8182052226807,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","B","weather_occ.5.T",35.59725,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.5.RH",39.9945,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.5.RH",41.02,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.5.RH",42.0455,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.5.RH",38.969,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.5.RH",43.071,31.8182052226807,0.677934612103265,1.2,32.8104373582311,4159,0.564945510086054,5.81820522268071,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","B","weather_occ.4.T",40.508,30.3181215696832,0.76482419002425,1.2,33.0772254217466,4159,0.637353491686875,4.31812156968323,"per_person",0.0724079816008208,-1.50008365299748,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.8182052226807,-1.50008365299748,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_peak","C","weather_occ.5.T",36.51,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.5.RH",38.969,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",31.115520146393,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","C","weather_occ.5.T",37.42275,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_peak","C","weather_occ.5.RH",43.071,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_peak",31.115520146393,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_peak","C","weather_occ.5.T",38.3355,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_peak",31.115520146393,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.6.T",36.54,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","C","weather_occ.6.T",37.4535,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","C","weather_occ.6.T",38.367,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_peak","C","weather_occ.6.T",34.713,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_peak",31.115520146393,-2.1316282072803e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",41.574,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",42.0455,30.1991203940161,0,0,0,0,NA,4.19912039401609,"per_person",NA,0.103930672784582,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,0.103930672784589,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",42.64,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",43.706,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",39.9945,29.994415024173,0,0,0,0,NA,3.99441502417303,"per_person",NA,-0.100774697058476,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-0.100774697058508,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",38.367,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",44.772,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",43.071,30.3063240281311,0,0,0,0,NA,4.30632402813114,"per_person",NA,0.211134306899631,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,0.211134306899591,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",37.4535,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_peak",31.115520146393,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","C","weather_occ.6.T",35.6265,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_peak","C","weather_occ.4.T",41.574,30.328598165169,1.46721469379868,2.5,78.3555634998474,4939,0.586885877519471,4.32859816516903,"per_person",0.0346380021630892,-0.786921981223987,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,-0.786921981223987,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","C","weather_occ.4.T",42.64,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","C","weather_occ.4.T",43.706,31.8900713961109,1.29393776885593,2.5,77.7260284737683,4939,0.51757510754237,5.89007139611095,"per_person",-0.0346727678140113,0.774551249717927,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0.774551249717927,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","C","weather_occ.4.T",44.772,32.6519411012121,1.20766348857342,2.5,77.4152048255713,4939,0.483065395429369,6.65194110121207,"per_person",-0.0691824799270123,1.53642095481905,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,1.53642095481905,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","C","weather_occ.5.T",34.6845,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.5.T",35.59725,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.5.RH",42.0455,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.5.RH",38.969,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.5.RH",39.9945,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.4.T",40.508,29.5300429326395,1.552902827068,2.5,78.6742964315174,4939,0.6211611308272,3.53004293263948,"per_person",0.0689132554708181,-1.58547721375354,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,-1.58547721375354,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_peak","C","weather_occ.5.RH",41.02,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_peak","C","weather_occ.5.RH",43.071,31.115520146393,1.38061968839095,2.5,78.0394778743704,4939,0.552247875356382,5.11552014639302,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_peak",31.115520146393,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","NONE","weather_occ.4.T",40.508,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",41.02,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",35.6265,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",37.42275,31.0019706199664,0,0,0,0,NA,5.00197061996636,"per_person",NA,0.906780898734848,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,0.90678089873489,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",34.713,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",34.6845,28.3165784932556,0,0,0,0,NA,2.31657849325557,"per_person",NA,-1.77861122797594,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.77861122797591,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",36.51,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",38.969,29.8966660365584,0,0,0,0,NA,3.89666603655842,"per_person",NA,-0.198523684673091,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-0.198523684673109,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",35.59725,29.2002341428176,0,0,0,0,NA,3.20023414281762,"per_person",NA,-0.894955578413885,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-0.89495557841391,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",36.54,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,-1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_humid",30.0951897212315,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",41.574,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",39.9945,29.994415024173,0,0,0,0,NA,3.99441502417303,"per_person",NA,-0.100774697058476,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,-0.100774697058476,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","NONE","weather_occ.5.T",38.3355,31.9212868643988,0,0,0,0,NA,5.92128686439882,"per_person",NA,1.82609714316731,"C","C","Dallas / rail","Dallas / rail
-hot_humid",30.0951897212315,1.82609714316729,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.4.T",44.772,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","A","weather_occ.4.T",42.64,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","A","weather_occ.5.RH",43.071,30.0236679553596,0.282656072771534,0.25,0,1499,1.13062429108614,4.02366795535961,"per_person",0.0258062236410694,0.204682750989363,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,0.204682750989356,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.5.T",37.42275,30.7300008942331,0.271969725733221,0.25,0,1499,1.08787890293289,4.73000089423314,"per_person",-0.0169391645121806,0.911015689862893,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,0.911015689862857,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.4.T",43.706,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","A","weather_occ.5.RH",42.0455,29.9197093305059,0.279411063510203,0.25,0,1499,1.11764425404081,3.91970933050589,"per_person",0.0128261865957455,0.100724126135646,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,0.100724126135656,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.6.T",38.367,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","A","weather_occ.6.T",35.6265,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","A","weather_occ.6.T",37.4535,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","A","weather_occ.5.RH",39.9945,29.7213580659167,0.273056958256287,0.25,0,1499,1.09222783302515,3.72135806591675,"per_person",-0.0125902344199176,-0.0976271384534968,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-0.097627138453543,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.6.T",34.713,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","A","weather_occ.4.T",40.508,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","A","weather_occ.6.T",36.54,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","A","weather_occ.4.T",41.574,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","A","weather_occ.5.T",34.6845,28.033608110015,0.282970383240588,0.25,0,1499,1.13188153296235,2.03360811001498,"per_person",0.027063465517287,-1.78537709435527,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-1.78537709435524,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.5.T",38.3355,31.6540708631512,0.267216001247604,0.25,0,1499,1.06886400499042,5.65407086315121,"per_person",-0.0359540624546497,1.83508565878097,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,1.83508565878096,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.5.RH",41.02,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","A","weather_occ.5.RH",38.969,29.6266977701389,0.26996826641949,0.25,0,1499,1.07987306567796,3.62669777013893,"per_person",-0.024945001767108,-0.192287434231314,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-0.192287434231343,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_humid",30.0951897212315,1.82609714316731,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",44.772,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",36.54,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",42.64,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",41.02,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",34.713,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",34.6845,28.3165784932556,0,0,0,0,NA,2.31657849325557,"per_person",NA,-1.77861122797594,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,-1.77861122797594,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",38.969,29.8966660365584,0,0,0,0,NA,3.89666603655842,"per_person",NA,-0.198523684673091,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,-0.198523684673091,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",37.4535,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","NONE","weather_occ.4.T",43.706,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",42.0455,30.1991203940161,0,0,0,0,NA,4.19912039401609,"per_person",NA,0.103930672784582,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0.103930672784582,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",35.6265,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",35.59725,29.2002341428176,0,0,0,0,NA,3.20023414281762,"per_person",NA,-0.894955578413885,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,-0.894955578413885,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.6.T",38.367,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.RH",43.071,30.3063240281311,0,0,0,0,NA,4.30632402813114,"per_person",NA,0.211134306899631,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0.211134306899631,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",36.51,30.0951897212315,0,0,0,0,NA,4.09518972123151,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","NONE","weather_occ.5.T",37.42275,31.0019706199664,0,0,0,0,NA,5.00197061996636,"per_person",NA,0.906780898734848,"C","C","Dallas / rail","Dallas / rail
+hot_humid",30.0951897212315,0.906780898734848,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","A","weather_occ.5.T",36.51,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.5.T",37.42275,30.7300008942331,0.271969725733221,0.25,0,1499,1.08787890293289,4.73000089423314,"per_person",-0.0169391645121806,0.911015689862893,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0.911015689862893,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.5.RH",39.9945,29.7213580659167,0.273056958256287,0.25,0,1499,1.09222783302515,3.72135806591675,"per_person",-0.0125902344199176,-0.0976271384534968,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,-0.0976271384534968,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.6.T",38.367,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","A","weather_occ.5.T",38.3355,31.6540708631512,0.267216001247604,0.25,0,1499,1.06886400499042,5.65407086315121,"per_person",-0.0359540624546497,1.83508565878097,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,1.83508565878097,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.6.T",36.54,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","A","weather_occ.5.RH",41.02,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.6.T",34.713,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","A","weather_occ.5.RH",38.969,29.6266977701389,0.26996826641949,0.25,0,1499,1.07987306567796,3.62669777013893,"per_person",-0.024945001767108,-0.192287434231314,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,-0.192287434231314,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.6.T",37.4535,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","A","weather_occ.5.RH",42.0455,29.9197093305059,0.279411063510203,0.25,0,1499,1.11764425404081,3.91970933050589,"per_person",0.0128261865957455,0.100724126135646,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0.100724126135646,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.6.T",35.6265,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","A","weather_occ.5.RH",43.071,30.0236679553596,0.282656072771534,0.25,0,1499,1.13062429108614,4.02366795535961,"per_person",0.0258062236410694,0.204682750989363,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0.204682750989363,5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","A","weather_occ.5.T",35.59725,28.9204548317943,0.279779311023304,0.25,0,1499,1.11911724409322,2.92045483179432,"per_person",0.0142991766481515,-0.898530372575923,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.8189852043702,-0.898530372575944,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.4.T",42.64,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","B","weather_occ.4.T",44.772,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","B","weather_occ.4.T",43.706,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","B","weather_occ.6.T",37.4535,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","B","weather_occ.5.T",37.42275,30.0886554203464,0.913315199619994,1.2,33.7204348530836,4159,0.761095999683329,4.08865542034636,"per_person",-0.0496352999948998,0.966343258728728,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,0.966343258728763,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.4.T",41.574,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","B","weather_occ.6.T",34.713,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","B","weather_occ.5.RH",42.0455,29.226209512021,0.972910881995094,1.2,33.8389530541814,4159,0.810759068329245,3.226209512021,"per_person",2.77686510170572e-05,0.103897350403361,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,0.103897350403365,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.5.T",38.3355,31.0702139090959,0.851072955302882,1.2,33.6060742010732,4159,0.709227462752402,5.07021390909593,"per_person",-0.101503836925826,1.9479017474783,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,1.94790174747827,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.6.T",35.6265,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","B","weather_occ.5.T",35.59725,28.1708193712615,1.0294147715561,1.2,33.9520929892045,4159,0.857845642963418,2.17081937126152,"per_person",0.0471143432851898,-0.951492790356113,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-0.951492790356134,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_humid",29.8189852043702,-0.898530372575923,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.4.T",40.508,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","A","weather_occ.4.T",41.574,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","A","weather_occ.4.T",44.772,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","A","weather_occ.4.T",42.64,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","A","weather_occ.5.T",34.6845,28.033608110015,0.282970383240588,0.25,0,1499,1.13188153296235,2.03360811001498,"per_person",0.027063465517287,-1.78537709435527,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,-1.78537709435527,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","A","weather_occ.4.T",43.706,29.8189852043702,0.276204516861267,0.25,0,1499,1.10481806744507,3.81898520437024,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.8189852043702,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_humid","B","weather_occ.5.RH",39.9945,29.0218771515844,0.972537872588656,1.2,33.8325963223127,4159,0.810448227157214,3.02187715158438,"per_person",-0.00028307252101456,-0.100435010033259,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-0.100435010033237,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.6.T",36.54,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","B","weather_occ.5.T",36.51,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.5.T",34.6845,27.2324731127628,1.0841053804928,1.2,34.0693892776698,4159,0.90342115041067,1.23247311276276,"per_person",0.0926898507324421,-1.88983904885487,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-1.88983904885484,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","B","weather_occ.4.T",40.508,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","B","weather_occ.5.RH",38.969,28.9247461939647,0.971919842593728,1.2,33.8294179563828,4159,0.80993320216144,2.92474619396469,"per_person",-0.000798097516788387,-0.197565967652945,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-0.197565967652935,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_humid",29.1223121616176,-0.100435010033259,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","B","weather_occ.5.RH",41.02,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_humid",29.1223121616176,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.5.RH",42.0455,29.226209512021,0.972910881995094,1.2,33.8389530541814,4159,0.810759068329245,3.226209512021,"per_person",2.77686510170572e-05,0.103897350403361,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0.103897350403361,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","B","weather_occ.5.RH",43.071,29.3337373674409,0.972586660690254,1.2,33.8421314201202,4159,0.810488883908545,3.33373736744089,"per_person",-0.000242415769683091,0.21142520582325,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,0.211425205823264,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_humid",29.1223121616176,0.21142520582325,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.5.RH",38.969,28.9247461939647,0.971919842593728,1.2,33.8294179563828,4159,0.80993320216144,2.92474619396469,"per_person",-0.000798097516788387,-0.197565967652945,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,-0.197565967652945,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.5.T",36.51,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.4.T",40.508,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","B","weather_occ.5.T",35.59725,28.1708193712615,1.0294147715561,1.2,33.9520929892045,4159,0.857845642963418,2.17081937126152,"per_person",0.0471143432851898,-0.951492790356113,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,-0.951492790356113,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.5.T",37.42275,30.0886554203464,0.913315199619994,1.2,33.7204348530836,4159,0.761095999683329,4.08865542034636,"per_person",-0.0496352999948998,0.966343258728728,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0.966343258728728,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.4.T",41.574,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","B","weather_occ.6.T",36.54,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","B","weather_occ.6.T",37.4535,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","B","weather_occ.6.T",34.713,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_humid","B","weather_occ.6.T",38.367,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",29.1223121616176,-3.5527136788005e-14,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","C","weather_occ.6.T",34.713,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","C","weather_occ.5.RH",42.0455,28.1973777845835,2.00174260943258,2.5,80.4865776623971,4939,0.800697043773033,2.19737778458351,"per_person",0.00076161505954675,0.102026635135715,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,0.102026635135708,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.6.T",35.6265,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","C","weather_occ.5.T",37.42275,29.1245923808098,1.87737823915657,2.5,80.2045637744398,4939,0.750951295662628,3.12459238080979,"per_person",-0.0489841330508582,1.02924123136199,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,1.02924123136201,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.6.T",36.54,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","C","weather_occ.6.T",37.4535,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_humid","C","weather_occ.4.T",40.508,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","C","weather_occ.4.T",42.64,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","C","weather_occ.4.T",44.772,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_humid","C","weather_occ.5.RH",43.071,28.303544306008,2.00277972212318,2.5,80.4941374647517,4939,0.80111188884927,2.30354430600796,"per_person",0.00117646013578399,0.208193156560171,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,0.208193156560206,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.4.T",43.706,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_humid",29.1223121616176,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","B","weather_occ.5.T",38.3355,31.0702139090959,0.851072955302882,1.2,33.6060742010732,4159,0.709227462752402,5.07021390909593,"per_person",-0.101503836925826,1.9479017474783,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,1.9479017474783,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","B","weather_occ.4.T",44.772,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","B","weather_occ.6.T",35.6265,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","B","weather_occ.4.T",42.64,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","B","weather_occ.4.T",43.706,29.1223121616176,0.972877559613874,1.2,33.8357746882454,4159,0.810731299678228,3.12231216161764,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","B","weather_occ.5.T",34.6845,27.2324731127628,1.0841053804928,1.2,34.0693892776698,4159,0.90342115041067,1.23247311276276,"per_person",0.0926898507324421,-1.88983904885487,"C","C","Dallas / rail","Dallas / rail
+hot_humid",29.1223121616176,-1.88983904885487,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","C","weather_occ.5.RH",39.9945,27.9970846852483,1.99733033892474,2.5,80.4714580577093,4939,0.798932135569895,1.9970846852483,"per_person",-0.00100329314359149,-0.0982664641994972,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,-0.0982664641994937,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.5.T",35.59725,27.082909728518,2.11732441429963,2.5,80.7558001982181,4939,0.846929765719851,1.082909728518,"per_person",0.0469943370063647,-1.0124414209298,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,-1.01244142092979,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.4.T",41.574,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_humid",28.0953511494478,-0.0982664641994972,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.5.RH",42.0455,28.1973777845835,2.00174260943258,2.5,80.4865776623971,4939,0.800697043773033,2.19737778458351,"per_person",0.00076161505954675,0.102026635135715,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0.102026635135715,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","C","weather_occ.5.T",36.51,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_humid",28.0953511494478,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","C","weather_occ.5.RH",41.02,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_humid","C","weather_occ.5.RH",38.969,27.9024222321784,1.99424380437998,2.5,80.4638982553762,4939,0.797697521751992,1.90242223217844,"per_person",-0.00223790696149417,-0.192928917269356,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,-0.192928917269395,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_humid",28.0953511494478,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.5.RH",43.071,28.303544306008,2.00277972212318,2.5,80.4941374647517,4939,0.80111188884927,2.30354430600796,"per_person",0.00117646013578399,0.208193156560171,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0.208193156560171,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.5.T",37.42275,29.1245923808098,1.87737823915657,2.5,80.2045637744398,4939,0.750951295662628,3.12459238080979,"per_person",-0.0489841330508582,1.02924123136199,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,1.02924123136199,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_humid","C","weather_occ.6.T",38.367,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_humid",28.0953511494478,0,5,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_humid","C","weather_occ.5.T",38.3355,30.172322647719,1.74896421667984,2.5,79.9324396356213,4939,0.699585686671935,4.17232264771898,"per_person",-0.100349742041551,2.07697149827118,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,2.07697149827121,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_humid",28.0953511494478,2.07697149827118,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.6.T",34.713,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","C","weather_occ.5.RH",38.969,27.9024222321784,1.99424380437998,2.5,80.4638982553762,4939,0.797697521751992,1.90242223217844,"per_person",-0.00223790696149417,-0.192928917269356,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,-0.192928917269356,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.6.T",35.6265,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","C","weather_occ.6.T",36.54,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","C","weather_occ.6.T",37.4535,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_humid","C","weather_occ.5.T",35.59725,27.082909728518,2.11732441429963,2.5,80.7558001982181,4939,0.846929765719851,1.082909728518,"per_person",0.0469943370063647,-1.0124414209298,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,-1.0124414209298,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_humid","C","weather_occ.4.T",41.574,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","C","weather_occ.4.T",40.508,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","C","weather_occ.4.T",42.64,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","C","weather_occ.4.T",43.706,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_humid","C","weather_occ.4.T",44.772,28.0953511494478,1.99983857178372,2.5,80.4790178600495,4939,0.799935428713486,2.09535114944779,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_humid",28.0953511494478,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_humid","C","weather_occ.5.T",34.6845,26.0858615246978,2.2307169685578,2.5,81.034909663353,4939,0.89228678742312,0.0858615246977656,"per_person",0.0923513587096338,-2.00948962475003,"C","C","Dallas / rail","Dallas / rail
-hot_humid",28.0953511494478,-2.00948962474999,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",37.42275,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",43.706,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_humid",28.0953511494478,-2.00948962475003,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",41.02,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",39.9945,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",42.0455,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",36.51,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",43.071,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",38.969,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",37.42275,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",38.3355,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","NONE","weather_occ.6.T",34.713,27.0875231808282,0,0,0,0,NA,1.0875231808282,"per_person",NA,-1.33846147650621,"C","C","Dallas / rail","Dallas / rail
 hot_dry",28.4259846573344,-1.33846147650621,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","NONE","weather_occ.6.T",35.6265,27.75931407529,0,0,0,0,NA,1.75931407529001,"per_person",NA,-0.666670582044393,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-0.666670582044407,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",42.64,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",44.772,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",41.02,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",43.071,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",40.508,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",38.3355,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.6.T",37.4535,29.0869039815151,0,0,0,0,NA,3.08690398151512,"per_person",NA,0.660919324180718,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,0.660919324180693,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",39.9945,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",36.51,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_dry",28.4259846573344,-0.666670582044393,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","NONE","weather_occ.5.T",35.59725,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",41.574,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",34.6845,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","NONE","weather_occ.5.RH",38.969,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_dry",28.4259846573344,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","NONE","weather_occ.6.T",38.367,29.7413495869909,0,0,0,0,NA,3.74134958699093,"per_person",NA,1.31536492965652,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,1.31536492965649,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_dry",28.4259846573344,1.31536492965652,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",44.772,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_dry","NONE","weather_occ.6.T",36.54,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.4259846573344,-7.105427357601e-15,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","A","weather_occ.5.RH",42.0455,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.5.T",37.42275,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","NONE","weather_occ.5.T",34.6845,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",40.508,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","NONE","weather_occ.6.T",37.4535,29.0869039815151,0,0,0,0,NA,3.08690398151512,"per_person",NA,0.660919324180718,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0.660919324180718,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",41.574,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",42.64,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","NONE","weather_occ.4.T",43.706,28.4259846573344,0,0,0,0,NA,2.42598465733441,"per_person",NA,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.4259846573344,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_dry","A","weather_occ.6.T",34.713,26.8581670443156,0.229356136512582,0.25,0,1499,0.917424546050327,0.858167044315618,"per_person",0.0408948484801499,-1.34868518862624,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,-1.34868518862626,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","A","weather_occ.6.T",35.6265,27.5349132292139,0.224400846076112,0.25,0,1499,0.897603384304446,1.5349132292139,"per_person",0.0210736867342689,-0.67193900372796,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,-0.671939003727964,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_dry",28.2068522329419,-1.34868518862624,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","A","weather_occ.5.T",38.3355,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.6.T",37.4535,28.8731459663641,0.213758015151004,0.25,0,1499,0.855032060604017,2.87314596636412,"per_person",-0.0214976369661599,0.666293733422258,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,0.666293733422236,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","A","weather_occ.5.T",36.51,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.5.RH",41.02,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.5.RH",39.9945,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.5.T",35.59725,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.5.RH",43.071,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.4.T",44.772,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","A","weather_occ.4.T",42.64,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","A","weather_occ.5.RH",38.969,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","A","weather_occ.4.T",43.706,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","A","weather_occ.4.T",40.508,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",28.2068522329419,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.6.T",35.6265,27.5349132292139,0.224400846076112,0.25,0,1499,0.897603384304446,1.5349132292139,"per_person",0.0210736867342689,-0.67193900372796,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,-0.67193900372796,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","A","weather_occ.6.T",36.54,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","A","weather_occ.5.T",36.51,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.6.T",37.4535,28.8731459663641,0.213758015151004,0.25,0,1499,0.855032060604017,2.87314596636412,"per_person",-0.0214976369661599,0.666293733422258,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0.666293733422258,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","A","weather_occ.6.T",38.367,29.5330453828002,0.208304204190704,0.25,0,1499,0.833216816762814,3.53304538280023,"per_person",-0.0433128808073633,1.32619314985837,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,1.32619314985834,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","A","weather_occ.4.T",41.574,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",28.2068522329419,1.32619314985837,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","A","weather_occ.5.T",37.42275,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.4.T",40.508,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","A","weather_occ.4.T",42.64,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","A","weather_occ.5.RH",39.9945,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.4.T",44.772,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","A","weather_occ.5.RH",38.969,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.4.T",43.706,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","A","weather_occ.5.RH",41.02,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.5.RH",42.0455,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","A","weather_occ.5.T",34.6845,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",28.2068522329419,3.5527136788005e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.5.T",37.42275,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.5.T",35.59725,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.5.RH",42.0455,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.6.T",37.4535,28.199235182721,0.887668798794131,1.2,33.4598895218815,4159,0.739723998995109,2.19923518272099,"per_person",-0.028753314400598,0.695423301461435,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,0.695423301461442,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","B","weather_occ.4.T",44.772,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","B","weather_occ.6.T",34.713,26.0987521567473,0.988771024080883,1.2,33.8167908781863,4159,0.823975853400736,0.0987521567473166,"per_person",0.0554985400050285,-1.40505972451224,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,-1.40505972451226,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","B","weather_occ.5.T",38.3355,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.6.T",36.54,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","B","weather_occ.6.T",35.6265,26.803345890595,0.955968184694999,1.2,33.6969754409718,4159,0.796640153912499,0.803345890595015,"per_person",0.0281628405167922,-0.700465990664544,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,-0.700465990664558,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","B","weather_occ.5.T",34.6845,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.4.T",40.508,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","B","weather_occ.5.T",36.51,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.4.T",43.706,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","B","weather_occ.5.RH",39.9945,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","B","weather_occ.5.RH",41.02,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_dry",28.2068522329419,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.5.T",35.59725,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","A","weather_occ.4.T",41.574,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","A","weather_occ.5.RH",43.071,28.2068522329419,0.219132424392544,0.25,0,1499,0.876529697570177,2.20685223294186,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",28.2068522329419,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","B","weather_occ.4.T",41.574,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","B","weather_occ.6.T",38.367,28.8891748551622,0.852174731828715,1.2,33.3426121507359,4159,0.710145609857262,2.88917485516222,"per_person",-0.058331703538445,1.38536297390266,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,1.38536297390264,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","B","weather_occ.5.RH",43.071,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_dry",27.5038118812596,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","B","weather_occ.5.T",36.51,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.6.T",34.713,26.0987521567473,0.988771024080883,1.2,33.8167908781863,4159,0.823975853400736,0.0987521567473166,"per_person",0.0554985400050285,-1.40505972451224,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,-1.40505972451224,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
 "DAL_RAIL","hot_dry","B","weather_occ.4.T",42.64,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",27.5038118812596,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","B","weather_occ.5.T",37.42275,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.5.T",38.3355,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.6.T",35.6265,26.803345890595,0.955968184694999,1.2,33.6969754409718,4159,0.796640153912499,0.803345890595015,"per_person",0.0281628405167922,-0.700465990664544,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,-0.700465990664544,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","B","weather_occ.4.T",43.706,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","B","weather_occ.6.T",36.54,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","B","weather_occ.4.T",44.772,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","B","weather_occ.6.T",37.4535,28.199235182721,0.887668798794131,1.2,33.4598895218815,4159,0.739723998995109,2.19923518272099,"per_person",-0.028753314400598,0.695423301461435,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0.695423301461435,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","B","weather_occ.5.T",34.6845,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.5.T",35.59725,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.5.RH",39.9945,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.6.T",38.367,28.8891748551622,0.852174731828715,1.2,33.3426121507359,4159,0.710145609857262,2.88917485516222,"per_person",-0.058331703538445,1.38536297390266,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,1.38536297390266,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","B","weather_occ.5.RH",41.02,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.5.RH",42.0455,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","B","weather_occ.4.T",40.508,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","B","weather_occ.5.RH",43.071,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",27.5038118812596,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","B","weather_occ.5.RH",38.969,27.5038118812596,0.922172776074849,1.2,33.5780094952796,4159,0.768477313395707,1.50381188125956,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",27.5038118812596,4.2632564145606e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.5.T",37.42275,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.5.RH",42.0455,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+hot_dry",27.5038118812596,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","C","weather_occ.5.RH",39.9945,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.6.T",36.54,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+hot_dry",26.5613647608692,0,-2.5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","C","weather_occ.5.RH",41.02,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,0,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.5.T",38.3355,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.4.T",40.508,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",26.5613647608692,0,0,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.5.RH",38.969,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.5.RH",42.0455,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,2.49999999999999,"Outdoor humidity [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.5.RH",43.071,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,5,"Outdoor humidity [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","C","weather_occ.5.T",36.51,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.4.T",42.64,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,0,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","C","weather_occ.6.T",37.4535,27.2906321909822,1.79627179053291,2.5,79.584848887592,4939,0.718508716213165,1.29063219098221,"per_person",-0.027339242372922,0.729267430113023,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,0.729267430113012,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","C","weather_occ.5.T",34.6845,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.6.T",38.367,28.0151372070591,1.72621237993182,2.5,79.3057881190695,4939,0.690484951972726,2.01513720705912,"per_person",-0.0553630066133607,1.45377244618993,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.45377244618991,5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","C","weather_occ.4.T",44.772,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,5,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",26.5613647608692,0,0,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.4.T",40.508,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,-5.00000000000002,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","C","weather_occ.5.T",37.42275,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","C","weather_occ.5.T",35.59725,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+hot_dry",26.5613647608692,0,-2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.5.T",38.3355,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,5,"Outdoor temperature [DAL_RAIL] hot_humid"
+"DAL_RAIL","hot_dry","C","weather_occ.4.T",44.772,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,5,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_dry","C","weather_occ.4.T",41.574,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
-"DAL_RAIL","hot_dry","C","weather_occ.4.T",43.706,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
+hot_dry",26.5613647608692,0,-2.5,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","C","weather_occ.4.T",42.64,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,0,"Outdoor temperature [DAL_RAIL] hot_peak"
+"DAL_RAIL","hot_dry","C","weather_occ.6.T",37.4535,27.2906321909822,1.79627179053291,2.5,79.584848887592,4939,0.718508716213165,1.29063219098221,"per_person",-0.027339242372922,0.729267430113023,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0.729267430113023,2.49999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","C","weather_occ.5.T",34.6845,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_humid"
 "DAL_RAIL","hot_dry","C","weather_occ.6.T",34.713,25.0902208601183,1.9973023207099,2.5,80.4340942910305,4939,0.43500927233128,0,"per_person",-0.310838686254807,-0.561364760869189,"C","C","Dallas / rail","Dallas / rail
 hot_dry",26.5613647608692,-1.47114390075089,-4.99999999999999,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","C","weather_occ.6.T",38.367,28.0151372070591,1.72621237993182,2.5,79.3057881190695,4939,0.690484951972726,2.01513720705912,"per_person",-0.0553630066133607,1.45377244618993,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,1.45377244618993,5,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","C","weather_occ.6.T",36.54,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,0,"Outdoor temperature [DAL_RAIL] hot_dry"
+"DAL_RAIL","hot_dry","C","weather_occ.4.T",43.706,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
+hot_dry",26.5613647608692,0,2.50000000000001,"Outdoor temperature [DAL_RAIL] hot_peak"
 "DAL_RAIL","hot_dry","C","weather_occ.6.T",35.6265,25.8278921504312,1.93142192485877,2.5,80.1489937697502,4939,0.703725630116006,0,"per_person",-0.0421223284700815,-0.561364760869189,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,-0.733472610437989,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"
-"DAL_RAIL","hot_dry","C","weather_occ.5.RH",43.071,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,4.99999999999998,"Outdoor humidity [DAL_RAIL] hot_humid"
-"DAL_RAIL","hot_dry","C","weather_occ.5.RH",38.969,26.5613647608692,1.86461989646522,2.5,79.8659147623647,4939,0.745847958586087,0.561364760869189,"per_person",0,0,"C","C","Dallas / rail","Dallas / rail
-hot_dry",26.5613647608692,1.06581410364015e-14,-5,"Outdoor humidity [DAL_RAIL] hot_humid"
->>>>>>> 4c50923b122c8eb260ffc36a994fea0edbfbb56c
+hot_dry",26.5613647608692,-0.733472610437943,-2.5,"Outdoor temperature [DAL_RAIL] hot_dry"

@@ -4,6 +4,7 @@ source("02_comfort/comfort.R")
 source("03_decision/decision.R")
 
 tables <- load_tables()
+tables$weather_occ <- read.csv("sources/weather_occ_summer_mean.csv")
 venues <- c("DAL_QUAD", "DAL_PAV", "BOS_QUAD", "BOS_PAV", "PHX_QUAD", "PHX_PAV")
 for (name in c("zones", "weather_occ", "exchanges", "devices")) {
   inputs <- tables[[name]]

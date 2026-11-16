@@ -1,9 +1,9 @@
 {
-  "rows": 72,
+  "rows": 144,
   "scenarios_per_venue": 3,
   "all_physical_valid": true,
   "all_decision_ready": true,
-  "max_formula_error": 5.062616992290714e-14,
+  "max_formula_error": 5.3290705182007514e-14,
   "mass_balance_max": 0.0,
   "peak": [
     {
@@ -197,6 +197,198 @@
       "mean_SET_drop": 1.07549,
       "E": 2.5,
       "water_kg": 73.36024
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "NONE",
+      "mean_SET": 32.49614,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "A",
+      "mean_SET": 32.31713,
+      "mean_SET_drop": 0.17901,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "B",
+      "mean_SET": 32.06781,
+      "mean_SET_drop": 0.42833,
+      "E": 1.2,
+      "water_kg": 32.81044
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "C",
+      "mean_SET": 31.57554,
+      "mean_SET_drop": 0.9206,
+      "E": 2.5,
+      "water_kg": 78.03948
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "NONE",
+      "mean_SET": 32.49614,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "A",
+      "mean_SET": 32.31713,
+      "mean_SET_drop": 0.17901,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "B",
+      "mean_SET": 32.18313,
+      "mean_SET_drop": 0.31301,
+      "E": 1.2,
+      "water_kg": 32.81044
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "C",
+      "mean_SET": 31.80582,
+      "mean_SET_drop": 0.69032,
+      "E": 2.5,
+      "water_kg": 78.03948
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "NONE",
+      "mean_SET": 30.15572,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "A",
+      "mean_SET": 29.066,
+      "mean_SET_drop": 1.08972,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "B",
+      "mean_SET": 29.40624,
+      "mean_SET_drop": 0.74947,
+      "E": 1.2,
+      "water_kg": 33.9921
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "C",
+      "mean_SET": 28.63088,
+      "mean_SET_drop": 1.52484,
+      "E": 2.5,
+      "water_kg": 80.85081
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "NONE",
+      "mean_SET": 30.15572,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "A",
+      "mean_SET": 29.066,
+      "mean_SET_drop": 1.08972,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "B",
+      "mean_SET": 29.57481,
+      "mean_SET_drop": 0.58091,
+      "E": 1.2,
+      "water_kg": 33.9921
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "C",
+      "mean_SET": 28.93509,
+      "mean_SET_drop": 1.22063,
+      "E": 2.5,
+      "water_kg": 80.85081
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "NONE",
+      "mean_SET": 34.56371,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "A",
+      "mean_SET": 34.2167,
+      "mean_SET_drop": 0.34701,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "B",
+      "mean_SET": 34.20279,
+      "mean_SET_drop": 0.36092,
+      "E": 1.2,
+      "water_kg": 30.84338
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "C",
+      "mean_SET": 33.80779,
+      "mean_SET_drop": 0.75592,
+      "E": 2.5,
+      "water_kg": 73.36024
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "NONE",
+      "mean_SET": 34.56371,
+      "mean_SET_drop": 0.0,
+      "E": 0.0,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "A",
+      "mean_SET": 34.2167,
+      "mean_SET_drop": 0.34701,
+      "E": 0.25,
+      "water_kg": 0.0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "B",
+      "mean_SET": 34.29362,
+      "mean_SET_drop": 0.27009,
+      "E": 1.2,
+      "water_kg": 30.84338
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "C",
+      "mean_SET": 33.98101,
+      "mean_SET_drop": 0.5827,
+      "E": 2.5,
+      "water_kg": 73.36024
     }
   ],
   "ranges": [
@@ -211,7 +403,7 @@
     },
     {
       "option": "B",
-      "SET_drop_min": 0.54418,
+      "SET_drop_min": 0.27009,
       "SET_drop_max": 1.95193,
       "water_min": 29.57714,
       "water_max": 35.35866,
@@ -220,7 +412,7 @@
     },
     {
       "option": "C",
-      "SET_drop_min": 1.07549,
+      "SET_drop_min": 0.5827,
       "SET_drop_max": 3.67609,
       "water_min": 43.87276,
       "water_max": 84.10221,
@@ -259,6 +451,46 @@
       "in_band_cases": 1
     },
     {
+      "venue": "BOS_PAV",
+      "option": "A",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "B",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "C",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_PAV",
+      "option": "NONE",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "A",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "B",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "C",
+      "in_band_cases": 1
+    },
+    {
+      "venue": "BOS_QUAD",
+      "option": "NONE",
+      "in_band_cases": 1
+    },
+    {
       "venue": "BOS_RAIL",
       "option": "A",
       "in_band_cases": 1
@@ -299,6 +531,46 @@
       "in_band_cases": 0
     },
     {
+      "venue": "DAL_PAV",
+      "option": "A",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "B",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "C",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_PAV",
+      "option": "NONE",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "A",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "B",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "C",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "DAL_QUAD",
+      "option": "NONE",
+      "in_band_cases": 0
+    },
+    {
       "venue": "DAL_RAIL",
       "option": "A",
       "in_band_cases": 0
@@ -335,6 +607,46 @@
     },
     {
       "venue": "PHX_BUS",
+      "option": "NONE",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "A",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "B",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "C",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_PAV",
+      "option": "NONE",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "A",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "B",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_QUAD",
+      "option": "C",
+      "in_band_cases": 0
+    },
+    {
+      "venue": "PHX_QUAD",
       "option": "NONE",
       "in_band_cases": 0
     },
@@ -376,6 +688,36 @@
       "options": "A"
     },
     {
+      "venue": "BOS_PAV",
+      "scenario": "hot_dry",
+      "options": "A;B;C"
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_dry",
+      "options": "A;B;C"
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
       "venue": "BOS_RAIL",
       "scenario": "hot_dry",
       "options": "A;B;C"
@@ -406,6 +748,36 @@
       "options": "A"
     },
     {
+      "venue": "DAL_PAV",
+      "scenario": "hot_dry",
+      "options": "A"
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_dry",
+      "options": "A"
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
       "venue": "DAL_RAIL",
       "scenario": "hot_dry",
       "options": "A"
@@ -432,6 +804,36 @@
     },
     {
       "venue": "PHX_BUS",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_dry",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_peak",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_dry",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "options": "A"
+    },
+    {
+      "venue": "PHX_QUAD",
       "scenario": "hot_peak",
       "options": "A"
     },
@@ -468,6 +870,36 @@
       "B_minus_A": 0.48656
     },
     {
+      "venue": "BOS_PAV",
+      "scenario": "hot_dry",
+      "B_minus_A": 0.40429
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "B_minus_A": 0.84992
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_peak",
+      "B_minus_A": 0.50881
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_dry",
+      "B_minus_A": 0.09747
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "B_minus_A": 0.59533
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_peak",
+      "B_minus_A": 0.34025
+    },
+    {
       "venue": "BOS_RAIL",
       "scenario": "hot_dry",
       "B_minus_A": -0.45276
@@ -496,6 +928,36 @@
       "venue": "DAL_BUS",
       "scenario": "hot_peak",
       "B_minus_A": -0.40124
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_dry",
+      "B_minus_A": -0.21024
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "B_minus_A": -0.17238
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_peak",
+      "B_minus_A": -0.13399
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_dry",
+      "B_minus_A": -0.36681
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_humid",
+      "B_minus_A": -0.33778
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_peak",
+      "B_minus_A": -0.24932
     },
     {
       "venue": "DAL_RAIL",
@@ -528,6 +990,36 @@
       "B_minus_A": 0.03086
     },
     {
+      "venue": "PHX_PAV",
+      "scenario": "hot_dry",
+      "B_minus_A": 0.04134
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "B_minus_A": 0.11255
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_peak",
+      "B_minus_A": 0.07692
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_dry",
+      "B_minus_A": -0.0651
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "B_minus_A": -0.00666
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_peak",
+      "B_minus_A": -0.01391
+    },
+    {
       "venue": "PHX_RAIL",
       "scenario": "hot_dry",
       "B_minus_A": -0.27876
@@ -543,8 +1035,8 @@
       "B_minus_A": -0.19717
     }
   ],
-  "sensitivity_rows": 65160,
-  "sensitivity_parameters": 181,
+  "sensitivity_rows": 251280,
+  "sensitivity_parameters": 349,
   "sensitivity_choices": [
     {
       "venue": "BOS_BUS",
@@ -554,32 +1046,72 @@
     {
       "venue": "BOS_BUS",
       "chosen_option": "C",
-      "cases": 898
+      "cases": 1738
+    },
+    {
+      "venue": "BOS_PAV",
+      "chosen_option": "A",
+      "cases": 4
+    },
+    {
+      "venue": "BOS_PAV",
+      "chosen_option": "C",
+      "cases": 1737
+    },
+    {
+      "venue": "BOS_QUAD",
+      "chosen_option": "A",
+      "cases": 1
+    },
+    {
+      "venue": "BOS_QUAD",
+      "chosen_option": "C",
+      "cases": 1740
     },
     {
       "venue": "BOS_RAIL",
       "chosen_option": "C",
-      "cases": 901
+      "cases": 1741
     },
     {
       "venue": "DAL_BUS",
       "chosen_option": "C",
-      "cases": 901
+      "cases": 1741
+    },
+    {
+      "venue": "DAL_PAV",
+      "chosen_option": "C",
+      "cases": 1741
+    },
+    {
+      "venue": "DAL_QUAD",
+      "chosen_option": "C",
+      "cases": 1741
     },
     {
       "venue": "DAL_RAIL",
       "chosen_option": "C",
-      "cases": 901
+      "cases": 1741
     },
     {
       "venue": "PHX_BUS",
       "chosen_option": "C",
-      "cases": 901
+      "cases": 1741
+    },
+    {
+      "venue": "PHX_PAV",
+      "chosen_option": "C",
+      "cases": 1741
+    },
+    {
+      "venue": "PHX_QUAD",
+      "chosen_option": "C",
+      "cases": 1741
     },
     {
       "venue": "PHX_RAIL",
       "chosen_option": "C",
-      "cases": 901
+      "cases": 1741
     }
   ],
   "largest_SET_sensitivity": [
@@ -620,6 +1152,42 @@
       "swing": 4.55807
     },
     {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.26.T",
+      "option": "C",
+      "min": 23.25871,
+      "max": 27.78249,
+      "swing": 4.52379
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.26.T",
+      "option": "B",
+      "min": 23.54799,
+      "max": 28.01777,
+      "swing": 4.46978
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.29.T",
+      "option": "C",
+      "min": 23.55598,
+      "max": 28.02425,
+      "swing": 4.46827
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.29.T",
+      "option": "B",
+      "min": 23.82391,
+      "max": 28.24081,
+      "swing": 4.41691
+    },
+    {
       "venue": "BOS_BUS",
       "scenario": "hot_humid",
       "parameter": "weather_occ.8.T",
@@ -647,6 +1215,33 @@
       "swing": 4.23136
     },
     {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.29.T",
+      "option": "NONE",
+      "min": 24.75294,
+      "max": 28.9843,
+      "swing": 4.23136
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.26.T",
+      "option": "NONE",
+      "min": 24.75294,
+      "max": 28.9843,
+      "swing": 4.23136
+    },
+    {
+      "venue": "BOS_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.26.T",
+      "option": "A",
+      "min": 23.09304,
+      "max": 27.25034,
+      "swing": 4.15729
+    },
+    {
       "venue": "BOS_RAIL",
       "scenario": "hot_humid",
       "parameter": "weather_occ.11.T",
@@ -659,6 +1254,15 @@
       "venue": "BOS_BUS",
       "scenario": "hot_humid",
       "parameter": "weather_occ.8.T",
+      "option": "A",
+      "min": 23.09304,
+      "max": 27.25034,
+      "swing": 4.15729
+    },
+    {
+      "venue": "BOS_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.29.T",
       "option": "A",
       "min": 23.09304,
       "max": 27.25034,
@@ -683,6 +1287,24 @@
       "swing": 3.94719
     },
     {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.20.T",
+      "option": "C",
+      "min": 26.83624,
+      "max": 30.7619,
+      "swing": 3.92566
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.23.T",
+      "option": "C",
+      "min": 27.20822,
+      "max": 31.054,
+      "swing": 3.84578
+    },
+    {
       "venue": "DAL_RAIL",
       "scenario": "hot_humid",
       "parameter": "weather_occ.5.T",
@@ -690,6 +1312,42 @@
       "min": 27.23247,
       "max": 31.07021,
       "swing": 3.83774
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.20.T",
+      "option": "B",
+      "min": 27.63158,
+      "max": 31.38484,
+      "swing": 3.75326
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.23.T",
+      "option": "B",
+      "min": 27.81594,
+      "max": 31.52963,
+      "swing": 3.71369
+    },
+    {
+      "venue": "DAL_RAIL",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.5.T",
+      "option": "A",
+      "min": 28.03361,
+      "max": 31.65407,
+      "swing": 3.62046
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.23.T",
+      "option": "A",
+      "min": 28.03361,
+      "max": 31.65407,
+      "swing": 3.62046
     },
     {
       "venue": "DAL_BUS",
@@ -701,9 +1359,9 @@
       "swing": 3.62046
     },
     {
-      "venue": "DAL_RAIL",
+      "venue": "DAL_QUAD",
       "scenario": "hot_humid",
-      "parameter": "weather_occ.5.T",
+      "parameter": "weather_occ.20.T",
       "option": "A",
       "min": 28.03361,
       "max": 31.65407,
@@ -713,6 +1371,24 @@
       "venue": "DAL_RAIL",
       "scenario": "hot_humid",
       "parameter": "weather_occ.5.T",
+      "option": "NONE",
+      "min": 28.31658,
+      "max": 31.92129,
+      "swing": 3.60471
+    },
+    {
+      "venue": "DAL_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.20.T",
+      "option": "NONE",
+      "min": 28.31658,
+      "max": 31.92129,
+      "swing": 3.60471
+    },
+    {
+      "venue": "DAL_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.23.T",
       "option": "NONE",
       "min": 28.31658,
       "max": 31.92129,
@@ -746,6 +1422,15 @@
       "swing": 3.36465
     },
     {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.32.T",
+      "option": "C",
+      "min": 30.64415,
+      "max": 33.89226,
+      "swing": 3.24811
+    },
+    {
       "venue": "PHX_BUS",
       "scenario": "hot_humid",
       "parameter": "weather_occ.14.T",
@@ -753,6 +1438,15 @@
       "min": 31.21462,
       "max": 34.42618,
       "swing": 3.21156
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.35.T",
+      "option": "C",
+      "min": 30.90454,
+      "max": 34.08823,
+      "swing": 3.18369
     },
     {
       "venue": "PHX_RAIL",
@@ -764,6 +1458,33 @@
       "swing": 3.16628
     },
     {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.32.T",
+      "option": "B",
+      "min": 31.23924,
+      "max": 34.3372,
+      "swing": 3.09796
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.35.T",
+      "option": "B",
+      "min": 31.37562,
+      "max": 34.43922,
+      "swing": 3.0636
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.35.T",
+      "option": "A",
+      "min": 31.29177,
+      "max": 34.29834,
+      "swing": 3.00657
+    },
+    {
       "venue": "PHX_BUS",
       "scenario": "hot_humid",
       "parameter": "weather_occ.14.T",
@@ -782,9 +1503,36 @@
       "swing": 3.00657
     },
     {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.32.T",
+      "option": "A",
+      "min": 31.29177,
+      "max": 34.29834,
+      "swing": 3.00657
+    },
+    {
+      "venue": "PHX_QUAD",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.32.T",
+      "option": "NONE",
+      "min": 31.78144,
+      "max": 34.74018,
+      "swing": 2.95874
+    },
+    {
       "venue": "PHX_RAIL",
       "scenario": "hot_humid",
       "parameter": "weather_occ.17.T",
+      "option": "NONE",
+      "min": 31.78144,
+      "max": 34.74018,
+      "swing": 2.95874
+    },
+    {
+      "venue": "PHX_PAV",
+      "scenario": "hot_humid",
+      "parameter": "weather_occ.35.T",
       "option": "NONE",
       "min": 31.78144,
       "max": 34.74018,

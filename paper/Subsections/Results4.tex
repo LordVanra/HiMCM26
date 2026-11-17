@@ -1,23 +1,23 @@
 \section{Expanding the Model for Effectiveness}
 
-The larger evaporative cooler, Option C, was the unique minimax choice at all 12 venues. It had the lowest modeled residual discomfort outright in 28 of 36 cases and tied for the lowest in the other eight.
+The larger evaporative cooler, Option C, was the unique minimax choice at all 12 venues in the comfort benchmark. It had the lowest modeled residual discomfort outright in 28 of 36 cases and tied for the lowest in the other eight.
 
 We measured residual discomfort as SET degree-hours above 26\ensuremath{^{\circ}\mathrm{C}} for the reference person. For a one-hour case, a SET of 30\ensuremath{^{\circ}\mathrm{C}} gives four degree-hours of residual discomfort. Regret is the option's residual discomfort minus the smallest residual discomfort among feasible options in the same case.
 
-For each venue, we took the maximum regret of each option over the three weather scenarios and selected the feasible option with the smallest maximum. We included the no-device baseline and evaluated the baseline model with budget, electricity, and water caps disabled.
+For each venue, we took the maximum regret of each option over the three weather scenarios and selected the feasible option with the smallest maximum. We included the no-device baseline and compared modeled discomfort among all four options.
 
 At Boston and Phoenix bus shelters, the fan stays much closer to the best case than it does in Dallas. Its maximum regret is $0.49$ SET degree-hours at Grove Hall and $0.75$ at Central Avenue/Camelback, compared with $1.78$ at Rosa Parks Plaza. The hour that determines this gap also varies by site. Boston's gap occurs at peak temperature, while the hot-dry hour determines the maximum for the Dallas and Phoenix bus fans.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.88\linewidth]{Images/F7_maximum_regret_all_venues.png}
-    \caption{Maximum regret in SET degree-hours across the three modeled scenarios. The green cells identify the minimax recommendation.}
+    \caption{Maximum regret in SET degree-hours across the three modeled scenarios. Green cells identify the comfort benchmark winner.}
     \label{fig:max-regret}
 \end{figure}
 
 At the Dallas bus shelter, maximum regret was 1.78 SET degree-hours for the fan and 1.22 for the smaller cooler. At the Dallas rail platform, the corresponding values were 1.72 and 1.03. The larger cooler had zero maximum regret at both sites.
 
-At Grove Hall the fan's maximum regret is about half that of the smaller cooler ($0.49$ versus $0.98$ SET degree-hours). At the Phoenix bus shelter, both options round to $0.75$, so the fan gives nearly identical worst-case regret with lower electricity use and zero evaporation. At the Phoenix rail platform, the smaller cooler reduces the maximum regret from $0.95$ to $0.70$. Venue-level airflow therefore matters even when nearby sites share the same weather inputs.
+In the comfort benchmark at Grove Hall, the fan's maximum regret is about half that of the smaller cooler ($0.49$ versus $0.98$ SET degree-hours). At the Phoenix bus shelter, both options round to $0.75$, so the fan gives nearly identical worst-case regret with lower electricity use and zero evaporation. At the Phoenix rail platform, the smaller cooler reduces the maximum regret from $0.95$ to $0.70$. Venue-level airflow therefore matters even when nearby sites share the same weather inputs.
 
 Absolute comfort tells a second part of the story. At the Phoenix bus shelter, Option C leaves peak-hour SET at $33.68\,^\circ\mathrm{C}$, almost $8\,^\circ\mathrm{C}$ above the comparison target. Its zero regret reflects its lead among the tested options. The remaining heat discomfort is still substantial.
 

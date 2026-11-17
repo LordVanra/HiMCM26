@@ -2,7 +2,7 @@
  
 \subsection{Model Description}
  
-Model I follows heat, moisture, airflow, electricity, and water. It starts with outdoor temperature, humidity, pressure, and ventilation. It then calculates the outlet air from each cooling device and mixes that air into the waiting area. The fan improves modeled comfort by increasing airspeed at the passenger~\cite{cbe_fans_2023}. The Evaporative Cooler and Large Evaporative Cooler lower the air temperature, and the zone model determines how much of that outlet cooling remains after mixing with outdoor air.
+Model I follows heat, moisture, airflow, electricity, and water. It starts with outdoor temperature, humidity, pressure, and ventilation. It then calculates the outlet air from each cooling device and mixes that air into the waiting area. The fan improves modeled comfort by increasing airspeed at the passenger~\cite{cbe_fans_2023}. The Evaporative Cooler and Larger Evaporative Cooler lower the air temperature, and the zone model determines how much of that outlet cooling remains after mixing with outdoor air.
  
 \subsection{Variables}
 \begin{table}[H]
@@ -76,16 +76,16 @@ E = P\,\Delta t
 \end{equation}
  
 
-\subsection{Data Sources and Reference Cases}
+\subsection{Data Sources and Reference Cases}\label{sec:reference-cases}
 The main weather comparison uses simultaneous NASA POWER hourly temperature, relative humidity, and pressure for June--August 2025 at the three city reference coordinates~\cite{nasa_hourly_summer_2025}. For each city, we select the hottest hour and two other hours from the hottest 10\% of records. We choose the hours with the highest and lowest humidity ratios in that subset.
 
 The transit references are Rosa Parks Plaza and West End Station in Dallas; the Grove Hall clear-roof control shelter and Mattapan outdoor trolley waiting area in Boston; and the bus and light-rail waiting areas at Central Avenue/Camelback in Phoenix~\cite{dart_rosa,dart_west,boston_shade,bwa_mattapan,valley_bus,valley_rail}. The larger-area references are Dallas College Mountain View Student Courtyard and the Love Field curbside canopy, Boston University's George Sherman Union Courtyard and Logan Terminal C canopy, and ASU's Delph Courtyard and Sky Harbor Terminal 3 canopy~\cite{dallas_college_student_courtyard,dal_lovefield_canopy,bu_gsu_courtyard,bos_logan_canopy,asu_delph_courtyard,phx_skyharbor_canopy}.
 
-Ventilation and baseline passenger airspeed are scenario estimates. The wind-driven relation $Q=C_w A U$ and the urban wind-profile exponent are drawn from EnergyPlus; equivalent apertures and passenger sheltering factors are analyst assumptions~\cite{energyplus_wind_ventilation,energyplus_242_surface}. The estimates use the city summer-mean wind references, and the enlarged courtyard/canopy openings are documented project choices~\cite{nasa_2026_dallas_summer,nasa_2026_boston_summer,nasa_2026_phoenix_summer}.
+Ventilation and baseline passenger airspeed are scenario estimates. The wind-driven relation $Q=C_w A U$ and the urban wind-profile exponent are drawn from EnergyPlus; equivalent apertures and passenger sheltering factors are analyst assumptions~\cite{energyplus_wind_ventilation,energyplus_242_surface}. The estimates use summer-mean wind for each city~\cite{nasa_2026_dallas_summer,nasa_2026_boston_summer,nasa_2026_phoenix_summer}. We assume larger equivalent openings for the courtyards and airport canopies.
 
 Contest systems A, B and C use powers of 0.25, 1.2 and 2.5 kW, with stated maxima of 3$^\circ$C perceived cooling, 5$^\circ$C air cooling and 8$^\circ$C air cooling, respectively~\cite{comap_2026_problem_b}. Reference products are the 20-inch AirEye fan and Portacool APEX 2000/4000 coolers. The recorded reference prices are \$1,499, \$4,159 and \$4,939; the selected cooler flows are 9,000 and 13,350 CFM~\cite{aireye_20_price,portacool_2000,portacool_4000}. The fan exposure uses a selected 357 ft/min contour value from the AirEye sheet~\cite{aireye_2021_specs}.
 
-\subsection{Key Assumptions and Justifications}
+\subsection[Key Assumptions]{Key Assumptions and Justifications}
  
 \begin{table}[H]
   \centering

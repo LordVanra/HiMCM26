@@ -1,4 +1,4 @@
-\section{Optimizing Cooling of Various Stations}
+\section{Cooling Efficiency Across Venues}
 \label{sec:efficiency}
 
 The fan delivered the most cooling per kilowatt-hour in all 36 modeled venue and weather combinations. It also led per dollar of equipment purchase price in 25 cases. The larger evaporative cooler led in the other 11.
@@ -15,9 +15,22 @@ We measured cooling as the reduction in Standard Effective Temperature (SET) fro
 The fan delivered 1.14 to 9.59 times the cooling per kWh of the more efficient evaporative cooler in the same case. The advantage was smallest at the Dallas rail platform in the hot-dry scenario and largest under the Boston airport canopy in the hot-humid scenario.
 
 \subsection{Adapting the Bus-Shelter Model to Rail}
-For Dallas, the modeled rail platform uses 5.81 kg/s of dry-air exchange and a baseline passenger airspeed of 1.40 m/s, compared with 2.18 kg/s and 0.93 m/s at the bus shelter. These are scenario estimates based on different equivalent openings and sheltering factors. We hold weather, equipment, and exposure duration fixed within the city so the comparison reflects the two airflow assumptions.
+For Dallas, the modeled rail platform uses 5.81 kg/s of dry-air exchange and a baseline passenger airspeed of 1.40 m/s, compared with 2.18 kg/s and 0.93 m/s at the bus shelter. We estimate these values from the equivalent openings and sheltering factors in Section~\ref{sec:reference-cases}. We hold weather, equipment, and exposure duration fixed within the city so the comparison reflects the two airflow assumptions.
 
-The higher outdoor exchange dilutes the evaporative cooler's supply air. The higher rail baseline airspeed also leaves less scope for a fan modeled at the same operating airspeed at both sites. The peak-hour figures below show both effects. Using separate airflow assumptions lets the model compare the two layouts. Field measurements would be needed to test its accuracy at either location.
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.15}
+\begin{tabularx}{\linewidth}{p{0.22\linewidth}YY}
+\toprule
+\textbf{What changed} & \textbf{Why we changed it} & \textbf{What the revision captures} \\
+\midrule
+Higher outdoor air exchange & The platform has a larger assumed opening. & More outdoor air dilutes the cooler's supply. \\
+\rowcolor{gray!15}
+Higher baseline airspeed & The platform uses a higher exposure factor. & The fan adds less air movement above the baseline. \\
+\bottomrule
+\end{tabularx}
+\end{table}
+The peak-hour results below illustrate both effects. Field measurements would test the site-specific estimates.
 
 \subsection{Purchase Price and Peak Hour Cooling}
 
@@ -66,4 +79,4 @@ We used a separate summer-mean reference case to test how outdoor air exchange a
 
 Evaporative cooling efficiency declined as more outdoor air mixed into the occupied zone. At the Dallas courtyard, quadrupling exchange reduced the larger cooler's SET benefit from 1.51\ensuremath{^{\circ}\mathrm{C}} to 0.52\ensuremath{^{\circ}\mathrm{C}}, a decrease of about 65\%. Its electricity use remained at 2.50 kWh, so its efficiency fell from 0.60 to 0.21\ensuremath{^{\circ}\mathrm{C}} per kWh.
 
-The fan curves are flat because the sweep holds passenger-position airspeed fixed. The courtyard and canopy fan curves overlap within each city because they use the same reference airspeed. The sweep isolates the model's response to exchange and describes a single reference position at each venue.
+For a fixed device count and passenger position, the model scales across venues by changing the outdoor air exchange. The fan curves are flat because the sweep holds passenger-position airspeed fixed. The courtyard and canopy fan curves overlap within each city because they use the same reference airspeed. The sweep isolates the model's response to exchange and describes a single reference position at each venue.

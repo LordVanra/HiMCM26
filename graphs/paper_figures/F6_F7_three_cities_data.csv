@@ -1,0 +1,7 @@
+city,device,felt_cooling_C,electricity_kWh,felt_cooling_per_kWh
+Boston,Fan,1.70591779177678,0.25,6.82367116710712
+Boston,Larger evaporative cooler,2.1982104139862,2.5,0.87928416559448
+Dallas,Fan,0.531810661404215,0.25,2.12724264561686
+Dallas,Larger evaporative cooler,1.7519806069523,2.5,0.70079224278092
+Phoenix,Fan,0.715933121781973,0.25,2.863732487127892
+Phoenix,Larger evaporative cooler,1.25211729953541,2.5,0.500846919814164

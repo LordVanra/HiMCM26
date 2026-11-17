@@ -2,7 +2,7 @@
  
 \subsection{Model Description}
  
-The multizone framework uses heat and moisture balances for occupied zones linked by airflow. In the reported simulations, we solve for one occupied zone at each venue, with the outdoor environment supplying boundary conditions. We estimate conditions where passengers wait from device output and outdoor air exchange. The fan increases passenger airspeed~\cite{cbe_fans_2023}. For the two evaporative coolers, the balances determine how much of the outlet cooling remains after mixing. We also track electricity and water use.
+The multizone framework uses heat and moisture balances for occupied zones linked by airflow. In the reported simulations, we solve for one occupied zone at each venue, with the outdoor environment supplying boundary conditions. We estimate conditions where passengers wait from device output and outdoor air exchange. The Fan increases passenger airspeed~\cite{cbe_fans_2023}. For the two evaporative coolers, the balances determine how much of the outlet cooling remains after mixing. We also track electricity and water use.
  
 \subsection{Variables}
 \begin{table}[H]
@@ -83,7 +83,7 @@ The transit references are Rosa Parks Plaza and West End Station in Dallas; the 
 
 Ventilation and baseline passenger airspeed are scenario estimates. The wind-driven relation $Q=C_w A U$ and the urban wind-profile exponent are drawn from EnergyPlus; equivalent apertures and passenger sheltering factors are analyst assumptions~\cite{energyplus_wind_ventilation,energyplus_242_surface}. The estimates use summer-mean wind for each city~\cite{nasa_2026_dallas_summer,nasa_2026_boston_summer,nasa_2026_phoenix_summer}. We assume larger equivalent openings for the courtyards and airport canopies.
 
-Contest systems A, B and C use powers of 0.25, 1.2 and 2.5 kW, with stated maxima of 3$^\circ$C perceived cooling, 5$^\circ$C air cooling and 8$^\circ$C air cooling, respectively~\cite{comap_2026_problem_b}. Reference products are the 20-inch AirEye fan and Portacool APEX 2000/4000 coolers. The recorded reference prices are \$1,499, \$4,159 and \$4,939; the selected cooler flows are 9,000 and 13,350 CFM~\cite{aireye_20_price,portacool_2000,portacool_4000}. The fan exposure uses a selected 357 ft/min contour value from the AirEye sheet~\cite{aireye_2021_specs}.
+The Fan, Small Evaporative Cooler, and Large Evaporative Cooler draw 0.25, 1.2 and 2.5 kW, with stated maxima of 3$^\circ$C perceived cooling, 5$^\circ$C air cooling and 8$^\circ$C air cooling, respectively~\cite{comap_2026_problem_b}. Reference products are the 20-inch AirEye fan and Portacool APEX 2000/4000 coolers. The recorded reference prices are \$1,499, \$4,159 and \$4,939; the selected cooler flows are 9,000 and 13,350 CFM~\cite{aireye_20_price,portacool_2000,portacool_4000}. The fan exposure uses a selected 357 ft/min contour value from the AirEye sheet~\cite{aireye_2021_specs}.
 
 \subsection[Key Assumptions]{Key Assumptions and Justifications}
  

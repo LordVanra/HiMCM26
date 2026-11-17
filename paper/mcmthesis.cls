@@ -78,7 +78,7 @@
     \hypersetup{dvipdfm, hidelinks}
   \fi
 \fi
-\geometry{a4paper, margin = 1in, left=0.35in, right=0.35in, bottom=0.3in, top=0.5in, headsep=.15in}
+\geometry{a4paper, margin=0.5in, includehead, headsep=.15in}
 \pagestyle{fancy}
 \fancyhf{}
 

@@ -1,8 +1,8 @@
-\section{Model I: Physical Environment and Cooling}
+\section[Model I: Multizone Balance]{Model I: Multizone Heat-and-Moisture Balance Model}
  
 \subsection{Model Description}
  
-Model I follows heat, moisture, airflow, electricity, and water. It starts with outdoor temperature, humidity, pressure, and ventilation. It then calculates the outlet air from each cooling device and mixes that air into the waiting area. The fan improves modeled comfort by increasing airspeed at the passenger~\cite{cbe_fans_2023}. The Evaporative Cooler and Larger Evaporative Cooler lower the air temperature, and the zone model determines how much of that outlet cooling remains after mixing with outdoor air.
+The multizone framework uses heat and moisture balances for occupied zones linked by airflow. In the reported simulations, we solve for one occupied zone at each venue, with the outdoor environment supplying boundary conditions. We estimate conditions where passengers wait from device output and outdoor air exchange. The fan increases passenger airspeed~\cite{cbe_fans_2023}. For the two evaporative coolers, the balances determine how much of the outlet cooling remains after mixing. We also track electricity and water use.
  
 \subsection{Variables}
 \begin{table}[H]

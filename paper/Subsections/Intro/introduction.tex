@@ -69,7 +69,7 @@ We interpret the cooling comparison and communication tasks in the supplied prob
 
 \begin{enumerate}
 
-  \item A steady-state physical model for temperature and moisture in open-air and semi-open waiting areas.
+  \item A multizone heat-and-moisture balance model for open-air and semi-open waiting areas.
   \item A psychrometric model for calculating humidity ratio, wet-bulb temperature, evaporative-cooler outlet
      conditions, and water consumption.
 
@@ -111,7 +111,7 @@ These observations motivate our model's distinction between cooling effectivenes
 
 
 \subsection{Plan of Action}
-We first assemble city weather records, reference equipment specifications, and explicitly labeled venue airflow assumptions. Model I predicts device outlet states and their mixing with outdoor air. Model II converts the resulting environment into SET for a reference occupant. Model III compares comfort loss, resource use, and purchase cost, then applies minimax regret across the three selected weather scenarios. Finally, sensitivity tests examine how uncertain inputs affect the recommendation, and the findings inform the memorandum and blog post.
+We first assemble city weather records, reference equipment specifications, and explicitly labeled venue airflow assumptions. Model I uses a multizone heat-and-moisture balance framework to predict device outlet states and their mixing with outdoor air. Model II converts the resulting environment into SET for a reference occupant. Model III compares comfort loss, resource use, and purchase cost, then applies minimax regret across the three selected weather scenarios. Finally, sensitivity tests examine how uncertain inputs affect the recommendation, and the findings inform the memorandum and blog post.
 
 \begin{figure}[htbp]
     \centering

@@ -1,0 +1,106 @@
+\section{Model I: Physical Environment and Cooling}
+ 
+\subsection{Model Description}
+ 
+Model I follows heat, moisture, airflow, electricity, and water. It starts with outdoor temperature, humidity, pressure, and ventilation. It then calculates the outlet air from each cooling device and mixes that air into the waiting area. The fan improves modeled comfort by increasing airspeed at the passenger~\cite{cbe_fans_2023}. The Evaporative Cooler and Large Evaporative Cooler lower the air temperature, and the zone model determines how much of that outlet cooling remains after mixing with outdoor air.
+ 
+\subsection{Variables}
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{p{0.20\textwidth}lY}
+    \toprule
+    \textbf{Variable} & \textbf{Symbol} & \textbf{Description} \\
+    \midrule
+    Air temperature & $T, T_{out}, T_{supply}$ & Local, outdoor, and cooler supply dry-bulb temperatures ($^\circ$C). \\
+    \rowcolor{gray!15} Relative humidity & $RH$ & Relative humidity of the air (\%). \\
+    Vapor pressures & $p, p_v, p_{sat}$ & Total air pressure, water-vapor partial pressure, and saturation vapor pressure (Pa). \\
+    \rowcolor{gray!15} Humidity ratio & $w, w_{out}, w_{supply}$ & Water vapor per unit dry air for the local, outdoor, and supply states (kg/kg). \\
+    Wet-bulb temperature & $T_{wb}$ & Entering-air wet-bulb temperature ($^\circ$C). \\
+    \rowcolor{gray!15} Temperature drop & $\Delta T, \Delta T_{rated}$ & Modeled and maximum stated cooler outlet temperature drops ($^\circ$C). \\
+    Moist-air enthalpy & $h$ & Moist-air enthalpy per unit dry air (kJ/kg). \\
+    \rowcolor{gray!15} Mass flow and specific heat & $\dot m,\dot m_{dry\ air},c_p$ & Stream mass flow and cooler dry-air mass flow (kg/s), and specific heat used in the heat balance. \\
+    Evaporated water & $m_{water}$ & Water evaporated during the modeled period (kg). \\
+    \rowcolor{gray!15} Ventilation inputs & $Q,C_w,A,U$ & Volumetric flow (m$^3$/s), opening effectiveness, equivalent opening area (m$^2$), and approach wind speed (m/s). \\
+    Power, time, and energy & $P,\Delta t,E$ & Device electrical power (kW), modeled duration (h), and electricity consumed (kWh). \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{Primary Equations}
+ 
+The first step converts relative humidity into a humidity ratio $w$, which is the mass of water vapor per unit mass of dry air, using the ASHRAE relationships implemented in PsychroLib~\cite{psychrolib_volume}:
+\begin{equation}
+w = \frac{0.621945\, p_v}{p - p_v}, \qquad p_v = \frac{RH}{100}\, p_{sat}(T)
+\end{equation}
+The saturation pressure $p_{sat}$ is calculated from the ASHRAE correlation. The wet-bulb temperature $T_{wb}$ is found by solving the psychrometric energy balance. In the ideal direct-evaporation model, the entering-air wet-bulb temperature sets the lower bound for the supply temperature~\cite{pnnl_evaporative}.
+ 
+For the selected saturation-limited model, the outlet temperature drop is
+\begin{equation}
+\Delta T = \min\left[\Delta T_{rated},\; T_{out} - T_{wb}\right], \qquad T_{supply} = T_{out} - \Delta T
+\end{equation}
+The cooler is treated as an approximately constant-enthalpy process, where the enthalpy of moist air in kJ/kg dry air is~\cite{psychrolib_volume}
+\begin{equation}
+h = 1.006\,T + w\,(2501 + 1.86\,T)
+\end{equation}
+Equating the inlet and supply enthalpies gives the supply humidity ratio directly~\cite{psychrolib_volume}:
+\begin{align}
+h_{out} &= 1.006T_{out}+w_{out}(2501+1.86T_{out}), \\
+h_{out} &= 1.006T_{supply}+w_{supply}(2501+1.86T_{supply}), \\
+w_{supply} &= \frac{h_{out}-1.006T_{supply}}{2501+1.86T_{supply}}.
+\end{align}
+We recover the vapor pressure and relative humidity by rearranging the humidity-ratio equation:
+\begin{equation}
+p_v=\frac{p\,w}{0.621945+w},
+\qquad RH=100\,\frac{p_v}{p_{sat}(T)}.
+\end{equation}
+If the tentative outlet exceeds $100\%$ RH, we solve for the warmer outlet temperature at which the constant-enthalpy state is saturated. The added vapor carried by the supply stream is $w_{supply}-w_{out}$ per kilogram of dry air. Multiplying by dry-air flow and operating time gives the mass of water evaporated:
+\begin{equation}
+m_{water} = \dot{m}_{dry\ air}\,(w_{supply} - w_{out})\,(3600\,\Delta t)
+\end{equation}
+The waiting area uses a steady sensible-heat balance and a separate moisture balance. Let $\dot m_o$ and $\dot m_s$ denote the outdoor exchange and cooler supply flows, on a dry-air mass basis. For an evaporative cooler in the one-zone, mixing-only case, mass conservation gives an outflow of $\dot m_o+\dot m_s$. Balancing the incoming and outgoing fluxes gives
+\begin{align}
+(\dot m_o+\dot m_s)c_p T_{zone}
+ &= \dot m_o c_p T_{out}+\dot m_s c_p T_{supply},\\
+(\dot m_o+\dot m_s)w_{zone}
+ &= \dot m_o w_{out}+\dot m_s w_{supply}.
+\end{align}
+Here $c_p=1006\,\mathrm{J/(kg\,K)}$ is the same for every stream in the model, so it cancels in the sensible-heat balance. Dividing by the total flow and subtracting from the outdoor temperature gives
+\begin{equation}
+ T_{out}-T_{zone}
+ = \frac{\dot m_s}{\dot m_o+\dot m_s}(T_{out}-T_{supply}).
+\end{equation}
+This separates the cooler's own temperature drop from the fraction retained after mixing. We recover the zone RH from $T_{zone}$ and $w_{zone}$ using the same vapor-pressure relation. Electrical energy is
+\begin{equation}
+E = P\,\Delta t
+\end{equation}
+ 
+
+\subsection{Data Sources and Reference Cases}
+The main weather comparison uses simultaneous NASA POWER hourly temperature, relative humidity, and pressure for June--August 2025 at the three city reference coordinates~\cite{nasa_hourly_summer_2025}. For each city, we select the hottest hour and two other hours from the hottest 10\% of records. We choose the hours with the highest and lowest humidity ratios in that subset.
+
+The transit references are Rosa Parks Plaza and West End Station in Dallas; the Grove Hall clear-roof control shelter and Mattapan outdoor trolley waiting area in Boston; and the bus and light-rail waiting areas at Central Avenue/Camelback in Phoenix~\cite{dart_rosa,dart_west,boston_shade,bwa_mattapan,valley_bus,valley_rail}. The larger-area references are Dallas College Mountain View Student Courtyard and the Love Field curbside canopy, Boston University's George Sherman Union Courtyard and Logan Terminal C canopy, and ASU's Delph Courtyard and Sky Harbor Terminal 3 canopy~\cite{dallas_college_student_courtyard,dal_lovefield_canopy,bu_gsu_courtyard,bos_logan_canopy,asu_delph_courtyard,phx_skyharbor_canopy}.
+
+Ventilation and baseline passenger airspeed are scenario estimates. The wind-driven relation $Q=C_w A U$ and the urban wind-profile exponent are drawn from EnergyPlus; equivalent apertures and passenger sheltering factors are analyst assumptions~\cite{energyplus_wind_ventilation,energyplus_242_surface}. The estimates use the city summer-mean wind references, and the enlarged courtyard/canopy openings are documented project choices~\cite{nasa_2026_dallas_summer,nasa_2026_boston_summer,nasa_2026_phoenix_summer}.
+
+Contest systems A, B and C use powers of 0.25, 1.2 and 2.5 kW, with stated maxima of 3$^\circ$C perceived cooling, 5$^\circ$C air cooling and 8$^\circ$C air cooling, respectively~\cite{comap_2026_problem_b}. Reference products are the 20-inch AirEye fan and Portacool APEX 2000/4000 coolers. The recorded reference prices are \$1,499, \$4,159 and \$4,939; the selected cooler flows are 9,000 and 13,350 CFM~\cite{aireye_20_price,portacool_2000,portacool_4000}. The fan exposure uses a selected 357 ft/min contour value from the AirEye sheet~\cite{aireye_2021_specs}.
+
+\subsection{Key Assumptions and Justifications}
+ 
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{lYp{0.66\textwidth}}
+    \toprule
+    \textbf{\#} & \textbf{Assumption} & \multicolumn{1}{c}{\textbf{Justification}} \\
+    \midrule
+    \nextassumption\label{assumption:model1-1} & The waiting area is one well-mixed zone. & The model uses one air temperature and humidity value for the occupied zone. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model1-2} & The default model accounts for heat and moisture carried by air exchange. & This isolates the effect of air exchange using the available inputs. \\
+    \nextassumption\label{assumption:model1-3} & Evaporative cooling follows a constant-enthalpy process. & This is a standard ideal model for direct evaporation. Field performance depends on the unit and its operating conditions. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model1-4} & Cooling is limited by the wet-bulb temperature and saturation. & This prevents impossible outlet states. It is justified by thermodynamics and is more credible than applying the rated temperature drop in all weather. \\
+    \nextassumption\label{assumption:model1-5} & Rated power and airflow represent the candidate devices. & Common reference specifications let us compare options consistently. Field results depend on equipment condition and placement. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model1-6} & Each modeled period lasts one hour. & This creates comparable energy and water totals. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+ 

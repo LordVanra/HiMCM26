@@ -1,0 +1,88 @@
+\section{Model III: Cost, Feasibility, and Minimax Regret}
+\subsection{Model Description}
+ 
+Model III turns the physical and comfort results into a decision. It checks whether each option has a valid model solution and whether it meets any active cost, electricity, or water limits. It then compares the options in three hot-weather scenarios. It selects the option with the smallest worst-case regret across the three scenarios.
+ 
+\subsection{Variables}
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{p{0.20\textwidth}lY}
+    \toprule
+    \textbf{Variable} & \textbf{Symbol} & \textbf{Description} \\
+    \midrule
+    Equipment option & $i,j$ & Candidate option and index used to compare feasible alternatives. \\
+    \rowcolor{gray!15} Weather scenario & $s$ & Peak-temperature, hot-humid, or hot-dry scenario. \\
+    Hot-discomfort loss & $L_{i,s}$ & Modeled discomfort for option $i$ in scenario $s$ ($^\circ$C$\cdot$h). \\
+    \rowcolor{gray!15} Scenario regret & $R_{i,s}$ & Excess loss over the best feasible option in that scenario ($^\circ$C$\cdot$h). \\
+    Maximum regret & $R_{i,\max}$ & Largest scenario regret for an option ($^\circ$C$\cdot$h). \\
+    \rowcolor{gray!15} Recommended option & $i^*$ & Feasible option that minimizes maximum regret. \\
+    Equipment capital cost & $C$ & Upfront equipment cost in dollars. \\
+    \rowcolor{gray!15} Costing inputs & $r,n$ & Annual discount rate and equipment lifetime (years) for optional annual costing. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{Primary Equations}
+ 
+We use the minimax-regret decision criterion, applied here to discomfort loss~\cite{savage1951}. First define the set of physically valid options in weather scenario $s$ as $V_s$. Let $C_{i,s}$, $E_{i,s}$, and $m_{water,i,s}$ be the active cost, electricity use, and water use. With all three caps active, the scenario's feasible set is
+\begin{equation}
+ F_s=\left\{i\in V_s:
+   C_{i,s}\le C_{cap},\quad
+   E_{i,s}\le E_{cap},\quad
+   m_{water,i,s}\le m_{cap}\right\}.
+\end{equation}
+A disabled cap contributes no inequality. The set of devices that can be recommended across all modeled weather is $F=\bigcap_s F_s$. Each scenario still has its own benchmark, $L_s^*=\min_{j\in F_s}L_{j,s}$. After observing the weather an operator could choose any device in $F_s$, so $L_s^*$ is the best attainable loss in that scenario. Subtracting that benchmark from the loss for a fixed option $i$ gives the regret
+\begin{equation}
+R_{i,s} = L_{i,s} - \min_{j\ \text{feasible}} L_{j,s}
+\end{equation}
+An option has zero regret if it is best in that scenario. Its worst regret is
+\begin{equation}
+R_{i,\max} = \max_{s} R_{i,s}
+\end{equation}
+The minimax recommendation is the robust option with the smallest upper bound on its scenario regrets. For a fixed option, the smallest valid bound $z$ is its largest scenario regret:
+\begin{equation}
+ \min_z\{z: z\ge L_{i,s}-L_s^* \text{ for every }s\}
+ = \max_s(L_{i,s}-L_s^*)=R_{i,\max}.
+\end{equation}
+Minimizing that bound over the robust set gives
+\begin{equation}
+i^{*} \in \arg\min_{i\in F}\; R_{i,\max}
+\end{equation}
+If annual costing is enabled, let $A_{ann}$ be a level annual payment, with discount rate $r$ and equipment lifetime $n$ years. The capital recovery formula equates the present value of those payments with the upfront cost $C$~\cite{nlr_capital_recovery}. For $r>0$, summing the geometric series gives
+\begin{equation}
+ C = \sum_{k=1}^{n}\frac{A_{ann}}{(1+r)^k}
+   = A_{ann}\frac{1-(1+r)^{-n}}{r}.
+\end{equation}
+Solving for the annual payment gives
+\begin{equation}
+\text{Annualized capital} = \frac{C\, r}{1 - (1 + r)^{-n}}
+\end{equation}
+The selected run compares equipment purchase prices. Budget, electricity, and water caps are disabled, so all physically valid options remain feasible.
+ 
+\subsection{Choice of Decision Criterion}
+ 
+TOPSIS ranks choices by their distance from an ideal point and a worst point. Its usual weighted formulation normalizes the criteria and assigns criterion weights~\cite{hwang_yoon1981}. We considered four criteria: cost, energy, water, and comfort. Those choices can strongly affect the result, especially when the units are different. A TOPSIS score can look precise even when the weights are subjective.
+ 
+We use minimax regret to compare each choice with the best choice available under each weather scenario. The model screens options against resource limits and ranks the feasible options by discomfort regret. Each limit can stay in its original units.
+ 
+There is an important trade-off. In the current run, regret is calculated from discomfort loss only. Because no cost, energy, or water caps are active, the largest cooler is often the minimax winner simply because it cools the most. The unconstrained ranking therefore measures comfort performance. The resource comparisons show what an operator would spend or consume to achieve that result.
+ 
+\subsection{Key Assumptions and Justifications}
+ 
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{lYp{0.66\textwidth}}
+    \toprule
+    \textbf{\#} & \textbf{Assumption} & \multicolumn{1}{c}{\textbf{Justification}} \\
+    \midrule
+    \nextassumption\label{assumption:model3-1} & The three selected weather scenarios represent the uncertainty of interest. & Peak, humid-hot, and dry-hot hours provide contrasting stresses. Each case tests an operating condition. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model3-2} & Regret is based on hot-discomfort loss. & This keeps the objective tied directly to comfort. It also means cost and resources affect the choice only through active caps. \\
+    \nextassumption\label{assumption:model3-3} & An option must be feasible in every scenario to be robust. & This avoids recommending a device that fails under one supplied condition. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model3-4} & Purchase cost is the selected cost basis. & It is available and easy to compare. It omits maintenance and long-term utility costs. \\
+    \nextassumption\label{assumption:model3-5} & Disabled caps mean no restriction. & This avoids inventing a budget or water limit. It also permits resource-heavy options to win. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model3-6} & Scenarios enter the decision unweighted. & The largest regret across the three hours determines the ranking. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}

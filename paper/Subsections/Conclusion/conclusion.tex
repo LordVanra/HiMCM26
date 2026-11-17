@@ -1,0 +1,37 @@
+\section{Conclusion}
+
+\indent We studied how cooling devices reduce passenger discomfort in outdoor and semi-outdoor waiting areas. We estimated how much cooling reaches passengers, how much relief it provides, and which option performs best across the modeled weather conditions. We compared a fan and two evaporative coolers with a no-device baseline at 12 venues.
+
+\indent In Model 1, we found that the cooling at the outlet of an evaporative cooler is greater than the cooling in the waiting area after the air mixes. The amount of cooling available also depends on outdoor humidity. Model 2 used Standard Effective Temperature (SET) to compare how the devices feel to a passenger and how much discomfort each device reduces per kilowatt-hour. In Model 3, the larger evaporative cooler, Option C, emerged as the preferred choice under the study's comfort objective. Even with Option C, peak-hour SET ranged from $28.12$ to $33.98\,^\circ\mathrm{C}$ and stayed above the $26\,^\circ\mathrm{C}$ comparison target at all 12 venues. Sensitivity analysis found five intervals where a Boston recommendation switched between the fan and the larger cooler. In three of those intervals, increasing the outdoor temperature in the hot-humid scenario favored the fan.
+
+\indent The models connect through the difference between cooling the air and cooling the passenger. The air temperature and humidity calculated in Model 1 become inputs to Model 2, where air movement also matters. In the fan option, the comfort improvement comes from increased air movement. Model 3 then uses the remaining discomfort to compare each option across weather scenarios, and the sensitivity analysis shows where changes in those conditions can change the choice.
+
+\indent The operating choice depends on whether passengers already meet the comfort target and how much additional relief the venue needs. The modeled one-hour cases below show when each option is preferable.
+
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{p{0.18\textwidth}Yp{0.48\textwidth}}
+    \toprule
+    \textbf{Option} & \textbf{When to use it} & \textbf{Evidence from the model} \\
+    \midrule
+    No cooling & The waiting area already meets the comfort target. & At Grove Hall in the hot-dry case, baseline SET is $24.44\,^{\circ}\mathrm{C}$, within the $23$--$26\,^{\circ}\mathrm{C}$ band. \\
+    \rowcolor{gray!15}
+    A: Fan & The fan provides enough relief or cooling per kWh is the priority. & At Grove Hall in the hot-humid case, A reduces SET from $27.66$ to $25.09\,^{\circ}\mathrm{C}$ using $0.25$ kWh and no water. \\
+    B: Evaporative cooler & B provides useful relief beyond the fan, and the added resource use of C is hard to justify. & In the Dallas bus peak hour, B reduces SET by $0.40\,^{\circ}\mathrm{C}$ beyond A, using an extra $0.95$ kWh and about $33$ kg of water. This is a tradeoff, and B still misses the comfort target. \\
+    \rowcolor{gray!15}
+    C: Large evaporative cooler & Reducing remaining hot discomfort is the priority, and electricity and water are available. & C is the minimax choice at all 12 venues with resource caps disabled. In the Dallas bus peak hour, C improves on B by $0.82\,^{\circ}\mathrm{C}$ SET using an extra $1.30$ kWh and about $45$ kg of water. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\indent The Grove Hall peak-hour comparison in Figure~\ref{fig:grove-hall-peak-tradeoff} shows why the operating choice depends on the value of the last increment of cooling. The fan avoids $1.71$ SET degree-hours of hot discomfort using $0.25$ kWh. The smaller cooler uses $1.20$ kWh and avoids only $1.22$ degree-hours, so the fan outperforms it on both measures in this case. The larger cooler avoids $2.20$ degree-hours. Switching from the fan to the larger cooler therefore buys about $0.49$ additional degree-hours of relief for $2.25$ extra kWh, and the modeled SET still exceeds the comfort target.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.66\linewidth]{Images/F2_boston_benefit_electricity.png}
+    \caption{Electricity use and avoided hot discomfort at the Grove Hall bus shelter during the modeled peak-temperature hour.}
+    \label{fig:grove-hall-peak-tradeoff}
+\end{figure}
+
+\indent A field trial should measure airspeed and radiant temperature where passengers wait. Since peak-hour discomfort remained even with the larger cooler, the trial could also test whether adding shade alongside the cooling device brings passengers closer to the comfort target.

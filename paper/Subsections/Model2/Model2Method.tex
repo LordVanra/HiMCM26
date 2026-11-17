@@ -1,0 +1,95 @@
+\section{Model II: Human Thermal Comfort Using the Gagge Model}
+\subsection{Model Description}
+ 
+How hot a person feels depends on air temperature, airflow, humidity, and radiant heat. Air movement can increase heat loss from the skin at a fixed air temperature. Humidity can reduce sweat evaporation. Radiant heat from a roof or pavement can make a person warmer than the air suggests. Model II combines these effects into the Standard Effective Temperature, or SET~\cite{ashrae_thermal_comfort_2025}.
+ 
+We represent the body with two thermal compartments, an internal core and a skin layer. Heat moves from the core to the skin and from the skin through clothing to the surroundings. The model accounts for sweating, changes in skin blood flow, convection, radiation, respiration, and evaporation~\cite{ashrae_thermal_comfort_2025,comf_0112_set}.
+ 
+\subsection{Variables}
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{p{0.20\textwidth}lY}
+    \toprule
+    \textbf{Variable} & \textbf{Symbol} & \textbf{Description} \\
+    \midrule
+    Standard Effective Temperature & $SET, SET_{upper}$ & Equivalent comfort temperature and its upper comparison target ($^\circ$C). \\
+    \rowcolor{gray!15} Thermoregulatory coefficients & $c_{sw}, c_{dil}, c_{str}$ & Coefficients for sweating, vasodilation, and vasoconstriction in the two-node model. \\
+    Exposure duration & $\Delta t$ & Duration of the modeled comfort exposure (h). \\
+    \rowcolor{gray!15} Hot-discomfort loss & $L, L_{none}, L_{option}$ & Degree-hours above the upper target for a given case, the baseline, or the active option. \\
+    Hot-discomfort reduction & $B$ & Decrease in hot-discomfort loss relative to the no-device baseline ($^\circ$C$\cdot$h). \\
+    \rowcolor{gray!15} Electricity & $E, E_i$ & Electricity used by the device, with $i$ indexing the option (kWh). \\
+    Discomfort reduction per kWh & $\eta$ & Hot-discomfort reduction divided by electricity used ($^\circ$C$\cdot$h/kWh). \\
+    \bottomrule
+  \end{tabularx}
+\end{table}
+
+\subsection{Primary Equations and Calculation Idea}
+ 
+The complete Gagge model is an iterative physiological heat-balance model. Its central idea can be written as two energy balances~\cite{cbe_two_node}:
+\begin{align}
+\text{Core storage} &= \text{metabolic heat} - \text{external work} - \text{respiration} - \text{heat sent from core to skin} \\
+\text{Skin storage} &= \text{heat received from core} - \text{convection} - \text{radiation} - \text{evaporation}
+\end{align}
+To see how the weather enters those two balances, write the storage rates per unit body area as
+\begin{align}
+K_{cr}\frac{dT_{cr}}{dt}
+ &= M-W-q_{res}-q_{cr\to sk},\\
+K_{sk}\frac{dT_{sk}}{dt}
+ &= q_{cr\to sk}-q_{dry}-q_{evap}.
+\end{align}
+Here $K_{cr}$ and $K_{sk}$ are heat capacities per unit body area, $M$ is metabolic heat production, $W$ is external work, and $q_{res}$ combines sensible and latent respiratory losses. Adding the balances cancels the internal core-to-skin transfer. It leaves the sum of the two storage rates equal to $M-W-q_{res}-q_{dry}-q_{evap}$~\cite{ashrae_thermal_comfort_2025}.
+
+For sensible exchange, convection and radiation act in parallel at the outer clothing surface. Clothing adds a series resistance $R_{cl}$. Eliminating the clothing surface temperature gives
+\begin{equation}
+ T_{op}=\frac{h_c T_a+h_r T_r}{h_c+h_r},
+ \qquad
+ q_{dry}=\frac{T_{sk}-T_{op}}{R_{cl}+1/[f_{cl}(h_c+h_r)]},
+\end{equation}
+where $T_a$ and $T_r$ are air and mean radiant temperatures, $h_c$ and $h_r$ are the convective and radiative coefficients, and $f_{cl}$ is the ratio of clothed to bare body area. With skin wettedness $w_{sk}$ and combined evaporative resistance $R_e$, the evaporative exchange is
+\begin{equation}
+ q_{evap}=w_{sk}\,\frac{p_{sat}(T_{sk})-p_a}{R_e}.
+\end{equation}
+Here $p_a$ is ambient vapor pressure. Higher airspeed changes the convective coefficient and the resistance to evaporation. Higher ambient vapor pressure reduces the driving difference for evaporation~\cite{ashrae_thermal_comfort_2025}. This is how a fan or an evaporative cooler can shift the modeled comfort response through different inputs.
+
+Core and skin temperatures affect the body's control responses. If the body becomes warm, the model increases skin blood flow and sweating. If it becomes cold, it reduces skin blood flow and can add shivering heat. We use the documented control coefficients~\cite{comf_0112_set}:
+\begin{equation}
+c_{sw} = 170, \qquad c_{dil} = 120, \qquad c_{str} = 0.5
+\end{equation}
+After simulating the body, SET is defined as the temperature of a standard reference environment that would cause the same skin temperature and skin wettedness as the actual environment~\cite{ashrae_thermal_comfort_2025}. The actual inputs are air temperature, mean radiant temperature, airspeed, humidity, pressure, clothing, activity, posture, body size, and exposure time.
+ 
+At the end of the exposure, the SET calculation uses the simulated skin temperature and wettedness. In the standard environment the air and radiant temperatures are both $SET$ and relative humidity is $50\%$. Equating the skin heat loss in that environment to the modeled value gives the scalar equation~\cite{ashrae_thermal_comfort_2025,comf_0112_set}:
+\begin{equation}
+ q_{dry}+q_{evap}=
+ \frac{T_{sk}-SET}{R_{d,std}}
+ +w_{sk}\,\frac{p_{sat}(T_{sk})-0.5\,p_{sat}(SET)}{R_{e,std}},
+\end{equation}
+where $R_{d,std}$ and $R_{e,std}$ are the standard environment's total sensible and evaporative resistances. We solve for SET for each device and for the no-device baseline. For the one-hour comparison, the excess above the upper target is constant over the scoring period, giving the hot-discomfort loss:
+\begin{equation}
+L = \Delta t \cdot \max\left(0,\; SET - SET_{upper}\right)
+\end{equation}
+For the current comparison, $SET_{upper} = 26^\circ$C. The benefit is the reduction in loss relative to no device, and dividing that benefit by energy gives the reduction in hot discomfort per kWh:
+\begin{equation}
+B = L_{none} - L_{option}, \qquad \eta = \frac{B}{E}
+\end{equation}
+ 
+Section~\ref{sec:efficiency} uses raw SET reduction, $(SET_{\rm none}-SET_i)/E_i$, to compare the full temperature-equivalent change per kWh at the reference position. The two efficiency measures agree numerically for a one-hour case when both SET values are above the upper target. The hot-discomfort measure stops crediting additional cooling once SET reaches the upper target.
+
+\subsection{Key Assumptions and Justifications}
+ 
+\begin{table}[H]
+  \centering
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabularx}{\textwidth}{lYp{0.66\textwidth}}
+    \toprule
+    \textbf{\#} & \textbf{Assumption} & \multicolumn{1}{c}{\textbf{Justification}} \\
+    \midrule
+    \nextassumption\label{assumption:model2-1} & One reference person represents the comparison. & The person is seated, 171 cm, 70 kg, at 1 met, with no external work. This gives a consistent basis when actual passenger demographics are unavailable. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model2-2} & Clothing is 0.36 clo. & This represents shorts and a short-sleeved shirt and is suitable for a hot-weather comparison. Actual riders will wear different clothing~\cite{ashrae_2021_comfort}. \\
+    \nextassumption\label{assumption:model2-3} & Exposure lasts 60 minutes. & The Gagge model is time-dependent, so an exposure period is required. Sixty minutes gives us a common exposure period for comparisons. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model2-4} & Radiant temperature uses an air-reference approximation. & It is held at the uncooled outdoor reference temperature across options. Holding radiant temperature fixed isolates the effect of the device on air conditions. \\
+    \nextassumption\label{assumption:model2-5} & The $23$--$26^\circ$C SET band is a policy band. & It provides a common comparison rule. Compliance and population satisfaction require separate assessments. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model2-6} & The model represents an average healthy adult response. & This provides a common basis for comparing modeled comfort. Assessing heat risk for vulnerable passengers requires separate evidence~\cite{cbe_two_node}. \\
+    \bottomrule
+  \end{tabularx}
+\end{table}

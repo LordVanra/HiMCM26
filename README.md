@@ -1,5 +1,10 @@
 # HiMCM cooling comparison
 
+- [Final paper PDF](paper/HiMCM26_paper.pdf) and [LaTeX ZIP](paper/HiMCM26_latex.zip) are in `paper/`. Editable LaTeX starts at [paper/main.tex](paper/main.tex). Run pdfLaTeX, BibTeX, then pdfLaTeX twice from `paper/`.
+- [Contest prompt](docs/contest/2026_HiMCM_Problem_B.pdf) and [working drafts](docs/drafts/) are in `docs/`.
+- The numbered folders contain the modeling code and saved results. The root CSV files are the pipeline inputs. [DATA_README.md](DATA_README.md) and [sources/](sources/) document their provenance.
+- [graphs/](graphs/) contains the chart gallery and generated figures. Figures embedded in the final paper are in `paper/Images/`.
+
 Run from the repository root to analyze all 12 venues and regenerate the result CSVs and chart gallery.
 
 ```sh

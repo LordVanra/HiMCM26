@@ -1,13 +1,13 @@
 \section{Cooling Efficiency Across Venues}
 \label{sec:efficiency}
 
-The Fan delivered the most cooling per kilowatt-hour in all 36 modeled venue and weather combinations. It also led per dollar of equipment purchase price in 25 cases. The Large Evaporative Cooler led in the other 11.
+\textbf{Under the assumed passenger airspeeds, the Fan led in SET reduction per kWh in all 36 cases.} We assign the Fan $1.81\,\mathrm{m/s}$ at the reference passenger and use baseline passenger airspeed for both evaporative coolers. This comparison excludes any added airspeed from cooler discharge. The Fan also led per dollar of purchase price in 25 cases, and the Large Evaporative Cooler led in 11.
 
-We measured cooling as the reduction in Standard Effective Temperature (SET) from the no-device case at the same venue and under the same weather. We divided this reduction by electricity used during the modeled hour and by equipment purchase price. The 36 cases cover four venue types in Dallas, Boston, and Phoenix, each under peak-temperature, hot-humid, and hot-dry conditions.
+We measured cooling as the reduction in Standard Effective Temperature (SET) from the no-device case at the same venue and under the same weather. We divided this reduction by electricity used during the modeled hour and by equipment purchase price.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.94\linewidth]{Images/F6_efficiency_all_cases.png}
+    \includegraphics[width=0.94\linewidth,trim=0 0 0 68.88bp,clip]{Images/F6_efficiency_all_cases.png}
     \caption{Cooling per kWh and per \$1,000 of equipment purchase price across all 36 cases.}
     \label{fig:efficiency}
 \end{figure}
@@ -43,7 +43,7 @@ During peak heat, the Dallas bus shelter fan reduced SET by 0.53\ensuremath{^{\c
     \begin{subfigure}[t]{0.43\textwidth}
         \centering
         \vspace{0pt}
-        \includegraphics[width=\linewidth]{Images/F9_purchase_efficiency_winners.png}
+        \includegraphics[width=\linewidth,trim=0 0 0 86.40bp,clip]{Images/F9_purchase_efficiency_winners.png}
         \caption{Purchase-price efficiency leader by venue and weather. The number is SET reduction in degrees Celsius per \$1,000.}
         \label{fig:purchase-efficiency}
     \end{subfigure}
@@ -51,7 +51,7 @@ During peak heat, the Dallas bus shelter fan reduced SET by 0.53\ensuremath{^{\c
     \begin{subfigure}[t]{0.54\textwidth}
         \centering
         \vspace{0pt}
-        \includegraphics[width=\linewidth]{Images/F10_peak_cooling_electricity.png}
+        \includegraphics[width=\linewidth,trim=0 0 0 86.88bp,clip]{Images/F10_peak_cooling_electricity.png}
         \caption{Peak-hour SET reduction and electricity use. Each device has the same electricity use at all venues in the one-hour comparison.}
         \label{fig:peak-electricity}
     \end{subfigure}
@@ -63,16 +63,16 @@ During peak heat, the Dallas bus shelter fan reduced SET by 0.53\ensuremath{^{\c
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.66\linewidth]{Images/F12_fan_efficiency_advantage.png}
+    \includegraphics[width=0.66\linewidth,trim=0 0 0 97.68bp,clip]{Images/F12_fan_efficiency_advantage.png}
     \caption{Fan energy efficiency divided by the better evaporative cooler in each case.}
     \label{fig:fan-advantage}
 \end{figure}
 
-We used a separate summer-mean reference case to test how outdoor air exchange affects efficiency at the six courtyards and airport canopies. We multiplied the reference exchange rate by two and four while holding the number of devices, their power, and the fan airspeed at the reference person fixed. Figure~\ref{fig:fan-advantage} shows why we examined exchange separately. In the peak-temperature cases at the three bus shelters, the Fan delivers about $6.72$, $2.74$, and $5.02$ times the SET reduction per kWh of the more efficient evaporative option in Boston, Dallas, and Phoenix, respectively. These ratios compare what each device delivers for a unit of electricity. We then used the exchange sweep to isolate how dilution changes that comparison. With cooler supply flow held fixed, a rise in outdoor exchange lowers the share of the mixed air supplied by the cooler. The zone air temperature and humidity ratio both move toward their outdoor values as that share falls. The resulting SET change reflects both effects together with the fixed passenger-level airspeed. Figure~\ref{fig:ventilation-efficiency} shows how quickly these changes reduce the return per kWh under the same summer-mean weather and equipment settings.
+We used a separate summer-mean reference case to test how outdoor air exchange affects efficiency at the six courtyards and airport canopies. We multiplied the reference exchange rate by two and four while holding the number of devices, their power, and the fan airspeed at the reference person fixed. Figure~\ref{fig:fan-advantage} shows why we examined exchange separately. In the peak-temperature cases at the three bus shelters, the Fan delivers about $6.72$, $2.74$, and $5.02$ times the SET reduction per kWh of the more efficient evaporative option in Boston, Dallas, and Phoenix, respectively. These ratios compare what each device delivers for a unit of electricity. With cooler supply flow held fixed, a rise in outdoor exchange lowers the share of the mixed air supplied by the cooler. The zone air temperature and humidity ratio both move toward their outdoor values as that share falls. The resulting SET change reflects both effects together with the fixed passenger-level airspeed. Figure~\ref{fig:ventilation-efficiency} shows how quickly these changes reduce the return per kWh under the same summer-mean weather and equipment settings.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{Images/F11_ventilation_efficiency.png}
+    \includegraphics[width=0.9\linewidth,trim=0 0 0 72.24bp,clip]{Images/F11_ventilation_efficiency.png}
     \caption{Cooling efficiency as outdoor air exchange increases. The vertical axis is logarithmic.}
     \label{fig:ventilation-efficiency}
 \end{figure}

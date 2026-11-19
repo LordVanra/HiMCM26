@@ -4,9 +4,9 @@
 
 \indent In Model I, we found that the cooling at the outlet of an evaporative cooler is greater than the cooling in the waiting area after the air mixes. The amount of cooling available also depends on outdoor humidity. Model II used Standard Effective Temperature (SET) to compare how the devices feel to a passenger and how much discomfort each device reduces per kilowatt-hour. In Model III, the Large Evaporative Cooler led the comfort benchmark. The Fan led the minimax comparison for Grove Hall under the illustrative purchase, electricity, and water limits. Even with the Large Evaporative Cooler, peak-hour SET ranged from $28.12$ to $33.98\,^\circ\mathrm{C}$ and stayed above the $26\,^\circ\mathrm{C}$ comparison target at all 12 venues. Sensitivity analysis found five intervals where a Boston recommendation switched between the Fan and the Large Evaporative Cooler. In three of those intervals, increasing the outdoor temperature in the hot-humid scenario favored the Fan.
 
-\indent The models connect through the difference between cooling the air and cooling the passenger. The air temperature and humidity calculated in Model I become inputs to Model II, where air movement also matters. In the fan option, the comfort improvement comes from increased air movement. Model III then uses the remaining discomfort to compare each option across weather scenarios, and the sensitivity analysis shows where changes in those conditions can change the choice.
+\indent The operating rule uses the $23$--$26\,^\circ\mathrm{C}$ band to decide when equipment can stay off. The equipment ranking uses hot-discomfort loss above the upper threshold.
 
-\indent The modeled cases below show how remaining discomfort and available resources guide the operating choice.
+\indent The modeled cases below show how hot-discomfort loss and available resources guide the operating choice.
 
 \begin{table}[H]
   \centering
@@ -29,11 +29,11 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.66\linewidth]{Images/F2_boston_benefit_electricity.png}
+    \includegraphics[width=0.66\linewidth,trim=0 0 0 76.32bp,clip]{Images/F2_boston_benefit_electricity.png}
     \caption{Electricity use and avoided hot discomfort at the Grove Hall bus shelter during the modeled peak-temperature hour.}
     \label{fig:grove-hall-peak-tradeoff}
 \end{figure}
 
 \indent Before installing equipment permanently, we recommend a pilot at Grove Hall. During humid heat and peak heat, measure air temperature, humidity, airspeed, and mean radiant temperature where passengers sit and stand. Compare the Fan and Large Evaporative Cooler at the same passenger positions, and test added shade during the peak period. The measurements would show where the Fan provides enough relief and whether shade helps close the gap to the comfort target.
 
-\indent Across all 12 venues, we recommend the Large Evaporative Cooler when minimizing worst-case hot discomfort is the priority and the venue can meet its purchase, electricity, and water requirements. To identify fallback options, we recomputed regret with the Large Evaporative Cooler excluded and the remaining options feasible. In \textbf{Dallas}, choose the Small Evaporative Cooler at the bus shelter, rail platform, courtyard, and airport canopy when its resource requirements can be met. In \textbf{Boston}, choose the Fan at the bus shelter, rail platform, courtyard, and airport canopy. In \textbf{Phoenix}, choose the Small Evaporative Cooler at the rail platform and the Fan at the airport canopy. At the Phoenix bus shelter and courtyard, we recommend the Fan for its lower cost and water-free operation. The Small Evaporative Cooler has slightly lower maximum regret at those two sites, by less than $0.07$ SET degree-hours in each case. If water is unavailable for either cooler, use the Fan when cooling is needed and leave equipment off when the waiting area already meets the comfort target.
+\indent Across all 12 venues, we recommend the Large Evaporative Cooler when minimizing worst-case regret in hot-discomfort loss is the priority and the venue can meet its purchase, electricity, and water requirements. To identify fallback options, we recomputed regret with the Large Evaporative Cooler excluded and the remaining options feasible. In \textbf{Dallas}, choose the Small Evaporative Cooler at the bus shelter, rail platform, courtyard, and airport canopy when its resource requirements can be met. In \textbf{Boston}, choose the Fan at the bus shelter, rail platform, courtyard, and airport canopy. In \textbf{Phoenix}, choose the Small Evaporative Cooler at the rail platform and the Fan at the airport canopy. At the Phoenix bus shelter and courtyard, we recommend the Fan for its lower cost and water-free operation. The Small Evaporative Cooler has slightly lower maximum regret at those two sites, by less than $0.07$ SET degree-hours in each case. If water is unavailable for either cooler, use the Fan when cooling is needed and leave equipment off when the waiting area already meets the comfort target.

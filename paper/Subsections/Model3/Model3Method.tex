@@ -24,7 +24,7 @@ Model III turns the physical and comfort results into a decision. It checks whet
 
 \subsection{Primary Equations}
  
-We use the minimax-regret decision criterion, applied here to discomfort loss~\cite{savage1951}. First define the set of physically valid options in weather scenario $s$ as $V_s$. Let $C_{i,s}$, $E_{i,s}$, and $m_{water,i,s}$ be the active cost, electricity use, and water use. Given limits on these resources, the scenario's feasible set is
+We use the minimax-regret decision criterion, applied here to hot-discomfort loss~\cite{savage1951}. First define the set of physically valid options in weather scenario $s$ as $V_s$. Let $C_{i,s}$, $E_{i,s}$, and $m_{water,i,s}$ be the active cost, electricity use, and water use. Given limits on these resources, the scenario's feasible set is
 \begin{equation}
  F_s=\left\{i\in V_s:
    C_{i,s}\le C_{cap},\quad
@@ -54,7 +54,7 @@ We use equipment purchase prices as the cost measure for the comparative analysi
  
 TOPSIS ranks choices by their distance from an ideal point and a worst point. Its usual weighted formulation normalizes the criteria and assigns criterion weights~\cite{hwang_yoon1981}. We considered four criteria: cost, energy, water, and comfort. Those choices can strongly affect the result, especially when the units are different. A TOPSIS score can look precise even when the weights are subjective.
  
-We use minimax regret to compare each choice with the best choice available under each weather scenario. The model screens options against resource limits and ranks the feasible options by discomfort regret. Each limit can stay in its original units.
+We use minimax regret to compare each choice with the best choice available under each weather scenario. The model screens options against resource limits and ranks the feasible options by regret in hot-discomfort loss. Each limit can stay in its original units.
  
 At Grove Hall, the Large Evaporative Cooler leads on comfort and requires \$4,939 upfront, 2.50 kWh per hour, and up to about 84.1 kg of water in a modeled hour. Under illustrative limits of \$4,500, 1.50 kWh per hour, and 40 kg of water per hour, maximum regret among feasible choices is zero for the Fan, 0.49 SET degree-hours for the Small Evaporative Cooler, and 1.71 for no cooling.
  
@@ -68,7 +68,7 @@ At Grove Hall, the Large Evaporative Cooler leads on comfort and requires \$4,93
     \textbf{\#} & \textbf{Assumption} & \multicolumn{1}{c}{\textbf{Justification}} \\
     \midrule
     \nextassumption\label{assumption:model3-1} & The three selected weather scenarios represent the uncertainty of interest. & Peak, humid-hot, and dry-hot hours provide contrasting stresses. Each case tests an operating condition. \\
-    \rowcolor{gray!15} \nextassumption\label{assumption:model3-2} & Regret is based on hot-discomfort loss. & We compare discomfort after screening options for resource feasibility. \\
+    \rowcolor{gray!15} \nextassumption\label{assumption:model3-2} & Regret is based on hot-discomfort loss. & We compare hot-discomfort loss after screening for resource feasibility. \\
     \nextassumption\label{assumption:model3-3} & An option must be feasible in every scenario to be robust. & This avoids recommending a device that fails under one supplied condition. \\
     \rowcolor{gray!15} \nextassumption\label{assumption:model3-4} & Purchase cost is the selected cost basis. & It is available and easy to compare. It omits maintenance and long-term utility costs. \\
     \nextassumption\label{assumption:model3-5} & Resource limits describe the venue. & Purchase cost, electricity, and water can each have a separate limit. \\

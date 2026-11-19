@@ -64,16 +64,16 @@ At the end of the exposure, the SET calculation uses the simulated skin temperat
  \frac{T_{sk}-SET}{R_{d,std}}
  +w_{sk}\,\frac{p_{sat}(T_{sk})-0.5\,p_{sat}(SET)}{R_{e,std}},
 \end{equation}
-where $R_{d,std}$ and $R_{e,std}$ are the standard environment's total sensible and evaporative resistances. We solve for SET for each device and for the no-device baseline. For the one-hour comparison, the excess above the upper target is constant over the scoring period, giving the hot-discomfort loss:
+Here $R_{d,std}$ and $R_{e,std}$ are the standard environment's sensible and evaporative resistances. For the modeled exposure, hot-discomfort loss is
 \begin{equation}
 L = \Delta t \cdot \max\left(0,\; SET - SET_{upper}\right)
 \end{equation}
-For the current comparison, $SET_{upper} = 26^\circ$C. The benefit is the reduction in loss relative to no device, and dividing that benefit by energy gives the reduction in hot discomfort per kWh:
+We use $SET_{upper}=26^\circ$C. Hot-discomfort loss is zero at or below that threshold, including below $23^\circ$C. Turning cooling off in the comfort band is a separate operating rule. We calculate avoided loss and its value per kWh as
 \begin{equation}
 B = L_{none} - L_{option}, \qquad \eta = \frac{B}{E}
 \end{equation}
  
-Section~\ref{sec:efficiency} uses raw SET reduction, $(SET_{\rm none}-SET_i)/E_i$, to compare the full temperature-equivalent change per kWh at the reference position. The two efficiency measures agree numerically for a one-hour case when both SET values are above the upper target. The hot-discomfort measure stops crediting additional cooling once SET reaches the upper target.
+Section~\ref{sec:efficiency} measures raw SET reduction per kWh, $(SET_{\rm none}-SET_i)/E_i$. For a one-hour case, the two efficiency measures agree when both SET values exceed the upper target.
 
 \subsection[Key Assumptions]{Key Assumptions and Justifications}
  

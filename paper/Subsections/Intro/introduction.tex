@@ -78,7 +78,7 @@ We interpret the cooling comparison and communication tasks in the supplied prob
 
   \item A thermal-comfort model based on the Gagge two-node representation of the human body~\cite{comf_0112_set,cbe_two_node}.
   \item Standard Effective Temperature estimates for each venue, weather scenario, and cooling system.
-  \item Measures of cooling benefit, residual discomfort, and comfort improvement per unit of
+  \item Measures of cooling benefit, hot-discomfort loss, and comfort improvement per unit of
      electricity.
 
   \item Electricity, water, and equipment purchase-cost comparisons.
@@ -107,11 +107,11 @@ At its core, cooling efficiency should measure how effectively a system delivers
 
 For public cooling, the intended service is heat relief for occupants. According to ASHRAE Standard 55, thermal comfort depends on six interacting factors: air temperature, radiant temperature, humidity, airspeed, clothing insulation, and metabolic activity~\cite{ashrae55_2023_scope}. Consequently, measuring only the reduction in air temperature can misrepresent the benefits of different technologies. Fans can improve convective and evaporative heat loss by moving air across the body~\cite{cbe_fans_2023}. Direct evaporative coolers lower dry-bulb temperature while adding moisture; their available temperature reduction decreases as the entering air approaches saturation~\cite{pnnl_evaporative}. Moreover, as with an open freezer, some cooling inevitably dissipates into the surrounding environment. The size of the effectively cooled area, duration of cooling, and number of people benefiting must therefore be considered alongside the magnitude of the thermal improvement.
 
-These observations motivate our model's distinction between cooling effectiveness, the improvement in conditions experienced by occupants, and cooling efficiency, that improvement relative to resource consumption. We quantify the former through changes in Standard Effective Temperature (SET), which combines environmental and personal influences in a human heat-balance calculation~\cite{ashrae_thermal_comfort_2025}. Our implemented comparison uses one reference person and a standardized exposure duration; population weighting would require concurrent occupancy data. We then evaluate this benefit against electricity consumption, while separately reporting water use and purchase cost. The cost comparison uses equipment purchase prices. These quantities are especially important for evaporative systems because evaporation consumes water~\cite{pnnl_evaporative}. Finally, conservation of energy, moisture balances, and physical operating limits constrain the predicted cooling to achievable conditions, and operators need a separate assessment for safe exposure limits.
+We use the change in Standard Effective Temperature (SET) to compare passenger cooling for a reference person over a common exposure duration~\cite{ashrae_thermal_comfort_2025}. We divide that change by electricity use and report purchase price and water use separately. A separate exposure assessment is needed for heat safety.
 
 
 \subsection{Plan of Action}
-We first assemble city weather records, reference equipment specifications, and explicitly labeled venue airflow assumptions. Model I uses a multizone heat-and-moisture balance framework to predict device outlet states and their mixing with outdoor air. Model II converts the resulting environment into SET for a reference occupant. Model III compares comfort loss, resource use, and purchase cost, then applies minimax regret across the three selected weather scenarios. Finally, sensitivity tests examine how uncertain inputs affect the recommendation, and the findings inform the memorandum and blog post.
+We first assemble city weather records, reference equipment specifications, and explicitly labeled venue airflow assumptions. Model I uses a multizone heat-and-moisture balance framework to predict device outlet states and their mixing with outdoor air. Model II converts the resulting environment into SET for a reference occupant. Model III compares hot-discomfort loss, resource use, and purchase cost, then applies minimax regret across the three selected weather scenarios. Finally, sensitivity tests examine how uncertain inputs affect the recommendation, and the findings inform the memorandum and blog post.
 
 \begin{figure}[htbp]
     \centering
